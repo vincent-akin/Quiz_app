@@ -1,0 +1,3042 @@
+[
+  {
+    "id": "ch7-001",
+    "chapter": 7,
+    "topic": "Protocol optimization",
+    "type": "single_best",
+    "text": "What is the primary goal of MRI protocol optimization?",
+    "options": [
+      "To balance image quality with practical scan time",
+      "To maximize scan time regardless of image quality",
+      "To eliminate all signal from the image",
+      "To use the largest possible voxel"
+    ],
+    "answer": "To balance image quality with practical scan time",
+    "explanation": "Protocol optimization balances SNR, CNR, spatial resolution, and scan time for the clinical question."
+  },
+  {
+    "id": "ch7-002",
+    "chapter": 7,
+    "topic": "Protocol optimization",
+    "type": "single_best",
+    "text": "Which group represents the four major characteristics balanced during MRI protocol optimization?",
+    "options": [
+      "SNR, CNR, spatial resolution, and scan time",
+      "TR, TE, FOV, and flip angle",
+      "Magnet strength, patient weight, room size, and coil length",
+      "Frequency, phase, slice, and gradient strength"
+    ],
+    "answer": "SNR, CNR, spatial resolution, and scan time",
+    "explanation": "These four characteristics are the major competing considerations in protocol optimization."
+  },
+  {
+    "id": "ch7-003",
+    "chapter": 7,
+    "topic": "Protocol optimization",
+    "type": "single_best",
+    "text": "Why must MRI protocols be optimized for a specific clinical question?",
+    "options": [
+      "Different clinical questions require different image characteristics",
+      "All examinations require identical parameters",
+      "Clinical questions determine the patient's magnetic field strength",
+      "Every MRI examination should use maximum scan time"
+    ],
+    "answer": "Different clinical questions require different image characteristics",
+    "explanation": "The protocol should prioritize the image characteristics most important for demonstrating the suspected anatomy or pathology."
+  },
+  {
+    "id": "ch7-004",
+    "chapter": 7,
+    "topic": "Protocol optimization",
+    "type": "single_best",
+    "text": "What does a well-optimized MRI protocol aim to provide?",
+    "options": [
+      "Diagnostic images appropriate for the clinical question",
+      "The highest possible resolution regardless of SNR",
+      "The shortest possible scan regardless of contrast",
+      "The largest possible voxels in every examination"
+    ],
+    "answer": "Diagnostic images appropriate for the clinical question",
+    "explanation": "Optimization is judged by how effectively the protocol demonstrates relevant anatomy and pathology."
+  },
+  {
+    "id": "ch7-005",
+    "chapter": 7,
+    "topic": "Protocol optimization",
+    "type": "single_best",
+    "text": "Which parameters can be adjusted during MRI protocol optimization?",
+    "options": [
+      "Extrinsic, intrinsic, and geometric imaging parameters",
+      "Only patient height",
+      "Only scanner room temperature",
+      "Only the patient's position"
+    ],
+    "answer": "Extrinsic, intrinsic, and geometric imaging parameters",
+    "explanation": "Protocol optimization involves adjusting sequence, contrast, geometry, and acquisition parameters."
+  },
+  {
+    "id": "ch7-006",
+    "chapter": 7,
+    "topic": "Signal-to-noise ratio",
+    "type": "single_best",
+    "text": "What does SNR represent in MRI?",
+    "options": [
+      "The ratio of MR signal to background noise",
+      "The difference between two tissue signals only",
+      "The ratio of scan time to voxel size",
+      "The number of pixels in an image"
+    ],
+    "answer": "The ratio of MR signal to background noise",
+    "explanation": "SNR compares the amplitude of the MR signal with the standard deviation of background noise."
+  },
+  {
+    "id": "ch7-007",
+    "chapter": 7,
+    "topic": "Signal-to-noise ratio",
+    "type": "single_best",
+    "text": "How is MRI noise commonly quantified when calculating SNR?",
+    "options": [
+      "By the standard deviation of the background noise",
+      "By the number of slices only",
+      "By the patient's heart rate",
+      "By the matrix dimensions only"
+    ],
+    "answer": "By the standard deviation of the background noise",
+    "explanation": "SNR is commonly expressed as signal amplitude divided by the standard deviation of background noise."
+  },
+  {
+    "id": "ch7-008",
+    "chapter": 7,
+    "topic": "Signal-to-noise ratio",
+    "type": "single_best",
+    "text": "What does a higher SNR generally indicate?",
+    "options": [
+      "A less grainy image with stronger signal relative to noise",
+      "A lower-quality image with more noise",
+      "Lower tissue signal",
+      "Lower spatial resolution by definition"
+    ],
+    "answer": "A less grainy image with stronger signal relative to noise",
+    "explanation": "Higher SNR means the measured signal is stronger relative to background noise."
+  },
+  {
+    "id": "ch7-009",
+    "chapter": 7,
+    "topic": "MRI noise",
+    "type": "single_best",
+    "text": "What is the main source of noise in MRI according to the chapter?",
+    "options": [
+      "Thermal motion of the patient's body",
+      "The patient's skeletal structure",
+      "The image matrix",
+      "The phase-encoding gradient alone"
+    ],
+    "answer": "Thermal motion of the patient's body",
+    "explanation": "Thermal motion produces random electromagnetic fluctuations that contribute to MRI noise."
+  },
+  {
+    "id": "ch7-010",
+    "chapter": 7,
+    "topic": "Magnetic field strength and SNR",
+    "type": "single_best",
+    "text": "How is SNR related to main magnetic field strength B0?",
+    "options": [
+      "SNR is directly proportional to B0",
+      "SNR is always inversely proportional to B0",
+      "SNR is unrelated to B0",
+      "SNR becomes zero as B0 increases"
+    ],
+    "answer": "SNR is directly proportional to B0",
+    "explanation": "Within the relationship described in this chapter, increasing B0 increases SNR."
+  },
+  {
+    "id": "ch7-011",
+    "chapter": 7,
+    "topic": "Magnetic field strength and SNR",
+    "type": "single_best",
+    "text": "Approximately how does SNR change when moving from 1.5 T to 3 T?",
+    "options": [
+      "It can approximately double",
+      "It becomes one-quarter",
+      "It remains exactly unchanged",
+      "It becomes zero"
+    ],
+    "answer": "It can approximately double",
+    "explanation": "The chapter states that moving from 1.5 T to 3 T can provide roughly a two-fold increase in SNR."
+  },
+  {
+    "id": "ch7-012",
+    "chapter": 7,
+    "topic": "Magnetic field strength and protocol optimization",
+    "type": "single_best",
+    "text": "What can the additional SNR available at higher field strength be traded for?",
+    "options": [
+      "Speed, higher resolution, or improved CNR",
+      "Only a larger voxel",
+      "Only a longer scan",
+      "Removal of all contrast"
+    ],
+    "answer": "Speed, higher resolution, or improved CNR",
+    "explanation": "Additional SNR provides flexibility that can be exchanged for faster imaging, smaller voxels, or better contrast-to-noise."
+  },
+  {
+    "id": "ch7-013",
+    "chapter": 7,
+    "topic": "Voxel volume and SNR",
+    "type": "single_best",
+    "text": "What is the relationship between voxel volume and SNR?",
+    "options": [
+      "SNR is proportional to voxel volume",
+      "SNR is always inversely proportional to voxel volume",
+      "Voxel volume has no effect on SNR",
+      "SNR becomes independent of proton number"
+    ],
+    "answer": "SNR is proportional to voxel volume",
+    "explanation": "Larger voxels contain more protons and therefore generally produce stronger signal."
+  },
+  {
+    "id": "ch7-014",
+    "chapter": 7,
+    "topic": "Voxel volume and SNR",
+    "type": "single_best",
+    "text": "Why does increasing voxel volume generally increase SNR?",
+    "options": [
+      "A larger voxel contains more contributing protons",
+      "A larger voxel removes all noise",
+      "A larger voxel eliminates T2 decay",
+      "A larger voxel increases matrix size automatically"
+    ],
+    "answer": "A larger voxel contains more contributing protons",
+    "explanation": "More protons within a voxel contribute to the measured MR signal."
+  },
+  {
+    "id": "ch7-015",
+    "chapter": 7,
+    "topic": "Voxel size and SNR",
+    "type": "single_best",
+    "text": "Which change would generally increase voxel volume?",
+    "options": [
+      "Increasing slice thickness",
+      "Decreasing slice thickness",
+      "Increasing matrix size while keeping FOV fixed",
+      "Reducing all voxel dimensions"
+    ],
+    "answer": "Increasing slice thickness",
+    "explanation": "A thicker slice increases the through-plane voxel dimension and therefore voxel volume."
+  },
+  {
+    "id": "ch7-016",
+    "chapter": 7,
+    "topic": "Voxel size and spatial resolution",
+    "type": "single_best",
+    "text": "What is the main disadvantage of increasing voxel size to improve SNR?",
+    "options": [
+      "Spatial resolution decreases",
+      "SNR decreases",
+      "Scan time always doubles",
+      "Contrast disappears"
+    ],
+    "answer": "Spatial resolution decreases",
+    "explanation": "Larger voxels provide more signal but reduce the ability to distinguish small structures."
+  },
+  {
+    "id": "ch7-017",
+    "chapter": 7,
+    "topic": "RF coils and SNR",
+    "type": "single_best",
+    "text": "Why can a dedicated coil provide higher SNR than a general body coil?",
+    "options": [
+      "It is more sensitive to the region of interest",
+      "It eliminates the need for gradients",
+      "It increases the patient's proton density",
+      "It removes all thermal noise"
+    ],
+    "answer": "It is more sensitive to the region of interest",
+    "explanation": "A close-fitting dedicated coil can provide improved signal sensitivity from the anatomy being examined."
+  },
+  {
+    "id": "ch7-018",
+    "chapter": 7,
+    "topic": "RF coil placement",
+    "type": "single_best",
+    "text": "How does placing an RF coil closer to the region of interest generally affect SNR?",
+    "options": [
+      "It can increase SNR",
+      "It always decreases SNR",
+      "It eliminates all signal",
+      "It has no possible effect"
+    ],
+    "answer": "It can increase SNR",
+    "explanation": "Closer-fitting coils are generally more sensitive to the anatomy being imaged."
+  },
+  {
+    "id": "ch7-019",
+    "chapter": 7,
+    "topic": "TR and SNR",
+    "type": "single_best",
+    "text": "What generally happens to SNR when TR is increased?",
+    "options": [
+      "SNR increases because more longitudinal magnetization can recover",
+      "SNR always becomes zero",
+      "SNR decreases because no magnetization recovers",
+      "SNR becomes independent of tissue recovery"
+    ],
+    "answer": "SNR increases because more longitudinal magnetization can recover",
+    "explanation": "A longer TR allows greater longitudinal recovery before the next excitation."
+  },
+  {
+    "id": "ch7-020",
+    "chapter": 7,
+    "topic": "TR and SNR",
+    "type": "single_best",
+    "text": "Why can a longer TR increase MR signal?",
+    "options": [
+      "It allows more longitudinal magnetization to recover",
+      "It eliminates T2 decay during the entire scan",
+      "It reduces voxel size",
+      "It increases matrix size automatically"
+    ],
+    "answer": "It allows more longitudinal magnetization to recover",
+    "explanation": "Greater longitudinal recovery means more magnetization is available for subsequent excitation."
+  },
+  {
+    "id": "ch7-021",
+    "chapter": 7,
+    "topic": "TE and SNR",
+    "type": "single_best",
+    "text": "What is the effect of using a shorter TE on SNR?",
+    "options": [
+      "It generally increases SNR",
+      "It always eliminates signal",
+      "It always decreases SNR",
+      "It has no relationship to signal"
+    ],
+    "answer": "It generally increases SNR",
+    "explanation": "A shorter TE allows less T2 decay before signal measurement, preserving more signal."
+  },
+  {
+    "id": "ch7-022",
+    "chapter": 7,
+    "topic": "TE and SNR",
+    "type": "single_best",
+    "text": "Why does a shorter TE generally preserve more MR signal?",
+    "options": [
+      "Less T2 decay occurs before the echo is measured",
+      "More T1 recovery occurs during TE",
+      "The voxel becomes larger",
+      "The matrix becomes smaller"
+    ],
+    "answer": "Less T2 decay occurs before the echo is measured",
+    "explanation": "Shortening TE reduces the time available for transverse magnetization to decay."
+  },
+  {
+    "id": "ch7-023",
+    "chapter": 7,
+    "topic": "Flip angle and SNR",
+    "type": "single_best",
+    "text": "In gradient echo imaging, what is one reason for using a lower flip angle?",
+    "options": [
+      "It can allow shorter TR values",
+      "It always maximizes T1 weighting",
+      "It eliminates all noise",
+      "It makes voxels larger"
+    ],
+    "answer": "It can allow shorter TR values",
+    "explanation": "Lower flip angles can reduce saturation and permit shorter TRs in gradient echo sequences."
+  },
+  {
+    "id": "ch7-024",
+    "chapter": 7,
+    "topic": "Flip angle and contrast",
+    "type": "single_best",
+    "text": "What is a general effect of using a lower flip angle in gradient echo imaging?",
+    "options": [
+      "It reduces T1 weighting",
+      "It always increases T1 weighting",
+      "It eliminates spatial resolution",
+      "It prevents image reconstruction"
+    ],
+    "answer": "It reduces T1 weighting",
+    "explanation": "Lower flip angles generally reduce T1 saturation effects and can allow shorter repetition times."
+  },
+  {
+    "id": "ch7-025",
+    "chapter": 7,
+    "topic": "NSA and SNR",
+    "type": "single_best",
+    "text": "What happens to SNR when the number of signal averages is increased?",
+    "options": [
+      "SNR increases by the square root of the number of averages",
+      "SNR doubles for every additional average",
+      "SNR decreases linearly",
+      "SNR remains unchanged"
+    ],
+    "answer": "SNR increases by the square root of the number of averages",
+    "explanation": "SNR is proportional to the square root of NSA or NEX."
+  },
+  {
+    "id": "ch7-026",
+    "chapter": 7,
+    "topic": "NSA and scan time",
+    "type": "single_best",
+    "text": "What happens to scan time when NSA is increased?",
+    "options": [
+      "Scan time increases proportionally",
+      "Scan time decreases to zero",
+      "Scan time is unaffected",
+      "Scan time is reduced by half"
+    ],
+    "answer": "Scan time increases proportionally",
+    "explanation": "Each additional average repeats the acquisition, increasing scan time proportionally."
+  },
+  {
+    "id": "ch7-027",
+    "chapter": 7,
+    "topic": "NSA trade-off",
+    "type": "single_best",
+    "text": "What is the main trade-off when increasing NSA?",
+    "options": [
+      "Higher SNR at the cost of longer scan time",
+      "Lower SNR at the cost of shorter scan time",
+      "Higher resolution at the cost of larger voxels",
+      "Lower contrast at the cost of higher noise"
+    ],
+    "answer": "Higher SNR at the cost of longer scan time",
+    "explanation": "Increasing averages improves SNR but requires repeated acquisition and therefore more time."
+  },
+  {
+    "id": "ch7-028",
+    "chapter": 7,
+    "topic": "Receive bandwidth and SNR",
+    "type": "single_best",
+    "text": "What happens to SNR when receive bandwidth is narrowed?",
+    "options": [
+      "SNR generally increases",
+      "SNR always becomes zero",
+      "SNR necessarily decreases",
+      "SNR becomes independent of noise"
+    ],
+    "answer": "SNR generally increases",
+    "explanation": "A narrower bandwidth samples less noise, which generally improves SNR."
+  },
+  {
+    "id": "ch7-029",
+    "chapter": 7,
+    "topic": "Receive bandwidth and noise",
+    "type": "single_best",
+    "text": "Why can a narrower receive bandwidth improve SNR?",
+    "options": [
+      "It reduces the amount of noise sampled",
+      "It increases voxel volume automatically",
+      "It eliminates T2 decay",
+      "It doubles the magnetic field strength"
+    ],
+    "answer": "It reduces the amount of noise sampled",
+    "explanation": "Reducing the bandwidth reduces the range of noise frequencies being sampled."
+  },
+  {
+    "id": "ch7-030",
+    "chapter": 7,
+    "topic": "Receive bandwidth trade-offs",
+    "type": "single_best",
+    "text": "What is one potential disadvantage of using a narrower receive bandwidth?",
+    "options": [
+      "It may increase scan time or worsen chemical shift artifacts",
+      "It always eliminates signal",
+      "It always reduces voxel volume",
+      "It prevents the use of RF coils"
+    ],
+    "answer": "It may increase scan time or worsen chemical shift artifacts",
+    "explanation": "Narrow bandwidth can improve SNR but may have practical disadvantages including increased scan time or greater chemical shift."
+  },
+  {
+    "id": "ch7-031",
+    "chapter": 7,
+    "topic": "Contrast-to-noise ratio",
+    "type": "single_best",
+    "text": "What does CNR measure?",
+    "options": [
+      "The ability to distinguish two tissues based on their signal difference relative to noise",
+      "The total number of voxels",
+      "The duration of the MRI examination",
+      "The magnetic field strength alone"
+    ],
+    "answer": "The ability to distinguish two tissues based on their signal difference relative to noise",
+    "explanation": "CNR describes how clearly two tissues can be differentiated in relation to background noise."
+  },
+  {
+    "id": "ch7-032",
+    "chapter": 7,
+    "topic": "Contrast-to-noise ratio",
+    "type": "single_best",
+    "text": "How is CNR commonly calculated?",
+    "options": [
+      "Difference in signal between two tissues divided by noise standard deviation",
+      "Sum of two tissue signals multiplied by scan time",
+      "Voxel volume divided by TR",
+      "SNR multiplied by matrix size"
+    ],
+    "answer": "Difference in signal between two tissues divided by noise standard deviation",
+    "explanation": "CNR compares the signal difference between tissues with the standard deviation of noise."
+  },
+  {
+    "id": "ch7-033",
+    "chapter": 7,
+    "topic": "SNR versus CNR",
+    "type": "single_best",
+    "text": "What is the main difference between SNR and CNR?",
+    "options": [
+      "SNR describes signal relative to noise, while CNR describes tissue signal difference relative to noise",
+      "SNR measures scan time, while CNR measures voxel size",
+      "SNR measures only resolution, while CNR measures only field strength",
+      "They are exactly the same measurement"
+    ],
+    "answer": "SNR describes signal relative to noise, while CNR describes tissue signal difference relative to noise",
+    "explanation": "SNR concerns signal strength relative to noise, whereas CNR focuses on the difference between tissue signals relative to noise."
+  },
+  {
+    "id": "ch7-034",
+    "chapter": 7,
+    "topic": "CNR and lesion visibility",
+    "type": "single_best",
+    "text": "Why is CNR important when detecting a lesion?",
+    "options": [
+      "It indicates how distinguishable the lesion is from surrounding tissue",
+      "It determines the patient's scan position",
+      "It measures only voxel dimensions",
+      "It determines the scanner's magnetic field"
+    ],
+    "answer": "It indicates how distinguishable the lesion is from surrounding tissue",
+    "explanation": "A greater signal difference relative to noise makes a lesion or structure easier to distinguish."
+  },
+  {
+    "id": "ch7-035",
+    "chapter": 7,
+    "topic": "CNR and TR",
+    "type": "single_best",
+    "text": "Which parameter strongly influences CNR in MRI?",
+    "options": [
+      "TR",
+      "Patient height",
+      "Room temperature",
+      "Table width"
+    ],
+    "answer": "TR",
+    "explanation": "TR is an important contrast parameter and strongly influences tissue signal differences."
+  },
+  {
+    "id": "ch7-036",
+    "chapter": 7,
+    "topic": "CNR and TE",
+    "type": "single_best",
+    "text": "Which parameter strongly influences T2-related tissue contrast and therefore CNR?",
+    "options": [
+      "TE",
+      "Patient weight",
+      "Coil cable length",
+      "Room dimensions"
+    ],
+    "answer": "TE",
+    "explanation": "TE influences T2 decay and therefore the signal difference between tissues with different T2 values."
+  },
+  {
+    "id": "ch7-037",
+    "chapter": 7,
+    "topic": "T1-weighted imaging",
+    "type": "single_best",
+    "text": "Which TR and TE combination is typically used to produce T1-weighted images?",
+    "options": [
+      "Short TR and short TE",
+      "Long TR and long TE",
+      "Long TR and short TE",
+      "Short TR and long TE"
+    ],
+    "answer": "Short TR and short TE",
+    "explanation": "Short TR emphasizes differences in T1 recovery while short TE minimizes T2 weighting."
+  },
+  {
+    "id": "ch7-038",
+    "chapter": 7,
+    "topic": "T2-weighted imaging",
+    "type": "single_best",
+    "text": "Which TR and TE combination is typically used for T2-weighted imaging?",
+    "options": [
+      "Long TR and long TE",
+      "Short TR and short TE",
+      "Long TR and short TE",
+      "Short TR and zero TE"
+    ],
+    "answer": "Long TR and long TE",
+    "explanation": "Long TR reduces T1 weighting while long TE allows T2 differences to influence signal."
+  },
+  {
+    "id": "ch7-039",
+    "chapter": 7,
+    "topic": "Proton density imaging",
+    "type": "single_best",
+    "text": "Which TR and TE combination is typically used for proton density-weighted imaging?",
+    "options": [
+      "Long TR and short TE",
+      "Short TR and short TE",
+      "Long TR and long TE",
+      "Short TR and long TE"
+    ],
+    "answer": "Long TR and short TE",
+    "explanation": "Long TR minimizes T1 weighting and short TE minimizes T2 weighting, leaving proton density as a major source of contrast."
+  },
+  {
+    "id": "ch7-040",
+    "chapter": 7,
+    "topic": "T1-weighted imaging",
+    "type": "single_best",
+    "text": "Why is a short TR used for T1-weighted imaging?",
+    "options": [
+      "To emphasize differences in T1 recovery",
+      "To eliminate all T1 effects",
+      "To maximize T2 decay",
+      "To remove proton density effects completely"
+    ],
+    "answer": "To emphasize differences in T1 recovery",
+    "explanation": "A short TR preserves differences in longitudinal recovery between tissues."
+  },
+  {
+    "id": "ch7-041",
+    "chapter": 7,
+    "topic": "T1-weighted imaging",
+    "type": "single_best",
+    "text": "Why is a short TE used in T1-weighted imaging?",
+    "options": [
+      "To minimize T2 weighting",
+      "To maximize T2 weighting",
+      "To increase scan time",
+      "To eliminate longitudinal recovery"
+    ],
+    "answer": "To minimize T2 weighting",
+    "explanation": "Short TE limits the influence of T2 decay on image contrast."
+  },
+  {
+    "id": "ch7-042",
+    "chapter": 7,
+    "topic": "T2-weighted imaging",
+    "type": "single_best",
+    "text": "Why is a long TR used for T2-weighted imaging?",
+    "options": [
+      "To reduce T1 weighting",
+      "To maximize T1 weighting",
+      "To prevent transverse decay",
+      "To eliminate all proton density effects"
+    ],
+    "answer": "To reduce T1 weighting",
+    "explanation": "A long TR allows substantial longitudinal recovery and reduces differences caused by T1 relaxation."
+  },
+  {
+    "id": "ch7-043",
+    "chapter": 7,
+    "topic": "T2-weighted imaging",
+    "type": "single_best",
+    "text": "Why is a long TE used for T2-weighted imaging?",
+    "options": [
+      "To allow T2 differences to influence signal",
+      "To eliminate T2 weighting",
+      "To prevent transverse relaxation",
+      "To increase T1 recovery"
+    ],
+    "answer": "To allow T2 differences to influence signal",
+    "explanation": "A longer TE allows more transverse relaxation to occur, emphasizing differences in T2 decay."
+  },
+  {
+    "id": "ch7-044",
+    "chapter": 7,
+    "topic": "Proton density imaging",
+    "type": "single_best",
+    "text": "Why is a long TR used for proton density imaging?",
+    "options": [
+      "To minimize T1 weighting",
+      "To maximize T1 weighting",
+      "To maximize T2 weighting",
+      "To shorten the acquisition"
+    ],
+    "answer": "To minimize T1 weighting",
+    "explanation": "Long TR allows longitudinal magnetization to recover and reduces T1-dependent signal differences."
+  },
+  {
+    "id": "ch7-045",
+    "chapter": 7,
+    "topic": "Proton density imaging",
+    "type": "single_best",
+    "text": "Why is a short TE used for proton density imaging?",
+    "options": [
+      "To minimize T2 weighting",
+      "To maximize T2 weighting",
+      "To maximize T1 weighting",
+      "To increase T2 decay"
+    ],
+    "answer": "To minimize T2 weighting",
+    "explanation": "Short TE reduces the influence of transverse relaxation so proton density contributes more strongly to contrast."
+  },
+  {
+    "id": "ch7-046",
+    "chapter": 7,
+    "topic": "Spatial resolution",
+    "type": "single_best",
+    "text": "What is spatial resolution in MRI?",
+    "options": [
+      "The ability to distinguish two closely spaced points as separate objects",
+      "The ability to increase scan time",
+      "The ratio of signal to noise",
+      "The difference between two tissue signals"
+    ],
+    "answer": "The ability to distinguish two closely spaced points as separate objects",
+    "explanation": "Spatial resolution describes how well small, closely spaced structures can be distinguished."
+  },
+  {
+    "id": "ch7-047",
+    "chapter": 7,
+    "topic": "Spatial resolution",
+    "type": "single_best",
+    "text": "What is the main determinant of spatial resolution in MRI according to this chapter?",
+    "options": [
+      "Voxel size",
+      "Patient age",
+      "Scan room size",
+      "RF cable length"
+    ],
+    "answer": "Voxel size",
+    "explanation": "Smaller voxel dimensions generally provide higher spatial resolution."
+  },
+  {
+    "id": "ch7-048",
+    "chapter": 7,
+    "topic": "Voxel size and resolution",
+    "type": "single_best",
+    "text": "What happens to spatial resolution when voxel size decreases?",
+    "options": [
+      "Spatial resolution improves",
+      "Spatial resolution always decreases",
+      "Spatial resolution becomes unrelated to voxel size",
+      "Spatial resolution becomes zero"
+    ],
+    "answer": "Spatial resolution improves",
+    "explanation": "Smaller voxels allow smaller structures and finer details to be distinguished."
+  },
+  {
+    "id": "ch7-049",
+    "chapter": 7,
+    "topic": "Voxel size and SNR",
+    "type": "single_best",
+    "text": "What generally happens to SNR when voxel size is reduced to improve spatial resolution?",
+    "options": [
+      "SNR decreases",
+      "SNR always doubles",
+      "SNR becomes independent of voxel size",
+      "SNR increases automatically"
+    ],
+    "answer": "SNR decreases",
+    "explanation": "Smaller voxels contain fewer protons, reducing the signal available per voxel."
+  },
+  {
+    "id": "ch7-050",
+    "chapter": 7,
+    "topic": "Resolution-SNR trade-off",
+    "type": "single_best",
+    "text": "Which statement best describes the relationship between spatial resolution and SNR?",
+    "options": [
+      "Increasing spatial resolution by reducing voxel size generally reduces SNR",
+      "Increasing spatial resolution always increases SNR",
+      "Spatial resolution and SNR are completely unrelated",
+      "Reducing voxel size always increases SNR"
+    ],
+    "answer": "Increasing spatial resolution by reducing voxel size generally reduces SNR",
+    "explanation": "Smaller voxels improve spatial resolution but contain fewer protons, resulting in lower SNR."
+  },
+  {
+    "id": "ch7-051",
+    "chapter": 7,
+    "topic": "Spatial resolution",
+    "type": "single_best",
+    "text": "Which three parameters primarily determine voxel size in MRI?",
+    "options": [
+      "FOV, matrix, and slice thickness",
+      "TR, TE, and flip angle",
+      "B0, RF power, and gradient strength",
+      "NSA, bandwidth, and echo time"
+    ],
+    "answer": "FOV, matrix, and slice thickness",
+    "explanation": "Voxel dimensions are determined by the in-plane FOV and matrix together with slice thickness."
+  },
+  {
+    "id": "ch7-052",
+    "chapter": 7,
+    "topic": "Field of view",
+    "type": "single_best",
+    "text": "What happens to spatial resolution when FOV is decreased while matrix size remains constant?",
+    "options": [
+      "Spatial resolution improves",
+      "Spatial resolution decreases",
+      "SNR always increases",
+      "Slice thickness automatically increases"
+    ],
+    "answer": "Spatial resolution improves",
+    "explanation": "A smaller FOV divides the image into smaller pixels when the matrix is unchanged."
+  },
+  {
+    "id": "ch7-053",
+    "chapter": 7,
+    "topic": "Field of view",
+    "type": "single_best",
+    "text": "Why does reducing FOV improve spatial resolution when the matrix is fixed?",
+    "options": [
+      "Each matrix element represents a smaller area",
+      "The number of protons in each voxel increases",
+      "TR automatically becomes longer",
+      "Noise is completely eliminated"
+    ],
+    "answer": "Each matrix element represents a smaller area",
+    "explanation": "With the same number of matrix elements distributed over a smaller FOV, pixel dimensions become smaller."
+  },
+  {
+    "id": "ch7-054",
+    "chapter": 7,
+    "topic": "Matrix and spatial resolution",
+    "type": "single_best",
+    "text": "What is the effect of increasing matrix size while maintaining the same FOV?",
+    "options": [
+      "Spatial resolution improves",
+      "Spatial resolution decreases",
+      "Voxel size necessarily becomes larger",
+      "The image contains fewer pixels"
+    ],
+    "answer": "Spatial resolution improves",
+    "explanation": "More matrix elements across the same FOV produce smaller in-plane pixels."
+  },
+  {
+    "id": "ch7-055",
+    "chapter": 7,
+    "topic": "Matrix size",
+    "type": "single_best",
+    "text": "What does increasing the frequency-encoding matrix primarily do when FOV is unchanged?",
+    "options": [
+      "Decreases the frequency-direction pixel size",
+      "Increases the slice thickness",
+      "Increases the voxel volume",
+      "Eliminates phase encoding"
+    ],
+    "answer": "Decreases the frequency-direction pixel size",
+    "explanation": "More frequency-encoding samples across the same FOV produce smaller pixels in that direction."
+  },
+  {
+    "id": "ch7-056",
+    "chapter": 7,
+    "topic": "Matrix size",
+    "type": "single_best",
+    "text": "What is a potential disadvantage of increasing matrix size to improve spatial resolution?",
+    "options": [
+      "It can reduce SNR and may increase scan time",
+      "It always increases SNR",
+      "It always decreases spatial resolution",
+      "It eliminates the need for phase encoding"
+    ],
+    "answer": "It can reduce SNR and may increase scan time",
+    "explanation": "Increasing matrix size produces smaller voxels and additional phase-encoding steps can increase acquisition time."
+  },
+  {
+    "id": "ch7-057",
+    "chapter": 7,
+    "topic": "Slice thickness",
+    "type": "single_best",
+    "text": "What is the effect of reducing slice thickness on spatial resolution?",
+    "options": [
+      "Through-plane spatial resolution improves",
+      "Through-plane spatial resolution decreases",
+      "Spatial resolution becomes independent of slice thickness",
+      "Only temporal resolution improves"
+    ],
+    "answer": "Through-plane spatial resolution improves",
+    "explanation": "Thinner slices reduce voxel thickness and allow finer separation of structures in the slice-select direction."
+  },
+  {
+    "id": "ch7-058",
+    "chapter": 7,
+    "topic": "Slice thickness",
+    "type": "single_best",
+    "text": "What is a disadvantage of using thinner slices?",
+    "options": [
+      "SNR generally decreases",
+      "SNR always increases",
+      "Spatial resolution decreases",
+      "The matrix automatically becomes smaller"
+    ],
+    "answer": "SNR generally decreases",
+    "explanation": "Thinner slices reduce voxel volume and therefore reduce the number of contributing protons."
+  },
+  {
+    "id": "ch7-059",
+    "chapter": 7,
+    "topic": "Spatial resolution trade-offs",
+    "type": "single_best",
+    "text": "Which change would improve spatial resolution without changing the matrix?",
+    "options": [
+      "Reduce the FOV",
+      "Increase the FOV",
+      "Increase voxel size",
+      "Increase slice thickness"
+    ],
+    "answer": "Reduce the FOV",
+    "explanation": "Reducing FOV while maintaining matrix size decreases in-plane pixel dimensions."
+  },
+  {
+    "id": "ch7-060",
+    "chapter": 7,
+    "topic": "Spatial resolution trade-offs",
+    "type": "single_best",
+    "text": "Which parameter change directly improves through-plane spatial resolution?",
+    "options": [
+      "Decrease slice thickness",
+      "Increase slice thickness",
+      "Increase TR",
+      "Decrease TE"
+    ],
+    "answer": "Decrease slice thickness",
+    "explanation": "Slice thickness determines the voxel dimension in the through-plane direction."
+  },
+  {
+    "id": "ch7-061",
+    "chapter": 7,
+    "topic": "Spatial resolution and SNR",
+    "type": "single_best",
+    "text": "A radiographer reduces voxel size to demonstrate a very small lesion. What is the most likely consequence?",
+    "options": [
+      "Improved spatial resolution with reduced SNR",
+      "Reduced spatial resolution with increased SNR",
+      "Improved spatial resolution with no change in SNR",
+      "No change in either resolution or SNR"
+    ],
+    "answer": "Improved spatial resolution with reduced SNR",
+    "explanation": "Smaller voxels improve detail but contain fewer protons and therefore produce less signal."
+  },
+  {
+    "id": "ch7-062",
+    "chapter": 7,
+    "topic": "Spatial resolution",
+    "type": "single_best",
+    "text": "Which protocol would provide the highest in-plane spatial resolution if all other factors were equal?",
+    "options": [
+      "Small FOV with a large matrix",
+      "Large FOV with a small matrix",
+      "Large FOV with a large voxel",
+      "Small matrix with thick slices"
+    ],
+    "answer": "Small FOV with a large matrix",
+    "explanation": "A small FOV and large matrix produce small in-plane pixel dimensions."
+  },
+  {
+    "id": "ch7-063",
+    "chapter": 7,
+    "topic": "Spatial resolution",
+    "type": "single_best",
+    "text": "Which protocol would generally have the largest voxel volume?",
+    "options": [
+      "Large FOV, small matrix, and thick slices",
+      "Small FOV, large matrix, and thin slices",
+      "Small FOV, large matrix, and thick slices",
+      "Large FOV, large matrix, and thin slices"
+    ],
+    "answer": "Large FOV, small matrix, and thick slices",
+    "explanation": "Large in-plane dimensions combined with thick slices produce the largest voxels."
+  },
+  {
+    "id": "ch7-064",
+    "chapter": 7,
+    "topic": "Spatial resolution",
+    "type": "single_best",
+    "text": "Which protocol would generally have the smallest voxel volume?",
+    "options": [
+      "Small FOV, large matrix, and thin slices",
+      "Large FOV, small matrix, and thick slices",
+      "Large FOV, small matrix, and thin slices",
+      "Large FOV, large matrix, and thick slices"
+    ],
+    "answer": "Small FOV, large matrix, and thin slices",
+    "explanation": "Small in-plane dimensions and thin slices produce the smallest voxel volume."
+  },
+  {
+    "id": "ch7-065",
+    "chapter": 7,
+    "topic": "Scan time",
+    "type": "single_best",
+    "text": "What does MRI scan time represent?",
+    "options": [
+      "The time required to acquire all data needed to reconstruct the image",
+      "Only the time required to position the patient",
+      "Only the time required to reconstruct the image",
+      "The time required to warm the scanner"
+    ],
+    "answer": "The time required to acquire all data needed to reconstruct the image",
+    "explanation": "Scan time is the acquisition period needed to collect the data used for image reconstruction."
+  },
+  {
+    "id": "ch7-066",
+    "chapter": 7,
+    "topic": "Scan time and motion",
+    "type": "single_best",
+    "text": "Why can long MRI scans reduce image quality?",
+    "options": [
+      "They increase the opportunity for patient motion",
+      "They always reduce magnetic field strength",
+      "They eliminate all tissue contrast",
+      "They automatically reduce matrix size"
+    ],
+    "answer": "They increase the opportunity for patient motion",
+    "explanation": "The longer the patient must remain still, the greater the likelihood of motion-related image degradation."
+  },
+  {
+    "id": "ch7-067",
+    "chapter": 7,
+    "topic": "Scan time",
+    "type": "single_best",
+    "text": "Which parameter is a major determinant of MRI scan time?",
+    "options": [
+      "TR",
+      "Patient eye color",
+      "Coil color",
+      "Room dimensions"
+    ],
+    "answer": "TR",
+    "explanation": "TR contributes directly to acquisition time because it determines the interval between successive excitation cycles."
+  },
+  {
+    "id": "ch7-068",
+    "chapter": 7,
+    "topic": "Scan time",
+    "type": "single_best",
+    "text": "Which acquisition parameter directly affects scan time by determining the number of phase-encoding steps?",
+    "options": [
+      "Phase-encoding matrix",
+      "Patient weight",
+      "Magnetic field direction",
+      "RF coil diameter alone"
+    ],
+    "answer": "Phase-encoding matrix",
+    "explanation": "Each phase-encoding step generally requires an acquisition cycle, so more phase steps increase scan time."
+  },
+  {
+    "id": "ch7-069",
+    "chapter": 7,
+    "topic": "Scan time and TR",
+    "type": "single_best",
+    "text": "What generally happens to scan time when TR is increased?",
+    "options": [
+      "Scan time increases",
+      "Scan time always decreases",
+      "Scan time becomes zero",
+      "Scan time is completely unaffected"
+    ],
+    "answer": "Scan time increases",
+    "explanation": "A longer interval between successive excitation cycles increases the time required to collect the data."
+  },
+  {
+    "id": "ch7-070",
+    "chapter": 7,
+    "topic": "Phase encoding and scan time",
+    "type": "single_best",
+    "text": "Why does increasing the number of phase-encoding steps increase scan time?",
+    "options": [
+      "More acquisition cycles are required to fill k-space",
+      "Each step increases the magnetic field strength",
+      "Each step eliminates an RF pulse",
+      "More steps automatically reduce TR to zero"
+    ],
+    "answer": "More acquisition cycles are required to fill k-space",
+    "explanation": "Additional phase-encoding steps require additional acquisitions to collect the necessary k-space data."
+  },
+  {
+    "id": "ch7-071",
+    "chapter": 7,
+    "topic": "NSA and scan time",
+    "type": "single_best",
+    "text": "If NSA is doubled, what happens to scan time assuming other parameters remain constant?",
+    "options": [
+      "It approximately doubles",
+      "It is reduced by half",
+      "It remains unchanged",
+      "It increases by the square root of two only"
+    ],
+    "answer": "It approximately doubles",
+    "explanation": "Each additional average repeats the acquisition, so scan time is proportional to NSA."
+  },
+  {
+    "id": "ch7-072",
+    "chapter": 7,
+    "topic": "NSA and SNR",
+    "type": "single_best",
+    "text": "If NSA is increased from 1 to 4, approximately how does SNR change?",
+    "options": [
+      "It doubles",
+      "It quadruples",
+      "It remains unchanged",
+      "It decreases by half"
+    ],
+    "answer": "It doubles",
+    "explanation": "SNR increases with the square root of NSA, so √4 = 2."
+  },
+  {
+    "id": "ch7-073",
+    "chapter": 7,
+    "topic": "NSA and scan time",
+    "type": "single_best",
+    "text": "If NSA is increased from 1 to 4, what happens to scan time?",
+    "options": [
+      "It becomes approximately four times longer",
+      "It becomes twice as long",
+      "It is unchanged",
+      "It becomes one-quarter as long"
+    ],
+    "answer": "It becomes approximately four times longer",
+    "explanation": "Scan time increases proportionally with the number of averages."
+  },
+  {
+    "id": "ch7-074",
+    "chapter": 7,
+    "topic": "Echo train length",
+    "type": "single_best",
+    "text": "What is the effect of increasing echo train length in a fast spin echo sequence?",
+    "options": [
+      "It can reduce scan time by acquiring multiple k-space lines per TR",
+      "It always increases scan time",
+      "It eliminates phase encoding",
+      "It prevents multiple echoes"
+    ],
+    "answer": "It can reduce scan time by acquiring multiple k-space lines per TR",
+    "explanation": "A longer ETL allows multiple lines of k-space to be acquired during each TR."
+  },
+  {
+    "id": "ch7-075",
+    "chapter": 7,
+    "topic": "Echo train length",
+    "type": "single_best",
+    "text": "Why can fast spin echo sequences acquire images faster than conventional spin echo sequences?",
+    "options": [
+      "Multiple k-space lines can be acquired during each TR",
+      "They do not use RF pulses",
+      "They use no phase encoding",
+      "They eliminate all signal decay"
+    ],
+    "answer": "Multiple k-space lines can be acquired during each TR",
+    "explanation": "The echo train permits several echoes and corresponding k-space lines to be collected after one excitation."
+  },
+  {
+    "id": "ch7-076",
+    "chapter": 7,
+    "topic": "Scan time formula",
+    "type": "single_best",
+    "text": "Which expression best represents the basic relationship for scan time described in this chapter?",
+    "options": [
+      "Scan time is proportional to TR × phase encoding steps × NSA",
+      "Scan time is proportional only to TE",
+      "Scan time is proportional only to FOV",
+      "Scan time is inversely proportional to every imaging parameter"
+    ],
+    "answer": "Scan time is proportional to TR × phase encoding steps × NSA",
+    "explanation": "The basic scan-time relationship depends strongly on TR, phase-encoding steps, and number of averages."
+  },
+  {
+    "id": "ch7-077",
+    "chapter": 7,
+    "topic": "Scan time calculation",
+    "type": "single_best",
+    "text": "If TR is doubled while phase encoding and NSA remain constant, what generally happens to scan time?",
+    "options": [
+      "It approximately doubles",
+      "It is halved",
+      "It remains unchanged",
+      "It becomes four times shorter"
+    ],
+    "answer": "It approximately doubles",
+    "explanation": "Scan time is proportional to TR when other major factors remain constant."
+  },
+  {
+    "id": "ch7-078",
+    "chapter": 7,
+    "topic": "Scan time calculation",
+    "type": "single_best",
+    "text": "If the number of phase-encoding steps is doubled while TR and NSA remain constant, what happens to scan time?",
+    "options": [
+      "It approximately doubles",
+      "It is halved",
+      "It remains unchanged",
+      "It decreases by four times"
+    ],
+    "answer": "It approximately doubles",
+    "explanation": "More phase-encoding steps require more acquisitions and therefore increase scan time."
+  },
+  {
+    "id": "ch7-079",
+    "chapter": 7,
+    "topic": "Scan time reduction",
+    "type": "single_best",
+    "text": "Which change can reduce scan time by reducing the number of phase-encoding steps?",
+    "options": [
+      "Reducing the phase-encoding matrix",
+      "Increasing NSA",
+      "Increasing TR",
+      "Increasing slice thickness only"
+    ],
+    "answer": "Reducing the phase-encoding matrix",
+    "explanation": "Fewer phase-encoding steps require fewer acquisition cycles."
+  },
+  {
+    "id": "ch7-080",
+    "chapter": 7,
+    "topic": "Scan time reduction",
+    "type": "single_best",
+    "text": "What is a likely consequence of reducing the phase-encoding matrix to shorten scan time?",
+    "options": [
+      "Reduced spatial resolution in the phase direction",
+      "Increased spatial resolution in every direction",
+      "Automatic doubling of SNR",
+      "Elimination of all motion"
+    ],
+    "answer": "Reduced spatial resolution in the phase direction",
+    "explanation": "Fewer phase-encoding steps reduce the number of pixels and therefore decrease resolution in that direction."
+  },
+  {
+    "id": "ch7-081",
+    "chapter": 7,
+    "topic": "Protocol trade-offs",
+    "type": "single_best",
+    "text": "Why can all four major image-quality goals not usually be maximized simultaneously?",
+    "options": [
+      "Improving one characteristic often compromises another",
+      "MRI parameters are completely independent",
+      "SNR and resolution are always identical",
+      "Scan time has no relationship to acquisition parameters"
+    ],
+    "answer": "Improving one characteristic often compromises another",
+    "explanation": "MRI protocol parameters create trade-offs between SNR, CNR, spatial resolution, and scan time."
+  },
+  {
+    "id": "ch7-082",
+    "chapter": 7,
+    "topic": "Resolution-SNR trade-off",
+    "type": "single_best",
+    "text": "A protocol uses smaller voxels to improve spatial resolution. Which trade-off should be expected?",
+    "options": [
+      "Lower SNR",
+      "Higher SNR",
+      "Longer T1 relaxation",
+      "Automatic elimination of noise"
+    ],
+    "answer": "Lower SNR",
+    "explanation": "Smaller voxels contain fewer protons, reducing signal and therefore SNR."
+  },
+  {
+    "id": "ch7-083",
+    "chapter": 7,
+    "topic": "SNR-scan time trade-off",
+    "type": "single_best",
+    "text": "Which change increases SNR at the expense of scan time?",
+    "options": [
+      "Increasing NSA",
+      "Reducing NSA",
+      "Reducing voxel size",
+      "Reducing TR"
+    ],
+    "answer": "Increasing NSA",
+    "explanation": "More averages improve SNR but require repeated acquisitions and therefore increase scan time."
+  },
+  {
+    "id": "ch7-084",
+    "chapter": 7,
+    "topic": "SNR-resolution trade-off",
+    "type": "single_best",
+    "text": "Which change increases SNR but reduces spatial resolution?",
+    "options": [
+      "Increasing voxel size",
+      "Decreasing voxel size",
+      "Increasing matrix while maintaining FOV",
+      "Reducing slice thickness"
+    ],
+    "answer": "Increasing voxel size",
+    "explanation": "Larger voxels contain more protons and increase SNR but reduce the ability to resolve fine detail."
+  },
+  {
+    "id": "ch7-085",
+    "chapter": 7,
+    "topic": "Scan time-resolution trade-off",
+    "type": "single_best",
+    "text": "Which change can reduce scan time but potentially reduce spatial resolution?",
+    "options": [
+      "Reducing the phase-encoding matrix",
+      "Increasing the phase-encoding matrix",
+      "Increasing NSA",
+      "Increasing TR"
+    ],
+    "answer": "Reducing the phase-encoding matrix",
+    "explanation": "Fewer phase-encoding steps shorten acquisition time but decrease resolution in the phase direction."
+  },
+  {
+    "id": "ch7-086",
+    "chapter": 7,
+    "topic": "Scan time-CNR trade-off",
+    "type": "single_best",
+    "text": "How can reducing TR affect CNR?",
+    "options": [
+      "It can reduce T1-related tissue contrast",
+      "It always increases T1 contrast",
+      "It has no effect on tissue contrast",
+      "It eliminates T2 decay"
+    ],
+    "answer": "It can reduce T1-related tissue contrast",
+    "explanation": "Shortening TR can reduce the amount of longitudinal recovery and alter the desired T1 contrast."
+  },
+  {
+    "id": "ch7-087",
+    "chapter": 7,
+    "topic": "Protocol trade-offs",
+    "type": "single_best",
+    "text": "A technologist increases voxel size to improve SNR in a noisy image. What is the principal disadvantage?",
+    "options": [
+      "Reduced spatial resolution",
+      "Reduced voxel volume",
+      "Increased spatial resolution",
+      "Complete loss of signal"
+    ],
+    "answer": "Reduced spatial resolution",
+    "explanation": "Increasing voxel size improves signal but makes small structures harder to resolve."
+  },
+  {
+    "id": "ch7-088",
+    "chapter": 7,
+    "topic": "Protocol trade-offs",
+    "type": "single_best",
+    "text": "A patient cannot remain still for a long examination. Which protocol characteristic should receive greater priority?",
+    "options": [
+      "Reasonable scan time",
+      "Maximum possible NSA",
+      "Maximum possible matrix",
+      "Maximum possible slice thickness"
+    ],
+    "answer": "Reasonable scan time",
+    "explanation": "Reducing scan duration can decrease the opportunity for motion and improve overall diagnostic quality."
+  },
+  {
+    "id": "ch7-089",
+    "chapter": 7,
+    "topic": "Clinical protocol optimization",
+    "type": "single_best",
+    "text": "What should be considered first when developing an MRI protocol?",
+    "options": [
+      "The clinical question",
+      "The largest possible FOV",
+      "The maximum NSA",
+      "The longest possible TR"
+    ],
+    "answer": "The clinical question",
+    "explanation": "Protocol design should begin by identifying the anatomy or pathology that must be demonstrated."
+  },
+  {
+    "id": "ch7-090",
+    "chapter": 7,
+    "topic": "Clinical decision making",
+    "type": "single_best",
+    "text": "A protocol intended to identify very small lesions should prioritize which characteristic?",
+    "options": [
+      "High spatial resolution",
+      "Very large voxels",
+      "Minimal matrix size",
+      "Maximum slice thickness"
+    ],
+    "answer": "High spatial resolution",
+    "explanation": "Small lesions require sufficiently small voxels to distinguish them from surrounding structures."
+  },
+  {
+    "id": "ch7-091",
+    "chapter": 7,
+    "topic": "Clinical decision making",
+    "type": "single_best",
+    "text": "Which sequence type might be selected when the clinical goal is to emphasize T1 contrast?",
+    "options": [
+      "T1-weighted sequence",
+      "T2-weighted sequence",
+      "Proton density sequence only",
+      "Noise-only acquisition"
+    ],
+    "answer": "T1-weighted sequence",
+    "explanation": "A T1-weighted sequence is selected when differences in T1 relaxation are diagnostically important."
+  },
+  {
+    "id": "ch7-092",
+    "chapter": 7,
+    "topic": "Clinical decision making",
+    "type": "single_best",
+    "text": "Which sequence type would be selected when strong T2 contrast is clinically important?",
+    "options": [
+      "T2-weighted sequence",
+      "T1-weighted sequence",
+      "Proton density sequence only",
+      "Unweighted scout image"
+    ],
+    "answer": "T2-weighted sequence",
+    "explanation": "T2-weighted imaging emphasizes differences in T2 relaxation."
+  },
+  {
+    "id": "ch7-093",
+    "chapter": 7,
+    "topic": "Clinical decision making",
+    "type": "single_best",
+    "text": "Which sequence can be selected when fluid suppression is required as part of protocol optimization?",
+    "options": [
+      "FLAIR",
+      "T1-weighted imaging only",
+      "Proton density only",
+      "Gradient calibration only"
+    ],
+    "answer": "FLAIR",
+    "explanation": "FLAIR is a sequence option used when suppression of fluid signal is clinically useful."
+  },
+  {
+    "id": "ch7-094",
+    "chapter": 7,
+    "topic": "Clinical decision making",
+    "type": "single_best",
+    "text": "Which sequence may be selected when fat suppression is important for the clinical question?",
+    "options": [
+      "STIR",
+      "T1-weighted imaging without suppression",
+      "Proton density without suppression",
+      "Noise calibration"
+    ],
+    "answer": "STIR",
+    "explanation": "STIR is a commonly used fat-suppressed sequence and may be selected when fat suppression improves pathology conspicuity."
+  },
+  {
+    "id": "ch7-095",
+    "chapter": 7,
+    "topic": "Protocol development",
+    "type": "single_best",
+    "text": "Which is the first step in the systematic protocol-development approach described in the chapter?",
+    "options": [
+      "Define the clinical goal",
+      "Increase NSA",
+      "Reduce the FOV",
+      "Increase matrix size"
+    ],
+    "answer": "Define the clinical goal",
+    "explanation": "Protocol development begins by identifying what anatomy or pathology needs to be demonstrated."
+  },
+  {
+    "id": "ch7-096",
+    "chapter": 7,
+    "topic": "Protocol development",
+    "type": "single_best",
+    "text": "After defining the clinical goal, what is the next major step in protocol development?",
+    "options": [
+      "Select the appropriate sequence type",
+      "Immediately maximize scan time",
+      "Always reduce the FOV",
+      "Always increase slice thickness"
+    ],
+    "answer": "Select the appropriate sequence type",
+    "explanation": "After identifying the clinical objective, an appropriate sequence such as T1, T2, STIR, or FLAIR can be selected."
+  },
+  {
+    "id": "ch7-097",
+    "chapter": 7,
+    "topic": "Protocol development",
+    "type": "single_best",
+    "text": "What should be done after selecting the sequence type during protocol optimization?",
+    "options": [
+      "Adjust parameters to optimize the relevant trade-offs",
+      "Ignore spatial resolution",
+      "Maximize every parameter simultaneously",
+      "Remove all averages"
+    ],
+    "answer": "Adjust parameters to optimize the relevant trade-offs",
+    "explanation": "Parameters should be adjusted according to the clinical priorities and scanner or patient constraints."
+  },
+  {
+    "id": "ch7-098",
+    "chapter": 7,
+    "topic": "Protocol development",
+    "type": "single_best",
+    "text": "How can a protocol be evaluated and refined after initial parameter selection?",
+    "options": [
+      "Through phantom studies or clinical feedback",
+      "By changing parameters randomly",
+      "By ignoring image quality",
+      "By always doubling scan time"
+    ],
+    "answer": "Through phantom studies or clinical feedback",
+    "explanation": "Testing and feedback help determine whether the protocol achieves the intended diagnostic performance."
+  },
+  {
+    "id": "ch7-099",
+    "chapter": 7,
+    "topic": "Protocol development",
+    "type": "single_best",
+    "text": "What best describes MRI protocol development?",
+    "options": [
+      "An iterative process of testing and refinement",
+      "A fixed process that never requires adjustment",
+      "A process based only on scan time",
+      "A process based only on magnetic field strength"
+    ],
+    "answer": "An iterative process of testing and refinement",
+    "explanation": "Protocols are refined using testing, image quality assessment, and clinical feedback."
+  },
+  {
+    "id": "ch7-100",
+    "chapter": 7,
+    "topic": "Protocol development",
+    "type": "single_best",
+    "text": "Which group contains parameters that should be considered when optimizing MRI contrast and geometry?",
+    "options": [
+      "TR, TE, flip angle, FOV, slice thickness, and matrix",
+      "Patient age, room size, table color, and coil color",
+      "Only TE and patient position",
+      "Only magnetic field strength and scan room size"
+    ],
+    "answer": "TR, TE, flip angle, FOV, slice thickness, and matrix",
+    "explanation": "These parameters control contrast and image geometry and are central to protocol optimization."
+  },
+  {
+    "id": "ch7-101",
+    "chapter": 7,
+    "topic": "Protocol optimization",
+    "type": "single_best",
+    "text": "Which imaging characteristic should be prioritized when the main goal is detecting very small anatomical structures?",
+    "options": [
+      "High spatial resolution",
+      "Maximum voxel size",
+      "Maximum scan time",
+      "Minimum matrix size"
+    ],
+    "answer": "High spatial resolution",
+    "explanation": "Small structures require small voxels and therefore high spatial resolution."
+  },
+  {
+    "id": "ch7-102",
+    "chapter": 7,
+    "topic": "Protocol optimization",
+    "type": "single_best",
+    "text": "If a protocol has excellent spatial resolution but insufficient SNR, what is the most appropriate optimization principle?",
+    "options": [
+      "Balance the resolution gain against the loss of SNR",
+      "Always reduce voxel size further",
+      "Ignore SNR completely",
+      "Always increase matrix size"
+    ],
+    "answer": "Balance the resolution gain against the loss of SNR",
+    "explanation": "Protocol optimization requires balancing competing image-quality characteristics."
+  },
+  {
+    "id": "ch7-103",
+    "chapter": 7,
+    "topic": "Protocol optimization",
+    "type": "single_best",
+    "text": "Which change would most directly increase signal from each voxel?",
+    "options": [
+      "Increase voxel volume",
+      "Decrease voxel volume",
+      "Decrease slice thickness",
+      "Increase matrix size"
+    ],
+    "answer": "Increase voxel volume",
+    "explanation": "Larger voxels contain more protons and generally produce greater signal."
+  },
+  {
+    "id": "ch7-104",
+    "chapter": 7,
+    "topic": "SNR",
+    "type": "single_best",
+    "text": "Two protocols use identical parameters except that one uses a closer-fitting dedicated coil. Which protocol is likely to have higher SNR?",
+    "options": [
+      "The protocol using the closer-fitting dedicated coil",
+      "The protocol using the more distant coil",
+      "Both will necessarily have identical SNR",
+      "Neither protocol will produce signal"
+    ],
+    "answer": "The protocol using the closer-fitting dedicated coil",
+    "explanation": "Dedicated coils placed close to the anatomy generally provide greater sensitivity and higher SNR."
+  },
+  {
+    "id": "ch7-105",
+    "chapter": 7,
+    "topic": "SNR",
+    "type": "single_best",
+    "text": "Which change would generally increase SNR without changing voxel size?",
+    "options": [
+      "Increase the number of signal averages",
+      "Decrease voxel volume",
+      "Increase matrix size",
+      "Decrease slice thickness"
+    ],
+    "answer": "Increase the number of signal averages",
+    "explanation": "Increasing NSA increases SNR according to the square-root relationship."
+  },
+  {
+    "id": "ch7-106",
+    "chapter": 7,
+    "topic": "SNR",
+    "type": "single_best",
+    "text": "A protocol has adequate resolution but insufficient SNR. Which modification is most directly intended to increase SNR?",
+    "options": [
+      "Increase NSA",
+      "Decrease voxel volume",
+      "Increase matrix size",
+      "Decrease slice thickness"
+    ],
+    "answer": "Increase NSA",
+    "explanation": "Increasing NSA improves SNR while preserving voxel dimensions, although scan time increases."
+  },
+  {
+    "id": "ch7-107",
+    "chapter": 7,
+    "topic": "SNR",
+    "type": "single_best",
+    "text": "What happens to SNR when NSA increases from 1 to 9?",
+    "options": [
+      "It increases by a factor of 3",
+      "It increases by a factor of 9",
+      "It decreases by a factor of 3",
+      "It remains unchanged"
+    ],
+    "answer": "It increases by a factor of 3",
+    "explanation": "SNR is proportional to the square root of NSA, and √9 equals 3."
+  },
+  {
+    "id": "ch7-108",
+    "chapter": 7,
+    "topic": "SNR",
+    "type": "single_best",
+    "text": "What happens to SNR when NSA increases from 1 to 16?",
+    "options": [
+      "It increases by a factor of 4",
+      "It increases by a factor of 16",
+      "It increases by a factor of 8",
+      "It remains unchanged"
+    ],
+    "answer": "It increases by a factor of 4",
+    "explanation": "SNR increases with the square root of NSA, so √16 equals 4."
+  },
+  {
+    "id": "ch7-109",
+    "chapter": 7,
+    "topic": "SNR",
+    "type": "single_best",
+    "text": "If SNR is doubled by increasing NSA alone, approximately how many times must NSA be increased?",
+    "options": [
+      "4 times",
+      "2 times",
+      "3 times",
+      "8 times"
+    ],
+    "answer": "4 times",
+    "explanation": "Because SNR is proportional to √NSA, a four-fold increase in NSA produces approximately twice the SNR."
+  },
+  {
+    "id": "ch7-110",
+    "chapter": 7,
+    "topic": "SNR",
+    "type": "single_best",
+    "text": "If SNR must increase by a factor of 3 using NSA alone, what increase in NSA is required?",
+    "options": [
+      "9 times",
+      "3 times",
+      "6 times",
+      "12 times"
+    ],
+    "answer": "9 times",
+    "explanation": "The square-root relationship means a three-fold SNR increase requires nine times as many averages."
+  },
+  {
+    "id": "ch7-111",
+    "chapter": 7,
+    "topic": "SNR and magnetic field",
+    "type": "single_best",
+    "text": "Which field strength would generally provide greater SNR, assuming other factors are comparable?",
+    "options": [
+      "3 T",
+      "1.5 T",
+      "Both always provide identical SNR",
+      "Neither provides measurable signal"
+    ],
+    "answer": "3 T",
+    "explanation": "SNR increases with B0, so 3 T generally provides higher SNR than 1.5 T."
+  },
+  {
+    "id": "ch7-112",
+    "chapter": 7,
+    "topic": "SNR and magnetic field",
+    "type": "single_best",
+    "text": "A move from 1.5 T to 3 T provides additional SNR. Which is NOT an appropriate use of that additional SNR?",
+    "options": [
+      "Deliberately increasing image noise",
+      "Improving spatial resolution",
+      "Reducing scan time",
+      "Improving CNR"
+    ],
+    "answer": "Deliberately increasing image noise",
+    "explanation": "Additional SNR can be traded for speed, resolution, or CNR, rather than deliberately increasing noise."
+  },
+  {
+    "id": "ch7-113",
+    "chapter": 7,
+    "topic": "SNR and TR",
+    "type": "single_best",
+    "text": "A sequence has insufficient longitudinal recovery before excitation. Which parameter could be increased to improve SNR?",
+    "options": [
+      "TR",
+      "TE only",
+      "Matrix size",
+      "FOV reduction"
+    ],
+    "answer": "TR",
+    "explanation": "Increasing TR allows more longitudinal magnetization to recover and can increase signal."
+  },
+  {
+    "id": "ch7-114",
+    "chapter": 7,
+    "topic": "SNR and TE",
+    "type": "single_best",
+    "text": "Which adjustment would preserve more transverse signal before measurement?",
+    "options": [
+      "Shorter TE",
+      "Longer TE",
+      "Larger matrix",
+      "Smaller FOV"
+    ],
+    "answer": "Shorter TE",
+    "explanation": "Shorter TE reduces the amount of T2 decay occurring before signal acquisition."
+  },
+  {
+    "id": "ch7-115",
+    "chapter": 7,
+    "topic": "SNR and bandwidth",
+    "type": "single_best",
+    "text": "A technologist narrows the receive bandwidth. What is the expected primary SNR effect?",
+    "options": [
+      "SNR increases",
+      "SNR becomes zero",
+      "SNR always decreases",
+      "SNR is completely unaffected"
+    ],
+    "answer": "SNR increases",
+    "explanation": "Narrower receive bandwidth reduces sampled noise and can improve SNR."
+  },
+  {
+    "id": "ch7-116",
+    "chapter": 7,
+    "topic": "Bandwidth trade-offs",
+    "type": "single_best",
+    "text": "Which artifact can become more problematic when receive bandwidth is narrowed?",
+    "options": [
+      "Chemical shift artifact",
+      "Patient motion artifact only",
+      "Aliasing caused by no phase encoding",
+      "RF coil failure"
+    ],
+    "answer": "Chemical shift artifact",
+    "explanation": "Narrower bandwidth increases the spatial displacement associated with chemical shift."
+  },
+  {
+    "id": "ch7-117",
+    "chapter": 7,
+    "topic": "CNR",
+    "type": "single_best",
+    "text": "If two tissues have identical signal intensity, what happens to their signal-difference component of CNR?",
+    "options": [
+      "It becomes zero",
+      "It becomes maximal",
+      "It doubles",
+      "It becomes independent of noise"
+    ],
+    "answer": "It becomes zero",
+    "explanation": "CNR depends on the difference between the signals of the two tissues."
+  },
+  {
+    "id": "ch7-118",
+    "chapter": 7,
+    "topic": "CNR",
+    "type": "single_best",
+    "text": "If the signal difference between two tissues increases while noise remains constant, what happens to CNR?",
+    "options": [
+      "CNR increases",
+      "CNR decreases",
+      "CNR becomes zero",
+      "CNR remains unchanged"
+    ],
+    "answer": "CNR increases",
+    "explanation": "A larger signal difference relative to the same noise level produces greater CNR."
+  },
+  {
+    "id": "ch7-119",
+    "chapter": 7,
+    "topic": "CNR",
+    "type": "single_best",
+    "text": "If noise decreases while the signal difference between two tissues remains constant, what happens to CNR?",
+    "options": [
+      "CNR increases",
+      "CNR decreases",
+      "CNR becomes zero",
+      "CNR is unaffected"
+    ],
+    "answer": "CNR increases",
+    "explanation": "CNR is inversely related to the noise standard deviation when tissue signal difference remains constant."
+  },
+  {
+    "id": "ch7-120",
+    "chapter": 7,
+    "topic": "CNR",
+    "type": "single_best",
+    "text": "Which situation would produce poor CNR?",
+    "options": [
+      "Small tissue signal difference with substantial noise",
+      "Large tissue signal difference with low noise",
+      "Large tissue signal difference with low background noise",
+      "Strong contrast with minimal noise"
+    ],
+    "answer": "Small tissue signal difference with substantial noise",
+    "explanation": "Poor CNR occurs when tissue signals are similar relative to the amount of noise."
+  },
+  {
+    "id": "ch7-121",
+    "chapter": 7,
+    "topic": "CNR optimization",
+    "type": "single_best",
+    "text": "Which two parameters are particularly important for controlling T1 and T2 contrast and therefore CNR?",
+    "options": [
+      "TR and TE",
+      "FOV and matrix only",
+      "NSA and bandwidth only",
+      "Slice thickness and patient weight"
+    ],
+    "answer": "TR and TE",
+    "explanation": "TR strongly influences T1 weighting, while TE strongly influences T2 weighting."
+  },
+  {
+    "id": "ch7-122",
+    "chapter": 7,
+    "topic": "CNR optimization",
+    "type": "single_best",
+    "text": "A protocol requires strong T1 tissue contrast. Which parameter combination is most appropriate?",
+    "options": [
+      "Short TR and short TE",
+      "Long TR and long TE",
+      "Long TR and short TE",
+      "Short TR and long TE"
+    ],
+    "answer": "Short TR and short TE",
+    "explanation": "Short TR emphasizes T1 differences while short TE limits T2 effects."
+  },
+  {
+    "id": "ch7-123",
+    "chapter": 7,
+    "topic": "CNR optimization",
+    "type": "single_best",
+    "text": "A protocol requires strong T2 tissue contrast. Which parameter combination is most appropriate?",
+    "options": [
+      "Long TR and long TE",
+      "Short TR and short TE",
+      "Long TR and short TE",
+      "Short TR and zero TE"
+    ],
+    "answer": "Long TR and long TE",
+    "explanation": "Long TR minimizes T1 effects and long TE emphasizes T2 differences."
+  },
+  {
+    "id": "ch7-124",
+    "chapter": 7,
+    "topic": "CNR optimization",
+    "type": "single_best",
+    "text": "A protocol aims to minimize both T1 and T2 weighting. Which combination is appropriate?",
+    "options": [
+      "Long TR and short TE",
+      "Short TR and short TE",
+      "Short TR and long TE",
+      "Long TR and long TE"
+    ],
+    "answer": "Long TR and short TE",
+    "explanation": "Long TR minimizes T1 weighting and short TE minimizes T2 weighting."
+  },
+  {
+    "id": "ch7-125",
+    "chapter": 7,
+    "topic": "Proton density",
+    "type": "single_best",
+    "text": "In proton density imaging, what should contribute strongly to image contrast after minimizing T1 and T2 weighting?",
+    "options": [
+      "Proton density",
+      "Only T1 relaxation",
+      "Only T2 relaxation",
+      "Scan time"
+    ],
+    "answer": "Proton density",
+    "explanation": "Long TR and short TE minimize relaxation weighting so proton density becomes a major source of contrast."
+  },
+  {
+    "id": "ch7-126",
+    "chapter": 7,
+    "topic": "Spatial resolution",
+    "type": "single_best",
+    "text": "Which parameter directly controls the size of the voxel in the through-plane direction?",
+    "options": [
+      "Slice thickness",
+      "TE",
+      "TR",
+      "Receive bandwidth"
+    ],
+    "answer": "Slice thickness",
+    "explanation": "Slice thickness determines the voxel dimension perpendicular to the imaging plane."
+  },
+  {
+    "id": "ch7-127",
+    "chapter": 7,
+    "topic": "Spatial resolution",
+    "type": "single_best",
+    "text": "Which parameter determines in-plane pixel dimensions when combined with matrix size?",
+    "options": [
+      "FOV",
+      "TR",
+      "TE",
+      "NSA"
+    ],
+    "answer": "FOV",
+    "explanation": "Pixel dimensions are determined by the FOV divided by the corresponding matrix dimensions."
+  },
+  {
+    "id": "ch7-128",
+    "chapter": 7,
+    "topic": "Spatial resolution",
+    "type": "single_best",
+    "text": "If FOV is kept constant and the matrix is doubled, what generally happens to pixel dimensions?",
+    "options": [
+      "They become smaller",
+      "They become larger",
+      "They remain exactly the same",
+      "They become independent of FOV"
+    ],
+    "answer": "They become smaller",
+    "explanation": "More matrix elements across the same FOV result in smaller pixels."
+  },
+  {
+    "id": "ch7-129",
+    "chapter": 7,
+    "topic": "Spatial resolution",
+    "type": "single_best",
+    "text": "If the FOV is doubled while matrix size remains constant, what generally happens to pixel size?",
+    "options": [
+      "Pixel size increases",
+      "Pixel size decreases",
+      "Pixel size becomes zero",
+      "Pixel size becomes independent of FOV"
+    ],
+    "answer": "Pixel size increases",
+    "explanation": "The same number of matrix elements spread over a larger FOV produces larger pixels."
+  },
+  {
+    "id": "ch7-130",
+    "chapter": 7,
+    "topic": "Spatial resolution",
+    "type": "single_best",
+    "text": "A protocol changes from a 256 matrix to a 512 matrix with the same FOV. What is the expected effect?",
+    "options": [
+      "Smaller pixels and improved spatial resolution",
+      "Larger pixels and reduced spatial resolution",
+      "No change in spatial resolution",
+      "Automatic increase in slice thickness"
+    ],
+    "answer": "Smaller pixels and improved spatial resolution",
+    "explanation": "Increasing matrix size while maintaining FOV decreases pixel dimensions."
+  },
+  {
+    "id": "ch7-131",
+    "chapter": 7,
+    "topic": "Spatial resolution",
+    "type": "single_best",
+    "text": "What is a potential SNR consequence of changing from a 256 matrix to a 512 matrix at the same FOV?",
+    "options": [
+      "SNR generally decreases because voxel dimensions become smaller",
+      "SNR always doubles",
+      "SNR is unaffected in every circumstance",
+      "SNR becomes infinite"
+    ],
+    "answer": "SNR generally decreases because voxel dimensions become smaller",
+    "explanation": "Smaller pixels reduce voxel volume and therefore reduce signal per voxel."
+  },
+  {
+    "id": "ch7-132",
+    "chapter": 7,
+    "topic": "Spatial resolution",
+    "type": "single_best",
+    "text": "Which modification would increase through-plane voxel size?",
+    "options": [
+      "Increase slice thickness",
+      "Decrease slice thickness",
+      "Increase matrix size",
+      "Reduce FOV"
+    ],
+    "answer": "Increase slice thickness",
+    "explanation": "Slice thickness directly determines the through-plane dimension of the voxel."
+  },
+  {
+    "id": "ch7-133",
+    "chapter": 7,
+    "topic": "Spatial resolution",
+    "type": "single_best",
+    "text": "Which modification would reduce through-plane voxel size?",
+    "options": [
+      "Decrease slice thickness",
+      "Increase slice thickness",
+      "Increase FOV",
+      "Decrease matrix size"
+    ],
+    "answer": "Decrease slice thickness",
+    "explanation": "Reducing slice thickness reduces voxel depth and improves through-plane resolution."
+  },
+  {
+    "id": "ch7-134",
+    "chapter": 7,
+    "topic": "Spatial resolution",
+    "type": "single_best",
+    "text": "Which change would improve in-plane resolution while preserving slice thickness?",
+    "options": [
+      "Reduce FOV while keeping matrix constant",
+      "Increase slice thickness",
+      "Increase TR only",
+      "Increase NSA only"
+    ],
+    "answer": "Reduce FOV while keeping matrix constant",
+    "explanation": "Reducing FOV decreases the in-plane pixel dimensions without changing slice thickness."
+  },
+  {
+    "id": "ch7-135",
+    "chapter": 7,
+    "topic": "Spatial resolution",
+    "type": "single_best",
+    "text": "Which change would improve spatial resolution in all three dimensions most directly?",
+    "options": [
+      "Reduce in-plane pixel dimensions and reduce slice thickness",
+      "Increase voxel dimensions in all directions",
+      "Increase only TR",
+      "Increase only NSA"
+    ],
+    "answer": "Reduce in-plane pixel dimensions and reduce slice thickness",
+    "explanation": "Smaller in-plane pixels and thinner slices reduce voxel dimensions and improve three-dimensional spatial resolution."
+  },
+  {
+    "id": "ch7-136",
+    "chapter": 7,
+    "topic": "Scan time",
+    "type": "single_best",
+    "text": "Which parameter can increase scan time while also potentially improving SNR?",
+    "options": [
+      "NSA",
+      "Reduced NSA",
+      "Reduced phase encoding",
+      "Shorter TR"
+    ],
+    "answer": "NSA",
+    "explanation": "Increasing NSA repeats the acquisition, increasing scan time while improving SNR."
+  },
+  {
+    "id": "ch7-137",
+    "chapter": 7,
+    "topic": "Scan time",
+    "type": "single_best",
+    "text": "Which parameter can increase scan time while allowing greater longitudinal recovery?",
+    "options": [
+      "TR",
+      "TE only",
+      "Matrix reduction",
+      "FOV reduction"
+    ],
+    "answer": "TR",
+    "explanation": "Increasing TR allows greater longitudinal recovery but also increases acquisition time."
+  },
+  {
+    "id": "ch7-138",
+    "chapter": 7,
+    "topic": "Scan time",
+    "type": "single_best",
+    "text": "Which change can shorten scan time without directly changing the number of signal averages?",
+    "options": [
+      "Reduce the number of phase-encoding steps",
+      "Increase NSA",
+      "Increase TR",
+      "Increase matrix size"
+    ],
+    "answer": "Reduce the number of phase-encoding steps",
+    "explanation": "Fewer phase-encoding steps require fewer acquisition cycles."
+  },
+  {
+    "id": "ch7-139",
+    "chapter": 7,
+    "topic": "Scan time",
+    "type": "single_best",
+    "text": "Why can a longer echo train length reduce FSE scan time?",
+    "options": [
+      "More k-space lines are collected during each TR",
+      "TR becomes unnecessary",
+      "Phase encoding is eliminated",
+      "Noise is removed"
+    ],
+    "answer": "More k-space lines are collected during each TR",
+    "explanation": "A longer echo train allows multiple lines of k-space to be acquired following each excitation."
+  },
+  {
+    "id": "ch7-140",
+    "chapter": 7,
+    "topic": "Scan time",
+    "type": "single_best",
+    "text": "Which factor is NOT a primary component of the basic scan-time relationship described in this chapter?",
+    "options": [
+      "Patient age",
+      "TR",
+      "Phase-encoding steps",
+      "NSA"
+    ],
+    "answer": "Patient age",
+    "explanation": "The basic relationship includes TR, phase-encoding steps, and NSA; patient age is not a direct scan-time factor."
+  },
+  {
+    "id": "ch7-141",
+    "chapter": 7,
+    "topic": "Trade-offs",
+    "type": "single_best",
+    "text": "A technologist wants higher SNR without increasing scan time. Which strategy may be preferable to increasing NSA?",
+    "options": [
+      "Increase voxel volume",
+      "Increase NSA",
+      "Increase phase-encoding steps",
+      "Decrease voxel volume"
+    ],
+    "answer": "Increase voxel volume",
+    "explanation": "Larger voxels increase signal without the direct scan-time penalty associated with additional averages, although spatial resolution decreases."
+  },
+  {
+    "id": "ch7-142",
+    "chapter": 7,
+    "topic": "Trade-offs",
+    "type": "single_best",
+    "text": "A patient is likely to move during a long scan. Which optimization may be appropriate if diagnostic requirements allow it?",
+    "options": [
+      "Reduce scan time",
+      "Increase NSA substantially",
+      "Increase all matrix dimensions",
+      "Use the longest possible TR"
+    ],
+    "answer": "Reduce scan time",
+    "explanation": "Shorter acquisition reduces the opportunity for patient motion and motion-related image degradation."
+  },
+  {
+    "id": "ch7-143",
+    "chapter": 7,
+    "topic": "Trade-offs",
+    "type": "single_best",
+    "text": "Which strategy may improve SNR while preserving the same spatial resolution?",
+    "options": [
+      "Increase magnetic field strength",
+      "Increase voxel size",
+      "Decrease matrix size",
+      "Increase slice thickness"
+    ],
+    "answer": "Increase magnetic field strength",
+    "explanation": "Higher B0 can provide additional SNR without necessarily requiring larger voxels."
+  },
+  {
+    "id": "ch7-144",
+    "chapter": 7,
+    "topic": "Trade-offs",
+    "type": "single_best",
+    "text": "If high spatial resolution is essential, which change should generally be avoided unless compensated elsewhere?",
+    "options": [
+      "Increasing voxel size",
+      "Reducing voxel size",
+      "Reducing FOV",
+      "Increasing matrix size"
+    ],
+    "answer": "Increasing voxel size",
+    "explanation": "Larger voxels improve SNR but reduce spatial resolution."
+  },
+  {
+    "id": "ch7-145",
+    "chapter": 7,
+    "topic": "Trade-offs",
+    "type": "single_best",
+    "text": "If scan time must be reduced urgently, which change may compromise SNR?",
+    "options": [
+      "Reducing NSA",
+      "Increasing NSA",
+      "Increasing voxel volume",
+      "Using a dedicated coil"
+    ],
+    "answer": "Reducing NSA",
+    "explanation": "Reducing averages shortens scan time but lowers SNR."
+  },
+  {
+    "id": "ch7-146",
+    "chapter": 7,
+    "topic": "Trade-offs",
+    "type": "single_best",
+    "text": "If scan time is reduced by decreasing TR, which image characteristic may be affected?",
+    "options": [
+      "T1-related contrast",
+      "Patient position",
+      "Coil sensitivity",
+      "Magnetic field direction"
+    ],
+    "answer": "T1-related contrast",
+    "explanation": "Changing TR changes longitudinal recovery and therefore affects T1 weighting and tissue contrast."
+  },
+  {
+    "id": "ch7-147",
+    "chapter": 7,
+    "topic": "Trade-offs",
+    "type": "single_best",
+    "text": "Which statement best describes the relationship between SNR and spatial resolution?",
+    "options": [
+      "They often compete because smaller voxels improve resolution but reduce SNR",
+      "They always increase together",
+      "They are completely unrelated",
+      "Higher resolution always produces higher SNR"
+    ],
+    "answer": "They often compete because smaller voxels improve resolution but reduce SNR",
+    "explanation": "Smaller voxel volume improves detail but reduces the number of protons contributing to each voxel."
+  },
+  {
+    "id": "ch7-148",
+    "chapter": 7,
+    "topic": "Trade-offs",
+    "type": "single_best",
+    "text": "Which statement best describes the relationship between NSA and scan time?",
+    "options": [
+      "Increasing NSA improves SNR but increases scan time",
+      "Increasing NSA decreases SNR and scan time",
+      "Increasing NSA improves SNR without affecting scan time",
+      "Increasing NSA decreases scan time only"
+    ],
+    "answer": "Increasing NSA improves SNR but increases scan time",
+    "explanation": "Additional averages improve SNR by √NSA but require repeated acquisitions."
+  },
+  {
+    "id": "ch7-149",
+    "chapter": 7,
+    "topic": "Trade-offs",
+    "type": "single_best",
+    "text": "Which statement best describes the effect of reducing voxel size?",
+    "options": [
+      "Resolution improves but SNR decreases",
+      "Resolution decreases and SNR decreases",
+      "Resolution improves and SNR always increases",
+      "Neither resolution nor SNR changes"
+    ],
+    "answer": "Resolution improves but SNR decreases",
+    "explanation": "Smaller voxels improve spatial detail while reducing signal per voxel."
+  },
+  {
+    "id": "ch7-150",
+    "chapter": 7,
+    "topic": "Trade-offs",
+    "type": "single_best",
+    "text": "What is the key principle when choosing between higher resolution and higher SNR?",
+    "options": [
+      "Prioritize the characteristic most important for the clinical question",
+      "Always choose the highest resolution",
+      "Always choose the highest SNR",
+      "Always choose the longest scan time"
+    ],
+    "answer": "Prioritize the characteristic most important for the clinical question",
+    "explanation": "Protocol optimization should be guided by the diagnostic objective rather than maximizing one parameter universally."
+  },
+  {
+    "id": "ch7-151",
+    "chapter": 7,
+    "topic": "Protocol decision making",
+    "type": "single_best",
+    "text": "What should guide the final selection of MRI protocol parameters?",
+    "options": [
+      "The clinical question and diagnostic requirements",
+      "The desire to maximize every parameter",
+      "The longest possible scan time",
+      "The largest possible voxel"
+    ],
+    "answer": "The clinical question and diagnostic requirements",
+    "explanation": "Protocol parameters should be selected according to the anatomy and pathology that need to be demonstrated."
+  },
+  {
+    "id": "ch7-152",
+    "chapter": 7,
+    "topic": "Protocol decision making",
+    "type": "single_best",
+    "text": "Which factor should be considered alongside the clinical question when optimizing a protocol?",
+    "options": [
+      "Scanner and patient constraints",
+      "Only the patient's height",
+      "Only the room temperature",
+      "Only the coil manufacturer"
+    ],
+    "answer": "Scanner and patient constraints",
+    "explanation": "An effective protocol must satisfy the clinical goal while remaining practical for the scanner and patient."
+  },
+  {
+    "id": "ch7-153",
+    "chapter": 7,
+    "topic": "Protocol decision making",
+    "type": "single_best",
+    "text": "Which is an example of an extrinsic contrast parameter?",
+    "options": [
+      "TR",
+      "Proton density",
+      "T1 relaxation time",
+      "T2 relaxation time"
+    ],
+    "answer": "TR",
+    "explanation": "TR is an operator-controlled parameter that influences image contrast."
+  },
+  {
+    "id": "ch7-154",
+    "chapter": 7,
+    "topic": "Protocol decision making",
+    "type": "single_best",
+    "text": "Which group contains extrinsic contrast parameters?",
+    "options": [
+      "TR, TE, and flip angle",
+      "T1, T2, and proton density",
+      "Patient age, weight, and height",
+      "FOV, matrix, and room size"
+    ],
+    "answer": "TR, TE, and flip angle",
+    "explanation": "TR, TE, and flip angle are controllable sequence parameters that influence tissue contrast."
+  },
+  {
+    "id": "ch7-155",
+    "chapter": 7,
+    "topic": "Protocol decision making",
+    "type": "single_best",
+    "text": "Which group primarily contains geometry parameters?",
+    "options": [
+      "FOV, slice thickness, and matrix",
+      "TR, TE, and flip angle",
+      "T1, T2, and proton density",
+      "NSA, TE, and B0"
+    ],
+    "answer": "FOV, slice thickness, and matrix",
+    "explanation": "These parameters determine voxel dimensions and therefore influence spatial resolution."
+  },
+  {
+    "id": "ch7-156",
+    "chapter": 7,
+    "topic": "Protocol decision making",
+    "type": "single_best",
+    "text": "Which imaging option can be considered during protocol optimization to reduce acquisition burden?",
+    "options": [
+      "Parallel imaging",
+      "Increasing every voxel dimension",
+      "Removing all phase encoding",
+      "Eliminating image reconstruction"
+    ],
+    "answer": "Parallel imaging",
+    "explanation": "Parallel imaging is an imaging option that can help accelerate acquisition when appropriately applied."
+  },
+  {
+    "id": "ch7-157",
+    "chapter": 7,
+    "topic": "Protocol decision making",
+    "type": "single_best",
+    "text": "Which imaging option can reduce the amount of acquired data by acquiring only part of k-space?",
+    "options": [
+      "Partial Fourier",
+      "Increasing NSA",
+      "Increasing slice thickness",
+      "Increasing TR"
+    ],
+    "answer": "Partial Fourier",
+    "explanation": "Partial Fourier techniques acquire a fraction of k-space and use reconstruction methods to produce the image."
+  },
+  {
+    "id": "ch7-158",
+    "chapter": 7,
+    "topic": "Protocol optimization",
+    "type": "single_best",
+    "text": "Why might parallel imaging be included in a protocol?",
+    "options": [
+      "To help reduce acquisition time",
+      "To increase patient motion",
+      "To eliminate the need for an RF coil",
+      "To make all voxels larger"
+    ],
+    "answer": "To help reduce acquisition time",
+    "explanation": "Parallel imaging can accelerate data acquisition by reducing the amount of phase-encoding data that must be collected."
+  },
+  {
+    "id": "ch7-159",
+    "chapter": 7,
+    "topic": "Protocol optimization",
+    "type": "single_best",
+    "text": "What is the main purpose of phantom testing during protocol development?",
+    "options": [
+      "To evaluate and refine imaging performance under controlled conditions",
+      "To replace all clinical imaging",
+      "To determine the patient's diagnosis",
+      "To increase patient motion"
+    ],
+    "answer": "To evaluate and refine imaging performance under controlled conditions",
+    "explanation": "Phantom studies provide a controlled way to assess and optimize image quality."
+  },
+  {
+    "id": "ch7-160",
+    "chapter": 7,
+    "topic": "Protocol optimization",
+    "type": "single_best",
+    "text": "Why is clinical feedback useful when optimizing an MRI protocol?",
+    "options": [
+      "It helps determine whether images provide adequate diagnostic information",
+      "It automatically increases magnetic field strength",
+      "It removes the need for protocol testing",
+      "It determines patient blood pressure"
+    ],
+    "answer": "It helps determine whether images provide adequate diagnostic information",
+    "explanation": "Clinical feedback helps identify whether the protocol adequately demonstrates the intended anatomy and pathology."
+  },
+  {
+    "id": "ch7-161",
+    "chapter": 7,
+    "topic": "Volume imaging",
+    "type": "single_best",
+    "text": "What distinguishes 3D MRI from conventional 2D imaging?",
+    "options": [
+      "3D MRI acquires a volume of data rather than separate 2D slices",
+      "3D MRI does not use gradients",
+      "3D MRI produces no spatial information",
+      "3D MRI always uses thicker slices"
+    ],
+    "answer": "3D MRI acquires a volume of data rather than separate 2D slices",
+    "explanation": "Three-dimensional imaging acquires volumetric data that can be reconstructed in multiple planes."
+  },
+  {
+    "id": "ch7-162",
+    "chapter": 7,
+    "topic": "Volume imaging",
+    "type": "single_best",
+    "text": "What is a typical slice characteristic of 3D MRI?",
+    "options": [
+      "Very thin slices, often around 1 mm or less",
+      "Very thick slices of several centimeters",
+      "Only one slice per examination",
+      "Slices with mandatory large gaps"
+    ],
+    "answer": "Very thin slices, often around 1 mm or less",
+    "explanation": "3D acquisitions commonly use thin partitions to provide high spatial resolution."
+  },
+  {
+    "id": "ch7-163",
+    "chapter": 7,
+    "topic": "Volume imaging",
+    "type": "single_best",
+    "text": "Why are contiguous thin slices useful in 3D MRI?",
+    "options": [
+      "They support high-resolution multiplanar reconstruction",
+      "They eliminate all noise",
+      "They prevent signal generation",
+      "They always shorten scan time"
+    ],
+    "answer": "They support high-resolution multiplanar reconstruction",
+    "explanation": "Thin contiguous volumetric data can be reformatted in multiple planes while maintaining high spatial detail."
+  },
+  {
+    "id": "ch7-164",
+    "chapter": 7,
+    "topic": "Volume imaging",
+    "type": "single_best",
+    "text": "What is a major advantage of acquiring contiguous 3D data?",
+    "options": [
+      "There is no slice gap between partitions",
+      "The image contains no noise",
+      "The scan always takes less time",
+      "Voxel volume becomes infinite"
+    ],
+    "answer": "There is no slice gap between partitions",
+    "explanation": "Contiguous 3D acquisitions provide continuous volumetric coverage without gaps between individual partitions."
+  },
+  {
+    "id": "ch7-165",
+    "chapter": 7,
+    "topic": "Volume imaging",
+    "type": "single_best",
+    "text": "Why is cross-talk reduced or eliminated in contiguous 3D imaging?",
+    "options": [
+      "There is no gap between separately excited slices",
+      "The patient does not move",
+      "The scan uses no RF energy",
+      "The matrix is always smaller"
+    ],
+    "answer": "There is no gap between separately excited slices",
+    "explanation": "Because 3D imaging excites a volume and partitions it into contiguous sections, conventional slice-to-slice cross-talk is avoided."
+  },
+  {
+    "id": "ch7-166",
+    "chapter": 7,
+    "topic": "Volume imaging",
+    "type": "single_best",
+    "text": "Which sequence types are commonly used for 3D MRI according to this chapter?",
+    "options": [
+      "Gradient echo or fast spin echo",
+      "Only conventional spin echo",
+      "Only inversion recovery",
+      "Only proton spectroscopy"
+    ],
+    "answer": "Gradient echo or fast spin echo",
+    "explanation": "3D acquisitions can be implemented using gradient echo or fast spin echo techniques."
+  },
+  {
+    "id": "ch7-167",
+    "chapter": 7,
+    "topic": "Volume imaging",
+    "type": "single_best",
+    "text": "How is the excitation performed in a typical 3D acquisition?",
+    "options": [
+      "A slab or volume is excited",
+      "Only one isolated voxel is excited",
+      "Only the skin surface is excited",
+      "No tissue is excited"
+    ],
+    "answer": "A slab or volume is excited",
+    "explanation": "3D MRI typically uses slab excitation to acquire a volumetric dataset."
+  },
+  {
+    "id": "ch7-168",
+    "chapter": 7,
+    "topic": "Volume imaging",
+    "type": "single_best",
+    "text": "What is a major spatial-resolution advantage of 3D MRI?",
+    "options": [
+      "It can provide very thin, high-resolution partitions",
+      "It requires very thick slices",
+      "It prevents multiplanar imaging",
+      "It always produces lower resolution than 2D imaging"
+    ],
+    "answer": "It can provide very thin, high-resolution partitions",
+    "explanation": "Thin volumetric partitions allow high spatial resolution, particularly in the through-plane direction."
+  },
+  {
+    "id": "ch7-169",
+    "chapter": 7,
+    "topic": "Volume imaging",
+    "type": "single_best",
+    "text": "What is a major clinical advantage of 3D volumetric imaging?",
+    "options": [
+      "Images can be reconstructed in multiple planes",
+      "Only the original plane can be viewed",
+      "It eliminates the need for image reconstruction",
+      "It prevents assessment of small structures"
+    ],
+    "answer": "Images can be reconstructed in multiple planes",
+    "explanation": "The volumetric dataset allows multiplanar reformats without acquiring separate datasets in each plane."
+  },
+  {
+    "id": "ch7-170",
+    "chapter": 7,
+    "topic": "Volume imaging",
+    "type": "single_best",
+    "text": "Why can 3D MRI have longer scan times than 2D MRI?",
+    "options": [
+      "Phase encoding is performed in two spatial directions",
+      "It does not use phase encoding",
+      "It uses only one k-space line",
+      "It requires no RF pulses"
+    ],
+    "answer": "Phase encoding is performed in two spatial directions",
+    "explanation": "3D imaging requires additional phase encoding in the second spatial dimension, increasing acquisition demands."
+  },
+  {
+    "id": "ch7-171",
+    "chapter": 7,
+    "topic": "Volume imaging",
+    "type": "single_best",
+    "text": "In 3D imaging, which additional spatial direction requires phase encoding compared with a typical 2D acquisition?",
+    "options": [
+      "The slice or partition direction",
+      "The patient's head-to-foot direction only",
+      "The frequency direction only",
+      "No additional direction"
+    ],
+    "answer": "The slice or partition direction",
+    "explanation": "3D imaging uses phase encoding in both in-plane directions, including the direction that defines partitions."
+  },
+  {
+    "id": "ch7-172",
+    "chapter": 7,
+    "topic": "Volume imaging",
+    "type": "single_best",
+    "text": "What is one potential SNR advantage of 3D imaging?",
+    "options": [
+      "It can provide high SNR per unit time because a larger volume of tissue is excited",
+      "It always eliminates noise",
+      "It always uses larger voxels than 2D imaging",
+      "It produces no signal decay"
+    ],
+    "answer": "It can provide high SNR per unit time because a larger volume of tissue is excited",
+    "explanation": "The larger excited volume can provide an efficient source of signal that may be traded for higher resolution."
+  },
+  {
+    "id": "ch7-173",
+    "chapter": 7,
+    "topic": "Volume imaging",
+    "type": "single_best",
+    "text": "What can the SNR advantage of a 3D acquisition be traded for?",
+    "options": [
+      "Higher spatial resolution",
+      "Lower diagnostic information",
+      "Mandatory thicker slices",
+      "Elimination of multiplanar reconstruction"
+    ],
+    "answer": "Higher spatial resolution",
+    "explanation": "The available SNR can support the use of thinner partitions and higher spatial resolution."
+  },
+  {
+    "id": "ch7-174",
+    "chapter": 7,
+    "topic": "Volume imaging",
+    "type": "single_best",
+    "text": "Which statement about 3D MRI is most accurate?",
+    "options": [
+      "It provides a volumetric dataset suitable for multiplanar reconstruction",
+      "It can only generate one imaging plane",
+      "It always has shorter scan time than 2D MRI",
+      "It requires no phase encoding"
+    ],
+    "answer": "It provides a volumetric dataset suitable for multiplanar reconstruction",
+    "explanation": "The defining feature of 3D MRI is acquisition of volumetric data that can be reformatted."
+  },
+  {
+    "id": "ch7-175",
+    "chapter": 7,
+    "topic": "Volume imaging",
+    "type": "single_best",
+    "text": "Which feature makes 3D MRI particularly useful for multiplanar reformats?",
+    "options": [
+      "Thin contiguous volumetric data",
+      "Large slice gaps",
+      "Very thick isolated slices",
+      "Low matrix size"
+    ],
+    "answer": "Thin contiguous volumetric data",
+    "explanation": "Thin contiguous voxels provide detailed information that can be reformatted in different planes."
+  },
+  {
+    "id": "ch7-176",
+    "chapter": 7,
+    "topic": "Volume imaging",
+    "type": "single_best",
+    "text": "What is the primary disadvantage of very thin voxels in a 3D acquisition?",
+    "options": [
+      "Reduced SNR per voxel",
+      "Reduced spatial resolution",
+      "Loss of volumetric information",
+      "Automatic elimination of tissue contrast"
+    ],
+    "answer": "Reduced SNR per voxel",
+    "explanation": "Thinner voxels contain fewer protons and therefore provide less signal per voxel."
+  },
+  {
+    "id": "ch7-177",
+    "chapter": 7,
+    "topic": "Volume imaging",
+    "type": "single_best",
+    "text": "A 3D protocol uses 1 mm contiguous partitions. What is the primary benefit?",
+    "options": [
+      "High-resolution volumetric imaging",
+      "Maximum voxel volume",
+      "Reduced spatial resolution",
+      "Elimination of all acquisition time"
+    ],
+    "answer": "High-resolution volumetric imaging",
+    "explanation": "Thin contiguous partitions provide detailed volumetric information suitable for multiplanar reconstruction."
+  },
+  {
+    "id": "ch7-178",
+    "chapter": 7,
+    "topic": "Volume imaging",
+    "type": "single_best",
+    "text": "Why can 3D MRI be useful when anatomy needs to be viewed in several planes?",
+    "options": [
+      "A single volumetric acquisition can be reformatted into multiple planes",
+      "It requires a separate scan for every plane",
+      "It only produces axial images",
+      "It cannot preserve through-plane information"
+    ],
+    "answer": "A single volumetric acquisition can be reformatted into multiple planes",
+    "explanation": "The acquired volume contains spatial information in all three dimensions."
+  },
+  {
+    "id": "ch7-179",
+    "chapter": 7,
+    "topic": "Volume imaging",
+    "type": "single_best",
+    "text": "Which characteristic of 3D imaging helps prevent missing anatomy between slices?",
+    "options": [
+      "Contiguous thin partitions",
+      "Large slice gaps",
+      "Very thick slices",
+      "Low matrix acquisition"
+    ],
+    "answer": "Contiguous thin partitions",
+    "explanation": "Contiguous partitions provide continuous volumetric coverage without gaps."
+  },
+  {
+    "id": "ch7-180",
+    "chapter": 7,
+    "topic": "Volume imaging",
+    "type": "single_best",
+    "text": "What is a key reason that 3D imaging may require more acquisition data than 2D imaging?",
+    "options": [
+      "It encodes spatial information in an additional direction",
+      "It eliminates the need for spatial encoding",
+      "It acquires fewer dimensions",
+      "It does not collect k-space"
+    ],
+    "answer": "It encodes spatial information in an additional direction",
+    "explanation": "3D imaging requires encoding through the partition direction as well as the two in-plane dimensions."
+  },
+  {
+    "id": "ch7-181",
+    "chapter": 7,
+    "topic": "Integrated protocol optimization",
+    "type": "single_best",
+    "text": "A patient requires high-resolution imaging but cannot tolerate a long examination. Which approach is most appropriate?",
+    "options": [
+      "Balance resolution against scan time using available acceleration or other optimization methods",
+      "Maximize NSA regardless of scan time",
+      "Use the largest possible voxels",
+      "Ignore the clinical requirement"
+    ],
+    "answer": "Balance resolution against scan time using available acceleration or other optimization methods",
+    "explanation": "The protocol should preserve necessary resolution while managing scan duration through appropriate optimization."
+  },
+  {
+    "id": "ch7-182",
+    "chapter": 7,
+    "topic": "Integrated protocol optimization",
+    "type": "single_best",
+    "text": "A protocol has poor SNR but adequate spatial resolution and scan time. Which change may improve SNR without altering voxel dimensions?",
+    "options": [
+      "Increase NSA",
+      "Reduce slice thickness",
+      "Increase matrix size",
+      "Reduce FOV"
+    ],
+    "answer": "Increase NSA",
+    "explanation": "Increasing NSA improves SNR while leaving voxel dimensions unchanged, although it increases scan time."
+  },
+  {
+    "id": "ch7-183",
+    "chapter": 7,
+    "topic": "Integrated protocol optimization",
+    "type": "single_best",
+    "text": "A protocol has poor spatial resolution but excessive SNR. Which adjustment could use some of the available SNR to improve resolution?",
+    "options": [
+      "Reduce voxel size",
+      "Increase voxel size",
+      "Increase slice thickness",
+      "Reduce matrix size"
+    ],
+    "answer": "Reduce voxel size",
+    "explanation": "Smaller voxels improve spatial resolution while consuming some of the available SNR."
+  },
+  {
+    "id": "ch7-184",
+    "chapter": 7,
+    "topic": "Integrated protocol optimization",
+    "type": "single_best",
+    "text": "A protocol has excessive scan time and sufficient SNR. Which adjustment may shorten the examination?",
+    "options": [
+      "Reduce NSA",
+      "Increase NSA",
+      "Increase TR",
+      "Increase phase-encoding steps"
+    ],
+    "answer": "Reduce NSA",
+    "explanation": "Reducing the number of averages shortens acquisition time but also reduces SNR."
+  },
+  {
+    "id": "ch7-185",
+    "chapter": 7,
+    "topic": "Integrated protocol optimization",
+    "type": "single_best",
+    "text": "A protocol has poor T1 contrast despite adequate SNR. Which adjustment is most directly relevant?",
+    "options": [
+      "Optimize TR and TE for T1 weighting",
+      "Increase voxel size only",
+      "Increase NSA only",
+      "Increase slice thickness only"
+    ],
+    "answer": "Optimize TR and TE for T1 weighting",
+    "explanation": "T1 contrast is strongly controlled by TR and is also influenced by TE."
+  },
+  {
+    "id": "ch7-186",
+    "chapter": 7,
+    "topic": "Integrated protocol optimization",
+    "type": "single_best",
+    "text": "A protocol has poor T2 contrast despite adequate SNR. Which adjustment is most directly relevant?",
+    "options": [
+      "Use long TR and long TE",
+      "Use short TR and short TE",
+      "Increase FOV only",
+      "Increase NSA only"
+    ],
+    "answer": "Use long TR and long TE",
+    "explanation": "Long TR minimizes T1 effects and long TE emphasizes T2 differences."
+  },
+  {
+    "id": "ch7-187",
+    "chapter": 7,
+    "topic": "Integrated protocol optimization",
+    "type": "single_best",
+    "text": "A protocol requires predominantly proton density contrast. Which parameter combination is most appropriate?",
+    "options": [
+      "Long TR and short TE",
+      "Short TR and long TE",
+      "Short TR and short TE",
+      "Long TR and long TE"
+    ],
+    "answer": "Long TR and short TE",
+    "explanation": "This combination minimizes T1 and T2 weighting so proton density contributes strongly to contrast."
+  },
+  {
+    "id": "ch7-188",
+    "chapter": 7,
+    "topic": "Integrated protocol optimization",
+    "type": "single_best",
+    "text": "A technologist wants to increase SNR by reducing receive bandwidth. What additional consideration is important?",
+    "options": [
+      "Chemical shift artifact may increase",
+      "Spatial resolution must always increase",
+      "The magnetic field strength will decrease",
+      "The number of protons will decrease"
+    ],
+    "answer": "Chemical shift artifact may increase",
+    "explanation": "Narrow bandwidth can improve SNR but increases sensitivity to chemical shift displacement."
+  },
+  {
+    "id": "ch7-189",
+    "chapter": 7,
+    "topic": "Integrated protocol optimization",
+    "type": "single_best",
+    "text": "A protocol uses a very large FOV and small matrix. Which image-quality characteristic is most likely compromised?",
+    "options": [
+      "Spatial resolution",
+      "Voxel volume",
+      "Signal generation",
+      "Patient positioning"
+    ],
+    "answer": "Spatial resolution",
+    "explanation": "A large FOV combined with a small matrix produces larger in-plane pixels and lower spatial resolution."
+  },
+  {
+    "id": "ch7-190",
+    "chapter": 7,
+    "topic": "Integrated protocol optimization",
+    "type": "single_best",
+    "text": "A protocol uses a small FOV and large matrix. What is the expected result?",
+    "options": [
+      "High in-plane spatial resolution with potentially lower SNR",
+      "Low spatial resolution with higher voxel volume",
+      "No spatial information",
+      "Automatic elimination of noise"
+    ],
+    "answer": "High in-plane spatial resolution with potentially lower SNR",
+    "explanation": "Small FOV and large matrix create small pixels, improving resolution but reducing voxel volume."
+  },
+  {
+    "id": "ch7-191",
+    "chapter": 7,
+    "topic": "Integrated protocol optimization",
+    "type": "single_best",
+    "text": "Which protocol modification is most appropriate for improving through-plane resolution when SNR is sufficient?",
+    "options": [
+      "Reduce slice thickness",
+      "Increase slice thickness",
+      "Increase FOV",
+      "Reduce matrix size"
+    ],
+    "answer": "Reduce slice thickness",
+    "explanation": "Thinner slices reduce voxel depth and improve through-plane spatial resolution."
+  },
+  {
+    "id": "ch7-192",
+    "chapter": 7,
+    "topic": "Integrated protocol optimization",
+    "type": "single_best",
+    "text": "Which parameter change would most directly improve SNR by increasing the amount of tissue signal collected per voxel?",
+    "options": [
+      "Increase voxel volume",
+      "Reduce voxel volume",
+      "Increase matrix size",
+      "Reduce slice thickness"
+    ],
+    "answer": "Increase voxel volume",
+    "explanation": "Larger voxels contain more protons and generally provide greater signal."
+  },
+  {
+    "id": "ch7-193",
+    "chapter": 7,
+    "topic": "Integrated protocol optimization",
+    "type": "single_best",
+    "text": "A patient is unable to remain still, but the protocol requires adequate spatial resolution. What should the technologist prioritize?",
+    "options": [
+      "Achieve the required resolution within a clinically reasonable scan time",
+      "Use the longest possible acquisition",
+      "Increase NSA indefinitely",
+      "Ignore motion risk"
+    ],
+    "answer": "Achieve the required resolution within a clinically reasonable scan time",
+    "explanation": "The protocol must balance diagnostic resolution against the patient's ability to remain still."
+  },
+  {
+    "id": "ch7-194",
+    "chapter": 7,
+    "topic": "Integrated protocol optimization",
+    "type": "single_best",
+    "text": "Which change would most likely improve SNR while increasing scan time?",
+    "options": [
+      "Increase NSA",
+      "Reduce NSA",
+      "Reduce phase encoding",
+      "Reduce TR"
+    ],
+    "answer": "Increase NSA",
+    "explanation": "Additional averages increase SNR by the square root of NSA while increasing scan time proportionally."
+  },
+  {
+    "id": "ch7-195",
+    "chapter": 7,
+    "topic": "Integrated protocol optimization",
+    "type": "single_best",
+    "text": "Which change would most likely shorten scan time but reduce SNR?",
+    "options": [
+      "Reduce NSA",
+      "Increase NSA",
+      "Increase TR",
+      "Increase phase-encoding steps"
+    ],
+    "answer": "Reduce NSA",
+    "explanation": "Fewer averages reduce acquisition time but also reduce SNR."
+  },
+  {
+    "id": "ch7-196",
+    "chapter": 7,
+    "topic": "Integrated protocol optimization",
+    "type": "single_best",
+    "text": "Which change would most likely shorten scan time but reduce phase-direction spatial resolution?",
+    "options": [
+      "Reduce the phase-encoding matrix",
+      "Increase the phase-encoding matrix",
+      "Increase NSA",
+      "Increase TR"
+    ],
+    "answer": "Reduce the phase-encoding matrix",
+    "explanation": "Fewer phase-encoding steps shorten acquisition but reduce the number of pixels in that direction."
+  },
+  {
+    "id": "ch7-197",
+    "chapter": 7,
+    "topic": "Integrated protocol optimization",
+    "type": "single_best",
+    "text": "Which approach best represents production-quality MRI protocol development?",
+    "options": [
+      "Define the clinical goal, select the sequence, optimize parameters, and evaluate the results",
+      "Maximize every parameter without testing",
+      "Use the same protocol for every clinical question",
+      "Optimize scan time only"
+    ],
+    "answer": "Define the clinical goal, select the sequence, optimize parameters, and evaluate the results",
+    "explanation": "A systematic and iterative process produces protocols that are tailored to diagnostic requirements."
+  },
+  {
+    "id": "ch7-198",
+    "chapter": 7,
+    "topic": "Integrated protocol optimization",
+    "type": "single_best",
+    "text": "Which statement best summarizes MRI protocol optimization?",
+    "options": [
+      "It is the process of balancing image quality requirements with practical acquisition constraints",
+      "It means maximizing SNR regardless of other factors",
+      "It means minimizing scan time regardless of image quality",
+      "It means using the same parameters for every examination"
+    ],
+    "answer": "It is the process of balancing image quality requirements with practical acquisition constraints",
+    "explanation": "Optimization balances SNR, CNR, spatial resolution, and scan time according to the clinical objective."
+  },
+  {
+    "id": "ch7-199",
+    "chapter": 7,
+    "topic": "Integrated protocol optimization",
+    "type": "single_best",
+    "text": "Which combination represents the four main competing considerations in MRI protocol optimization?",
+    "options": [
+      "SNR, CNR, spatial resolution, and scan time",
+      "TR, TE, FOV, and matrix only",
+      "B0, patient weight, room temperature, and coil size",
+      "Frequency, phase, gradient, and RF power only"
+    ],
+    "answer": "SNR, CNR, spatial resolution, and scan time",
+    "explanation": "These four characteristics form the central balance required when optimizing MRI protocols."
+  },
+  {
+    "id": "ch7-200",
+    "chapter": 7,
+    "topic": "Protocol optimization",
+    "type": "single_best",
+    "text": "Which statement best describes the overall objective of Chapter 7?",
+    "options": [
+      "Produce diagnostically useful images by balancing SNR, CNR, spatial resolution, and scan time",
+      "Maximize scan time for every examination",
+      "Maximize voxel size regardless of anatomy",
+      "Use the highest possible matrix for every examination"
+    ],
+    "answer": "Produce diagnostically useful images by balancing SNR, CNR, spatial resolution, and scan time",
+    "explanation": "Protocol optimization aims to achieve the best diagnostic image quality while respecting practical scanner and patient constraints."
+  },
+  {
+  "id": "ch7-201",
+  "chapter": 7,
+  "topic": "SNR",
+  "type": "single_best",
+  "text": "Increasing the number of signal averages by a factor of 4 increases SNR by what factor?",
+  "options": [
+   "2",
+   "4",
+   "8",
+   "16"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "SNR scales with the square root of NEX, and the square root of 4 is 2.",
+  "difficulty": "Medium",
+  "source_note": "Sample general MRI knowledge question. Review before publishing.",
+  "status": "published"
+ },
+ {
+  "id": "ch7-202",
+  "chapter": 7,
+  "topic": "Scan time",
+  "type": "calculation",
+  "text": "A 2D spin-echo scan has TR 500 ms, 256 phase-encoding steps and 2 NEX. What is the scan time?",
+  "options": [
+   "2 min 8 s",
+   "4 min 16 s",
+   "8 min 32 s",
+   "1 min 4 s"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Scan time = TR x phase steps x NEX = 0.5 s x 256 x 2 = 256 s, which is 4 min 16 s.",
+  "difficulty": "Medium",
+  "source_note": "Sample general MRI knowledge question. Review before publishing.",
+  "status": "published"
+ }
+]

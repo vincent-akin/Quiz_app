@@ -1,0 +1,242 @@
+[
+ {
+  "id": "ch2-065",
+  "chapter": 3,
+  "topic": "Spin echo",
+  "type": "single_best",
+  "text": "What is the primary purpose of the 180° pulse in a conventional spin-echo sequence?",
+  "options": [
+   "To refocus transverse dephasing caused by static field inhomogeneities",
+   "To permanently destroy longitudinal magnetization",
+   "To eliminate B0",
+   "To produce the main magnetic field"
+  ],
+  "answer": "To refocus transverse dephasing caused by static field inhomogeneities",
+  "explanation": "The 180° refocusing pulse reverses phase dispersion caused by static field differences, allowing a spin echo to form."
+ },
+ {
+  "id": "ch2-066",
+  "chapter": 3,
+  "topic": "Spin echo",
+  "type": "single_best",
+  "text": "What is produced at the appropriate time after a 90° pulse followed by a 180° pulse in a spin-echo sequence?",
+  "options": [
+   "A spin echo",
+   "A permanent RF signal",
+   "A gradient-only signal",
+   "A CT projection"
+  ],
+  "answer": "A spin echo",
+  "explanation": "The 180° pulse refocuses the spins so that they generate a measurable spin echo at the echo time."
+ },
+ {
+  "id": "ch2-090",
+  "chapter": 3,
+  "topic": "Spin echo",
+  "type": "single_best",
+  "text": "What is the basic pulse sequence used to generate a conventional spin echo?",
+  "options": [
+   "90° pulse followed by a 180° refocusing pulse",
+   "180° pulse followed by a 90° pulse only",
+   "Two gradient pulses without RF",
+   "A single gradient pulse without excitation"
+  ],
+  "answer": "90° pulse followed by a 180° refocusing pulse",
+  "explanation": "A conventional spin-echo sequence uses a 90° excitation pulse followed by a 180° refocusing pulse."
+ },
+ {
+  "id": "ch2-091",
+  "chapter": 3,
+  "topic": "Spin echo",
+  "type": "single_best",
+  "text": "The 180° pulse in a spin-echo sequence primarily corrects for:",
+  "options": [
+   "Static field-related phase differences",
+   "Patient motion completely",
+   "All T1 relaxation",
+   "All random noise"
+  ],
+  "answer": "Static field-related phase differences",
+  "explanation": "The refocusing pulse reverses phase dispersion caused by relatively static magnetic field differences."
+ },
+ {
+  "id": "ch2-094",
+  "chapter": 3,
+  "topic": "Echo formation",
+  "type": "single_best",
+  "text": "What does refocusing mean in MRI?",
+  "options": [
+   "Bringing spins back toward phase coherence",
+   "Increasing patient temperature",
+   "Increasing the B0 field indefinitely",
+   "Removing all RF energy"
+  ],
+  "answer": "Bringing spins back toward phase coherence",
+  "explanation": "Refocusing reverses certain phase differences so that spins become more coherent and generate an echo."
+ },
+ {
+  "id": "ch2-151",
+  "chapter": 3,
+  "topic": "Inversion recovery",
+  "type": "single_best",
+  "text": "What is the defining feature of an inversion recovery sequence?",
+  "options": [
+   "An initial 180° inversion pulse is applied before excitation and signal measurement",
+   "Only a gradient pulse is used",
+   "No RF pulse is used",
+   "The main magnetic field is temporarily switched off"
+  ],
+  "answer": "An initial 180° inversion pulse is applied before excitation and signal measurement",
+  "explanation": "Inversion recovery sequences begin by inverting the longitudinal magnetization before allowing it to recover and sampling the signal."
+ },
+ {
+  "id": "ch2-152",
+  "chapter": 3,
+  "topic": "Inversion recovery",
+  "type": "single_best",
+  "text": "What does TI represent in an inversion recovery sequence?",
+  "options": [
+   "Inversion time",
+   "Image time",
+   "Intensity time",
+   "In-plane time"
+  ],
+  "answer": "Inversion time",
+  "explanation": "TI is the time between the initial inversion pulse and the subsequent excitation pulse."
+ },
+ {
+  "id": "ch2-153",
+  "chapter": 3,
+  "topic": "Null point",
+  "type": "single_best",
+  "text": "What is the null point of a tissue in an inversion recovery sequence?",
+  "options": [
+   "The time when its longitudinal magnetization passes through zero",
+   "The time when B0 becomes zero",
+   "The time when all transverse magnetization disappears permanently",
+   "The time when the RF pulse reaches maximum frequency"
+  ],
+  "answer": "The time when its longitudinal magnetization passes through zero",
+  "explanation": "At the tissue's null point, its longitudinal magnetization is approximately zero and can be suppressed by appropriate timing."
+ },
+ {
+  "id": "ch2-154",
+  "chapter": 3,
+  "topic": "STIR",
+  "type": "single_best",
+  "text": "What is the primary purpose of STIR imaging?",
+  "options": [
+   "Fat suppression",
+   "Water suppression",
+   "Air suppression",
+   "Bone suppression only"
+  ],
+  "answer": "Fat suppression",
+  "explanation": "Short tau inversion recovery, or STIR, uses an inversion time selected to null the signal from fat."
+ },
+ {
+  "id": "ch2-155",
+  "chapter": 3,
+  "topic": "STIR",
+  "type": "single_best",
+  "text": "STIR suppresses fat by selecting an inversion time that corresponds approximately to:",
+  "options": [
+   "The zero crossing of fat longitudinal magnetization",
+   "The maximum T2 signal of fat",
+   "The Larmor frequency of air",
+   "The peak gradient amplitude"
+  ],
+  "answer": "The zero crossing of fat longitudinal magnetization",
+  "explanation": "The STIR TI is chosen so that fat magnetization passes through zero when the excitation pulse is applied."
+ },
+ {
+  "id": "ch2-156",
+  "chapter": 3,
+  "topic": "STIR limitations",
+  "type": "single_best",
+  "text": "Why is STIR generally avoided for post-contrast T1-weighted imaging?",
+  "options": [
+   "It can suppress tissues with short T1 values, including enhancing tissue",
+   "It cannot produce any image contrast",
+   "It eliminates all T2 signal",
+   "It requires no RF energy"
+  ],
+  "answer": "It can suppress tissues with short T1 values, including enhancing tissue",
+  "explanation": "STIR suppresses tissues based on T1 rather than specifically identifying fat, so gadolinium-enhancing tissues can also be affected."
+ },
+ {
+  "id": "ch2-157",
+  "chapter": 3,
+  "topic": "FLAIR",
+  "type": "single_best",
+  "text": "What is the primary purpose of FLAIR imaging?",
+  "options": [
+   "Suppressing cerebrospinal fluid signal",
+   "Suppressing all fat signal",
+   "Suppressing cortical bone",
+   "Suppressing blood flow only"
+  ],
+  "answer": "Suppressing cerebrospinal fluid signal",
+  "explanation": "Fluid-attenuated inversion recovery uses a long inversion time to null CSF signal."
+ },
+ {
+  "id": "ch2-158",
+  "chapter": 3,
+  "topic": "FLAIR",
+  "type": "single_best",
+  "text": "FLAIR is particularly useful in brain imaging because it suppresses:",
+  "options": [
+   "CSF",
+   "Fat only",
+   "Bone marrow only",
+   "Air"
+  ],
+  "answer": "CSF",
+  "explanation": "Suppressing the normally bright CSF signal can make certain periventricular and cortical abnormalities more conspicuous."
+ },
+ {
+  "id": "ch2-159",
+  "chapter": 3,
+  "topic": "Fat suppression",
+  "type": "single_best",
+  "text": "What is one major advantage of fat suppression in MRI?",
+  "options": [
+   "It can improve the visibility of pathology by reducing bright fat signal",
+   "It increases the amount of fat signal",
+   "It eliminates the need for spatial encoding",
+   "It removes all image noise"
+  ],
+  "answer": "It can improve the visibility of pathology by reducing bright fat signal",
+  "explanation": "Suppressing fat can increase contrast between fat-containing tissues and abnormalities such as edema or enhancement."
+ },
+ {
+  "id": "ch2-160",
+  "chapter": 3,
+  "topic": "Chemical shift fat suppression",
+  "type": "single_best",
+  "text": "Frequency-selective fat suppression relies on the frequency difference between:",
+  "options": [
+   "Fat and water protons",
+   "Bone and air",
+   "Muscle and bone",
+   "Blood and calcium"
+  ],
+  "answer": "Fat and water protons",
+  "explanation": "Frequency-selective fat suppression exploits the small resonance frequency difference between fat and water."
+ },
+ {
+  "id": "ch2-161",
+  "chapter": 3,
+  "topic": "Fat suppression",
+  "type": "single_best",
+  "text": "A major limitation of frequency-selective fat suppression is that it can be affected by:",
+  "options": [
+   "Magnetic field inhomogeneity",
+   "Patient height only",
+   "Slice thickness only",
+   "Room lighting"
+  ],
+  "answer": "Magnetic field inhomogeneity",
+  "explanation": "Frequency-selective fat suppression requires accurate frequency separation between fat and water and can become nonuniform when the magnetic field is inhomogeneous."
+ }
+]

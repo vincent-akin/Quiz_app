@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "ch4-001",
+    "chapter": 4,
+    "topic": "Gradient echo pulse sequences",
+    "type": "single_best",
+    "text": "What is the defining feature of a gradient echo pulse sequence?",
+    "options": [
+      "The echo is produced by gradient reversal rather than a 180° RF pulse",
+      "The echo is produced only by a 180° RF pulse",
+      "The sequence uses no magnetic field gradients",
+      "The sequence always uses a 90° excitation pulse"
+    ],
+    "answer": "The echo is produced by gradient reversal rather than a 180° RF pulse",
+    "explanation": "Gradient echo sequences generate an echo by changing the gradient polarity to rephase spins rather than using a 180° RF refocusing pulse."
+  },
+  {
+    "id": "ch4-002",
+    "chapter": 4,
+    "topic": "Gradient echo pulse sequences",
+    "type": "single_best",
+    "text": "Which RF pulse is commonly used to excite the spins in a gradient echo sequence?",
+    "options": [
+      "Variable flip angle pulse",
+      "180° pulse only",
+      "360° pulse only",
+      "No RF pulse"
+    ],
+    "answer": "Variable flip angle pulse",
+    "explanation": "Gradient echo sequences commonly use flip angles less than 90°, allowing rapid repetition."
+  },
+  {
+    "id": "ch4-003",
+    "chapter": 4,
+    "topic": "Variable flip angle",
+    "type": "single_best",
+    "text": "What is meant by a variable flip angle in MRI?",
+    "options": [
+      "The angle through which the net magnetization is rotated can be changed",
+      "The gradient direction is changed randomly",
+      "The magnetic field strength is continuously changed",
+      "The echo time is varied during every sequence"
+    ],
+    "answer": "The angle through which the net magnetization is rotated can be changed",
+    "explanation": "A variable flip angle refers to changing the angle through which the RF pulse tips the net magnetization."
+  },
+  {
+    "id": "ch4-004",
+    "chapter": 4,
+    "topic": "Variable flip angle",
+    "type": "single_best",
+    "text": "Compared with a 90° RF pulse, a smaller flip angle generally leaves more longitudinal magnetization immediately after excitation.",
+    "options": [
+      "True",
+      "False",
+      "Only at 7 T",
+      "Only during spin echo"
+    ],
+    "answer": "True",
+    "explanation": "A smaller flip angle tips less longitudinal magnetization into the transverse plane, leaving more longitudinal magnetization."
+  },
+  {
+    "id": "ch4-005",
+    "chapter": 4,
+    "topic": "Variable flip angle",
+    "type": "single_best",
+    "text": "Why are relatively small flip angles useful in fast gradient echo imaging?",
+    "options": [
+      "They allow rapid recovery of longitudinal magnetization",
+      "They eliminate all T2* effects",
+      "They require a 180° refocusing pulse",
+      "They prevent gradient switching"
+    ],
+    "answer": "They allow rapid recovery of longitudinal magnetization",
+    "explanation": "Smaller flip angles leave more longitudinal magnetization available for subsequent excitations, supporting short repetition times."
+  },
+  {
+    "id": "ch4-006",
+    "chapter": 4,
+    "topic": "Variable flip angle",
+    "type": "single_best",
+    "text": "Increasing the flip angle generally increases the amount of longitudinal magnetization tipped into the transverse plane.",
+    "options": [
+      "True",
+      "False",
+      "Only during balanced GRE",
+      "Only with fat suppression"
+    ],
+    "answer": "True",
+    "explanation": "A larger flip angle rotates more longitudinal magnetization into the transverse plane."
+  },
+  {
+    "id": "ch4-007",
+    "chapter": 4,
+    "topic": "Variable flip angle",
+    "type": "single_best",
+    "text": "Which factor is directly controlled by changing the RF flip angle?",
+    "options": [
+      "The amount of longitudinal magnetization converted to transverse magnetization",
+      "The patient's magnetic susceptibility",
+      "The static field homogeneity",
+      "The gradient coil diameter"
+    ],
+    "answer": "The amount of longitudinal magnetization converted to transverse magnetization",
+    "explanation": "The flip angle determines how much longitudinal magnetization is tipped into the transverse plane."
+  },
+  {
+    "id": "ch4-008",
+    "chapter": 4,
+    "topic": "Variable flip angle",
+    "type": "single_best",
+    "text": "A flip angle of 30° means that the net magnetization is rotated through approximately what angle from the longitudinal axis?",
+    "options": [
+      "30°",
+      "60°",
+      "90°",
+      "180°"
+    ],
+    "answer": "30°",
+    "explanation": "The flip angle specifies the degree through which the net magnetization vector is tipped away from the longitudinal axis."
+  },
+  {
+    "id": "ch4-009",
+    "chapter": 4,
+    "topic": "Variable flip angle",
+    "type": "single_best",
+    "text": "What happens to longitudinal magnetization immediately after a 90° excitation pulse in an idealized system?",
+    "options": [
+      "It is maximally tipped into the transverse plane",
+      "It doubles",
+      "It remains entirely longitudinal",
+      "It becomes permanently zero"
+    ],
+    "answer": "It is maximally tipped into the transverse plane",
+    "explanation": "A 90° pulse rotates the longitudinal magnetization into the transverse plane."
+  },
+  {
+    "id": "ch4-010",
+    "chapter": 4,
+    "topic": "Variable flip angle",
+    "type": "single_best",
+    "text": "Why can gradient echo sequences use flip angles below 90°?",
+    "options": [
+      "A 180° refocusing pulse is not required to create the echo",
+      "Transverse magnetization is not required",
+      "Gradients replace the RF excitation pulse",
+      "T1 relaxation is eliminated"
+    ],
+    "answer": "A 180° refocusing pulse is not required to create the echo",
+    "explanation": "Gradient reversal produces the echo, so a 180° refocusing pulse is unnecessary."
+  },
+  {
+    "id": "ch4-011",
+    "chapter": 4,
+    "topic": "Gradient rephasing",
+    "type": "single_best",
+    "text": "How is a gradient echo formed?",
+    "options": [
+      "By dephasing and then rephasing spins using magnetic field gradients",
+      "By applying two consecutive 180° RF pulses",
+      "By eliminating all magnetic field gradients",
+      "By applying only an inversion pulse"
+    ],
+    "answer": "By dephasing and then rephasing spins using magnetic field gradients",
+    "explanation": "A gradient first causes phase dispersion and is then reversed to bring the spins back into phase, producing an echo."
+  },
+  {
+    "id": "ch4-012",
+    "chapter": 4,
+    "topic": "Gradient rephasing",
+    "type": "single_best",
+    "text": "What does a gradient do to the phase of spins when it is applied for dephasing?",
+    "options": [
+      "It causes spins at different positions to accumulate different phases",
+      "It forces all spins to have identical phase",
+      "It eliminates transverse magnetization immediately",
+      "It produces longitudinal magnetization only"
+    ],
+    "answer": "It causes spins at different positions to accumulate different phases",
+    "explanation": "A magnetic field gradient creates position-dependent precessional frequencies, producing phase differences."
+  },
+  {
+    "id": "ch4-013",
+    "chapter": 4,
+    "topic": "Gradient rephasing",
+    "type": "single_best",
+    "text": "What must happen to a dephasing gradient to produce a gradient echo?",
+    "options": [
+      "Its polarity must be reversed to rephase the spins",
+      "Its amplitude must remain zero",
+      "It must be replaced by an RF pulse",
+      "It must be turned into an inversion pulse"
+    ],
+    "answer": "Its polarity must be reversed to rephase the spins",
+    "explanation": "Reversing the gradient causes spins to accumulate phase in the opposite direction, allowing them to rephase."
+  },
+  {
+    "id": "ch4-014",
+    "chapter": 4,
+    "topic": "Gradient rephasing",
+    "type": "single_best",
+    "text": "At the center of a gradient echo, the transverse spins are ideally:",
+    "options": [
+      "Most closely rephased",
+      "Completely longitudinal",
+      "Maximally inverted",
+      "Completely saturated"
+    ],
+    "answer": "Most closely rephased",
+    "explanation": "The gradient echo occurs when the phase dispersion produced by the dephasing gradient has been compensated by the rephasing gradient."
+  },
+  {
+    "id": "ch4-015",
+    "chapter": 4,
+    "topic": "Gradient rephasing",
+    "type": "single_best",
+    "text": "Which type of relaxation strongly influences the signal in gradient echo sequences?",
+    "options": [
+      "T2* relaxation",
+      "T2 relaxation only",
+      "T1 relaxation only",
+      "T1rho only"
+    ],
+    "answer": "T2* relaxation",
+    "explanation": "Gradient echo sequences do not use a 180° refocusing pulse, so they retain effects from magnetic field inhomogeneity and susceptibility represented by T2*."
+  },
+  {
+    "id": "ch4-016",
+    "chapter": 4,
+    "topic": "Gradient rephasing",
+    "type": "single_best",
+    "text": "Why is a gradient echo generally more sensitive to magnetic field inhomogeneity than a spin echo?",
+    "options": [
+      "There is no 180° pulse to refocus static field inhomogeneities",
+      "The RF pulse is always 180°",
+      "The gradient echo uses no transverse magnetization",
+      "The spin echo uses no gradients"
+    ],
+    "answer": "There is no 180° pulse to refocus static field inhomogeneities",
+    "explanation": "The 180° pulse in spin echo sequences compensates for certain static field variations, whereas GRE sequences retain these T2* effects."
+  },
+  {
+    "id": "ch4-017",
+    "chapter": 4,
+    "topic": "Gradient rephasing",
+    "type": "single_best",
+    "text": "Which pulse is specifically responsible for refocusing spins in a conventional spin echo sequence but is absent from a basic gradient echo sequence?",
+    "options": [
+      "180° RF pulse",
+      "90° RF pulse",
+      "10° RF pulse",
+      "Gradient pulse"
+    ],
+    "answer": "180° RF pulse",
+    "explanation": "Conventional spin echo uses a 180° RF refocusing pulse, whereas gradient echo relies on gradient reversal."
+  },
+  {
+    "id": "ch4-018",
+    "chapter": 4,
+    "topic": "Gradient rephasing",
+    "type": "single_best",
+    "text": "What is the primary purpose of the rephasing gradient?",
+    "options": [
+      "To bring phase-dispersed spins back toward coherence",
+      "To destroy all transverse magnetization",
+      "To increase the RF flip angle",
+      "To produce T1 relaxation"
+    ],
+    "answer": "To bring phase-dispersed spins back toward coherence",
+    "explanation": "The rephasing gradient reverses the phase evolution produced during dephasing."
+  },
+  {
+    "id": "ch4-019",
+    "chapter": 4,
+    "topic": "Gradient rephasing",
+    "type": "single_best",
+    "text": "The area under a gradient-time waveform determines the amount of phase accumulated by spins at different positions.",
+    "options": [
+      "True",
+      "False",
+      "Only in spin echo",
+      "Only during T1 weighting"
+    ],
+    "answer": "True",
+    "explanation": "Gradient moment, related to the area under the gradient waveform, determines position-dependent phase accumulation."
+  },
+  {
+    "id": "ch4-020",
+    "chapter": 4,
+    "topic": "Gradient rephasing",
+    "type": "single_best",
+    "text": "If the dephasing and rephasing gradient areas are appropriately balanced, what occurs at the echo?",
+    "options": [
+      "The accumulated gradient-induced phase is compensated",
+      "All longitudinal magnetization disappears",
+      "The RF frequency becomes zero",
+      "The static magnetic field is removed"
+    ],
+    "answer": "The accumulated gradient-induced phase is compensated",
+    "explanation": "Appropriate gradient areas allow the phase dispersion caused by the first gradient to be reversed."
+  },
+  {
+    "id": "ch4-021",
+    "chapter": 4,
+    "topic": "Weighting in gradient echo pulse sequences",
+    "type": "single_best",
+    "text": "Which two major timing parameters primarily control image weighting in a basic gradient echo sequence?",
+    "options": [
+      "TR and TE",
+      "TI and inversion angle",
+      "Bandwidth and slice thickness only",
+      "FOV and matrix only"
+    ],
+    "answer": "TR and TE",
+    "explanation": "TR and TE are major determinants of T1 and T2* weighting in gradient echo imaging."
+  },
+  {
+    "id": "ch4-022",
+    "chapter": 4,
+    "topic": "Weighting in gradient echo pulse sequences",
+    "type": "single_best",
+    "text": "A short TR in a gradient echo sequence tends to increase which type of weighting?",
+    "options": [
+      "T1 weighting",
+      "Pure T2 weighting",
+      "Proton-density weighting only",
+      "Diffusion weighting only"
+    ],
+    "answer": "T1 weighting",
+    "explanation": "Short TR limits longitudinal recovery between excitations and therefore increases T1 weighting."
+  },
+  {
+    "id": "ch4-023",
+    "chapter": 4,
+    "topic": "Weighting in gradient echo pulse sequences",
+    "type": "single_best",
+    "text": "A longer TE in a gradient echo sequence generally increases sensitivity to:",
+    "options": [
+      "T2* decay",
+      "T1 recovery",
+      "Inversion recovery only",
+      "Spin-lattice recovery only"
+    ],
+    "answer": "T2* decay",
+    "explanation": "A longer TE allows more transverse signal decay to occur, increasing T2* weighting."
+  },
+  {
+    "id": "ch4-024",
+    "chapter": 4,
+    "topic": "Weighting in gradient echo pulse sequences",
+    "type": "single_best",
+    "text": "Which combination is most likely to produce strong T1 weighting in a gradient echo sequence?",
+    "options": [
+      "Short TR, short TE, relatively large flip angle",
+      "Long TR, long TE, very small flip angle",
+      "Long TR, short TE, zero flip angle",
+      "Long TE only"
+    ],
+    "answer": "Short TR, short TE, relatively large flip angle",
+    "explanation": "T1-weighted GRE imaging commonly uses short TR and TE with a suitable flip angle to emphasize differences in longitudinal recovery."
+  },
+  {
+    "id": "ch4-025",
+    "chapter": 4,
+    "topic": "Weighting in gradient echo pulse sequences",
+    "type": "single_best",
+    "text": "Which parameter primarily controls T2* weighting in a gradient echo sequence?",
+    "options": [
+      "TE",
+      "TR alone",
+      "Flip angle alone",
+      "Slice thickness alone"
+    ],
+    "answer": "TE",
+    "explanation": "TE determines how long transverse magnetization is allowed to undergo T2* decay before the signal is sampled."
+  },
+  {
+    "id": "ch4-026",
+    "chapter": 4,
+    "topic": "Weighting in gradient echo pulse sequences",
+    "type": "single_best",
+    "text": "Why is TE usually kept short when T1-weighted GRE images are desired?",
+    "options": [
+      "To minimize T2* decay",
+      "To maximize susceptibility effects",
+      "To eliminate longitudinal recovery",
+      "To produce a 180° echo"
+    ],
+    "answer": "To minimize T2* decay",
+    "explanation": "A short TE reduces transverse signal loss and helps preserve the desired T1 contrast."
+  },
+  {
+    "id": "ch4-027",
+    "chapter": 4,
+    "topic": "Weighting in gradient echo pulse sequences",
+    "type": "single_best",
+    "text": "If TR is increased while other parameters remain constant, T1 weighting generally:",
+    "options": [
+      "Decreases",
+      "Increases dramatically",
+      "Becomes identical to T2 weighting",
+      "Disappears completely"
+    ],
+    "answer": "Decreases",
+    "explanation": "A longer TR permits more longitudinal recovery, reducing the influence of T1 differences."
+  },
+  {
+    "id": "ch4-028",
+    "chapter": 4,
+    "topic": "Weighting in gradient echo pulse sequences",
+    "type": "single_best",
+    "text": "Which characteristic is typical of T2*-weighted gradient echo images?",
+    "options": [
+      "Sensitivity to magnetic susceptibility differences",
+      "Complete elimination of field inhomogeneity",
+      "No dependence on TE",
+      "No transverse signal decay"
+    ],
+    "answer": "Sensitivity to magnetic susceptibility differences",
+    "explanation": "T2* includes effects from local magnetic field variations and susceptibility, making GRE particularly sensitive to them."
+  },
+  {
+    "id": "ch4-029",
+    "chapter": 4,
+    "topic": "Weighting in gradient echo pulse sequences",
+    "type": "single_best",
+    "text": "A gradient echo sequence with a long TR and short TE is most likely to produce relatively strong:",
+    "options": [
+      "Proton-density weighting",
+      "T1 weighting",
+      "T2* weighting",
+      "Inversion recovery weighting"
+    ],
+    "answer": "Proton-density weighting",
+    "explanation": "Long TR reduces T1 effects and short TE reduces T2* effects, leaving proton density relatively influential."
+  },
+  {
+    "id": "ch4-030",
+    "chapter": 4,
+    "topic": "Weighting in gradient echo pulse sequences",
+    "type": "single_best",
+    "text": "Which statement about T2* is correct?",
+    "options": [
+      "T2* includes true T2 decay plus additional dephasing from field inhomogeneities",
+      "T2* is always longer than T2",
+      "T2* is independent of magnetic field variations",
+      "T2* occurs only after a 180° pulse"
+    ],
+    "answer": "T2* includes true T2 decay plus additional dephasing from field inhomogeneities",
+    "explanation": "T2* represents transverse signal decay from both irreversible T2 mechanisms and reversible dephasing caused by field variations."
+  },
+  {
+    "id": "ch4-031",
+    "chapter": 4,
+    "topic": "Coherent gradient echo",
+    "type": "single_best",
+    "text": "What is another name for a coherent gradient echo sequence?",
+    "options": [
+      "Rewound gradient echo",
+      "Spoiled gradient echo",
+      "Spin echo",
+      "Inversion recovery"
+    ],
+    "answer": "Rewound gradient echo",
+    "explanation": "Coherent GRE sequences are also known as rewound GRE sequences because residual transverse magnetization is maintained and often rephased."
+  },
+  {
+    "id": "ch4-032",
+    "chapter": 4,
+    "topic": "Coherent gradient echo",
+    "type": "single_best",
+    "text": "What is preserved in a coherent gradient echo sequence from one repetition to the next?",
+    "options": [
+      "Transverse magnetization",
+      "Only longitudinal magnetization",
+      "No magnetization",
+      "Only the static magnetic field"
+    ],
+    "answer": "Transverse magnetization",
+    "explanation": "Coherent GRE sequences deliberately maintain transverse coherence between successive RF excitations."
+  },
+  {
+    "id": "ch4-033",
+    "chapter": 4,
+    "topic": "Coherent gradient echo",
+    "type": "single_best",
+    "text": "What is the purpose of the rewinder gradient in a coherent GRE sequence?",
+    "options": [
+      "To rephase residual transverse magnetization",
+      "To eliminate all transverse magnetization",
+      "To increase T1 relaxation",
+      "To replace the RF excitation pulse"
+    ],
+    "answer": "To rephase residual transverse magnetization",
+    "explanation": "A rewinder gradient restores gradient-induced phase coherence in residual transverse magnetization."
+  },
+  {
+    "id": "ch4-034",
+    "chapter": 4,
+    "topic": "Coherent gradient echo",
+    "type": "single_best",
+    "text": "Why can coherent GRE sequences produce signal contributions from residual transverse magnetization?",
+    "options": [
+      "Transverse coherence is intentionally maintained between repetitions",
+      "The sequence uses repeated 180° pulses",
+      "The sequence has no RF excitation",
+      "T1 recovery is prevented"
+    ],
+    "answer": "Transverse coherence is intentionally maintained between repetitions",
+    "explanation": "Unlike spoiled GRE, coherent GRE preserves transverse magnetization that can contribute to later echoes."
+  },
+  {
+    "id": "ch4-035",
+    "chapter": 4,
+    "topic": "Coherent gradient echo",
+    "type": "single_best",
+    "text": "Which type of contrast is commonly associated with coherent GRE sequences?",
+    "options": [
+      "T2/T1-type contrast",
+      "Pure T1 contrast only",
+      "Pure diffusion contrast",
+      "No tissue contrast"
+    ],
+    "answer": "T2/T1-type contrast",
+    "explanation": "Coherent GRE sequences can produce mixed T2/T1-type contrast because transverse coherence is maintained between RF excitations."
+  },
+  {
+    "id": "ch4-036",
+    "chapter": 4,
+    "topic": "Coherent gradient echo",
+    "type": "single_best",
+    "text": "What is a potential consequence of maintaining residual transverse magnetization in coherent GRE?",
+    "options": [
+      "The signal can depend on previous RF excitations",
+      "The sequence becomes identical to spin echo",
+      "All T2* effects disappear",
+      "No steady state can develop"
+    ],
+    "answer": "The signal can depend on previous RF excitations",
+    "explanation": "Maintained transverse coherence creates a steady-state condition in which current signal can depend on magnetization generated during earlier repetitions."
+  },
+  {
+    "id": "ch4-037",
+    "chapter": 4,
+    "topic": "Coherent gradient echo",
+    "type": "single_best",
+    "text": "What does the term 'coherent' refer to in coherent GRE?",
+    "options": [
+      "The preservation of phase coherence of transverse magnetization",
+      "The use of a coherent RF transmitter only",
+      "The absence of gradients",
+      "The use of a 180° refocusing pulse"
+    ],
+    "answer": "The preservation of phase coherence of transverse magnetization",
+    "explanation": "Coherent refers to maintaining transverse magnetization with organized phase relationships between repetitions."
+  },
+  {
+    "id": "ch4-038",
+    "chapter": 4,
+    "topic": "Coherent gradient echo",
+    "type": "single_best",
+    "text": "A coherent GRE sequence differs from a spoiled GRE sequence primarily in its treatment of:",
+    "options": [
+      "Residual transverse magnetization",
+      "Patient positioning",
+      "Static field strength",
+      "RF frequency"
+    ],
+    "answer": "Residual transverse magnetization",
+    "explanation": "Coherent GRE preserves residual transverse magnetization, whereas spoiled GRE intentionally destroys it."
+  },
+  {
+    "id": "ch4-039",
+    "chapter": 4,
+    "topic": "Coherent gradient echo",
+    "type": "single_best",
+    "text": "What does a coherent GRE sequence require to maintain a steady state?",
+    "options": [
+      "Consistent management of phase and residual transverse magnetization",
+      "Complete destruction of transverse magnetization",
+      "A 180° RF pulse after every excitation",
+      "No gradient activity"
+    ],
+    "answer": "Consistent management of phase and residual transverse magnetization",
+    "explanation": "The coherent steady state depends on controlled preservation and rephasing of transverse magnetization."
+  },
+  {
+    "id": "ch4-040",
+    "chapter": 4,
+    "topic": "Coherent gradient echo",
+    "type": "single_best",
+    "text": "Why is coherent GRE sometimes described as a steady-state sequence?",
+    "options": [
+      "The magnetization approaches a repeating equilibrium from one repetition to the next",
+      "The patient remains completely motionless",
+      "The magnetic field never changes",
+      "The sequence uses no RF pulses"
+    ],
+    "answer": "The magnetization approaches a repeating equilibrium from one repetition to the next",
+    "explanation": "Repeated RF and gradient events establish a steady-state distribution of longitudinal and transverse magnetization."
+  },
+  {
+    "id": "ch4-041",
+    "chapter": 4,
+    "topic": "Incoherent spoiled gradient echo",
+    "type": "single_best",
+    "text": "What is the defining feature of an incoherent or spoiled GRE sequence?",
+    "options": [
+      "Residual transverse magnetization is deliberately destroyed",
+      "Residual transverse magnetization is deliberately preserved",
+      "A 180° RF pulse is required",
+      "No gradients are used"
+    ],
+    "answer": "Residual transverse magnetization is deliberately destroyed",
+    "explanation": "Spoiled GRE removes residual transverse coherence so that the signal is dominated more predictably by longitudinal magnetization."
+  },
+  {
+    "id": "ch4-042",
+    "chapter": 4,
+    "topic": "Incoherent spoiled gradient echo",
+    "type": "single_best",
+    "text": "Which term is synonymous with incoherent GRE?",
+    "options": [
+      "Spoiled GRE",
+      "Balanced GRE",
+      "Spin echo",
+      "Fast spin echo"
+    ],
+    "answer": "Spoiled GRE",
+    "explanation": "Incoherent GRE is commonly referred to as spoiled GRE because residual transverse magnetization is intentionally spoiled."
+  },
+  {
+    "id": "ch4-043",
+    "chapter": 4,
+    "topic": "Incoherent spoiled gradient echo",
+    "type": "single_best",
+    "text": "Why is transverse magnetization spoiled in a spoiled GRE sequence?",
+    "options": [
+      "To prevent residual transverse coherence from influencing subsequent signals",
+      "To create a spin echo",
+      "To increase T2 weighting exclusively",
+      "To eliminate longitudinal magnetization"
+    ],
+    "answer": "To prevent residual transverse coherence from influencing subsequent signals",
+    "explanation": "Spoiling removes coherent transverse magnetization so that successive signals are less dependent on residual transverse pathways."
+  },
+  {
+    "id": "ch4-044",
+    "chapter": 4,
+    "topic": "Incoherent spoiled gradient echo",
+    "type": "single_best",
+    "text": "Which mechanism can be used to spoil transverse magnetization?",
+    "options": [
+      "RF spoiling or gradient spoiling",
+      "Only a 180° RF pulse",
+      "Only increasing the static field",
+      "Only increasing slice thickness"
+    ],
+    "answer": "RF spoiling or gradient spoiling",
+    "explanation": "Spoiling can be achieved by manipulating RF phase, gradients, or both to destroy coherent transverse magnetization."
+  },
+  {
+    "id": "ch4-045",
+    "chapter": 4,
+    "topic": "Incoherent spoiled gradient echo",
+    "type": "single_best",
+    "text": "What type of weighting is commonly produced by spoiled GRE sequences?",
+    "options": [
+      "T1 weighting",
+      "Pure T2 weighting",
+      "Only diffusion weighting",
+      "Only proton-density weighting"
+    ],
+    "answer": "T1 weighting",
+    "explanation": "Spoiled GRE is commonly used for T1-weighted imaging, especially with short TR and short TE."
+  },
+  {
+    "id": "ch4-046",
+    "chapter": 4,
+    "topic": "Incoherent spoiled gradient echo",
+    "type": "single_best",
+    "text": "Which statement best describes gradient spoiling?",
+    "options": [
+      "A gradient is used to create a range of phases that destroys coherent transverse signal",
+      "A gradient is used to create a 180° RF pulse",
+      "A gradient restores all transverse coherence",
+      "A gradient eliminates T1 recovery"
+    ],
+    "answer": "A gradient is used to create a range of phases that destroys coherent transverse signal",
+    "explanation": "Gradient spoiling deliberately introduces phase dispersion so residual transverse magnetization cannot contribute coherently to the next signal."
+  },
+  {
+    "id": "ch4-047",
+    "chapter": 4,
+    "topic": "Incoherent spoiled gradient echo",
+    "type": "single_best",
+    "text": "RF spoiling primarily alters which property of successive RF excitations?",
+    "options": [
+      "RF phase",
+      "Static magnetic field strength",
+      "Gradient coil diameter",
+      "Patient position"
+    ],
+    "answer": "RF phase",
+    "explanation": "RF spoiling uses controlled changes in RF phase to prevent residual transverse magnetization from remaining coherent."
+  },
+  {
+    "id": "ch4-048",
+    "chapter": 4,
+    "topic": "Incoherent spoiled gradient echo",
+    "type": "single_best",
+    "text": "Why does spoiled GRE tend to have more predictable T1 contrast than coherent GRE?",
+    "options": [
+      "Residual transverse magnetization is removed",
+      "T1 relaxation is eliminated",
+      "The sequence uses a 180° pulse",
+      "TE has no effect"
+    ],
+    "answer": "Residual transverse magnetization is removed",
+    "explanation": "Removing residual transverse coherence reduces additional signal pathways and makes the signal more dependent on longitudinal recovery."
+  },
+  {
+    "id": "ch4-049",
+    "chapter": 4,
+    "topic": "Incoherent spoiled gradient echo",
+    "type": "single_best",
+    "text": "If transverse magnetization is successfully spoiled, which component becomes particularly important in determining the next excitation's signal?",
+    "options": [
+      "Longitudinal magnetization",
+      "Residual transverse coherence",
+      "Only susceptibility",
+      "Only gradient noise"
+    ],
+    "answer": "Longitudinal magnetization",
+    "explanation": "Spoiling removes the coherent transverse component, leaving the available longitudinal magnetization as the major source for the next excitation."
+  },
+  {
+    "id": "ch4-050",
+    "chapter": 4,
+    "topic": "Incoherent spoiled gradient echo",
+    "type": "single_best",
+    "text": "Which statement correctly compares spoiled and coherent GRE sequences?",
+    "options": [
+      "Spoiled GRE destroys residual transverse coherence, whereas coherent GRE preserves it",
+      "Both always destroy transverse coherence",
+      "Spoiled GRE uses a 180° pulse, whereas coherent GRE does not",
+      "Coherent GRE cannot use gradients"
+    ],
+    "answer": "Spoiled GRE destroys residual transverse coherence, whereas coherent GRE preserves it",
+    "explanation": "The key distinction is the treatment of transverse magnetization between successive excitations."
+  },
+  {
+    "id": "ch4-051",
+    "chapter": 4,
+    "topic": "Reverse-echo gradient echo",
+    "type": "single_best",
+    "text": "What is the defining characteristic of a reverse-echo gradient echo sequence?",
+    "options": [
+      "The echo is formed using a reversed gradient arrangement compared with conventional GRE",
+      "The sequence uses only 180° RF refocusing pulses",
+      "The sequence contains no gradient pulses",
+      "The sequence eliminates transverse magnetization"
+    ],
+    "answer": "The echo is formed using a reversed gradient arrangement compared with conventional GRE",
+    "explanation": "Reverse-echo GRE uses an alternative gradient arrangement in which the timing and polarity of gradients are reversed relative to conventional GRE."
+  },
+  {
+    "id": "ch4-052",
+    "chapter": 4,
+    "topic": "Reverse-echo gradient echo",
+    "type": "single_best",
+    "text": "In reverse-echo GRE, the readout gradient is arranged so that the echo is generated:",
+    "options": [
+      "Using an opposite gradient timing scheme",
+      "Using a 180° RF pulse",
+      "Without any frequency encoding",
+      "Only after complete T1 recovery"
+    ],
+    "answer": "Using an opposite gradient timing scheme",
+    "explanation": "The defining feature of reverse-echo GRE is its altered gradient timing and polarity used to produce the echo."
+  },
+  {
+    "id": "ch4-053",
+    "chapter": 4,
+    "topic": "Reverse-echo gradient echo",
+    "type": "single_best",
+    "text": "Which component is primarily manipulated to produce a reverse gradient echo?",
+    "options": [
+      "Gradient polarity and timing",
+      "Patient position",
+      "Static field strength",
+      "RF frequency only"
+    ],
+    "answer": "Gradient polarity and timing",
+    "explanation": "Reverse-echo techniques depend on modifying the gradient waveform responsible for dephasing and rephasing."
+  },
+  {
+    "id": "ch4-054",
+    "chapter": 4,
+    "topic": "Reverse-echo gradient echo",
+    "type": "single_best",
+    "text": "Does reverse-echo GRE require a conventional 180° RF refocusing pulse?",
+    "options": [
+      "No",
+      "Yes, always",
+      "Only at 1.5 T",
+      "Only when TR is short"
+    ],
+    "answer": "No",
+    "explanation": "Reverse-echo remains a gradient echo technique and therefore does not require a conventional 180° RF refocusing pulse."
+  },
+  {
+    "id": "ch4-055",
+    "chapter": 4,
+    "topic": "Reverse-echo gradient echo",
+    "type": "single_best",
+    "text": "Which type of relaxation remains relevant in reverse-echo GRE?",
+    "options": [
+      "T2* relaxation",
+      "T2 relaxation only",
+      "No transverse relaxation",
+      "T1rho only"
+    ],
+    "answer": "T2* relaxation",
+    "explanation": "Because reverse-echo GRE does not use a 180° RF refocusing pulse, T2* effects remain important."
+  },
+  {
+    "id": "ch4-056",
+    "chapter": 4,
+    "topic": "Reverse-echo gradient echo",
+    "type": "single_best",
+    "text": "The main purpose of changing gradient polarity in a reverse-echo sequence is to:",
+    "options": [
+      "Control the timing and formation of the gradient echo",
+      "Create longitudinal magnetization",
+      "Eliminate RF excitation",
+      "Increase the static magnetic field"
+    ],
+    "answer": "Control the timing and formation of the gradient echo",
+    "explanation": "Gradient polarity and timing determine when spins dephase and subsequently rephase to form the echo."
+  },
+  {
+    "id": "ch4-057",
+    "chapter": 4,
+    "topic": "Reverse-echo gradient echo",
+    "type": "single_best",
+    "text": "Which statement about reverse-echo GRE is correct?",
+    "options": [
+      "It remains dependent on gradient-induced phase changes",
+      "It does not use gradients",
+      "It is identical to conventional spin echo",
+      "It completely eliminates susceptibility effects"
+    ],
+    "answer": "It remains dependent on gradient-induced phase changes",
+    "explanation": "Reverse-echo GRE forms its echo through gradient manipulation and therefore remains sensitive to gradient-induced phase evolution."
+  },
+  {
+    "id": "ch4-058",
+    "chapter": 4,
+    "topic": "Reverse-echo gradient echo",
+    "type": "single_best",
+    "text": "What distinguishes reverse-echo GRE from conventional GRE most directly?",
+    "options": [
+      "The arrangement and timing of the gradients",
+      "The use of a 180° RF pulse",
+      "The absence of RF excitation",
+      "The absence of transverse magnetization"
+    ],
+    "answer": "The arrangement and timing of the gradients",
+    "explanation": "The distinction is based primarily on how gradient dephasing and rephasing are arranged."
+  },
+  {
+    "id": "ch4-059",
+    "chapter": 4,
+    "topic": "Reverse-echo gradient echo",
+    "type": "single_best",
+    "text": "Why can reverse-echo sequences still demonstrate susceptibility-related signal loss?",
+    "options": [
+      "They are gradient echo sequences and retain T2* effects",
+      "They use a perfect 180° refocusing pulse",
+      "They eliminate all field inhomogeneity",
+      "They contain no transverse magnetization"
+    ],
+    "answer": "They are gradient echo sequences and retain T2* effects",
+    "explanation": "Gradient echo techniques do not completely refocus static field variations, so susceptibility effects remain visible."
+  },
+  {
+    "id": "ch4-060",
+    "chapter": 4,
+    "topic": "Reverse-echo gradient echo",
+    "type": "single_best",
+    "text": "Which statement best summarizes reverse-echo GRE?",
+    "options": [
+      "It uses a modified gradient waveform to generate the echo without a 180° pulse",
+      "It uses only spin-lock pulses",
+      "It produces an echo without transverse magnetization",
+      "It is a conventional spin echo sequence"
+    ],
+    "answer": "It uses a modified gradient waveform to generate the echo without a 180° pulse",
+    "explanation": "Reverse-echo GRE remains a gradient echo technique but uses a reversed gradient arrangement to form the echo."
+  },
+  {
+    "id": "ch4-061",
+    "chapter": 4,
+    "topic": "Balanced gradient echo",
+    "type": "single_best",
+    "text": "What is the defining characteristic of a balanced gradient echo sequence?",
+    "options": [
+      "The gradient moments are balanced over each repetition",
+      "All gradients are permanently switched off",
+      "A 180° RF pulse is used after every excitation",
+      "Only the slice-select gradient is used"
+    ],
+    "answer": "The gradient moments are balanced over each repetition",
+    "explanation": "Balanced GRE sequences use gradient waveforms whose net first moments are balanced, allowing coherent transverse magnetization to persist."
+  },
+  {
+    "id": "ch4-062",
+    "chapter": 4,
+    "topic": "Balanced gradient echo",
+    "type": "single_best",
+    "text": "Which magnetization component is maintained in balanced GRE?",
+    "options": [
+      "Transverse magnetization",
+      "Only longitudinal magnetization",
+      "No magnetization",
+      "Only saturated magnetization"
+    ],
+    "answer": "Transverse magnetization",
+    "explanation": "Balanced GRE preserves transverse coherence between repetitions."
+  },
+  {
+    "id": "ch4-063",
+    "chapter": 4,
+    "topic": "Balanced gradient echo",
+    "type": "single_best",
+    "text": "Why are balanced gradient waveforms important in balanced GRE?",
+    "options": [
+      "They prevent cumulative gradient-induced phase shifts between repetitions",
+      "They eliminate RF excitation",
+      "They produce a 180° RF pulse",
+      "They prevent T1 recovery"
+    ],
+    "answer": "They prevent cumulative gradient-induced phase shifts between repetitions",
+    "explanation": "Balanced gradients ensure that the net gradient moment is effectively zero over the repetition, supporting coherent steady-state magnetization."
+  },
+  {
+    "id": "ch4-064",
+    "chapter": 4,
+    "topic": "Balanced gradient echo",
+    "type": "single_best",
+    "text": "Balanced GRE sequences are particularly dependent on:",
+    "options": [
+      "Magnetic field homogeneity",
+      "Patient weight only",
+      "Slice thickness only",
+      "RF coil diameter only"
+    ],
+    "answer": "Magnetic field homogeneity",
+    "explanation": "Balanced GRE relies on maintaining coherent transverse magnetization, making it sensitive to off-resonance and field inhomogeneity."
+  },
+  {
+    "id": "ch4-065",
+    "chapter": 4,
+    "topic": "Balanced gradient echo",
+    "type": "single_best",
+    "text": "What type of contrast is commonly associated with balanced GRE?",
+    "options": [
+      "T2/T1 contrast",
+      "Pure T1 contrast only",
+      "Pure T2 contrast only",
+      "No tissue contrast"
+    ],
+    "answer": "T2/T1 contrast",
+    "explanation": "Balanced GRE produces a steady-state signal with contrast related to the ratio of transverse to longitudinal relaxation characteristics."
+  },
+  {
+    "id": "ch4-066",
+    "chapter": 4,
+    "topic": "Balanced gradient echo",
+    "type": "single_best",
+    "text": "Which of the following is an important advantage of balanced GRE?",
+    "options": [
+      "High signal efficiency",
+      "Complete immunity to field inhomogeneity",
+      "No RF energy deposition",
+      "Elimination of all susceptibility effects"
+    ],
+    "answer": "High signal efficiency",
+    "explanation": "Balanced GRE can provide high signal efficiency because it maintains transverse magnetization between excitations."
+  },
+  {
+    "id": "ch4-067",
+    "chapter": 4,
+    "topic": "Balanced gradient echo",
+    "type": "single_best",
+    "text": "What can occur in balanced GRE when there is substantial off-resonance?",
+    "options": [
+      "Signal loss or banding artifacts",
+      "Complete elimination of transverse magnetization everywhere",
+      "Automatic T1 shortening",
+      "Removal of all gradient effects"
+    ],
+    "answer": "Signal loss or banding artifacts",
+    "explanation": "Off-resonance can disrupt coherent steady-state magnetization and produce characteristic banding or signal voids."
+  },
+  {
+    "id": "ch4-068",
+    "chapter": 4,
+    "topic": "Balanced gradient echo",
+    "type": "single_best",
+    "text": "Which gradient axes must be appropriately balanced in a fully balanced GRE sequence?",
+    "options": [
+      "All three spatial gradient axes",
+      "Only the slice-select axis",
+      "Only the frequency-encoding axis",
+      "Only the phase-encoding axis"
+    ],
+    "answer": "All three spatial gradient axes",
+    "explanation": "Fully balanced GRE requires balanced gradient moments along the slice-select, phase-encoding, and frequency-encoding directions."
+  },
+  {
+    "id": "ch4-069",
+    "chapter": 4,
+    "topic": "Balanced gradient echo",
+    "type": "single_best",
+    "text": "What type of magnetization state does balanced GRE seek to establish?",
+    "options": [
+      "A coherent steady state",
+      "Complete saturation",
+      "Complete longitudinal recovery after every RF pulse",
+      "A state with no transverse magnetization"
+    ],
+    "answer": "A coherent steady state",
+    "explanation": "Balanced GRE maintains coherent transverse and longitudinal magnetization in a steady state."
+  },
+  {
+    "id": "ch4-070",
+    "chapter": 4,
+    "topic": "Balanced gradient echo",
+    "type": "single_best",
+    "text": "Which statement best distinguishes balanced GRE from spoiled GRE?",
+    "options": [
+      "Balanced GRE preserves transverse coherence, whereas spoiled GRE destroys it",
+      "Balanced GRE uses 180° pulses, whereas spoiled GRE does not",
+      "Balanced GRE uses no gradients",
+      "Spoiled GRE preserves more transverse coherence"
+    ],
+    "answer": "Balanced GRE preserves transverse coherence, whereas spoiled GRE destroys it",
+    "explanation": "The two approaches differ fundamentally in how they handle residual transverse magnetization."
+  },
+  {
+    "id": "ch4-071",
+    "chapter": 4,
+    "topic": "Balanced gradient echo",
+    "type": "single_best",
+    "text": "Why can fluid appear relatively bright on many balanced GRE sequences?",
+    "options": [
+      "Balanced GRE produces strong signal from tissues with favorable T2/T1 characteristics",
+      "Fluid always has the shortest T1",
+      "Fluid produces no transverse magnetization",
+      "Balanced GRE eliminates all T2 effects"
+    ],
+    "answer": "Balanced GRE produces strong signal from tissues with favorable T2/T1 characteristics",
+    "explanation": "Balanced GRE has strong signal efficiency and T2/T1-dependent contrast, which can make fluids appear bright."
+  },
+  {
+    "id": "ch4-072",
+    "chapter": 4,
+    "topic": "Balanced gradient echo",
+    "type": "single_best",
+    "text": "What is another common term for balanced GRE imaging?",
+    "options": [
+      "Balanced steady-state free precession",
+      "Spoiled spin echo",
+      "Fast inversion recovery",
+      "Gradient saturation recovery"
+    ],
+    "answer": "Balanced steady-state free precession",
+    "explanation": "Balanced GRE is commonly categorized as balanced steady-state free precession, or bSSFP."
+  },
+  {
+    "id": "ch4-073",
+    "chapter": 4,
+    "topic": "Balanced gradient echo",
+    "type": "single_best",
+    "text": "The signal in balanced GRE is influenced by both longitudinal and transverse magnetization.",
+    "options": [
+      "True",
+      "False",
+      "Only at 3 T",
+      "Only when TR is long"
+    ],
+    "answer": "True",
+    "explanation": "Balanced GRE maintains both longitudinal and transverse magnetization in a steady state, so both contribute to signal behavior."
+  },
+  {
+    "id": "ch4-074",
+    "chapter": 4,
+    "topic": "Balanced gradient echo",
+    "type": "single_best",
+    "text": "What is a major limitation of balanced GRE related to off-resonance?",
+    "options": [
+      "It can produce periodic dark bands",
+      "It eliminates all signal from fat",
+      "It cannot produce transverse magnetization",
+      "It requires a 180° pulse"
+    ],
+    "answer": "It can produce periodic dark bands",
+    "explanation": "Off-resonance in bSSFP can cause signal cancellation and characteristic banding artifacts."
+  },
+  {
+    "id": "ch4-075",
+    "chapter": 4,
+    "topic": "Balanced gradient echo",
+    "type": "single_best",
+    "text": "Which adjustment can help reduce banding in balanced GRE by changing the relationship between TR and off-resonance?",
+    "options": [
+      "Shortening TR",
+      "Eliminating RF excitation",
+      "Adding a mandatory 180° pulse",
+      "Removing all gradients"
+    ],
+    "answer": "Shortening TR",
+    "explanation": "Shorter TR increases the off-resonance frequency range over which coherent steady-state signal can be maintained, reducing banding."
+  },
+  {
+    "id": "ch4-076",
+    "chapter": 4,
+    "topic": "Fast gradient echo",
+    "type": "single_best",
+    "text": "What is the main purpose of fast gradient echo sequences?",
+    "options": [
+      "To acquire images rapidly using short TR and efficient gradient encoding",
+      "To eliminate all gradient activity",
+      "To replace MRI with CT",
+      "To require long TR and long TE"
+    ],
+    "answer": "To acquire images rapidly using short TR and efficient gradient encoding",
+    "explanation": "Fast GRE techniques are designed to reduce acquisition time by using short repetition times and efficient gradient schemes."
+  },
+  {
+    "id": "ch4-077",
+    "chapter": 4,
+    "topic": "Fast gradient echo",
+    "type": "single_best",
+    "text": "Which feature is characteristic of fast GRE imaging?",
+    "options": [
+      "Short TR",
+      "Mandatory 180° RF pulses",
+      "Very long echo times",
+      "No RF excitation"
+    ],
+    "answer": "Short TR",
+    "explanation": "Fast GRE techniques use short TR values to acquire data quickly."
+  },
+  {
+    "id": "ch4-078",
+    "chapter": 4,
+    "topic": "Fast gradient echo",
+    "type": "single_best",
+    "text": "Why can fast GRE sequences achieve shorter acquisition times than conventional spin echo sequences?",
+    "options": [
+      "They do not require a 180° refocusing pulse and can use short TR",
+      "They eliminate spatial encoding",
+      "They use no RF energy",
+      "They do not collect an echo"
+    ],
+    "answer": "They do not require a 180° refocusing pulse and can use short TR",
+    "explanation": "The absence of a 180° refocusing pulse and use of short TR contribute to rapid acquisition."
+  },
+  {
+    "id": "ch4-079",
+    "chapter": 4,
+    "topic": "Fast gradient echo",
+    "type": "single_best",
+    "text": "What is a common trade-off when using very short TR in fast GRE?",
+    "options": [
+      "Reduced longitudinal recovery",
+      "Elimination of T1 effects",
+      "Complete removal of T2* effects",
+      "Longer acquisition time"
+    ],
+    "answer": "Reduced longitudinal recovery",
+    "explanation": "Short TR allows less time for longitudinal magnetization to recover between RF excitations."
+  },
+  {
+    "id": "ch4-080",
+    "chapter": 4,
+    "topic": "Fast gradient echo",
+    "type": "single_best",
+    "text": "Fast GRE sequences commonly use what type of flip angle?",
+    "options": [
+      "Relatively small flip angles",
+      "Only 180°",
+      "Only 360°",
+      "No RF flip angle"
+    ],
+    "answer": "Relatively small flip angles",
+    "explanation": "Small flip angles preserve more longitudinal magnetization and permit rapid repeated excitations."
+  },
+  {
+    "id": "ch4-081",
+    "chapter": 4,
+    "topic": "Fast gradient echo",
+    "type": "single_best",
+    "text": "Which combination is most appropriate for a rapid T1-weighted GRE acquisition?",
+    "options": [
+      "Short TR, short TE, appropriate flip angle",
+      "Long TR, long TE, 180° pulse",
+      "Long TR, long TE, no RF pulse",
+      "Short TR, extremely long TE, no gradients"
+    ],
+    "answer": "Short TR, short TE, appropriate flip angle",
+    "explanation": "Rapid T1-weighted GRE commonly uses short TR and TE with a suitable flip angle to emphasize T1 contrast."
+  },
+  {
+    "id": "ch4-082",
+    "chapter": 4,
+    "topic": "Fast gradient echo",
+    "type": "single_best",
+    "text": "What is one important consequence of using very short TE in fast GRE?",
+    "options": [
+      "Reduced T2* signal decay before acquisition",
+      "Increased T1 recovery time",
+      "Creation of a spin echo",
+      "Elimination of all susceptibility effects"
+    ],
+    "answer": "Reduced T2* signal decay before acquisition",
+    "explanation": "Short TE minimizes the amount of transverse magnetization lost through T2* decay before signal sampling."
+  },
+  {
+    "id": "ch4-083",
+    "chapter": 4,
+    "topic": "Fast gradient echo",
+    "type": "single_best",
+    "text": "What allows a fast GRE sequence to sample the echo rapidly after excitation?",
+    "options": [
+      "Rapid gradient switching and short echo timing",
+      "A mandatory 180° RF pulse",
+      "Longitudinal saturation only",
+      "Elimination of frequency encoding"
+    ],
+    "answer": "Rapid gradient switching and short echo timing",
+    "explanation": "Fast GRE uses rapid gradient events and short TE to generate and sample the gradient echo quickly."
+  },
+  {
+    "id": "ch4-084",
+    "chapter": 4,
+    "topic": "Fast gradient echo",
+    "type": "single_best",
+    "text": "Fast GRE can be particularly useful when:",
+    "options": [
+      "Short scan times are clinically important",
+      "Only very long TR values are acceptable",
+      "No spatial encoding is needed",
+      "The examination requires no RF pulses"
+    ],
+    "answer": "Short scan times are clinically important",
+    "explanation": "Fast GRE is designed for efficient image acquisition when rapid scanning is desirable."
+  },
+  {
+    "id": "ch4-085",
+    "chapter": 4,
+    "topic": "Fast gradient echo",
+    "type": "single_best",
+    "text": "What is a major advantage of fast GRE over conventional spin echo?",
+    "options": [
+      "Shorter acquisition time",
+      "Complete elimination of susceptibility effects",
+      "No dependence on T1",
+      "No need for gradients"
+    ],
+    "answer": "Shorter acquisition time",
+    "explanation": "Fast GRE can acquire data much more rapidly because it uses short TR and does not require a 180° refocusing pulse."
+  },
+  {
+    "id": "ch4-086",
+    "chapter": 4,
+    "topic": "Fast gradient echo",
+    "type": "single_best",
+    "text": "Which property makes GRE particularly suitable for dynamic imaging?",
+    "options": [
+      "Rapid image acquisition",
+      "Very long TR",
+      "Mandatory long TE",
+      "Complete suppression of motion"
+    ],
+    "answer": "Rapid image acquisition",
+    "explanation": "Fast acquisition allows multiple images to be obtained over time, making GRE useful for dynamic studies."
+  },
+  {
+    "id": "ch4-087",
+    "chapter": 4,
+    "topic": "Fast gradient echo",
+    "type": "single_best",
+    "text": "What is the effect of increasing the flip angle in a fast GRE sequence while keeping TR constant?",
+    "options": [
+      "More longitudinal magnetization is converted to transverse magnetization",
+      "No magnetization is excited",
+      "T1 recovery becomes instantaneous",
+      "The sequence becomes a spin echo"
+    ],
+    "answer": "More longitudinal magnetization is converted to transverse magnetization",
+    "explanation": "Increasing flip angle tips a greater proportion of available longitudinal magnetization into the transverse plane."
+  },
+  {
+    "id": "ch4-088",
+    "chapter": 4,
+    "topic": "Fast gradient echo",
+    "type": "single_best",
+    "text": "Why can using a very large flip angle repeatedly in a fast GRE sequence reduce available longitudinal magnetization?",
+    "options": [
+      "More longitudinal magnetization is tipped into the transverse plane with each excitation",
+      "The gradients stop functioning",
+      "The magnetic field becomes zero",
+      "T2 relaxation is prevented"
+    ],
+    "answer": "More longitudinal magnetization is tipped into the transverse plane with each excitation",
+    "explanation": "Larger flip angles consume more longitudinal magnetization, which may not fully recover before the next RF pulse."
+  },
+  {
+    "id": "ch4-089",
+    "chapter": 4,
+    "topic": "Fast gradient echo",
+    "type": "single_best",
+    "text": "What is the relationship between scan speed and TR in a basic GRE sequence?",
+    "options": [
+      "Shorter TR generally permits faster acquisition",
+      "Longer TR always produces faster acquisition",
+      "TR has no effect on acquisition speed",
+      "Only TE determines scan speed"
+    ],
+    "answer": "Shorter TR generally permits faster acquisition",
+    "explanation": "Reducing TR shortens the time between successive excitations and can reduce total scan time."
+  },
+  {
+    "id": "ch4-090",
+    "chapter": 4,
+    "topic": "Fast gradient echo",
+    "type": "single_best",
+    "text": "Which feature is NOT characteristic of fast GRE?",
+    "options": [
+      "Mandatory 180° RF refocusing pulse after every excitation",
+      "Short TR",
+      "Short TE",
+      "Variable flip angles"
+    ],
+    "answer": "Mandatory 180° RF refocusing pulse after every excitation",
+    "explanation": "GRE sequences form echoes through gradients and therefore do not require a conventional 180° refocusing pulse."
+  },
+  {
+    "id": "ch4-091",
+    "chapter": 4,
+    "topic": "Fast gradient echo",
+    "type": "single_best",
+    "text": "What is the principal reason fast GRE sequences can use low flip angles?",
+    "options": [
+      "They rely on repeated excitations while preserving sufficient longitudinal magnetization",
+      "They do not use RF pulses",
+      "They require a 180° refocusing pulse",
+      "They eliminate T1 relaxation"
+    ],
+    "answer": "They rely on repeated excitations while preserving sufficient longitudinal magnetization",
+    "explanation": "Low flip angles preserve longitudinal magnetization, allowing rapid repeated excitations with short TR."
+  },
+  {
+    "id": "ch4-092",
+    "chapter": 4,
+    "topic": "Fast gradient echo",
+    "type": "single_best",
+    "text": "Which factor can limit the ability to make a GRE sequence faster?",
+    "options": [
+      "Available longitudinal magnetization and gradient/RF hardware limitations",
+      "The absence of any magnetic field",
+      "The inability to use RF pulses",
+      "The lack of transverse magnetization in all tissues"
+    ],
+    "answer": "Available longitudinal magnetization and gradient/RF hardware limitations",
+    "explanation": "Very rapid GRE imaging is constrained by magnetization recovery and by the physical performance limits of RF and gradient systems."
+  },
+  {
+    "id": "ch4-093",
+    "chapter": 4,
+    "topic": "Fast gradient echo",
+    "type": "single_best",
+    "text": "Which timing parameter is generally minimized to reduce susceptibility to T2* decay in fast GRE?",
+    "options": [
+      "TE",
+      "TR",
+      "TI",
+      "Flip angle"
+    ],
+    "answer": "TE",
+    "explanation": "A short TE minimizes the time available for T2* signal decay and susceptibility-related dephasing."
+  },
+  {
+    "id": "ch4-094",
+    "chapter": 4,
+    "topic": "Fast gradient echo",
+    "type": "single_best",
+    "text": "What happens to longitudinal magnetization during repeated fast GRE excitations?",
+    "options": [
+      "It reaches a steady-state level determined by TR, flip angle, and T1",
+      "It always remains at its initial value",
+      "It is permanently eliminated",
+      "It becomes independent of flip angle"
+    ],
+    "answer": "It reaches a steady-state level determined by TR, flip angle, and T1",
+    "explanation": "Repeated RF excitations and T1 recovery establish a steady-state longitudinal magnetization."
+  },
+  {
+    "id": "ch4-095",
+    "chapter": 4,
+    "topic": "Fast gradient echo",
+    "type": "single_best",
+    "text": "What happens when a fast GRE sequence reaches steady state?",
+    "options": [
+      "The magnetization pattern becomes reproducible from one repetition to the next",
+      "All magnetization disappears",
+      "The RF pulse is no longer required",
+      "The gradients stop operating"
+    ],
+    "answer": "The magnetization pattern becomes reproducible from one repetition to the next",
+    "explanation": "At steady state, the magnetization immediately before and after each repetition follows a consistent pattern."
+  },
+  {
+    "id": "ch4-096",
+    "chapter": 4,
+    "topic": "Gradient echo comparison",
+    "type": "single_best",
+    "text": "Which GRE type intentionally destroys residual transverse magnetization?",
+    "options": [
+      "Spoiled GRE",
+      "Coherent GRE",
+      "Balanced GRE",
+      "Balanced SSFP"
+    ],
+    "answer": "Spoiled GRE",
+    "explanation": "Spoiled GRE deliberately removes residual transverse coherence to produce predictable signal behavior."
+  },
+  {
+    "id": "ch4-097",
+    "chapter": 4,
+    "topic": "Gradient echo comparison",
+    "type": "single_best",
+    "text": "Which GRE type maintains a coherent transverse steady state using balanced gradients?",
+    "options": [
+      "Balanced GRE",
+      "Spoiled GRE",
+      "Incoherent GRE",
+      "Conventional spin echo"
+    ],
+    "answer": "Balanced GRE",
+    "explanation": "Balanced GRE uses balanced gradients to preserve coherent transverse magnetization."
+  },
+  {
+    "id": "ch4-098",
+    "chapter": 4,
+    "topic": "Gradient echo comparison",
+    "type": "single_best",
+    "text": "Which GRE type is most associated with deliberate destruction of transverse coherence?",
+    "options": [
+      "Incoherent GRE",
+      "Balanced GRE",
+      "Coherent GRE",
+      "Balanced SSFP"
+    ],
+    "answer": "Incoherent GRE",
+    "explanation": "Incoherent GRE is another term for spoiled GRE, where transverse coherence is deliberately destroyed."
+  },
+  {
+    "id": "ch4-099",
+    "chapter": 4,
+    "topic": "Gradient echo comparison",
+    "type": "single_best",
+    "text": "Which GRE sequence is particularly sensitive to off-resonance banding because it maintains coherent transverse magnetization?",
+    "options": [
+      "Balanced GRE",
+      "Spoiled GRE",
+      "Incoherent GRE",
+      "Conventional spin echo"
+    ],
+    "answer": "Balanced GRE",
+    "explanation": "Balanced GRE maintains coherent transverse magnetization and is therefore sensitive to off-resonance effects that can create banding."
+  },
+  {
+    "id": "ch4-100",
+    "chapter": 4,
+    "topic": "Gradient echo comparison",
+    "type": "single_best",
+    "text": "Which statement best summarizes the main categories of gradient echo pulse sequences?",
+    "options": [
+      "They differ mainly in how residual transverse magnetization and gradient moments are managed",
+      "They differ only in patient positioning",
+      "They all use identical magnetization behavior",
+      "They differ only in RF frequency"
+    ],
+    "answer": "They differ mainly in how residual transverse magnetization and gradient moments are managed",
+    "explanation": "The major GRE families are distinguished by how they handle transverse coherence, gradient balancing, and the resulting steady-state magnetization."
+  },
+  {
+    "id": "ch4-101",
+    "chapter": 4,
+    "topic": "Variable flip angle",
+    "type": "single_best",
+    "text": "If the flip angle is increased while TR remains constant, what generally happens to the longitudinal magnetization immediately after excitation?",
+    "options": [
+      "More longitudinal magnetization is tipped into the transverse plane",
+      "More longitudinal magnetization remains",
+      "Longitudinal magnetization becomes independent of RF excitation",
+      "Longitudinal magnetization doubles"
+    ],
+    "answer": "More longitudinal magnetization is tipped into the transverse plane",
+    "explanation": "A larger flip angle rotates a greater proportion of longitudinal magnetization into the transverse plane."
+  },
+  {
+    "id": "ch4-102",
+    "chapter": 4,
+    "topic": "Variable flip angle",
+    "type": "single_best",
+    "text": "What is the approximate flip angle that produces maximum transverse magnetization from fully relaxed longitudinal magnetization?",
+    "options": [
+      "90°",
+      "30°",
+      "45°",
+      "180°"
+    ],
+    "answer": "90°",
+    "explanation": "A 90° pulse rotates the maximum possible amount of fully recovered longitudinal magnetization into the transverse plane."
+  },
+  {
+    "id": "ch4-103",
+    "chapter": 4,
+    "topic": "Variable flip angle",
+    "type": "single_best",
+    "text": "Why can a flip angle below 90° be advantageous in rapid GRE imaging?",
+    "options": [
+      "It preserves more longitudinal magnetization for subsequent excitations",
+      "It eliminates T2* effects",
+      "It creates a 180° refocusing pulse",
+      "It prevents gradient dephasing"
+    ],
+    "answer": "It preserves more longitudinal magnetization for subsequent excitations",
+    "explanation": "A smaller flip angle leaves more longitudinal magnetization available for the next RF excitation."
+  },
+  {
+    "id": "ch4-104",
+    "chapter": 4,
+    "topic": "Variable flip angle",
+    "type": "single_best",
+    "text": "What happens to the transverse component of magnetization as flip angle increases from a small value toward 90°?",
+    "options": [
+      "It generally increases",
+      "It always decreases",
+      "It remains zero",
+      "It becomes independent of the RF pulse"
+    ],
+    "answer": "It generally increases",
+    "explanation": "As the flip angle approaches 90°, a greater proportion of longitudinal magnetization is converted into transverse magnetization."
+  },
+  {
+    "id": "ch4-105",
+    "chapter": 4,
+    "topic": "Variable flip angle",
+    "type": "single_best",
+    "text": "Which factor is particularly important when selecting a flip angle for a short-TR GRE sequence?",
+    "options": [
+      "T1 relaxation and the amount of longitudinal recovery",
+      "Only slice thickness",
+      "Only gradient direction",
+      "Only receiver bandwidth"
+    ],
+    "answer": "T1 relaxation and the amount of longitudinal recovery",
+    "explanation": "The optimal flip angle depends on T1 and TR because these determine how much longitudinal magnetization is available for excitation."
+  },
+  {
+    "id": "ch4-106",
+    "chapter": 4,
+    "topic": "Variable flip angle",
+    "type": "single_best",
+    "text": "What is the Ernst angle used for in gradient echo imaging?",
+    "options": [
+      "To maximize steady-state signal for a given TR and T1",
+      "To eliminate all T2* effects",
+      "To determine the magnetic field strength",
+      "To calculate slice thickness"
+    ],
+    "answer": "To maximize steady-state signal for a given TR and T1",
+    "explanation": "The Ernst angle is the flip angle that maximizes steady-state signal for a particular TR and tissue T1."
+  },
+  {
+    "id": "ch4-107",
+    "chapter": 4,
+    "topic": "Variable flip angle",
+    "type": "single_best",
+    "text": "As TR becomes shorter, the Ernst angle generally becomes:",
+    "options": [
+      "Smaller",
+      "Larger",
+      "Exactly 90°",
+      "Exactly 180°"
+    ],
+    "answer": "Smaller",
+    "explanation": "With shorter TR, less longitudinal recovery occurs between excitations, so a smaller flip angle is needed to maximize steady-state signal."
+  },
+  {
+    "id": "ch4-108",
+    "chapter": 4,
+    "topic": "Variable flip angle",
+    "type": "single_best",
+    "text": "For a tissue with a longer T1, the Ernst angle at the same TR is generally:",
+    "options": [
+      "Smaller",
+      "Larger",
+      "Always 90°",
+      "Always 180°"
+    ],
+    "answer": "Smaller",
+    "explanation": "A longer T1 means slower longitudinal recovery, so a smaller flip angle is generally optimal at a fixed TR."
+  },
+  {
+    "id": "ch4-109",
+    "chapter": 4,
+    "topic": "Variable flip angle",
+    "type": "single_best",
+    "text": "Which relationship describes the Ernst angle?",
+    "options": [
+      "It depends on TR and T1",
+      "It depends only on TE",
+      "It depends only on slice thickness",
+      "It is always fixed at 90°"
+    ],
+    "answer": "It depends on TR and T1",
+    "explanation": "The optimal Ernst angle is determined by the repetition time and the tissue's longitudinal relaxation time."
+  },
+  {
+    "id": "ch4-110",
+    "chapter": 4,
+    "topic": "Variable flip angle",
+    "type": "single_best",
+    "text": "If TR is very short compared with tissue T1, which flip angle is generally more appropriate for maximizing signal?",
+    "options": [
+      "A relatively small flip angle",
+      "90°",
+      "180°",
+      "360°"
+    ],
+    "answer": "A relatively small flip angle",
+    "explanation": "When recovery is limited by a short TR, a small flip angle helps preserve longitudinal magnetization."
+  },
+  {
+    "id": "ch4-111",
+    "chapter": 4,
+    "topic": "Gradient rephasing",
+    "type": "single_best",
+    "text": "What causes spins at different locations to accumulate different phases during application of a gradient?",
+    "options": [
+      "Their precessional frequencies become position dependent",
+      "Their T1 values become identical",
+      "Their RF amplitudes become zero",
+      "Their magnetic moments disappear"
+    ],
+    "answer": "Their precessional frequencies become position dependent",
+    "explanation": "A magnetic field gradient creates a position-dependent magnetic field and therefore position-dependent precessional frequency."
+  },
+  {
+    "id": "ch4-112",
+    "chapter": 4,
+    "topic": "Gradient rephasing",
+    "type": "single_best",
+    "text": "During gradient dephasing, the transverse magnetization vector becomes:",
+    "options": [
+      "More dispersed in phase",
+      "More perfectly aligned",
+      "Completely longitudinal",
+      "Independent of position"
+    ],
+    "answer": "More dispersed in phase",
+    "explanation": "The gradient causes spins at different positions to precess at different rates, increasing phase dispersion."
+  },
+  {
+    "id": "ch4-113",
+    "chapter": 4,
+    "topic": "Gradient rephasing",
+    "type": "single_best",
+    "text": "What occurs when the rephasing gradient compensates for the phase accumulated during dephasing?",
+    "options": [
+      "A gradient echo is produced",
+      "A 180° RF pulse is produced",
+      "Longitudinal recovery stops",
+      "The magnetic field becomes zero"
+    ],
+    "answer": "A gradient echo is produced",
+    "explanation": "When the accumulated gradient-induced phase differences are reversed, the spins become most coherent and generate an echo."
+  },
+  {
+    "id": "ch4-114",
+    "chapter": 4,
+    "topic": "Gradient rephasing",
+    "type": "single_best",
+    "text": "Which type of gradient is primarily responsible for spatial frequency encoding during the readout of a GRE sequence?",
+    "options": [
+      "Frequency-encoding gradient",
+      "Inversion gradient",
+      "RF gradient",
+      "Relaxation gradient"
+    ],
+    "answer": "Frequency-encoding gradient",
+    "explanation": "The frequency-encoding gradient establishes position-dependent precessional frequencies during signal readout."
+  },
+  {
+    "id": "ch4-115",
+    "chapter": 4,
+    "topic": "Gradient rephasing",
+    "type": "single_best",
+    "text": "What is the relationship between gradient strength and the rate of phase accumulation?",
+    "options": [
+      "A stronger gradient produces a greater position-dependent phase accumulation",
+      "A stronger gradient produces no phase change",
+      "Gradient strength affects only T1",
+      "Gradient strength eliminates precession"
+    ],
+    "answer": "A stronger gradient produces a greater position-dependent phase accumulation",
+    "explanation": "Increasing gradient strength increases the difference in magnetic field and therefore precessional frequency across positions."
+  },
+  {
+    "id": "ch4-116",
+    "chapter": 4,
+    "topic": "Gradient rephasing",
+    "type": "single_best",
+    "text": "What determines the amount of gradient-induced phase accumulated by a spin?",
+    "options": [
+      "Gradient strength, duration, and spin position",
+      "Only tissue T1",
+      "Only RF frequency",
+      "Only slice thickness"
+    ],
+    "answer": "Gradient strength, duration, and spin position",
+    "explanation": "Gradient-induced phase depends on the gradient waveform, its duration, and the spatial position of the spin."
+  },
+  {
+    "id": "ch4-117",
+    "chapter": 4,
+    "topic": "Gradient rephasing",
+    "type": "single_best",
+    "text": "What happens if the rephasing gradient is insufficient to compensate for the preceding dephasing gradient?",
+    "options": [
+      "The spins do not fully rephase at the expected echo",
+      "A perfect spin echo is automatically produced",
+      "T1 recovery becomes complete",
+      "The RF pulse becomes 180°"
+    ],
+    "answer": "The spins do not fully rephase at the expected echo",
+    "explanation": "Incomplete compensation leaves residual phase dispersion and therefore reduces the gradient echo signal."
+  },
+  {
+    "id": "ch4-118",
+    "chapter": 4,
+    "topic": "Gradient rephasing",
+    "type": "single_best",
+    "text": "Which feature distinguishes gradient rephasing from RF refocusing?",
+    "options": [
+      "Gradient rephasing changes spin phase using magnetic field gradients rather than a 180° RF pulse",
+      "Gradient rephasing requires a 180° RF pulse",
+      "RF refocusing never changes spin phase",
+      "Gradient rephasing does not involve transverse magnetization"
+    ],
+    "answer": "Gradient rephasing changes spin phase using magnetic field gradients rather than a 180° RF pulse",
+    "explanation": "GRE uses gradient polarity changes to reverse phase dispersion instead of using an RF refocusing pulse."
+  },
+  {
+    "id": "ch4-119",
+    "chapter": 4,
+    "topic": "Gradient rephasing",
+    "type": "single_best",
+    "text": "Why does a gradient echo not fully refocus microscopic magnetic field variations?",
+    "options": [
+      "There is no 180° RF pulse to reverse those phase effects",
+      "The gradient is always zero",
+      "The RF excitation is absent",
+      "Longitudinal magnetization cannot recover"
+    ],
+    "answer": "There is no 180° RF pulse to reverse those phase effects",
+    "explanation": "Gradient reversal compensates gradient-induced phase dispersion but does not completely remove static microscopic field variations, which contribute to T2* decay."
+  },
+  {
+    "id": "ch4-120",
+    "chapter": 4,
+    "topic": "Gradient rephasing",
+    "type": "single_best",
+    "text": "What happens to signal intensity as transverse spins become increasingly dephased?",
+    "options": [
+      "Signal decreases",
+      "Signal always increases",
+      "Signal becomes independent of phase",
+      "Signal becomes purely longitudinal"
+    ],
+    "answer": "Signal decreases",
+    "explanation": "Greater phase dispersion causes destructive cancellation of transverse magnetization and reduces measurable signal."
+  },
+  {
+    "id": "ch4-121",
+    "chapter": 4,
+    "topic": "Coherent gradient echo",
+    "type": "single_best",
+    "text": "What is meant by a coherent steady state in GRE imaging?",
+    "options": [
+      "A stable pattern of longitudinal and transverse magnetization is established over repeated cycles",
+      "All transverse magnetization is destroyed after every pulse",
+      "The magnetization remains fully longitudinal at all times",
+      "No RF excitation is performed"
+    ],
+    "answer": "A stable pattern of longitudinal and transverse magnetization is established over repeated cycles",
+    "explanation": "A coherent steady state occurs when repeated RF and gradient events produce a reproducible magnetization pattern."
+  },
+  {
+    "id": "ch4-122",
+    "chapter": 4,
+    "topic": "Coherent gradient echo",
+    "type": "single_best",
+    "text": "Why does residual transverse magnetization matter in coherent GRE?",
+    "options": [
+      "It contributes to subsequent signal formation",
+      "It eliminates all T1 contrast",
+      "It prevents RF excitation",
+      "It removes gradient effects"
+    ],
+    "answer": "It contributes to subsequent signal formation",
+    "explanation": "Residual transverse magnetization remains coherent and can contribute to later echoes and steady-state signal."
+  },
+  {
+    "id": "ch4-123",
+    "chapter": 4,
+    "topic": "Coherent gradient echo",
+    "type": "single_best",
+    "text": "Which statement about coherent GRE is correct?",
+    "options": [
+      "The signal depends on both current excitation and residual magnetization from previous excitations",
+      "Only the current RF pulse contributes to signal",
+      "No steady state can occur",
+      "Transverse magnetization is always destroyed"
+    ],
+    "answer": "The signal depends on both current excitation and residual magnetization from previous excitations",
+    "explanation": "Preserved transverse coherence means previous RF excitations can influence the magnetization available during subsequent repetitions."
+  },
+  {
+    "id": "ch4-124",
+    "chapter": 4,
+    "topic": "Coherent gradient echo",
+    "type": "single_best",
+    "text": "What is one reason coherent GRE sequences require careful phase control?",
+    "options": [
+      "Uncontrolled phase changes can disrupt the intended steady-state magnetization",
+      "Phase has no effect on transverse magnetization",
+      "Phase control eliminates T1 relaxation",
+      "Phase control replaces gradient encoding"
+    ],
+    "answer": "Uncontrolled phase changes can disrupt the intended steady-state magnetization",
+    "explanation": "The coherent steady state depends on predictable phase relationships between successive excitations."
+  },
+  {
+    "id": "ch4-125",
+    "chapter": 4,
+    "topic": "Coherent gradient echo",
+    "type": "single_best",
+    "text": "Which sequence deliberately maintains transverse coherence rather than destroying it?",
+    "options": [
+      "Coherent GRE",
+      "Spoiled GRE",
+      "Incoherent GRE",
+      "Conventional spin echo"
+    ],
+    "answer": "Coherent GRE",
+    "explanation": "Coherent GRE preserves residual transverse magnetization so it can contribute to the steady-state signal."
+  },
+  {
+    "id": "ch4-126",
+    "chapter": 4,
+    "topic": "Coherent gradient echo",
+    "type": "single_best",
+    "text": "What can happen if the phase of residual transverse magnetization is not controlled in coherent GRE?",
+    "options": [
+      "Unpredictable or altered signal behavior may occur",
+      "The sequence automatically becomes spin echo",
+      "T1 relaxation stops",
+      "The static magnetic field disappears"
+    ],
+    "answer": "Unpredictable or altered signal behavior may occur",
+    "explanation": "The signal in coherent GRE depends on phase relationships, so uncontrolled phase can alter the expected steady-state signal."
+  },
+  {
+    "id": "ch4-127",
+    "chapter": 4,
+    "topic": "Coherent gradient echo",
+    "type": "single_best",
+    "text": "What is the main difference between coherent GRE and spoiled GRE regarding transverse magnetization?",
+    "options": [
+      "Coherent GRE preserves it, whereas spoiled GRE destroys it",
+      "Coherent GRE destroys it, whereas spoiled GRE preserves it",
+      "Both destroy it completely",
+      "Neither sequence produces transverse magnetization"
+    ],
+    "answer": "Coherent GRE preserves it, whereas spoiled GRE destroys it",
+    "explanation": "The preservation or destruction of residual transverse magnetization is the fundamental distinction between coherent and spoiled GRE."
+  },
+  {
+    "id": "ch4-128",
+    "chapter": 4,
+    "topic": "Coherent gradient echo",
+    "type": "single_best",
+    "text": "What role does the rewinder gradient play in a coherent GRE sequence?",
+    "options": [
+      "It compensates gradient-induced phase dispersion in residual transverse magnetization",
+      "It destroys all transverse coherence",
+      "It creates T1 recovery",
+      "It replaces the RF pulse"
+    ],
+    "answer": "It compensates gradient-induced phase dispersion in residual transverse magnetization",
+    "explanation": "The rewinder gradient helps restore phase coherence so residual transverse magnetization can persist coherently."
+  },
+  {
+    "id": "ch4-129",
+    "chapter": 4,
+    "topic": "Coherent gradient echo",
+    "type": "single_best",
+    "text": "Which type of GRE is most likely to show signal contributions from stimulated or residual transverse pathways?",
+    "options": [
+      "Coherent GRE",
+      "Spoiled GRE",
+      "Incoherent GRE",
+      "Only conventional spin echo"
+    ],
+    "answer": "Coherent GRE",
+    "explanation": "Because transverse magnetization is preserved, coherent GRE can contain signal contributions from magnetization pathways generated during earlier repetitions."
+  },
+  {
+    "id": "ch4-130",
+    "chapter": 4,
+    "topic": "Coherent gradient echo",
+    "type": "single_best",
+    "text": "What happens to coherent GRE signal when the sequence is interrupted before steady state is established?",
+    "options": [
+      "Signal may differ from the established steady-state signal",
+      "Signal becomes exactly identical to spoiled GRE",
+      "All transverse magnetization disappears permanently",
+      "The sequence no longer requires RF excitation"
+    ],
+    "answer": "Signal may differ from the established steady-state signal",
+    "explanation": "Before steady state is reached, magnetization depends on the initial conditions and has not yet settled into the repeating pattern."
+  },
+  {
+    "id": "ch4-131",
+    "chapter": 4,
+    "topic": "Incoherent spoiled gradient echo",
+    "type": "single_best",
+    "text": "What is the main purpose of spoiling transverse magnetization?",
+    "options": [
+      "To make the signal primarily dependent on longitudinal magnetization",
+      "To maximize coherent transverse pathways",
+      "To produce a conventional spin echo",
+      "To eliminate T1 contrast"
+    ],
+    "answer": "To make the signal primarily dependent on longitudinal magnetization",
+    "explanation": "Spoiling removes residual transverse coherence so the next signal is mainly determined by longitudinal magnetization."
+  },
+  {
+    "id": "ch4-132",
+    "chapter": 4,
+    "topic": "Incoherent spoiled gradient echo",
+    "type": "single_best",
+    "text": "Which technique changes RF pulse phase to spoil residual transverse magnetization?",
+    "options": [
+      "RF spoiling",
+      "Gradient rewinding",
+      "Gradient balancing",
+      "Spin echo refocusing"
+    ],
+    "answer": "RF spoiling",
+    "explanation": "RF spoiling uses systematic phase changes in successive RF pulses to destroy coherent transverse pathways."
+  },
+  {
+    "id": "ch4-133",
+    "chapter": 4,
+    "topic": "Incoherent spoiled gradient echo",
+    "type": "single_best",
+    "text": "What does gradient spoiling do to residual transverse magnetization?",
+    "options": [
+      "It creates phase dispersion that prevents coherent signal formation",
+      "It brings all spins into perfect phase coherence",
+      "It converts all transverse magnetization into longitudinal magnetization immediately",
+      "It produces a 180° RF pulse"
+    ],
+    "answer": "It creates phase dispersion that prevents coherent signal formation",
+    "explanation": "Gradient spoiling deliberately produces spatially varying phase so residual transverse magnetization becomes incoherent."
+  },
+  {
+    "id": "ch4-134",
+    "chapter": 4,
+    "topic": "Incoherent spoiled gradient echo",
+    "type": "single_best",
+    "text": "Why is spoiled GRE particularly useful for T1-weighted imaging?",
+    "options": [
+      "The transverse component is spoiled, making longitudinal recovery the dominant source of contrast",
+      "It completely removes T1 differences",
+      "It requires long TE",
+      "It produces only T2 contrast"
+    ],
+    "answer": "The transverse component is spoiled, making longitudinal recovery the dominant source of contrast",
+    "explanation": "Spoiling minimizes residual transverse contributions, allowing T1 recovery to strongly influence image contrast."
+  },
+  {
+    "id": "ch4-135",
+    "chapter": 4,
+    "topic": "Incoherent spoiled gradient echo",
+    "type": "single_best",
+    "text": "What happens to residual transverse magnetization when spoiling is effective?",
+    "options": [
+      "It loses coherent phase relationships",
+      "It becomes perfectly coherent",
+      "It is converted into a 180° RF pulse",
+      "It produces a spin echo"
+    ],
+    "answer": "It loses coherent phase relationships",
+    "explanation": "Effective spoiling destroys the phase coherence required for residual transverse magnetization to contribute coherently to later signals."
+  },
+  {
+    "id": "ch4-136",
+    "chapter": 4,
+    "topic": "Incoherent spoiled gradient echo",
+    "type": "single_best",
+    "text": "Which statement best describes RF spoiling?",
+    "options": [
+      "Successive RF pulses use controlled phase changes to disrupt transverse coherence",
+      "A 180° RF pulse is applied after every excitation",
+      "RF power is completely eliminated",
+      "Only the gradient amplitude is changed"
+    ],
+    "answer": "Successive RF pulses use controlled phase changes to disrupt transverse coherence",
+    "explanation": "RF spoiling uses a prescribed sequence of RF phases to prevent coherent residual transverse magnetization."
+  },
+  {
+    "id": "ch4-137",
+    "chapter": 4,
+    "topic": "Incoherent spoiled gradient echo",
+    "type": "single_best",
+    "text": "Which statement best describes gradient spoiling?",
+    "options": [
+      "Additional gradient activity creates phase dispersion in residual transverse magnetization",
+      "It maintains perfect phase coherence",
+      "It replaces the excitation pulse",
+      "It eliminates all longitudinal magnetization"
+    ],
+    "answer": "Additional gradient activity creates phase dispersion in residual transverse magnetization",
+    "explanation": "Gradient spoiling introduces deliberate phase dispersion to suppress coherent transverse signal pathways."
+  },
+  {
+    "id": "ch4-138",
+    "chapter": 4,
+    "topic": "Incoherent spoiled gradient echo",
+    "type": "single_best",
+    "text": "If residual transverse magnetization is not adequately spoiled, what can happen in a spoiled GRE sequence?",
+    "options": [
+      "Unexpected steady-state signal contributions can occur",
+      "The sequence becomes completely insensitive to T1",
+      "The magnetic field strength doubles",
+      "The RF pulse becomes unnecessary"
+    ],
+    "answer": "Unexpected steady-state signal contributions can occur",
+    "explanation": "Incomplete spoiling allows residual transverse pathways to contribute to the signal and alter the intended contrast."
+  },
+  {
+    "id": "ch4-139",
+    "chapter": 4,
+    "topic": "Incoherent spoiled gradient echo",
+    "type": "single_best",
+    "text": "Which type of GRE is designed to minimize contributions from previous transverse excitations?",
+    "options": [
+      "Spoiled GRE",
+      "Coherent GRE",
+      "Balanced GRE",
+      "Balanced SSFP"
+    ],
+    "answer": "Spoiled GRE",
+    "explanation": "Spoiled GRE deliberately destroys residual transverse coherence from previous excitations."
+  },
+  {
+    "id": "ch4-140",
+    "chapter": 4,
+    "topic": "Incoherent spoiled gradient echo",
+    "type": "single_best",
+    "text": "What is the expected effect of effective spoiling on coherent transverse signal pathways?",
+    "options": [
+      "They are greatly reduced",
+      "They are strengthened",
+      "They become identical to spin echo pathways",
+      "They become independent of phase"
+    ],
+    "answer": "They are greatly reduced",
+    "explanation": "Spoiling reduces coherent transverse pathways so they contribute minimally to subsequent signal."
+  },
+  {
+    "id": "ch4-141",
+    "chapter": 4,
+    "topic": "Reverse-echo gradient echo",
+    "type": "single_best",
+    "text": "Which event occurs first in the formation of a gradient echo?",
+    "options": [
+      "Spin dephasing",
+      "Complete longitudinal recovery",
+      "180° RF refocusing",
+      "T1 saturation only"
+    ],
+    "answer": "Spin dephasing",
+    "explanation": "The spins first become phase dispersed and are then rephased by an appropriately applied gradient."
+  },
+  {
+    "id": "ch4-142",
+    "chapter": 4,
+    "topic": "Reverse-echo gradient echo",
+    "type": "single_best",
+    "text": "In reverse-echo GRE, what must be reversed or rearranged to produce the echo?",
+    "options": [
+      "Gradient polarity or timing",
+      "Patient orientation",
+      "T1 relaxation",
+      "Static field direction"
+    ],
+    "answer": "Gradient polarity or timing",
+    "explanation": "The echo is produced through a modified gradient waveform rather than an RF refocusing pulse."
+  },
+  {
+    "id": "ch4-143",
+    "chapter": 4,
+    "topic": "Reverse-echo gradient echo",
+    "type": "single_best",
+    "text": "What type of echo is generated in a reverse-echo GRE sequence?",
+    "options": [
+      "A gradient echo",
+      "A conventional spin echo",
+      "An inversion echo only",
+      "A diffusion echo"
+    ],
+    "answer": "A gradient echo",
+    "explanation": "Reverse-echo remains a GRE technique and therefore forms the echo through gradient manipulation."
+  },
+  {
+    "id": "ch4-144",
+    "chapter": 4,
+    "topic": "Reverse-echo gradient echo",
+    "type": "single_best",
+    "text": "Which statement about the refocusing mechanism in reverse-echo GRE is correct?",
+    "options": [
+      "Gradient reversal provides rephasing without a 180° RF pulse",
+      "A 180° RF pulse provides all rephasing",
+      "No rephasing occurs",
+      "T1 recovery provides rephasing"
+    ],
+    "answer": "Gradient reversal provides rephasing without a 180° RF pulse",
+    "explanation": "The defining mechanism of GRE is gradient-based rephasing rather than RF refocusing."
+  },
+  {
+    "id": "ch4-145",
+    "chapter": 4,
+    "topic": "Reverse-echo gradient echo",
+    "type": "single_best",
+    "text": "Which physical quantity is directly altered by changing the polarity of a gradient?",
+    "options": [
+      "The direction of position-dependent phase accumulation",
+      "The tissue T1 value",
+      "The tissue T2 value",
+      "The static field strength everywhere"
+    ],
+    "answer": "The direction of position-dependent phase accumulation",
+    "explanation": "Changing gradient polarity reverses the sign of the position-dependent frequency and therefore reverses the direction of phase accumulation."
+  },
+  {
+    "id": "ch4-146",
+    "chapter": 4,
+    "topic": "Reverse-echo gradient echo",
+    "type": "single_best",
+    "text": "Why is a reverse-echo sequence still sensitive to magnetic susceptibility?",
+    "options": [
+      "It is based on gradient echo formation and retains T2* effects",
+      "It uses a perfect 180° refocusing pulse",
+      "It removes all field variations",
+      "It has no transverse magnetization"
+    ],
+    "answer": "It is based on gradient echo formation and retains T2* effects",
+    "explanation": "GRE sequences do not completely refocus susceptibility-related field variations, so T2* effects remain."
+  },
+  {
+    "id": "ch4-147",
+    "chapter": 4,
+    "topic": "Reverse-echo gradient echo",
+    "type": "single_best",
+    "text": "What is the main role of the gradient before echo formation?",
+    "options": [
+      "To create phase dispersion",
+      "To create a 180° RF pulse",
+      "To restore longitudinal magnetization",
+      "To eliminate transverse magnetization permanently"
+    ],
+    "answer": "To create phase dispersion",
+    "explanation": "The initial gradient causes position-dependent phase accumulation, setting up the conditions for subsequent rephasing."
+  },
+  {
+    "id": "ch4-148",
+    "chapter": 4,
+    "topic": "Reverse-echo gradient echo",
+    "type": "single_best",
+    "text": "What is the main role of the gradient used for rephasing?",
+    "options": [
+      "To reverse the accumulated gradient-induced phase differences",
+      "To increase T1 relaxation",
+      "To eliminate all RF excitation",
+      "To produce longitudinal saturation"
+    ],
+    "answer": "To reverse the accumulated gradient-induced phase differences",
+    "explanation": "The rephasing gradient reverses the phase evolution caused by the preceding dephasing gradient."
+  },
+  {
+    "id": "ch4-149",
+    "chapter": 4,
+    "topic": "Reverse-echo gradient echo",
+    "type": "single_best",
+    "text": "Which factor determines when the gradient echo occurs?",
+    "options": [
+      "The timing and area of the gradient waveforms",
+      "Only tissue T1",
+      "Only RF amplitude",
+      "Only slice thickness"
+    ],
+    "answer": "The timing and area of the gradient waveforms",
+    "explanation": "The echo occurs when the gradient-induced phase evolution has been appropriately reversed, which depends on the gradient waveform."
+  },
+  {
+    "id": "ch4-150",
+    "chapter": 4,
+    "topic": "Reverse-echo gradient echo",
+    "type": "single_best",
+    "text": "Which statement is most accurate about reverse-echo GRE?",
+    "options": [
+      "It modifies the gradient waveform to alter how the echo is generated",
+      "It replaces gradients with 180° RF pulses",
+      "It produces no transverse magnetization",
+      "It is independent of gradient polarity"
+    ],
+    "answer": "It modifies the gradient waveform to alter how the echo is generated",
+    "explanation": "Reverse-echo GRE is characterized by an alternative gradient arrangement used to produce the gradient echo."
+  },
+  {
+    "id": "ch4-151",
+    "chapter": 4,
+    "topic": "Variable flip angle",
+    "type": "single_best",
+    "text": "What happens to the amount of longitudinal magnetization remaining after an RF excitation when the flip angle is reduced?",
+    "options": [
+      "More longitudinal magnetization remains",
+      "Less longitudinal magnetization remains",
+      "All longitudinal magnetization is destroyed",
+      "The longitudinal magnetization reverses completely"
+    ],
+    "answer": "More longitudinal magnetization remains",
+    "explanation": "A smaller flip angle tips less longitudinal magnetization into the transverse plane."
+  },
+  {
+    "id": "ch4-152",
+    "chapter": 4,
+    "topic": "Variable flip angle",
+    "type": "single_best",
+    "text": "For a fixed TR, increasing the flip angle generally increases saturation of longitudinal magnetization. What is the consequence?",
+    "options": [
+      "Less longitudinal recovery between excitations",
+      "More longitudinal recovery between excitations",
+      "Complete elimination of T1 effects",
+      "Elimination of T2* effects"
+    ],
+    "answer": "Less longitudinal recovery between excitations",
+    "explanation": "A larger flip angle removes more longitudinal magnetization, increasing saturation."
+  },
+  {
+    "id": "ch4-153",
+    "chapter": 4,
+    "topic": "Ernst angle",
+    "type": "single_best",
+    "text": "The Ernst angle is primarily used to optimize what in a repeated RF pulse sequence?",
+    "options": [
+      "Signal for a given TR and T1",
+      "Gradient strength",
+      "Magnetic field homogeneity",
+      "Slice thickness"
+    ],
+    "answer": "Signal for a given TR and T1",
+    "explanation": "The Ernst angle maximizes steady-state signal for a specified TR and tissue T1."
+  },
+  {
+    "id": "ch4-154",
+    "chapter": 4,
+    "topic": "Ernst angle",
+    "type": "single_best",
+    "text": "If TR is shortened while T1 remains constant, the Ernst angle generally becomes:",
+    "options": [
+      "Smaller",
+      "Larger",
+      "Exactly 90 degrees",
+      "Unchanged in all circumstances"
+    ],
+    "answer": "Smaller",
+    "explanation": "A shorter TR permits less longitudinal recovery, so a smaller flip angle is optimal."
+  },
+  {
+    "id": "ch4-155",
+    "chapter": 4,
+    "topic": "Ernst angle",
+    "type": "single_best",
+    "text": "If a tissue has a longer T1 and TR is unchanged, the Ernst angle generally becomes:",
+    "options": [
+      "Smaller",
+      "Larger",
+      "Exactly 180 degrees",
+      "Zero"
+    ],
+    "answer": "Smaller",
+    "explanation": "Longer T1 means slower recovery, favoring a smaller flip angle at the same TR."
+  },
+  {
+    "id": "ch4-156",
+    "chapter": 4,
+    "topic": "Gradient rephasing",
+    "type": "single_best",
+    "text": "What is the main purpose of the rephasing portion of a gradient echo sequence?",
+    "options": [
+      "To bring spins back into phase and form an echo",
+      "To eliminate longitudinal magnetization",
+      "To apply a 180-degree RF pulse",
+      "To suppress all T1 recovery"
+    ],
+    "answer": "To bring spins back into phase and form an echo",
+    "explanation": "A gradient reversal compensates for gradient-induced phase dispersion and produces the gradient echo."
+  },
+  {
+    "id": "ch4-157",
+    "chapter": 4,
+    "topic": "Gradient rephasing",
+    "type": "single_best",
+    "text": "In a gradient echo sequence, the dephasing gradient is followed by a gradient of opposite polarity primarily to:",
+    "options": [
+      "Rephase the spins",
+      "Increase RF power",
+      "Create a 180-degree pulse",
+      "Lengthen T1"
+    ],
+    "answer": "Rephase the spins",
+    "explanation": "The opposite gradient polarity reverses the phase dispersion created by the dephasing gradient."
+  },
+  {
+    "id": "ch4-158",
+    "chapter": 4,
+    "topic": "Gradient rephasing",
+    "type": "single_best",
+    "text": "The gradient echo occurs when the accumulated phase dispersion caused by the gradient is:",
+    "options": [
+      "Compensated by the rephasing gradient",
+      "Maximized",
+      "Converted into longitudinal magnetization",
+      "Eliminated by a 180-degree RF pulse"
+    ],
+    "answer": "Compensated by the rephasing gradient",
+    "explanation": "The echo forms when the net gradient-induced phase accumulation reaches the rephasing condition."
+  },
+  {
+    "id": "ch4-159",
+    "chapter": 4,
+    "topic": "Gradient echo timing",
+    "type": "single_best",
+    "text": "What does TE represent in a gradient echo sequence?",
+    "options": [
+      "Time from excitation to the center of the echo",
+      "Time between successive RF excitations",
+      "Total scan duration",
+      "Time required for longitudinal recovery"
+    ],
+    "answer": "Time from excitation to the center of the echo",
+    "explanation": "TE is measured from the RF excitation to the center of the resulting echo."
+  },
+  {
+    "id": "ch4-160",
+    "chapter": 4,
+    "topic": "Gradient echo timing",
+    "type": "single_best",
+    "text": "What is the effect of increasing TE in a gradient echo sequence?",
+    "options": [
+      "Greater T2* decay before signal measurement",
+      "Less T2* decay before signal measurement",
+      "Elimination of susceptibility effects",
+      "Complete elimination of T1 effects"
+    ],
+    "answer": "Greater T2* decay before signal measurement",
+    "explanation": "A longer TE allows more transverse magnetization to decay through T2* mechanisms."
+  },
+  {
+    "id": "ch4-161",
+    "chapter": 4,
+    "topic": "Gradient echo weighting",
+    "type": "single_best",
+    "text": "Which combination generally favors T1 weighting in a gradient echo sequence?",
+    "options": [
+      "Short TR and short TE with an appropriate flip angle",
+      "Long TR and long TE",
+      "Long TR and short TE only",
+      "Short TR and very long TE"
+    ],
+    "answer": "Short TR and short TE with an appropriate flip angle",
+    "explanation": "Short TR emphasizes T1 recovery differences, while short TE minimizes T2* decay."
+  },
+  {
+    "id": "ch4-162",
+    "chapter": 4,
+    "topic": "Gradient echo weighting",
+    "type": "single_best",
+    "text": "Which parameter most directly increases T2* weighting in a gradient echo sequence?",
+    "options": [
+      "Increasing TE",
+      "Decreasing TE",
+      "Decreasing matrix size",
+      "Increasing flip angle to 180 degrees"
+    ],
+    "answer": "Increasing TE",
+    "explanation": "Longer TE allows more T2* decay and therefore increases T2* weighting."
+  },
+  {
+    "id": "ch4-163",
+    "chapter": 4,
+    "topic": "Gradient echo weighting",
+    "type": "single_best",
+    "text": "Why are very short TEs useful when T2* effects are undesirable?",
+    "options": [
+      "They reduce the time available for transverse dephasing",
+      "They increase T2* decay",
+      "They eliminate longitudinal recovery",
+      "They create a 180-degree refocusing pulse"
+    ],
+    "answer": "They reduce the time available for transverse dephasing",
+    "explanation": "Short TE samples the signal before substantial T2* decay has occurred."
+  },
+  {
+    "id": "ch4-164",
+    "chapter": 4,
+    "topic": "Gradient echo weighting",
+    "type": "single_best",
+    "text": "If TR is long and TE is short in a gradient echo sequence, the image is less strongly dominated by:",
+    "options": [
+      "T1 recovery differences",
+      "Magnetic field strength",
+      "Gradient amplitude",
+      "Slice selection"
+    ],
+    "answer": "T1 recovery differences",
+    "explanation": "A long TR allows greater longitudinal recovery, reducing T1 weighting."
+  },
+  {
+    "id": "ch4-165",
+    "chapter": 4,
+    "topic": "Gradient echo weighting",
+    "type": "single_best",
+    "text": "What is a major reason gradient echo sequences are sensitive to magnetic susceptibility?",
+    "options": [
+      "They do not use a 180-degree refocusing pulse",
+      "They always use a 180-degree refocusing pulse",
+      "They eliminate field inhomogeneity",
+      "They prevent transverse dephasing"
+    ],
+    "answer": "They do not use a 180-degree refocusing pulse",
+    "explanation": "Without a 180-degree refocusing pulse, local field variations contribute to T2* signal loss."
+  },
+  {
+    "id": "ch4-166",
+    "chapter": 4,
+    "topic": "Coherent gradient echo",
+    "type": "single_best",
+    "text": "What is preserved in a coherent or rewound gradient echo sequence?",
+    "options": [
+      "Transverse magnetization coherence",
+      "Only longitudinal magnetization",
+      "Only random spin phases",
+      "No residual magnetization"
+    ],
+    "answer": "Transverse magnetization coherence",
+    "explanation": "Coherent GRE sequences preserve transverse magnetization between RF excitations."
+  },
+  {
+    "id": "ch4-167",
+    "chapter": 4,
+    "topic": "Coherent gradient echo",
+    "type": "single_best",
+    "text": "Why is residual transverse magnetization important in coherent GRE sequences?",
+    "options": [
+      "It contributes to subsequent signal formation",
+      "It prevents all signal formation",
+      "It eliminates the steady state",
+      "It removes T1 recovery"
+    ],
+    "answer": "It contributes to subsequent signal formation",
+    "explanation": "Coherent transverse magnetization remains phase-related and can contribute to later echoes."
+  },
+  {
+    "id": "ch4-168",
+    "chapter": 4,
+    "topic": "Coherent gradient echo",
+    "type": "single_best",
+    "text": "What is the purpose of rewinding gradients in a coherent GRE sequence?",
+    "options": [
+      "To restore gradient-induced phase coherence",
+      "To destroy transverse coherence",
+      "To eliminate the RF excitation",
+      "To lengthen the repetition time"
+    ],
+    "answer": "To restore gradient-induced phase coherence",
+    "explanation": "Rewinder gradients compensate for previous gradient-induced phase shifts."
+  },
+  {
+    "id": "ch4-169",
+    "chapter": 4,
+    "topic": "Coherent gradient echo",
+    "type": "single_best",
+    "text": "A coherent GRE sequence can develop a steady state because:",
+    "options": [
+      "Residual magnetization is maintained between repetitions",
+      "All magnetization is destroyed after every RF pulse",
+      "A 180-degree pulse completely resets the spins",
+      "There is no transverse magnetization"
+    ],
+    "answer": "Residual magnetization is maintained between repetitions",
+    "explanation": "Maintained magnetization from previous excitations contributes to the steady-state signal."
+  },
+  {
+    "id": "ch4-170",
+    "chapter": 4,
+    "topic": "Coherent gradient echo",
+    "type": "single_best",
+    "text": "Which feature distinguishes a coherent GRE sequence from a fully spoiled GRE sequence?",
+    "options": [
+      "Preservation of phase-coherent transverse magnetization",
+      "Use of a 180-degree refocusing pulse",
+      "Absence of gradients",
+      "Use of only a 90-degree excitation"
+    ],
+    "answer": "Preservation of phase-coherent transverse magnetization",
+    "explanation": "Coherent GRE maintains transverse coherence, whereas spoiled GRE deliberately destroys it."
+  },
+  {
+    "id": "ch4-171",
+    "chapter": 4,
+    "topic": "Spoiled gradient echo",
+    "type": "single_best",
+    "text": "What is the primary goal of spoiling in a spoiled GRE sequence?",
+    "options": [
+      "Destroy residual transverse coherence before the next excitation",
+      "Increase residual transverse coherence",
+      "Create a 180-degree refocusing pulse",
+      "Lengthen T2"
+    ],
+    "answer": "Destroy residual transverse coherence before the next excitation",
+    "explanation": "Spoiling prevents unwanted transverse magnetization from contributing to subsequent signal."
+  },
+  {
+    "id": "ch4-172",
+    "chapter": 4,
+    "topic": "Spoiled gradient echo",
+    "type": "single_best",
+    "text": "Which type of magnetization is intentionally disrupted by gradient spoiling?",
+    "options": [
+      "Transverse magnetization",
+      "Longitudinal magnetization only",
+      "Static magnetic field",
+      "RF magnetization"
+    ],
+    "answer": "Transverse magnetization",
+    "explanation": "Gradient spoiling creates phase dispersion that destroys coherent transverse magnetization."
+  },
+  {
+    "id": "ch4-173",
+    "chapter": 4,
+    "topic": "RF spoiling",
+    "type": "single_best",
+    "text": "RF spoiling uses what mechanism to reduce coherent transverse magnetization?",
+    "options": [
+      "Systematic variation of RF pulse phase",
+      "Constant 180-degree RF pulses",
+      "Increasing TE after every acquisition",
+      "Eliminating all gradients"
+    ],
+    "answer": "Systematic variation of RF pulse phase",
+    "explanation": "RF spoiling varies RF phase between excitations to prevent coherent transverse pathways."
+  },
+  {
+    "id": "ch4-174",
+    "chapter": 4,
+    "topic": "RF spoiling",
+    "type": "single_best",
+    "text": "Why can RF phase cycling improve the behavior of a spoiled GRE sequence?",
+    "options": [
+      "It disrupts phase coherence from previous excitations",
+      "It increases transverse coherence",
+      "It creates a spin echo",
+      "It eliminates T1 recovery"
+    ],
+    "answer": "It disrupts phase coherence from previous excitations",
+    "explanation": "Controlled RF phase changes prevent residual transverse magnetization from remaining coherently aligned."
+  },
+  {
+    "id": "ch4-175",
+    "chapter": 4,
+    "topic": "Spoiled gradient echo",
+    "type": "single_best",
+    "text": "Compared with coherent GRE, spoiled GRE is more directly suited to producing:",
+    "options": [
+      "T1-weighted contrast",
+      "Pure T2 contrast",
+      "Spin-density-only contrast",
+      "Diffusion-only contrast"
+    ],
+    "answer": "T1-weighted contrast",
+    "explanation": "Spoiled GRE commonly uses short TR, short TE, and suitable flip angles to emphasize T1 differences."
+  },
+  {
+    "id": "ch4-176",
+    "chapter": 4,
+    "topic": "Spoiled gradient echo",
+    "type": "single_best",
+    "text": "What could occur if transverse magnetization is not adequately spoiled?",
+    "options": [
+      "Unexpected coherent signal pathways may contribute",
+      "All signal disappears",
+      "T1 recovery stops completely",
+      "The sequence becomes a spin echo automatically"
+    ],
+    "answer": "Unexpected coherent signal pathways may contribute",
+    "explanation": "Incomplete spoiling allows residual transverse coherence to influence subsequent signal."
+  },
+  {
+    "id": "ch4-177",
+    "chapter": 4,
+    "topic": "Reverse-echo gradient echo",
+    "type": "single_best",
+    "text": "What primarily distinguishes a reverse-echo gradient echo sequence?",
+    "options": [
+      "The timing and polarity arrangement used to form the gradient echo",
+      "Use of a mandatory 180-degree RF pulse",
+      "Absence of gradients",
+      "Use of only longitudinal magnetization"
+    ],
+    "answer": "The timing and polarity arrangement used to form the gradient echo",
+    "explanation": "Reverse-echo GRE uses a different gradient timing/polarity arrangement to generate the echo."
+  },
+  {
+    "id": "ch4-178",
+    "chapter": 4,
+    "topic": "Reverse-echo gradient echo",
+    "type": "single_best",
+    "text": "A reverse-echo GRE sequence still forms its echo primarily through:",
+    "options": [
+      "Gradient-induced rephasing",
+      "A 180-degree RF refocusing pulse",
+      "Longitudinal recovery",
+      "Spin-lattice relaxation alone"
+    ],
+    "answer": "Gradient-induced rephasing",
+    "explanation": "Like other GRE sequences, the echo is produced by manipulating gradients rather than using a 180-degree refocusing pulse."
+  },
+  {
+    "id": "ch4-179",
+    "chapter": 4,
+    "topic": "Reverse-echo gradient echo",
+    "type": "single_best",
+    "text": "What happens to spin phase during the dephasing portion of a reverse-echo GRE sequence?",
+    "options": [
+      "Spins accumulate different phases",
+      "All spins become perfectly synchronized immediately",
+      "Longitudinal magnetization becomes zero",
+      "T1 relaxation stops"
+    ],
+    "answer": "Spins accumulate different phases",
+    "explanation": "The applied gradient causes position-dependent phase dispersion before rephasing occurs."
+  },
+  {
+    "id": "ch4-180",
+    "chapter": 4,
+    "topic": "Reverse-echo gradient echo",
+    "type": "single_best",
+    "text": "What is required after gradient-induced dephasing to generate a gradient echo?",
+    "options": [
+      "A suitable reversal of gradient-induced phase accumulation",
+      "A second 90-degree pulse in every case",
+      "Complete elimination of transverse magnetization",
+      "A long period of T1 recovery"
+    ],
+    "answer": "A suitable reversal of gradient-induced phase accumulation",
+    "explanation": "The gradient waveform must produce the phase reversal necessary for the spins to rephase."
+  },
+  {
+    "id": "ch4-181",
+    "chapter": 4,
+    "topic": "Balanced gradient echo",
+    "type": "single_best",
+    "text": "What is a defining characteristic of a balanced gradient echo sequence?",
+    "options": [
+      "Net gradient moments are balanced over the repetition",
+      "Only the slice gradient is applied",
+      "All transverse magnetization is spoiled",
+      "A 180-degree pulse is mandatory"
+    ],
+    "answer": "Net gradient moments are balanced over the repetition",
+    "explanation": "Balanced GRE sequences balance the gradient moments so that residual coherent transverse magnetization can persist."
+  },
+  {
+    "id": "ch4-182",
+    "chapter": 4,
+    "topic": "Balanced gradient echo",
+    "type": "single_best",
+    "text": "Which gradient axes are generally balanced in a fully balanced GRE sequence?",
+    "options": [
+      "Slice, frequency, and phase axes",
+      "Only the frequency axis",
+      "Only the phase axis",
+      "Only the slice axis"
+    ],
+    "answer": "Slice, frequency, and phase axes",
+    "explanation": "Fully balanced sequences compensate gradient moments on all three spatial axes."
+  },
+  {
+    "id": "ch4-183",
+    "chapter": 4,
+    "topic": "Balanced gradient echo",
+    "type": "single_best",
+    "text": "Why can balanced GRE sequences maintain substantial transverse magnetization?",
+    "options": [
+      "Gradient moments are rewound rather than deliberately spoiling coherence",
+      "All transverse magnetization is destroyed after every pulse",
+      "A 180-degree pulse resets the spins",
+      "TR is always extremely long"
+    ],
+    "answer": "Gradient moments are rewound rather than deliberately spoiling coherence",
+    "explanation": "Balanced gradients preserve phase coherence and allow transverse magnetization to persist."
+  },
+  {
+    "id": "ch4-184",
+    "chapter": 4,
+    "topic": "Balanced gradient echo",
+    "type": "single_best",
+    "text": "Balanced steady-state free precession is especially sensitive to:",
+    "options": [
+      "Off-resonance effects",
+      "Only T1 recovery",
+      "Only slice thickness",
+      "RF frequency being exactly zero"
+    ],
+    "answer": "Off-resonance effects",
+    "explanation": "The coherent steady state of bSSFP makes it particularly sensitive to local frequency offsets."
+  },
+  {
+    "id": "ch4-185",
+    "chapter": 4,
+    "topic": "Balanced gradient echo",
+    "type": "single_best",
+    "text": "What can off-resonance cause in a balanced GRE image?",
+    "options": [
+      "Banding artifacts",
+      "Complete elimination of all signal",
+      "Removal of T1 contrast",
+      "Automatic spin-echo formation"
+    ],
+    "answer": "Banding artifacts",
+    "explanation": "Off-resonance frequencies can produce periodic signal loss or banding in balanced steady-state sequences."
+  },
+  {
+    "id": "ch4-186",
+    "chapter": 4,
+    "topic": "Balanced gradient echo",
+    "type": "single_best",
+    "text": "Which relaxation properties contribute strongly to the contrast of balanced SSFP?",
+    "options": [
+      "Both T1 and T2",
+      "Only T1",
+      "Only T2*",
+      "Neither T1 nor T2"
+    ],
+    "answer": "Both T1 and T2",
+    "explanation": "Balanced SSFP signal depends strongly on the relationship between T1 and T2."
+  },
+  {
+    "id": "ch4-187",
+    "chapter": 4,
+    "topic": "Fast gradient echo",
+    "type": "single_best",
+    "text": "What is the primary purpose of fast GRE techniques?",
+    "options": [
+      "Reduce acquisition time",
+      "Increase scan time",
+      "Eliminate gradients",
+      "Require 180-degree refocusing pulses"
+    ],
+    "answer": "Reduce acquisition time",
+    "explanation": "Fast GRE techniques use short timing parameters and efficient gradient-echo acquisition to shorten scans."
+  },
+  {
+    "id": "ch4-188",
+    "chapter": 4,
+    "topic": "Fast gradient echo",
+    "type": "single_best",
+    "text": "Which combination is characteristic of many fast GRE sequences?",
+    "options": [
+      "Short TR and short TE",
+      "Long TR and long TE",
+      "Long TR and no RF excitation",
+      "Very long TE and 180-degree refocusing"
+    ],
+    "answer": "Short TR and short TE",
+    "explanation": "Short TR and TE allow rapid repetition and rapid echo formation."
+  },
+  {
+    "id": "ch4-189",
+    "chapter": 4,
+    "topic": "Fast gradient echo",
+    "type": "single_best",
+    "text": "Why are relatively small flip angles commonly used in fast GRE sequences?",
+    "options": [
+      "To reduce saturation and permit rapid RF repetition",
+      "To create a spin echo",
+      "To eliminate longitudinal magnetization",
+      "To maximize 180-degree refocusing"
+    ],
+    "answer": "To reduce saturation and permit rapid RF repetition",
+    "explanation": "Small flip angles preserve more longitudinal magnetization when RF pulses are repeated rapidly."
+  },
+  {
+    "id": "ch4-190",
+    "chapter": 4,
+    "topic": "Fast gradient echo",
+    "type": "single_best",
+    "text": "A major trade-off of using very short TR in fast GRE is:",
+    "options": [
+      "Greater dependence on steady-state magnetization",
+      "Complete elimination of T1 effects",
+      "Automatic creation of a spin echo",
+      "Elimination of all residual magnetization"
+    ],
+    "answer": "Greater dependence on steady-state magnetization",
+    "explanation": "Short TR allows substantial magnetization from previous excitations to influence subsequent signal."
+  },
+  {
+    "id": "ch4-191",
+    "chapter": 4,
+    "topic": "Fast gradient echo",
+    "type": "single_best",
+    "text": "Which factor most directly helps shorten the minimum TE in a GRE sequence?",
+    "options": [
+      "Rapid gradient switching and efficient gradient timing",
+      "Longer RF pulses",
+      "Longer TR",
+      "A mandatory 180-degree pulse"
+    ],
+    "answer": "Rapid gradient switching and efficient gradient timing",
+    "explanation": "Efficient gradient hardware and timing allow the echo to be formed and sampled quickly."
+  },
+  {
+    "id": "ch4-192",
+    "chapter": 4,
+    "topic": "Fast gradient echo",
+    "type": "single_best",
+    "text": "Why can fast GRE sequences be useful when motion is a concern?",
+    "options": [
+      "They can reduce the time during which motion can affect acquisition",
+      "They eliminate all motion",
+      "They prevent physiological movement",
+      "They require longer scan times"
+    ],
+    "answer": "They can reduce the time during which motion can affect acquisition",
+    "explanation": "Shorter acquisitions can reduce motion-related image degradation."
+  },
+  {
+    "id": "ch4-193",
+    "chapter": 4,
+    "topic": "GRE comparison",
+    "type": "single_best",
+    "text": "Which GRE approach deliberately destroys residual transverse coherence?",
+    "options": [
+      "Spoiled GRE",
+      "Coherent GRE",
+      "Balanced GRE",
+      "Rewound GRE"
+    ],
+    "answer": "Spoiled GRE",
+    "explanation": "Spoiled GRE uses RF and/or gradient spoiling to eliminate coherent transverse pathways."
+  },
+  {
+    "id": "ch4-194",
+    "chapter": 4,
+    "topic": "GRE comparison",
+    "type": "single_best",
+    "text": "Which GRE approach deliberately preserves coherent transverse magnetization?",
+    "options": [
+      "Coherent GRE",
+      "Spoiled GRE",
+      "Incoherent GRE",
+      "Fully spoiled GRE"
+    ],
+    "answer": "Coherent GRE",
+    "explanation": "Coherent GRE sequences maintain phase relationships between successive excitations."
+  },
+  {
+    "id": "ch4-195",
+    "chapter": 4,
+    "topic": "GRE comparison",
+    "type": "single_best",
+    "text": "Which GRE sequence is most associated with balancing gradient moments on all three axes?",
+    "options": [
+      "Balanced GRE",
+      "Spoiled GRE",
+      "Incoherent GRE",
+      "Conventional spin echo"
+    ],
+    "answer": "Balanced GRE",
+    "explanation": "Balanced GRE uses gradient balancing on the slice, phase, and frequency axes."
+  },
+  {
+    "id": "ch4-196",
+    "chapter": 4,
+    "topic": "GRE comparison",
+    "type": "single_best",
+    "text": "Which GRE sequence type is most associated with T1-weighted imaging using deliberate spoiling?",
+    "options": [
+      "Spoiled GRE",
+      "Balanced GRE",
+      "Coherent GRE",
+      "Reverse-echo GRE only"
+    ],
+    "answer": "Spoiled GRE",
+    "explanation": "Spoiled GRE commonly uses short TR, short TE, and suitable flip angles to produce T1-weighted contrast."
+  },
+  {
+    "id": "ch4-197",
+    "chapter": 4,
+    "topic": "GRE comparison",
+    "type": "single_best",
+    "text": "Which GRE type is particularly associated with off-resonance banding because of its coherent steady state?",
+    "options": [
+      "Balanced SSFP",
+      "Spoiled GRE",
+      "Incoherent GRE",
+      "RF-spoiled GRE"
+    ],
+    "answer": "Balanced SSFP",
+    "explanation": "Balanced SSFP maintains coherent transverse magnetization and is highly sensitive to off-resonance."
+  },
+  {
+    "id": "ch4-198",
+    "chapter": 4,
+    "topic": "GRE comparison",
+    "type": "single_best",
+    "text": "Which statement best describes the common advantage of GRE sequences over conventional spin echo sequences?",
+    "options": [
+      "They can acquire images rapidly without a 180-degree refocusing pulse",
+      "They always eliminate susceptibility effects",
+      "They always provide pure T2 contrast",
+      "They require longer TR values"
+    ],
+    "answer": "They can acquire images rapidly without a 180-degree refocusing pulse",
+    "explanation": "GRE sequences avoid the 180-degree refocusing pulse and can therefore use short TR and TE."
+  },
+  {
+    "id": "ch4-199",
+    "chapter": 4,
+    "topic": "GRE signal behavior",
+    "type": "single_best",
+    "text": "If a GRE sequence uses a very short TE, what happens to susceptibility-related T2* signal loss compared with a longer TE?",
+    "options": [
+      "It is reduced",
+      "It is increased",
+      "It becomes infinite",
+      "It is completely independent of TE"
+    ],
+    "answer": "It is reduced",
+    "explanation": "Short TE limits the time available for susceptibility-related dephasing before signal sampling."
+  },
+  {
+    "id": "ch4-200",
+    "chapter": 4,
+    "topic": "Gradient echo pulse sequences",
+    "type": "single_best",
+    "text": "Which statement best summarizes the fundamental principle of gradient echo pulse sequences?",
+    "options": [
+      "An echo is formed by gradient dephasing and rephasing rather than a 180-degree RF refocusing pulse",
+      "An echo always requires a 180-degree RF refocusing pulse",
+      "Gradient echoes eliminate T2* effects completely",
+      "Gradient echoes use only longitudinal magnetization"
+    ],
+    "answer": "An echo is formed by gradient dephasing and rephasing rather than a 180-degree RF refocusing pulse",
+    "explanation": "GRE sequences generate echoes by manipulating gradient-induced phase rather than using a 180-degree RF refocusing pulse."
+  }
+]

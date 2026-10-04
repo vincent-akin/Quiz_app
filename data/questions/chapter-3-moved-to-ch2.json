@@ -1,0 +1,1757 @@
+[
+ {
+  "id": "ch3-001",
+  "chapter": 2,
+  "topic": "T1 relaxation",
+  "type": "single_best",
+  "text": "T1 relaxation primarily describes recovery of which property after RF excitation?",
+  "options": [
+   "Longitudinal magnetization",
+   "Transverse magnetization",
+   "Gradient strength",
+   "Larmor frequency"
+  ],
+  "answer": "Longitudinal magnetization",
+  "explanation": "T1 relaxation is the recovery of longitudinal magnetization toward its equilibrium value."
+ },
+ {
+  "id": "ch3-002",
+  "chapter": 2,
+  "topic": "T2 relaxation",
+  "type": "single_best",
+  "text": "T2 relaxation is primarily associated with decay of which component of magnetization?",
+  "options": [
+   "Longitudinal magnetization",
+   "Transverse magnetization",
+   "Static magnetic field",
+   "RF field"
+  ],
+  "answer": "Transverse magnetization",
+  "explanation": "T2 relaxation reflects loss of transverse phase coherence and decay of transverse magnetization."
+ },
+ {
+  "id": "ch3-003",
+  "chapter": 2,
+  "topic": "T1 relaxation",
+  "type": "single_best",
+  "text": "Which tissue generally has a shorter T1 relaxation time?",
+  "options": [
+   "Fat",
+   "CSF",
+   "Air",
+   "Cortical bone"
+  ],
+  "answer": "Fat",
+  "explanation": "Fat has efficient energy exchange with its surroundings and therefore generally has a relatively short T1."
+ },
+ {
+  "id": "ch3-004",
+  "chapter": 2,
+  "topic": "T1-weighted imaging",
+  "type": "single_best",
+  "text": "Which sequence parameter combination generally produces strong T1 weighting in a spin-echo sequence?",
+  "options": [
+   "Short TR and short TE",
+   "Long TR and long TE",
+   "Long TR and short TE",
+   "Short TR and long TE"
+  ],
+  "answer": "Short TR and short TE",
+  "explanation": "Short TR emphasizes differences in longitudinal recovery, while short TE minimizes T2 effects."
+ },
+ {
+  "id": "ch3-005",
+  "chapter": 2,
+  "topic": "T2-weighted imaging",
+  "type": "single_best",
+  "text": "Which parameter combination generally produces strong T2 weighting in a spin-echo sequence?",
+  "options": [
+   "Short TR and short TE",
+   "Long TR and long TE",
+   "Short TR and long TE",
+   "Long TR and short TE"
+  ],
+  "answer": "Long TR and long TE",
+  "explanation": "Long TR reduces T1 weighting, while long TE allows differences in T2 decay to become prominent."
+ },
+ {
+  "id": "ch3-006",
+  "chapter": 2,
+  "topic": "T2 relaxation",
+  "type": "single_best",
+  "text": "Why is T2 relaxation generally faster than T1 relaxation?",
+  "options": [
+   "T2 does not involve transverse magnetization",
+   "T2 reflects loss of phase coherence, which occurs before complete longitudinal recovery",
+   "T1 occurs only in fat",
+   "T2 requires a longer RF pulse"
+  ],
+  "answer": "T2 reflects loss of phase coherence, which occurs before complete longitudinal recovery",
+  "explanation": "Transverse dephasing typically occurs more rapidly than longitudinal magnetization returns to equilibrium."
+ },
+ {
+  "id": "ch3-007",
+  "chapter": 2,
+  "topic": "T1 and T2 relationship",
+  "type": "single_best",
+  "text": "Which statement about T1 and T2 relaxation times is correct?",
+  "options": [
+   "T1 is always shorter than T2",
+   "T2 is always longer than T1",
+   "T2 is less than or equal to T1 in conventional biological tissues",
+   "T1 and T2 are always identical"
+  ],
+  "answer": "T2 is less than or equal to T1 in conventional biological tissues",
+  "explanation": "T2 decay occurs from mechanisms that also contribute to T1 relaxation, so T2 is generally shorter than T1."
+ },
+ {
+  "id": "ch3-008",
+  "chapter": 2,
+  "topic": "T1 recovery",
+  "type": "single_best",
+  "text": "At approximately what point after a 90-degree excitation pulse has longitudinal magnetization recovered to about 63% of its equilibrium value?",
+  "options": [
+   "0.5 T1",
+   "1 T1",
+   "2 T1",
+   "5 T1"
+  ],
+  "answer": "1 T1",
+  "explanation": "After one T1, approximately 63% of longitudinal magnetization has recovered."
+ },
+ {
+  "id": "ch3-010",
+  "chapter": 2,
+  "topic": "T1 recovery",
+  "type": "single_best",
+  "text": "After approximately 3 T1 periods, how much longitudinal magnetization has recovered?",
+  "options": [
+   "37%",
+   "63%",
+   "95%",
+   "100%"
+  ],
+  "answer": "95%",
+  "explanation": "Longitudinal recovery follows an exponential curve and reaches approximately 95% after 3 T1 periods."
+ },
+ {
+  "id": "ch3-011",
+  "chapter": 2,
+  "topic": "T1 recovery",
+  "type": "single_best",
+  "text": "After approximately 5 T1 periods, longitudinal magnetization is considered to be:",
+  "options": [
+   "About 37% recovered",
+   "About 63% recovered",
+   "About 95% recovered",
+   "Essentially fully recovered"
+  ],
+  "answer": "Essentially fully recovered",
+  "explanation": "After approximately five T1 periods, longitudinal magnetization has recovered to more than 99% of equilibrium."
+ },
+ {
+  "id": "ch3-012",
+  "chapter": 2,
+  "topic": "T2 decay",
+  "type": "single_best",
+  "text": "After approximately 3 T2 periods, what percentage of the original transverse magnetization remains?",
+  "options": [
+   "5%",
+   "13%",
+   "37%",
+   "63%"
+  ],
+  "answer": "5%",
+  "explanation": "The remaining transverse magnetization after 3 T2 is approximately e^-3, or about 5%."
+ },
+ {
+  "id": "ch3-020",
+  "chapter": 2,
+  "topic": "T2 versus T2 star",
+  "type": "single_best",
+  "text": "Which phenomenon causes T2* to be shorter than true T2?",
+  "options": [
+   "Only longitudinal recovery",
+   "Magnetic field inhomogeneity in addition to spin-spin interactions",
+   "Reduced proton density",
+   "Long TR"
+  ],
+  "answer": "Magnetic field inhomogeneity in addition to spin-spin interactions",
+  "explanation": "T2* includes both true T2 decay and additional dephasing from magnetic field inhomogeneities."
+ },
+ {
+  "id": "ch3-025",
+  "chapter": 2,
+  "topic": "T1 contrast",
+  "type": "single_best",
+  "text": "On a T1-weighted image, which tissue is usually relatively bright?",
+  "options": [
+   "Fat",
+   "Simple fluid",
+   "Air",
+   "Cortical bone"
+  ],
+  "answer": "Fat",
+  "explanation": "Fat has a short T1 and therefore typically appears bright on T1-weighted images."
+ },
+ {
+  "id": "ch3-026",
+  "chapter": 2,
+  "topic": "T2 contrast",
+  "type": "single_best",
+  "text": "On a typical T2-weighted image, simple fluid such as CSF is usually:",
+  "options": [
+   "Bright",
+   "Dark",
+   "Invisible",
+   "The same signal as cortical bone"
+  ],
+  "answer": "Bright",
+  "explanation": "Fluid has a long T2 and therefore retains transverse magnetization longer, appearing bright on T2-weighted images."
+ },
+ {
+  "id": "ch3-027",
+  "chapter": 2,
+  "topic": "T1 contrast",
+  "type": "single_best",
+  "text": "On a typical T1-weighted brain image, CSF is generally:",
+  "options": [
+   "Bright",
+   "Dark",
+   "The same signal as fat",
+   "Hyperintense to white matter"
+  ],
+  "answer": "Dark",
+  "explanation": "CSF has a long T1 and therefore has relatively low signal on T1-weighted images."
+ },
+ {
+  "id": "ch3-028",
+  "chapter": 2,
+  "topic": "T2 contrast",
+  "type": "single_best",
+  "text": "Which tissue property contributes most directly to increased signal on a T2-weighted sequence?",
+  "options": [
+   "Short T2",
+   "Long T2",
+   "Short T1 only",
+   "Low proton density only"
+  ],
+  "answer": "Long T2",
+  "explanation": "Tissues with longer T2 values retain transverse magnetization and appear brighter with appropriate T2 weighting."
+ },
+ {
+  "id": "ch3-029",
+  "chapter": 2,
+  "topic": "Proton density",
+  "type": "single_best",
+  "text": "Proton-density weighting is primarily intended to emphasize differences in:",
+  "options": [
+   "Number of mobile hydrogen nuclei",
+   "T1 relaxation only",
+   "T2 relaxation only",
+   "Gradient amplitude"
+  ],
+  "answer": "Number of mobile hydrogen nuclei",
+  "explanation": "PD-weighted imaging minimizes T1 and T2 effects so signal mainly reflects the concentration of mobile hydrogen nuclei."
+ },
+ {
+  "id": "ch3-030",
+  "chapter": 2,
+  "topic": "Proton density weighting",
+  "type": "single_best",
+  "text": "Which parameter combination generally minimizes both T1 and T2 weighting for proton-density imaging?",
+  "options": [
+   "Short TR and long TE",
+   "Long TR and short TE",
+   "Short TR and short TE",
+   "Long TR and long TE"
+  ],
+  "answer": "Long TR and short TE",
+  "explanation": "Long TR minimizes T1 differences, while short TE minimizes T2 differences."
+ },
+ {
+  "id": "ch3-039",
+  "chapter": 2,
+  "topic": "T1 weighting",
+  "type": "single_best",
+  "text": "Increasing TR in a T1-weighted sequence generally has what effect?",
+  "options": [
+   "Increases T1 weighting",
+   "Reduces T1 weighting",
+   "Eliminates all signal",
+   "Creates diffusion weighting"
+  ],
+  "answer": "Reduces T1 weighting",
+  "explanation": "A longer TR allows more longitudinal recovery and therefore reduces differences caused by T1 relaxation."
+ },
+ {
+  "id": "ch3-040",
+  "chapter": 2,
+  "topic": "T2 weighting",
+  "type": "single_best",
+  "text": "Increasing TE generally increases which type of weighting?",
+  "options": [
+   "T1 weighting",
+   "T2 weighting",
+   "Proton-density weighting",
+   "Flow compensation only"
+  ],
+  "answer": "T2 weighting",
+  "explanation": "A longer TE allows more transverse relaxation to occur, increasing sensitivity to T2 differences."
+ },
+ {
+  "id": "ch3-041",
+  "chapter": 2,
+  "topic": "T2 weighting",
+  "type": "single_best",
+  "text": "Reducing TE in a spin-echo sequence generally reduces:",
+  "options": [
+   "T2 weighting",
+   "T1 recovery",
+   "Magnetic field strength",
+   "Patient size"
+  ],
+  "answer": "T2 weighting",
+  "explanation": "Shorter TE provides less time for transverse relaxation differences to influence signal."
+ },
+ {
+  "id": "ch3-042",
+  "chapter": 2,
+  "topic": "T1 weighting",
+  "type": "single_best",
+  "text": "Reducing TR in a spin-echo sequence generally increases:",
+  "options": [
+   "T1 weighting",
+   "T2 weighting",
+   "Proton density weighting",
+   "Diffusion weighting only"
+  ],
+  "answer": "T1 weighting",
+  "explanation": "Short TR limits longitudinal recovery and increases signal differences based on T1."
+ },
+ {
+  "id": "ch3-043",
+  "chapter": 2,
+  "topic": "Relaxation mechanisms",
+  "type": "single_best",
+  "text": "T1 relaxation is also called:",
+  "options": [
+   "Spin-lattice relaxation",
+   "Spin-spin relaxation",
+   "Gradient relaxation",
+   "Frequency relaxation"
+  ],
+  "answer": "Spin-lattice relaxation",
+  "explanation": "T1 relaxation involves energy exchange between excited spins and their surrounding molecular environment, called the lattice."
+ },
+ {
+  "id": "ch3-044",
+  "chapter": 2,
+  "topic": "Relaxation mechanisms",
+  "type": "single_best",
+  "text": "T2 relaxation is also called:",
+  "options": [
+   "Spin-lattice relaxation",
+   "Spin-spin relaxation",
+   "Longitudinal recovery",
+   "RF recovery"
+  ],
+  "answer": "Spin-spin relaxation",
+  "explanation": "T2 relaxation results primarily from interactions among spins that cause loss of transverse phase coherence."
+ },
+ {
+  "id": "ch3-045",
+  "chapter": 2,
+  "topic": "Spin-lattice relaxation",
+  "type": "single_best",
+  "text": "During T1 relaxation, RF energy absorbed by the spins is primarily transferred to:",
+  "options": [
+   "The surrounding lattice",
+   "The gradient coils",
+   "The RF amplifier",
+   "The patient table"
+  ],
+  "answer": "The surrounding lattice",
+  "explanation": "T1 relaxation involves transfer of energy from the excited spin system to the surrounding molecular environment."
+ },
+ {
+  "id": "ch3-046",
+  "chapter": 2,
+  "topic": "Spin-spin relaxation",
+  "type": "single_best",
+  "text": "During T2 relaxation, the primary change is:",
+  "options": [
+   "Loss of transverse phase coherence",
+   "Increase in longitudinal magnetization",
+   "Increase in static field strength",
+   "Creation of new protons"
+  ],
+  "answer": "Loss of transverse phase coherence",
+  "explanation": "T2 relaxation occurs as microscopic interactions cause spins to lose phase coherence in the transverse plane."
+ },
+ {
+  "id": "ch3-047",
+  "chapter": 2,
+  "topic": "T1 tissue characteristics",
+  "type": "single_best",
+  "text": "Which tissue generally has a relatively long T1 relaxation time?",
+  "options": [
+   "Fat",
+   "CSF",
+   "Subcutaneous fat",
+   "White matter"
+  ],
+  "answer": "CSF",
+  "explanation": "CSF has a long T1 relaxation time compared with many solid tissues."
+ },
+ {
+  "id": "ch3-048",
+  "chapter": 2,
+  "topic": "T2 tissue characteristics",
+  "type": "single_best",
+  "text": "Which tissue generally has a particularly long T2 relaxation time?",
+  "options": [
+   "CSF",
+   "Cortical bone",
+   "Tendon",
+   "Air"
+  ],
+  "answer": "CSF",
+  "explanation": "CSF has a long T2 and therefore remains relatively bright on T2-weighted imaging."
+ },
+ {
+  "id": "ch3-049",
+  "chapter": 2,
+  "topic": "T1 tissue characteristics",
+  "type": "single_best",
+  "text": "Which tissue generally appears brighter on T1-weighted MRI?",
+  "options": [
+   "Fat",
+   "CSF",
+   "Air",
+   "Cortical bone"
+  ],
+  "answer": "Fat",
+  "explanation": "Fat has a short T1 and recovers longitudinal magnetization rapidly, resulting in high signal on T1-weighted images."
+ },
+ {
+  "id": "ch3-050",
+  "chapter": 2,
+  "topic": "T2 tissue characteristics",
+  "type": "single_best",
+  "text": "Which tissue generally appears brighter on T2-weighted MRI?",
+  "options": [
+   "CSF",
+   "Cortical bone",
+   "Air",
+   "Dense tendon"
+  ],
+  "answer": "CSF",
+  "explanation": "CSF has a long T2, allowing substantial transverse magnetization to remain at the time of image acquisition."
+ },
+ {
+  "id": "ch3-051",
+  "chapter": 2,
+  "topic": "T1 relaxation",
+  "type": "single_best",
+  "text": "Which factor has the greatest influence on T1 relaxation behavior?",
+  "options": [
+   "Molecular environment and mobility",
+   "Patient height",
+   "Matrix size",
+   "FOV"
+  ],
+  "answer": "Molecular environment and mobility",
+  "explanation": "T1 relaxation depends strongly on how efficiently molecular motion allows energy exchange between spins and their surroundings."
+ },
+ {
+  "id": "ch3-052",
+  "chapter": 2,
+  "topic": "T2 relaxation",
+  "type": "single_best",
+  "text": "Which factor strongly influences T2 relaxation?",
+  "options": [
+   "Spin-spin interactions and local magnetic environments",
+   "Patient weight only",
+   "Slice thickness only",
+   "Number of frequency-encoding steps"
+  ],
+  "answer": "Spin-spin interactions and local magnetic environments",
+  "explanation": "T2 relaxation results from microscopic magnetic interactions that cause transverse dephasing."
+ },
+ {
+  "id": "ch3-053",
+  "chapter": 2,
+  "topic": "T1 contrast",
+  "type": "single_best",
+  "text": "If two tissues have very different T1 values, which imaging approach best emphasizes this difference?",
+  "options": [
+   "T1-weighted imaging",
+   "T2-weighted imaging",
+   "Diffusion-free imaging",
+   "Gradient calibration"
+  ],
+  "answer": "T1-weighted imaging",
+  "explanation": "T1-weighted sequences are designed to emphasize differences in longitudinal recovery between tissues."
+ },
+ {
+  "id": "ch3-054",
+  "chapter": 2,
+  "topic": "T2 contrast",
+  "type": "single_best",
+  "text": "If two tissues have different T2 values, which imaging approach best emphasizes their difference?",
+  "options": [
+   "T1-weighted imaging",
+   "T2-weighted imaging",
+   "Localizer imaging only",
+   "MR angiography only"
+  ],
+  "answer": "T2-weighted imaging",
+  "explanation": "T2-weighted sequences emphasize differences in transverse relaxation."
+ },
+ {
+  "id": "ch3-055",
+  "chapter": 2,
+  "topic": "Relaxation curves",
+  "type": "single_best",
+  "text": "Which type of mathematical behavior describes T1 recovery?",
+  "options": [
+   "Exponential recovery",
+   "Linear recovery",
+   "Random recovery",
+   "Stepwise recovery"
+  ],
+  "answer": "Exponential recovery",
+  "explanation": "Longitudinal magnetization returns toward equilibrium according to an exponential recovery function."
+ },
+ {
+  "id": "ch3-056",
+  "chapter": 2,
+  "topic": "Relaxation curves",
+  "type": "single_best",
+  "text": "Which type of mathematical behavior describes T2 signal decay?",
+  "options": [
+   "Exponential decay",
+   "Linear growth",
+   "Stepwise growth",
+   "Constant behavior"
+  ],
+  "answer": "Exponential decay",
+  "explanation": "Transverse magnetization decreases approximately exponentially during T2 relaxation."
+ },
+ {
+  "id": "ch3-067",
+  "chapter": 2,
+  "topic": "T1 weighting",
+  "type": "single_best",
+  "text": "A short TR is useful for creating T1 weighting because it:",
+  "options": [
+   "Limits longitudinal recovery",
+   "Allows complete longitudinal recovery",
+   "Eliminates T1 differences",
+   "Increases T2 relaxation time"
+  ],
+  "answer": "Limits longitudinal recovery",
+  "explanation": "Short TR causes tissues with different T1 values to recover by different amounts before the next excitation."
+ },
+ {
+  "id": "ch3-068",
+  "chapter": 2,
+  "topic": "T2 weighting",
+  "type": "single_best",
+  "text": "A long TR is commonly used for T2-weighted imaging primarily to:",
+  "options": [
+   "Minimize T1 weighting",
+   "Increase T1 weighting",
+   "Suppress all fluid",
+   "Reduce proton density"
+  ],
+  "answer": "Minimize T1 weighting",
+  "explanation": "Long TR allows substantial longitudinal recovery, reducing differences caused by T1."
+ },
+ {
+  "id": "ch3-069",
+  "chapter": 2,
+  "topic": "Proton density",
+  "type": "single_best",
+  "text": "Which sequence is most likely to produce proton-density weighting?",
+  "options": [
+   "Long TR and short TE",
+   "Short TR and long TE",
+   "Short TR and short TE",
+   "Long TR and long TE"
+  ],
+  "answer": "Long TR and short TE",
+  "explanation": "Long TR minimizes T1 effects and short TE minimizes T2 effects, leaving proton density as the dominant contrast source."
+ },
+ {
+  "id": "ch3-070",
+  "chapter": 2,
+  "topic": "Image contrast",
+  "type": "single_best",
+  "text": "Which tissue characteristic is primarily responsible for signal differences in proton-density-weighted imaging?",
+  "options": [
+   "Mobile hydrogen concentration",
+   "T1 only",
+   "T2 only",
+   "Magnetic susceptibility only"
+  ],
+  "answer": "Mobile hydrogen concentration",
+  "explanation": "PD imaging emphasizes differences in the number of mobile hydrogen nuclei contributing to the signal."
+ },
+ {
+  "id": "ch3-071",
+  "chapter": 2,
+  "topic": "T1 contrast",
+  "type": "single_best",
+  "text": "Which of the following is typically dark on a T1-weighted image?",
+  "options": [
+   "Subcutaneous fat",
+   "White matter",
+   "CSF",
+   "Fat-containing marrow"
+  ],
+  "answer": "CSF",
+  "explanation": "CSF has a long T1 and therefore appears relatively dark on T1-weighted images."
+ },
+ {
+  "id": "ch3-072",
+  "chapter": 2,
+  "topic": "T2 contrast",
+  "type": "single_best",
+  "text": "Which of the following is typically bright on a T2-weighted image?",
+  "options": [
+   "CSF",
+   "Cortical bone",
+   "Air",
+   "Dense tendon"
+  ],
+  "answer": "CSF",
+  "explanation": "CSF has a long T2 and retains transverse magnetization at long TE values."
+ },
+ {
+  "id": "ch3-073",
+  "chapter": 2,
+  "topic": "T2 contrast",
+  "type": "single_best",
+  "text": "A lesion containing increased free water will often appear:",
+  "options": [
+   "Bright on T2-weighted imaging",
+   "Dark on T2-weighted imaging",
+   "Invisible on all MRI sequences",
+   "Identical to cortical bone"
+  ],
+  "answer": "Bright on T2-weighted imaging",
+  "explanation": "Increased free water generally produces longer T2 relaxation and higher signal on T2-weighted images."
+ },
+ {
+  "id": "ch3-074",
+  "chapter": 2,
+  "topic": "T1 contrast",
+  "type": "single_best",
+  "text": "A tissue with a very long T1 generally appears how on a T1-weighted image?",
+  "options": [
+   "Bright",
+   "Dark",
+   "Always black regardless of sequence",
+   "Brighter than fat"
+  ],
+  "answer": "Dark",
+  "explanation": "A long T1 means slower longitudinal recovery, resulting in lower signal when a short TR is used."
+ },
+ {
+  "id": "ch3-075",
+  "chapter": 2,
+  "topic": "T2 contrast",
+  "type": "single_best",
+  "text": "A tissue with a very short T2 generally appears how on a T2-weighted image?",
+  "options": [
+   "Bright",
+   "Dark",
+   "Always hyperintense",
+   "Brighter than CSF"
+  ],
+  "answer": "Dark",
+  "explanation": "A short T2 causes rapid transverse signal decay before the echo is sampled."
+ },
+ {
+  "id": "ch3-076",
+  "chapter": 2,
+  "topic": "T1 recovery",
+  "type": "single_best",
+  "text": "Two tissues have T1 values of 500 ms and 1500 ms. Which tissue recovers longitudinal magnetization faster?",
+  "options": [
+   "The 500 ms tissue",
+   "The 1500 ms tissue",
+   "Both recover at the same rate",
+   "Neither recovers"
+  ],
+  "answer": "The 500 ms tissue",
+  "explanation": "A shorter T1 indicates faster longitudinal recovery toward equilibrium."
+ },
+ {
+  "id": "ch3-077",
+  "chapter": 2,
+  "topic": "T2 decay",
+  "type": "single_best",
+  "text": "Two tissues have T2 values of 50 ms and 100 ms. Which tissue retains transverse magnetization longer?",
+  "options": [
+   "The 50 ms tissue",
+   "The 100 ms tissue",
+   "Both retain the same amount",
+   "Neither retains magnetization"
+  ],
+  "answer": "The 100 ms tissue",
+  "explanation": "A longer T2 means slower transverse signal decay."
+ },
+ {
+  "id": "ch3-078",
+  "chapter": 2,
+  "topic": "Relaxation time",
+  "type": "single_best",
+  "text": "A tissue with a short T1 will generally reach equilibrium longitudinal magnetization:",
+  "options": [
+   "More quickly",
+   "More slowly",
+   "Only after several hours",
+   "Never"
+  ],
+  "answer": "More quickly",
+  "explanation": "Short T1 corresponds to rapid longitudinal recovery."
+ },
+ {
+  "id": "ch3-079",
+  "chapter": 2,
+  "topic": "Relaxation time",
+  "type": "single_best",
+  "text": "A tissue with a long T2 will generally maintain transverse signal:",
+  "options": [
+   "For a longer period",
+   "For a shorter period",
+   "Only during RF transmission",
+   "Only during T1 recovery"
+  ],
+  "answer": "For a longer period",
+  "explanation": "Long T2 means slower transverse decay and therefore greater remaining signal at a given TE."
+ },
+ {
+  "id": "ch3-080",
+  "chapter": 2,
+  "topic": "T2 star",
+  "type": "single_best",
+  "text": "Which statement best describes T2*?",
+  "options": [
+   "It is always longer than T1",
+   "It includes true T2 decay plus additional dephasing from field inhomogeneity",
+   "It measures only longitudinal recovery",
+   "It is unrelated to magnetic susceptibility"
+  ],
+  "answer": "It includes true T2 decay plus additional dephasing from field inhomogeneity",
+  "explanation": "T2* reflects both microscopic spin-spin interactions and macroscopic or local magnetic field variations."
+ },
+ {
+  "id": "ch3-081",
+  "chapter": 2,
+  "topic": "T2 star",
+  "type": "single_best",
+  "text": "Which statement about T2* compared with T2 is generally correct?",
+  "options": [
+   "T2* is longer",
+   "T2* is equal to or shorter",
+   "T2* is unrelated to T2",
+   "T2* exists only at 1.5 T"
+  ],
+  "answer": "T2* is equal to or shorter",
+  "explanation": "Additional field inhomogeneity causes extra dephasing, making T2* no longer than the true T2."
+ },
+ {
+  "id": "ch3-100",
+  "chapter": 2,
+  "topic": "Image contrast",
+  "type": "single_best",
+  "text": "Which combination correctly matches an MRI weighting with its dominant contrast mechanism?",
+  "options": [
+   "T1 weighting — longitudinal relaxation differences",
+   "T2 weighting — proton density only",
+   "PD weighting — T1 recovery only",
+   "FLAIR — magnetic susceptibility only"
+  ],
+  "answer": "T1 weighting — longitudinal relaxation differences",
+  "explanation": "T1-weighted imaging emphasizes differences in longitudinal recovery between tissues."
+ },
+ {
+  "id": "ch3-101",
+  "chapter": 2,
+  "topic": "T1 relaxation",
+  "type": "single_best",
+  "text": "Which statement best describes longitudinal magnetization during T1 relaxation?",
+  "options": [
+   "It returns toward its equilibrium value",
+   "It permanently decreases to zero",
+   "It remains completely unchanged",
+   "It becomes independent of the magnetic field"
+  ],
+  "answer": "It returns toward its equilibrium value",
+  "explanation": "T1 relaxation restores longitudinal magnetization toward equilibrium after RF excitation."
+ },
+ {
+  "id": "ch3-102",
+  "chapter": 2,
+  "topic": "T2 relaxation",
+  "type": "single_best",
+  "text": "Which statement best describes transverse magnetization during T2 relaxation?",
+  "options": [
+   "It increases toward equilibrium",
+   "It decays because of loss of phase coherence",
+   "It remains constant indefinitely",
+   "It becomes longitudinal immediately"
+  ],
+  "answer": "It decays because of loss of phase coherence",
+  "explanation": "T2 relaxation results from progressive loss of phase coherence among spins in the transverse plane."
+ },
+ {
+  "id": "ch3-103",
+  "chapter": 2,
+  "topic": "T1 relaxation",
+  "type": "single_best",
+  "text": "Which tissue generally has a shorter T1 relaxation time?",
+  "options": [
+   "Fat",
+   "CSF",
+   "Simple fluid",
+   "Air"
+  ],
+  "answer": "Fat",
+  "explanation": "Fat typically has a shorter T1 than free water and therefore recovers longitudinal magnetization more rapidly."
+ },
+ {
+  "id": "ch3-104",
+  "chapter": 2,
+  "topic": "T2 relaxation",
+  "type": "single_best",
+  "text": "Which tissue generally has a longer T2 relaxation time?",
+  "options": [
+   "CSF",
+   "Cortical bone",
+   "Tendon",
+   "Air"
+  ],
+  "answer": "CSF",
+  "explanation": "Free water such as CSF has a long T2 and retains transverse magnetization for a relatively long time."
+ },
+ {
+  "id": "ch3-105",
+  "chapter": 2,
+  "topic": "T1-weighted imaging",
+  "type": "single_best",
+  "text": "Which combination is most appropriate for producing a strongly T1-weighted spin-echo image?",
+  "options": [
+   "Short TR and short TE",
+   "Long TR and long TE",
+   "Long TR and short TE",
+   "Short TR and long TE"
+  ],
+  "answer": "Short TR and short TE",
+  "explanation": "Short TR emphasizes T1 differences, while short TE minimizes T2 effects."
+ },
+ {
+  "id": "ch3-106",
+  "chapter": 2,
+  "topic": "T2-weighted imaging",
+  "type": "single_best",
+  "text": "Which combination is most appropriate for producing a strongly T2-weighted spin-echo image?",
+  "options": [
+   "Short TR and short TE",
+   "Long TR and long TE",
+   "Short TR and long TE",
+   "Long TR and short TE"
+  ],
+  "answer": "Long TR and long TE",
+  "explanation": "Long TR minimizes T1 effects and long TE allows T2 differences to dominate image contrast."
+ },
+ {
+  "id": "ch3-107",
+  "chapter": 2,
+  "topic": "Proton density imaging",
+  "type": "single_best",
+  "text": "Which parameter combination is most appropriate for proton-density-weighted imaging?",
+  "options": [
+   "Long TR and short TE",
+   "Short TR and long TE",
+   "Short TR and short TE",
+   "Long TR and long TE"
+  ],
+  "answer": "Long TR and short TE",
+  "explanation": "Long TR minimizes T1 weighting and short TE minimizes T2 weighting, allowing proton density to dominate."
+ },
+ {
+  "id": "ch3-108",
+  "chapter": 2,
+  "topic": "T1 weighting",
+  "type": "single_best",
+  "text": "What happens to T1 weighting when TR is shortened?",
+  "options": [
+   "It generally increases",
+   "It generally decreases",
+   "It disappears completely",
+   "It becomes T2 weighting"
+  ],
+  "answer": "It generally increases",
+  "explanation": "Short TR limits longitudinal recovery and therefore increases sensitivity to T1 differences."
+ },
+ {
+  "id": "ch3-109",
+  "chapter": 2,
+  "topic": "T2 weighting",
+  "type": "single_best",
+  "text": "What happens to T2 weighting when TE is lengthened?",
+  "options": [
+   "It generally increases",
+   "It generally decreases",
+   "It disappears",
+   "It becomes proton-density weighting"
+  ],
+  "answer": "It generally increases",
+  "explanation": "A longer TE allows more transverse relaxation and increases T2 sensitivity."
+ },
+ {
+  "id": "ch3-110",
+  "chapter": 2,
+  "topic": "T1 weighting",
+  "type": "single_best",
+  "text": "Increasing TR while keeping other parameters constant generally causes:",
+  "options": [
+   "Reduced T1 weighting",
+   "Increased T1 weighting",
+   "Increased susceptibility only",
+   "Complete signal loss"
+  ],
+  "answer": "Reduced T1 weighting",
+  "explanation": "Longer TR allows more longitudinal recovery and reduces differences caused by T1 relaxation."
+ },
+ {
+  "id": "ch3-111",
+  "chapter": 2,
+  "topic": "T2 weighting",
+  "type": "single_best",
+  "text": "Decreasing TE while keeping other parameters constant generally causes:",
+  "options": [
+   "Reduced T2 weighting",
+   "Increased T2 weighting",
+   "Increased T1 weighting only",
+   "CSF suppression"
+  ],
+  "answer": "Reduced T2 weighting",
+  "explanation": "Shorter TE allows less time for transverse relaxation before signal acquisition."
+ },
+ {
+  "id": "ch3-112",
+  "chapter": 2,
+  "topic": "Image contrast",
+  "type": "single_best",
+  "text": "Which MRI weighting usually displays fat as bright and CSF as dark?",
+  "options": [
+   "T1-weighted",
+   "T2-weighted",
+   "FLAIR",
+   "Diffusion-weighted"
+  ],
+  "answer": "T1-weighted",
+  "explanation": "Fat has short T1 and appears bright, while CSF has long T1 and appears dark on T1-weighted images."
+ },
+ {
+  "id": "ch3-113",
+  "chapter": 2,
+  "topic": "Image contrast",
+  "type": "single_best",
+  "text": "Which MRI weighting usually displays CSF as bright?",
+  "options": [
+   "T1-weighted",
+   "T2-weighted",
+   "T1 post-contrast only",
+   "STIR"
+  ],
+  "answer": "T2-weighted",
+  "explanation": "CSF has a long T2 and therefore appears bright on conventional T2-weighted images."
+ },
+ {
+  "id": "ch3-119",
+  "chapter": 2,
+  "topic": "T1 relaxation",
+  "type": "single_best",
+  "text": "At approximately one T1, the recovering longitudinal magnetization has reached what percentage of its equilibrium value?",
+  "options": [
+   "37%",
+   "50%",
+   "63%",
+   "95%"
+  ],
+  "answer": "63%",
+  "explanation": "After one T1, approximately 63% of longitudinal magnetization has recovered."
+ },
+ {
+  "id": "ch3-120",
+  "chapter": 2,
+  "topic": "T1 relaxation",
+  "type": "single_best",
+  "text": "At approximately two T1 periods, longitudinal magnetization has recovered to about:",
+  "options": [
+   "37%",
+   "63%",
+   "86%",
+   "99%"
+  ],
+  "answer": "86%",
+  "explanation": "After two T1 periods, longitudinal recovery is approximately 86%."
+ },
+ {
+  "id": "ch3-121",
+  "chapter": 2,
+  "topic": "T1 relaxation",
+  "type": "single_best",
+  "text": "At approximately three T1 periods, longitudinal magnetization has recovered to about:",
+  "options": [
+   "63%",
+   "86%",
+   "95%",
+   "100%"
+  ],
+  "answer": "95%",
+  "explanation": "Approximately 95% of longitudinal magnetization has recovered after three T1 periods."
+ },
+ {
+  "id": "ch3-122",
+  "chapter": 2,
+  "topic": "T1 relaxation",
+  "type": "single_best",
+  "text": "At approximately four T1 periods, longitudinal magnetization has recovered to about:",
+  "options": [
+   "63%",
+   "86%",
+   "95%",
+   "98%"
+  ],
+  "answer": "98%",
+  "explanation": "After four T1 periods, approximately 98% of equilibrium longitudinal magnetization has recovered."
+ },
+ {
+  "id": "ch3-123",
+  "chapter": 2,
+  "topic": "T2 relaxation",
+  "type": "single_best",
+  "text": "After one T2 period, approximately what fraction of transverse magnetization remains?",
+  "options": [
+   "13%",
+   "37%",
+   "63%",
+   "86%"
+  ],
+  "answer": "37%",
+  "explanation": "By definition, T2 is the time required for transverse magnetization to fall to approximately 37% of its initial value."
+ },
+ {
+  "id": "ch3-124",
+  "chapter": 2,
+  "topic": "T2 relaxation",
+  "type": "single_best",
+  "text": "After two T2 periods, approximately what percentage of transverse magnetization remains?",
+  "options": [
+   "5%",
+   "13%",
+   "37%",
+   "63%"
+  ],
+  "answer": "13%",
+  "explanation": "After two T2 periods, approximately e^-2, or 13.5%, of the original transverse magnetization remains."
+ },
+ {
+  "id": "ch3-125",
+  "chapter": 2,
+  "topic": "T2 relaxation",
+  "type": "single_best",
+  "text": "After three T2 periods, approximately what percentage of transverse magnetization remains?",
+  "options": [
+   "5%",
+   "13%",
+   "37%",
+   "50%"
+  ],
+  "answer": "5%",
+  "explanation": "After three T2 periods, approximately 5% of the initial transverse magnetization remains."
+ },
+ {
+  "id": "ch3-126",
+  "chapter": 2,
+  "topic": "Relaxation comparison",
+  "type": "single_best",
+  "text": "Which relaxation process is primarily responsible for recovery of longitudinal magnetization?",
+  "options": [
+   "T1",
+   "T2",
+   "T2*",
+   "Diffusion"
+  ],
+  "answer": "T1",
+  "explanation": "T1 relaxation restores longitudinal magnetization."
+ },
+ {
+  "id": "ch3-127",
+  "chapter": 2,
+  "topic": "Relaxation comparison",
+  "type": "single_best",
+  "text": "Which relaxation process is primarily responsible for decay of transverse magnetization?",
+  "options": [
+   "T1",
+   "T2",
+   "TI",
+   "TR"
+  ],
+  "answer": "T2",
+  "explanation": "T2 relaxation describes the decay of transverse magnetization caused by spin-spin interactions and phase dispersion."
+ },
+ {
+  "id": "ch3-128",
+  "chapter": 2,
+  "topic": "Relaxation comparison",
+  "type": "single_best",
+  "text": "Which relaxation mechanism involves energy exchange with the surrounding molecular environment?",
+  "options": [
+   "T1",
+   "T2",
+   "T2*",
+   "Gradient dephasing"
+  ],
+  "answer": "T1",
+  "explanation": "T1 relaxation involves transfer of energy from the spin system to the surrounding lattice."
+ },
+ {
+  "id": "ch3-129",
+  "chapter": 2,
+  "topic": "Relaxation comparison",
+  "type": "single_best",
+  "text": "Which relaxation mechanism can occur without significant net energy transfer to the surrounding lattice?",
+  "options": [
+   "T2",
+   "T1",
+   "Longitudinal recovery",
+   "Spin-lattice relaxation"
+  ],
+  "answer": "T2",
+  "explanation": "T2 relaxation primarily involves loss of phase coherence through spin-spin interactions rather than net energy transfer to the lattice."
+ },
+ {
+  "id": "ch3-137",
+  "chapter": 2,
+  "topic": "T2 relaxation",
+  "type": "single_best",
+  "text": "If two tissues have identical T1 values but different T2 values, which weighting would best distinguish them?",
+  "options": [
+   "T2 weighting",
+   "T1 weighting",
+   "Pure proton density only",
+   "No weighting"
+  ],
+  "answer": "T2 weighting",
+  "explanation": "T2-weighted imaging emphasizes differences in transverse relaxation."
+ },
+ {
+  "id": "ch3-138",
+  "chapter": 2,
+  "topic": "T1 relaxation",
+  "type": "single_best",
+  "text": "If two tissues have identical T2 values but different T1 values, which weighting would best distinguish them?",
+  "options": [
+   "T1 weighting",
+   "T2 weighting",
+   "T2* weighting only",
+   "Diffusion weighting"
+  ],
+  "answer": "T1 weighting",
+  "explanation": "T1-weighted imaging emphasizes differences in longitudinal recovery."
+ },
+ {
+  "id": "ch3-139",
+  "chapter": 2,
+  "topic": "Tissue contrast",
+  "type": "single_best",
+  "text": "Why can fluid appear bright on T2-weighted MRI?",
+  "options": [
+   "Fluid has a long T2 relaxation time",
+   "Fluid has no protons",
+   "Fluid has an extremely short T2",
+   "Fluid always contains gadolinium"
+  ],
+  "answer": "Fluid has a long T2 relaxation time",
+  "explanation": "Long T2 allows fluid to retain substantial transverse magnetization until a relatively long TE."
+ },
+ {
+  "id": "ch3-140",
+  "chapter": 2,
+  "topic": "Tissue contrast",
+  "type": "single_best",
+  "text": "Why can fat appear bright on T1-weighted MRI?",
+  "options": [
+   "Fat has a relatively short T1",
+   "Fat has no longitudinal magnetization",
+   "Fat has an infinitely long T1",
+   "Fat always produces diffusion restriction"
+  ],
+  "answer": "Fat has a relatively short T1",
+  "explanation": "Fat recovers longitudinal magnetization rapidly and therefore produces high signal with suitable T1 weighting."
+ },
+ {
+  "id": "ch3-150",
+  "chapter": 2,
+  "topic": "Relaxation and image contrast",
+  "type": "single_best",
+  "text": "Which statement best summarizes the relationship between relaxation and MRI image contrast?",
+  "options": [
+   "TR, TE, and TI can be selected to emphasize differences in tissue relaxation behavior",
+   "Relaxation has no effect on MRI contrast",
+   "Only proton density determines all MRI contrast",
+   "MRI contrast is independent of sequence parameters"
+  ],
+  "answer": "TR, TE, and TI can be selected to emphasize differences in tissue relaxation behavior",
+  "explanation": "MRI sequence parameters are deliberately chosen to emphasize T1, T2, proton density, or specific tissue suppression characteristics."
+ },
+ {
+  "id": "ch3-151",
+  "chapter": 2,
+  "topic": "T1 relaxation",
+  "type": "single_best",
+  "text": "Which statement about T1 relaxation is correct?",
+  "options": [
+   "It represents recovery of longitudinal magnetization",
+   "It represents complete loss of proton density",
+   "It represents gradient dephasing only",
+   "It represents suppression of transverse magnetization only"
+  ],
+  "answer": "It represents recovery of longitudinal magnetization",
+  "explanation": "T1 relaxation describes the recovery of longitudinal magnetization toward equilibrium."
+ },
+ {
+  "id": "ch3-152",
+  "chapter": 2,
+  "topic": "T2 relaxation",
+  "type": "single_best",
+  "text": "Which statement about T2 relaxation is correct?",
+  "options": [
+   "It represents recovery of longitudinal magnetization",
+   "It represents decay of transverse magnetization due to loss of phase coherence",
+   "It determines slice thickness",
+   "It determines the patient's Larmor frequency"
+  ],
+  "answer": "It represents decay of transverse magnetization due to loss of phase coherence",
+  "explanation": "T2 relaxation results from progressive loss of phase coherence among spins in the transverse plane."
+ },
+ {
+  "id": "ch3-153",
+  "chapter": 2,
+  "topic": "T1 versus T2",
+  "type": "single_best",
+  "text": "Which relaxation process generally takes longer in biological tissues?",
+  "options": [
+   "T1",
+   "T2",
+   "T2*",
+   "Gradient dephasing"
+  ],
+  "answer": "T1",
+  "explanation": "T1 is generally longer than T2 in biological tissues because transverse phase coherence is lost more rapidly than longitudinal equilibrium is restored."
+ },
+ {
+  "id": "ch3-154",
+  "chapter": 2,
+  "topic": "T1 versus T2",
+  "type": "single_best",
+  "text": "Which relationship between T1 and T2 is generally true?",
+  "options": [
+   "T1 is shorter than T2",
+   "T1 is longer than or equal to T2",
+   "T1 and T2 are always identical",
+   "T2 does not depend on tissue"
+  ],
+  "answer": "T1 is longer than or equal to T2",
+  "explanation": "For conventional biological tissues, T2 is generally shorter than T1."
+ },
+ {
+  "id": "ch3-155",
+  "chapter": 2,
+  "topic": "T1 recovery",
+  "type": "single_best",
+  "text": "What happens to longitudinal magnetization immediately after a 180-degree inversion pulse?",
+  "options": [
+   "It points in the opposite direction",
+   "It becomes completely transverse",
+   "It remains unchanged",
+   "It disappears permanently"
+  ],
+  "answer": "It points in the opposite direction",
+  "explanation": "A 180-degree pulse reverses the longitudinal magnetization from the positive to the negative longitudinal direction."
+ },
+ {
+  "id": "ch3-160",
+  "chapter": 2,
+  "topic": "T1-weighted imaging",
+  "type": "single_best",
+  "text": "Which sequence is generally preferred for evaluating normal anatomical detail and post-contrast enhancement?",
+  "options": [
+   "T1-weighted imaging",
+   "T2-weighted imaging only",
+   "FLAIR only",
+   "Diffusion-only imaging"
+  ],
+  "answer": "T1-weighted imaging",
+  "explanation": "T1-weighted images provide strong anatomical contrast and are commonly used for evaluating gadolinium enhancement."
+ },
+ {
+  "id": "ch3-161",
+  "chapter": 2,
+  "topic": "T2-weighted imaging",
+  "type": "single_best",
+  "text": "Which sequence is particularly useful for detecting many abnormalities associated with increased water content?",
+  "options": [
+   "T2-weighted imaging",
+   "T1-weighted imaging only",
+   "Unweighted localizer",
+   "Gradient calibration scan"
+  ],
+  "answer": "T2-weighted imaging",
+  "explanation": "Increased free water commonly produces high signal on T2-weighted images."
+ },
+ {
+  "id": "ch3-164",
+  "chapter": 2,
+  "topic": "T1-weighted anatomy",
+  "type": "single_best",
+  "text": "On a typical T1-weighted brain MRI, which structure is usually brighter?",
+  "options": [
+   "White matter",
+   "CSF",
+   "Cortical bone",
+   "Air"
+  ],
+  "answer": "White matter",
+  "explanation": "White matter contains more myelin and lipid than gray matter and is generally brighter on T1-weighted images."
+ },
+ {
+  "id": "ch3-165",
+  "chapter": 2,
+  "topic": "T2-weighted anatomy",
+  "type": "single_best",
+  "text": "On a typical T2-weighted brain MRI, which structure is usually brighter?",
+  "options": [
+   "Gray matter compared with white matter",
+   "Cortical bone",
+   "Air",
+   "Dense tendon"
+  ],
+  "answer": "Gray matter compared with white matter",
+  "explanation": "Gray matter generally has higher water content and is relatively brighter than white matter on conventional T2-weighted images."
+ },
+ {
+  "id": "ch3-166",
+  "chapter": 2,
+  "topic": "T1-weighted anatomy",
+  "type": "single_best",
+  "text": "Which tissue is usually darkest on a conventional T1-weighted brain image?",
+  "options": [
+   "CSF",
+   "White matter",
+   "Subcutaneous fat",
+   "Fatty marrow"
+  ],
+  "answer": "CSF",
+  "explanation": "CSF has a long T1 and therefore appears dark on conventional T1-weighted images."
+ },
+ {
+  "id": "ch3-167",
+  "chapter": 2,
+  "topic": "T2-weighted anatomy",
+  "type": "single_best",
+  "text": "Which structure is normally very bright on a conventional T2-weighted brain image?",
+  "options": [
+   "CSF",
+   "Cortical bone",
+   "Air",
+   "Tendon"
+  ],
+  "answer": "CSF",
+  "explanation": "The long T2 of CSF results in high signal on conventional T2-weighted images."
+ },
+ {
+  "id": "ch3-170",
+  "chapter": 2,
+  "topic": "T1 contrast",
+  "type": "single_best",
+  "text": "Which tissue property contributes to high signal from fat on T1-weighted imaging?",
+  "options": [
+   "Rapid longitudinal recovery",
+   "Extremely long T1",
+   "Extremely long T2 only",
+   "Absence of hydrogen"
+  ],
+  "answer": "Rapid longitudinal recovery",
+  "explanation": "Fat has a relatively short T1 and therefore recovers longitudinal magnetization rapidly."
+ },
+ {
+  "id": "ch3-171",
+  "chapter": 2,
+  "topic": "T2 contrast",
+  "type": "single_best",
+  "text": "Which tissue property contributes to high signal from fluid on T2-weighted imaging?",
+  "options": [
+   "Long T2",
+   "Short T2",
+   "Short T1 only",
+   "Low proton density"
+  ],
+  "answer": "Long T2",
+  "explanation": "Long T2 allows fluid to retain transverse magnetization at long echo times."
+ },
+ {
+  "id": "ch3-172",
+  "chapter": 2,
+  "topic": "T1 relaxation",
+  "type": "single_best",
+  "text": "A tissue with a very short T1 will recover longitudinal magnetization:",
+  "options": [
+   "Rapidly",
+   "Slowly",
+   "Only after five T2 periods",
+   "Never"
+  ],
+  "answer": "Rapidly",
+  "explanation": "Short T1 indicates efficient longitudinal recovery."
+ },
+ {
+  "id": "ch3-173",
+  "chapter": 2,
+  "topic": "T2 relaxation",
+  "type": "single_best",
+  "text": "A tissue with a very short T2 will lose transverse signal:",
+  "options": [
+   "Rapidly",
+   "Very slowly",
+   "Only after complete T1 recovery",
+   "Never"
+  ],
+  "answer": "Rapidly",
+  "explanation": "Short T2 corresponds to rapid transverse magnetization decay."
+ },
+ {
+  "id": "ch3-174",
+  "chapter": 2,
+  "topic": "T1 recovery",
+  "type": "single_best",
+  "text": "If a sequence uses a TR much longer than the tissue's T1, the tissue will have:",
+  "options": [
+   "Nearly complete longitudinal recovery",
+   "Almost no longitudinal recovery",
+   "Maximum T2 decay before excitation",
+   "No proton signal"
+  ],
+  "answer": "Nearly complete longitudinal recovery",
+  "explanation": "When TR is much longer than T1, longitudinal magnetization has sufficient time to approach equilibrium."
+ },
+ {
+  "id": "ch3-175",
+  "chapter": 2,
+  "topic": "T2 decay",
+  "type": "single_best",
+  "text": "If TE is much longer than a tissue's T2, the transverse signal from that tissue will be:",
+  "options": [
+   "Very low",
+   "At its maximum",
+   "Unaffected by T2",
+   "Greater than its initial signal"
+  ],
+  "answer": "Very low",
+  "explanation": "When TE greatly exceeds T2, most transverse magnetization has already decayed."
+ },
+ {
+  "id": "ch3-176",
+  "chapter": 2,
+  "topic": "T1 contrast",
+  "type": "single_best",
+  "text": "If TR is too long for a desired T1-weighted sequence, what is the likely effect?",
+  "options": [
+   "Reduced T1 contrast",
+   "Increased T1 contrast",
+   "Complete CSF suppression",
+   "Increased spatial resolution"
+  ],
+  "answer": "Reduced T1 contrast",
+  "explanation": "A long TR allows tissues to recover more completely, reducing T1-dependent signal differences."
+ },
+ {
+  "id": "ch3-177",
+  "chapter": 2,
+  "topic": "T2 contrast",
+  "type": "single_best",
+  "text": "If TE is too short for a desired T2-weighted sequence, what is the likely effect?",
+  "options": [
+   "Reduced T2 contrast",
+   "Increased T2 contrast",
+   "Automatic fat suppression",
+   "Complete CSF suppression"
+  ],
+  "answer": "Reduced T2 contrast",
+  "explanation": "A short TE provides insufficient time for T2 differences to significantly affect signal."
+ },
+ {
+  "id": "ch3-178",
+  "chapter": 2,
+  "topic": "T1 weighting",
+  "type": "single_best",
+  "text": "Which combination would reduce both T1 and T2 weighting?",
+  "options": [
+   "Long TR and short TE",
+   "Short TR and long TE",
+   "Short TR and short TE",
+   "Long TR and long TE"
+  ],
+  "answer": "Long TR and short TE",
+  "explanation": "Long TR minimizes T1 effects while short TE minimizes T2 effects."
+ },
+ {
+  "id": "ch3-179",
+  "chapter": 2,
+  "topic": "T2 weighting",
+  "type": "single_best",
+  "text": "Which parameter combination would increase sensitivity to T2 differences while minimizing T1 effects?",
+  "options": [
+   "Long TR and long TE",
+   "Short TR and short TE",
+   "Short TR and long TE",
+   "Long TR and short TE"
+  ],
+  "answer": "Long TR and long TE",
+  "explanation": "Long TR minimizes T1 effects and long TE emphasizes T2 decay."
+ },
+ {
+  "id": "ch3-180",
+  "chapter": 2,
+  "topic": "T1 weighting",
+  "type": "single_best",
+  "text": "Which parameter combination would increase sensitivity to T1 differences while minimizing T2 effects?",
+  "options": [
+   "Short TR and short TE",
+   "Long TR and long TE",
+   "Long TR and short TE",
+   "Short TR and long TE"
+  ],
+  "answer": "Short TR and short TE",
+  "explanation": "Short TR emphasizes T1 recovery differences while short TE limits T2 influence."
+ },
+ {
+  "id": "ch3-181",
+  "chapter": 2,
+  "topic": "Relaxation mechanisms",
+  "type": "single_best",
+  "text": "What is the primary physical consequence of T1 relaxation?",
+  "options": [
+   "Recovery of net longitudinal magnetization",
+   "Permanent destruction of magnetization",
+   "Creation of a magnetic field gradient",
+   "Suppression of all RF energy"
+  ],
+  "answer": "Recovery of net longitudinal magnetization",
+  "explanation": "T1 relaxation restores the longitudinal component of the net magnetization vector."
+ },
+ {
+  "id": "ch3-182",
+  "chapter": 2,
+  "topic": "Relaxation mechanisms",
+  "type": "single_best",
+  "text": "What is the primary physical consequence of T2 relaxation?",
+  "options": [
+   "Loss of transverse phase coherence",
+   "Recovery of longitudinal magnetization",
+   "Increase in proton density",
+   "Creation of RF energy"
+  ],
+  "answer": "Loss of transverse phase coherence",
+  "explanation": "T2 relaxation causes transverse magnetization to decay as individual spins lose phase coherence."
+ },
+ {
+  "id": "ch3-183",
+  "chapter": 2,
+  "topic": "T2 star",
+  "type": "single_best",
+  "text": "What additional factor contributes to T2* decay beyond true T2 relaxation?",
+  "options": [
+   "Magnetic field inhomogeneity",
+   "Proton density",
+   "Patient age alone",
+   "Slice thickness"
+  ],
+  "answer": "Magnetic field inhomogeneity",
+  "explanation": "T2* includes additional reversible dephasing caused by local and macroscopic field inhomogeneities."
+ },
+ {
+  "id": "ch3-187",
+  "chapter": 2,
+  "topic": "Relaxation and contrast",
+  "type": "single_best",
+  "text": "Which parameter has the strongest direct influence on T1 weighting in a conventional spin-echo sequence?",
+  "options": [
+   "TR",
+   "TE",
+   "Echo train length",
+   "Bandwidth only"
+  ],
+  "answer": "TR",
+  "explanation": "TR controls the amount of longitudinal recovery between RF excitations and therefore strongly affects T1 weighting."
+ },
+ {
+  "id": "ch3-188",
+  "chapter": 2,
+  "topic": "Relaxation and contrast",
+  "type": "single_best",
+  "text": "Which parameter has the strongest direct influence on T2 weighting in a conventional spin-echo sequence?",
+  "options": [
+   "TE",
+   "TR",
+   "FOV",
+   "Matrix size"
+  ],
+  "answer": "TE",
+  "explanation": "TE determines how long transverse relaxation occurs before the signal is measured."
+ },
+ {
+  "id": "ch3-192",
+  "chapter": 2,
+  "topic": "T1 weighting",
+  "type": "single_best",
+  "text": "Which tissue generally produces high signal on T1-weighted MRI because of rapid longitudinal recovery?",
+  "options": [
+   "Fat",
+   "CSF",
+   "Air",
+   "Cortical bone"
+  ],
+  "answer": "Fat",
+  "explanation": "Fat has a relatively short T1 and therefore recovers longitudinal magnetization rapidly."
+ },
+ {
+  "id": "ch3-193",
+  "chapter": 2,
+  "topic": "T2 weighting",
+  "type": "single_best",
+  "text": "Which tissue generally produces high signal on T2-weighted MRI because of slow transverse decay?",
+  "options": [
+   "CSF",
+   "Cortical bone",
+   "Air",
+   "Tendon"
+  ],
+  "answer": "CSF",
+  "explanation": "CSF has a long T2 and therefore retains substantial transverse magnetization at long TE."
+ },
+ {
+  "id": "ch3-194",
+  "chapter": 2,
+  "topic": "T1 contrast",
+  "type": "single_best",
+  "text": "Which structure is typically dark on T1-weighted imaging because of its long T1?",
+  "options": [
+   "CSF",
+   "Fat",
+   "White matter",
+   "Fatty marrow"
+  ],
+  "answer": "CSF",
+  "explanation": "CSF has a long T1, so little longitudinal magnetization has recovered when a short TR is used."
+ },
+ {
+  "id": "ch3-195",
+  "chapter": 2,
+  "topic": "T2 contrast",
+  "type": "single_best",
+  "text": "Which structure is typically dark on T2-weighted imaging because of its short T2?",
+  "options": [
+   "Cortical bone",
+   "CSF",
+   "Simple fluid",
+   "Edema"
+  ],
+  "answer": "Cortical bone",
+  "explanation": "Cortical bone has very short T2 relaxation and loses transverse signal before typical echo acquisition."
+ },
+ {
+  "id": "ch3-196",
+  "chapter": 2,
+  "topic": "T2 relaxation",
+  "type": "single_best",
+  "text": "Which factor causes transverse magnetization to decrease during T2 relaxation?",
+  "options": [
+   "Progressive loss of phase coherence",
+   "Complete longitudinal recovery",
+   "Increased proton concentration",
+   "Increased RF pulse duration only"
+  ],
+  "answer": "Progressive loss of phase coherence",
+  "explanation": "Spin-spin interactions cause the phases of individual spins to diverge, reducing net transverse magnetization."
+ },
+ {
+  "id": "ch3-197",
+  "chapter": 2,
+  "topic": "T1 relaxation",
+  "type": "single_best",
+  "text": "Which factor causes longitudinal magnetization to increase during T1 relaxation?",
+  "options": [
+   "Energy exchange with the surrounding lattice",
+   "Loss of all proton density",
+   "Gradient reversal",
+   "Susceptibility distortion"
+  ],
+  "answer": "Energy exchange with the surrounding lattice",
+  "explanation": "T1 recovery occurs as the excited spin system exchanges energy with its molecular environment."
+ },
+ {
+  "id": "ch3-198",
+  "chapter": 2,
+  "topic": "Relaxation times",
+  "type": "single_best",
+  "text": "If a tissue has a T1 of 1000 ms, approximately how long is required for about 63% longitudinal recovery?",
+  "options": [
+   "100 ms",
+   "500 ms",
+   "1000 ms",
+   "3000 ms"
+  ],
+  "answer": "1000 ms",
+  "explanation": "By definition, one T1 period corresponds to approximately 63% longitudinal recovery."
+ },
+ {
+  "id": "ch3-199",
+  "chapter": 2,
+  "topic": "Relaxation times",
+  "type": "single_best",
+  "text": "If a tissue has a T2 of 80 ms, approximately how much transverse magnetization remains after 80 ms?",
+  "options": [
+   "5%",
+   "13%",
+   "37%",
+   "63%"
+  ],
+  "answer": "37%",
+  "explanation": "After one T2 period, approximately 37% of the original transverse magnetization remains."
+ },
+ {
+  "id": "ch3-200",
+  "chapter": 2,
+  "topic": "MRI relaxation principles",
+  "type": "single_best",
+  "text": "Which statement best summarizes the role of T1, T2, and T2* in MRI?",
+  "options": [
+   "T1 describes longitudinal recovery, T2 describes transverse decay, and T2* includes additional field-inhomogeneity effects",
+   "T1 and T2 both describe only longitudinal recovery",
+   "T2* describes only proton density",
+   "T1 describes only gradient strength"
+  ],
+  "answer": "T1 describes longitudinal recovery, T2 describes transverse decay, and T2* includes additional field-inhomogeneity effects",
+  "explanation": "T1, T2, and T2* describe distinct relaxation and dephasing behaviors that strongly influence MRI signal and image contrast."
+ }
+]

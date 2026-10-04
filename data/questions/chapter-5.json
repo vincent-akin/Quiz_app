@@ -1,0 +1,3040 @@
+[
+  {
+    "id": "ch5-001",
+    "chapter": 5,
+    "topic": "Introduction",
+    "type": "single_best",
+    "text": "What is the primary purpose of spatial encoding in MRI?",
+    "options": [
+      "To determine where the MR signal originates",
+      "To increase the patient's heart rate",
+      "To eliminate T1 relaxation",
+      "To produce a stronger static magnetic field"
+    ],
+    "answer": "To determine where the MR signal originates",
+    "explanation": "Spatial encoding allows the MRI system to associate MR signals with their locations in the body."
+  },
+  {
+    "id": "ch5-002",
+    "chapter": 5,
+    "topic": "Introduction",
+    "type": "single_best",
+    "text": "Which hardware component is primarily responsible for spatial encoding in MRI?",
+    "options": [
+      "Gradient coils",
+      "Main magnet only",
+      "Patient table",
+      "RF amplifier only"
+    ],
+    "answer": "Gradient coils",
+    "explanation": "Gradient coils create controlled changes in magnetic field strength that encode spatial position."
+  },
+  {
+    "id": "ch5-003",
+    "chapter": 5,
+    "topic": "Introduction",
+    "type": "single_best",
+    "text": "What is the fundamental effect of applying a magnetic field gradient?",
+    "options": [
+      "It makes the magnetic field vary with position",
+      "It makes the magnetic field identical everywhere",
+      "It eliminates proton magnetization",
+      "It stops precession"
+    ],
+    "answer": "It makes the magnetic field vary with position",
+    "explanation": "A gradient produces a controlled spatial variation in magnetic field strength."
+  },
+  {
+    "id": "ch5-004",
+    "chapter": 5,
+    "topic": "Introduction",
+    "type": "single_best",
+    "text": "Why does a spatial variation in magnetic field strength help MRI localization?",
+    "options": [
+      "Different locations acquire different precessional frequencies or phases",
+      "All locations produce exactly the same frequency",
+      "It prevents RF excitation",
+      "It removes all relaxation effects"
+    ],
+    "answer": "Different locations acquire different precessional frequencies or phases",
+    "explanation": "Gradients create position-dependent frequency or phase information that can be decoded."
+  },
+  {
+    "id": "ch5-005",
+    "chapter": 5,
+    "topic": "Introduction",
+    "type": "single_best",
+    "text": "How many orthogonal gradient axes are normally used for spatial encoding?",
+    "options": [
+      "Three",
+      "One",
+      "Two",
+      "Four"
+    ],
+    "answer": "Three",
+    "explanation": "MRI systems use gradients along the x, y, and z axes."
+  },
+  {
+    "id": "ch5-006",
+    "chapter": 5,
+    "topic": "Introduction",
+    "type": "single_best",
+    "text": "Which three processes provide the main forms of spatial encoding described in MRI?",
+    "options": [
+      "Slice selection, frequency encoding, and phase encoding",
+      "T1 recovery, T2 decay, and inversion",
+      "RF excitation, relaxation, and shimming",
+      "Diffusion, perfusion, and spectroscopy"
+    ],
+    "answer": "Slice selection, frequency encoding, and phase encoding",
+    "explanation": "MRI spatial localization is achieved through slice selection, frequency encoding, and phase encoding."
+  },
+  {
+    "id": "ch5-007",
+    "chapter": 5,
+    "topic": "Introduction",
+    "type": "single_best",
+    "text": "Which gradient is used during RF excitation to select a particular slice?",
+    "options": [
+      "Slice-selection gradient",
+      "Phase-encoding gradient",
+      "Frequency-encoding gradient",
+      "Crusher gradient"
+    ],
+    "answer": "Slice-selection gradient",
+    "explanation": "The slice-selection gradient makes resonance frequency position-dependent during RF excitation."
+  },
+  {
+    "id": "ch5-008",
+    "chapter": 5,
+    "topic": "Introduction",
+    "type": "single_best",
+    "text": "Which encoding method primarily determines position along the direction in which spins have different precessional frequencies during signal readout?",
+    "options": [
+      "Frequency encoding",
+      "Phase encoding",
+      "Slice selection",
+      "RF spoiling"
+    ],
+    "answer": "Frequency encoding",
+    "explanation": "The frequency-encoding gradient causes spins at different positions to precess at different frequencies."
+  },
+  {
+    "id": "ch5-009",
+    "chapter": 5,
+    "topic": "Introduction",
+    "type": "single_best",
+    "text": "Which encoding method temporarily changes the phase of spins according to their spatial position?",
+    "options": [
+      "Phase encoding",
+      "Frequency encoding",
+      "Slice selection",
+      "RF excitation"
+    ],
+    "answer": "Phase encoding",
+    "explanation": "A phase-encoding gradient produces position-dependent phase shifts."
+  },
+  {
+    "id": "ch5-010",
+    "chapter": 5,
+    "topic": "Introduction",
+    "type": "single_best",
+    "text": "What is the overall purpose of combining slice, frequency, and phase encoding?",
+    "options": [
+      "To localize signal in three dimensions",
+      "To eliminate all gradients",
+      "To increase T1 relaxation",
+      "To prevent RF excitation"
+    ],
+    "answer": "To localize signal in three dimensions",
+    "explanation": "The three encoding processes provide spatial localization throughout the selected volume."
+  },
+  {
+    "id": "ch5-011",
+    "chapter": 5,
+    "topic": "Mechanism of gradients",
+    "type": "single_best",
+    "text": "What does the term gradient mean in MRI?",
+    "options": [
+      "A change in magnetic field strength with position",
+      "A change in RF frequency with time only",
+      "A uniform magnetic field",
+      "A reduction in static field strength everywhere"
+    ],
+    "answer": "A change in magnetic field strength with position",
+    "explanation": "A magnetic field gradient describes how the magnetic field changes spatially."
+  },
+  {
+    "id": "ch5-012",
+    "chapter": 5,
+    "topic": "Mechanism of gradients",
+    "type": "single_best",
+    "text": "If a gradient is applied along one axis, what happens to the local Larmor frequency?",
+    "options": [
+      "It varies according to position along that axis",
+      "It becomes zero everywhere",
+      "It becomes identical everywhere",
+      "It becomes independent of magnetic field strength"
+    ],
+    "answer": "It varies according to position along that axis",
+    "explanation": "The gradient changes the local magnetic field and therefore the Larmor frequency according to position."
+  },
+  {
+    "id": "ch5-013",
+    "chapter": 5,
+    "topic": "Mechanism of gradients",
+    "type": "single_best",
+    "text": "The strength of an MRI gradient is commonly expressed as:",
+    "options": [
+      "mT/m",
+      "mL/s",
+      "Hz/kg",
+      "T/s only"
+    ],
+    "answer": "mT/m",
+    "explanation": "Gradient amplitude is commonly specified in millitesla per metre."
+  },
+  {
+    "id": "ch5-014",
+    "chapter": 5,
+    "topic": "Mechanism of gradients",
+    "type": "single_best",
+    "text": "A gradient of greater amplitude produces what effect over the same distance?",
+    "options": [
+      "A greater change in magnetic field strength",
+      "No change in magnetic field strength",
+      "A smaller spatial frequency difference",
+      "Complete loss of magnetization"
+    ],
+    "answer": "A greater change in magnetic field strength",
+    "explanation": "A stronger gradient produces a larger magnetic field change per unit distance."
+  },
+  {
+    "id": "ch5-015",
+    "chapter": 5,
+    "topic": "Mechanism of gradients",
+    "type": "single_best",
+    "text": "What happens to the Larmor frequency when the local magnetic field strength increases?",
+    "options": [
+      "The Larmor frequency increases",
+      "The Larmor frequency decreases",
+      "The Larmor frequency becomes zero",
+      "The Larmor frequency becomes independent of field strength"
+    ],
+    "answer": "The Larmor frequency increases",
+    "explanation": "Larmor frequency is directly proportional to magnetic field strength."
+  },
+  {
+    "id": "ch5-016",
+    "chapter": 5,
+    "topic": "Mechanism of gradients",
+    "type": "single_best",
+    "text": "What is the main effect of reversing the polarity of a gradient?",
+    "options": [
+      "It reverses the direction of the spatial field change",
+      "It eliminates the gradient",
+      "It stops precession everywhere",
+      "It creates a 180-degree RF pulse"
+    ],
+    "answer": "It reverses the direction of the spatial field change",
+    "explanation": "Changing gradient polarity reverses how the magnetic field varies with position."
+  },
+  {
+    "id": "ch5-017",
+    "chapter": 5,
+    "topic": "Mechanism of gradients",
+    "type": "single_best",
+    "text": "What is the gradient slew rate?",
+    "options": [
+      "The rate at which gradient amplitude changes with time",
+      "The maximum static magnetic field strength",
+      "The RF frequency of the scanner",
+      "The rate of T1 recovery"
+    ],
+    "answer": "The rate at which gradient amplitude changes with time",
+    "explanation": "Slew rate describes how rapidly a gradient can change its amplitude."
+  },
+  {
+    "id": "ch5-018",
+    "chapter": 5,
+    "topic": "Mechanism of gradients",
+    "type": "single_best",
+    "text": "Which unit is commonly used for gradient slew rate?",
+    "options": [
+      "T/m/s",
+      "mT/m only",
+      "Hz/kg",
+      "Tesla/litre"
+    ],
+    "answer": "T/m/s",
+    "explanation": "Gradient slew rate is commonly expressed in tesla per metre per second."
+  },
+  {
+    "id": "ch5-019",
+    "chapter": 5,
+    "topic": "Mechanism of gradients",
+    "type": "single_best",
+    "text": "Why is rapid gradient switching important in MRI?",
+    "options": [
+      "It allows rapid changes in gradient waveforms and shorter sequence timing",
+      "It eliminates the need for RF pulses",
+      "It prevents spatial encoding",
+      "It stops the main magnetic field"
+    ],
+    "answer": "It allows rapid changes in gradient waveforms and shorter sequence timing",
+    "explanation": "High slew rates permit gradients to ramp up and down rapidly, supporting fast sequences."
+  },
+  {
+    "id": "ch5-020",
+    "chapter": 5,
+    "topic": "Mechanism of gradients",
+    "type": "single_best",
+    "text": "What determines the frequency difference between two positions along a gradient?",
+    "options": [
+      "The gradient strength and the spatial separation",
+      "Only the patient's weight",
+      "Only the RF pulse duration",
+      "Only the room temperature"
+    ],
+    "answer": "The gradient strength and the spatial separation",
+    "explanation": "A stronger gradient or greater distance produces a larger magnetic field and frequency difference."
+  },
+  {
+    "id": "ch5-021",
+    "chapter": 5,
+    "topic": "Mechanism of gradients",
+    "type": "single_best",
+    "text": "What happens to the frequency difference between two points if gradient strength is doubled?",
+    "options": [
+      "It doubles",
+      "It halves",
+      "It becomes zero",
+      "It remains completely unchanged"
+    ],
+    "answer": "It doubles",
+    "explanation": "Frequency separation is proportional to gradient strength for a fixed spatial separation."
+  },
+  {
+    "id": "ch5-022",
+    "chapter": 5,
+    "topic": "Mechanism of gradients",
+    "type": "single_best",
+    "text": "Which property of gradients allows MRI to distinguish signals from different locations?",
+    "options": [
+      "Their spatial dependence",
+      "Their uniformity",
+      "Their ability to stop RF transmission",
+      "Their ability to remove T1 relaxation"
+    ],
+    "answer": "Their spatial dependence",
+    "explanation": "Gradients make magnetic field strength and therefore signal frequency or phase dependent on position."
+  },
+  {
+    "id": "ch5-023",
+    "chapter": 5,
+    "topic": "Mechanism of gradients",
+    "type": "single_best",
+    "text": "What is the relationship between gradient amplitude and spatial frequency separation?",
+    "options": [
+      "Greater gradient amplitude produces greater frequency separation",
+      "Greater gradient amplitude produces less frequency separation",
+      "Gradient amplitude has no effect",
+      "Greater gradient amplitude stops precession"
+    ],
+    "answer": "Greater gradient amplitude produces greater frequency separation",
+    "explanation": "The gradient creates a larger magnetic field difference between positions."
+  },
+  {
+    "id": "ch5-024",
+    "chapter": 5,
+    "topic": "Mechanism of gradients",
+    "type": "single_best",
+    "text": "What is the main role of gradient coils compared with the main magnet?",
+    "options": [
+      "They create controlled spatial variations in magnetic field",
+      "They provide the primary static magnetic field",
+      "They generate all RF pulses",
+      "They detect the MR signal"
+    ],
+    "answer": "They create controlled spatial variations in magnetic field",
+    "explanation": "The main magnet provides B0, while gradient coils superimpose controlled spatial variations."
+  },
+  {
+    "id": "ch5-025",
+    "chapter": 5,
+    "topic": "Mechanism of gradients",
+    "type": "single_best",
+    "text": "What happens to spins at different positions when a gradient is applied?",
+    "options": [
+      "They experience different magnetic field strengths",
+      "They all experience identical magnetic fields",
+      "They stop precessing",
+      "They all become longitudinally saturated"
+    ],
+    "answer": "They experience different magnetic field strengths",
+    "explanation": "The defining property of a gradient is that field strength varies with spatial position."
+  },
+  {
+    "id": "ch5-026",
+    "chapter": 5,
+    "topic": "Gradient axes",
+    "type": "single_best",
+    "text": "Which gradient axis is conventionally associated with the left-right direction in a standard patient coordinate system?",
+    "options": [
+      "X axis",
+      "Y axis",
+      "Z axis",
+      "W axis"
+    ],
+    "answer": "X axis",
+    "explanation": "The x-axis is conventionally associated with the left-right direction."
+  },
+  {
+    "id": "ch5-027",
+    "chapter": 5,
+    "topic": "Gradient axes",
+    "type": "single_best",
+    "text": "Which gradient axis is conventionally associated with the anterior-posterior direction?",
+    "options": [
+      "Y axis",
+      "X axis",
+      "Z axis",
+      "W axis"
+    ],
+    "answer": "Y axis",
+    "explanation": "The y-axis is conventionally associated with the anterior-posterior direction."
+  },
+  {
+    "id": "ch5-028",
+    "chapter": 5,
+    "topic": "Gradient axes",
+    "type": "single_best",
+    "text": "Which gradient axis is conventionally associated with the superior-inferior direction?",
+    "options": [
+      "Z axis",
+      "X axis",
+      "Y axis",
+      "W axis"
+    ],
+    "answer": "Z axis",
+    "explanation": "The z-axis is conventionally associated with the superior-inferior direction."
+  },
+  {
+    "id": "ch5-029",
+    "chapter": 5,
+    "topic": "Gradient axes",
+    "type": "single_best",
+    "text": "How are the three gradient axes oriented relative to one another?",
+    "options": [
+      "They are mutually perpendicular",
+      "They are parallel",
+      "They are always at 45 degrees",
+      "They have no spatial relationship"
+    ],
+    "answer": "They are mutually perpendicular",
+    "explanation": "The x, y, and z gradient axes form three orthogonal spatial directions."
+  },
+  {
+    "id": "ch5-030",
+    "chapter": 5,
+    "topic": "Gradient axes",
+    "type": "single_best",
+    "text": "Can any of the three gradient coils be used for different encoding functions depending on the imaging plane?",
+    "options": [
+      "Yes",
+      "No, each gradient has only one permanent function",
+      "Only the z gradient can change function",
+      "Only the x gradient can change function"
+    ],
+    "answer": "Yes",
+    "explanation": "Gradient axes can serve as slice-selection, phase-encoding, or frequency-encoding gradients depending on sequence orientation."
+  },
+  {
+    "id": "ch5-031",
+    "chapter": 5,
+    "topic": "Gradient axes",
+    "type": "single_best",
+    "text": "In an axial acquisition using the conventional patient coordinate system, which axis is commonly used for slice selection?",
+    "options": [
+      "Z axis",
+      "X axis",
+      "Y axis",
+      "No gradient"
+    ],
+    "answer": "Z axis",
+    "explanation": "For conventional axial imaging, the slice-selection direction is commonly the superior-inferior z-axis."
+  },
+  {
+    "id": "ch5-032",
+    "chapter": 5,
+    "topic": "Gradient axes",
+    "type": "single_best",
+    "text": "In an axial acquisition, the two in-plane directions are typically encoded using which axes?",
+    "options": [
+      "X and Y",
+      "X and Z",
+      "Y and Z",
+      "Only Z"
+    ],
+    "answer": "X and Y",
+    "explanation": "The x and y axes define the two in-plane spatial directions for a conventional axial acquisition."
+  },
+  {
+    "id": "ch5-033",
+    "chapter": 5,
+    "topic": "Gradient axes",
+    "type": "single_best",
+    "text": "What happens to the assignment of gradient functions when the imaging plane is changed?",
+    "options": [
+      "The roles of the physical gradient axes can be reassigned",
+      "All gradients stop functioning",
+      "Only the z gradient remains available",
+      "The main magnet changes polarity"
+    ],
+    "answer": "The roles of the physical gradient axes can be reassigned",
+    "explanation": "The scanner controls gradient waveforms so that the desired spatial directions are encoded for each imaging plane."
+  },
+  {
+    "id": "ch5-034",
+    "chapter": 5,
+    "topic": "Gradient axes",
+    "type": "single_best",
+    "text": "Which gradient function determines the location of the selected slice?",
+    "options": [
+      "Slice-selection gradient",
+      "Frequency-encoding gradient",
+      "Phase-encoding gradient",
+      "RF receiver gradient"
+    ],
+    "answer": "Slice-selection gradient",
+    "explanation": "The slice-selection gradient establishes the spatial frequency range excited by the RF pulse."
+  },
+  {
+    "id": "ch5-035",
+    "chapter": 5,
+    "topic": "Gradient axes",
+    "type": "single_best",
+    "text": "Which gradient function is applied during signal acquisition to distinguish positions by frequency?",
+    "options": [
+      "Frequency-encoding gradient",
+      "Slice-selection gradient",
+      "Phase-encoding gradient",
+      "Static gradient"
+    ],
+    "answer": "Frequency-encoding gradient",
+    "explanation": "The frequency-encoding gradient is active during readout and produces position-dependent frequencies."
+  },
+  {
+    "id": "ch5-036",
+    "chapter": 5,
+    "topic": "Gradient axes",
+    "type": "single_best",
+    "text": "Which gradient function is normally applied briefly before signal readout to establish spatial phase differences?",
+    "options": [
+      "Phase-encoding gradient",
+      "Frequency-encoding gradient",
+      "Slice-selection gradient",
+      "RF gradient"
+    ],
+    "answer": "Phase-encoding gradient",
+    "explanation": "The phase-encoding gradient causes a temporary position-dependent phase shift before readout."
+  },
+  {
+    "id": "ch5-037",
+    "chapter": 5,
+    "topic": "Slice-selection",
+    "type": "single_best",
+    "text": "How does slice selection work?",
+    "options": [
+      "A gradient makes resonance frequency depend on position while an RF pulse excites a selected frequency range",
+      "An RF pulse excites every spin equally regardless of position",
+      "A phase gradient physically cuts the tissue",
+      "The main magnet selectively removes unwanted slices"
+    ],
+    "answer": "A gradient makes resonance frequency depend on position while an RF pulse excites a selected frequency range",
+    "explanation": "The slice-selection gradient creates a frequency-position relationship, allowing the RF pulse bandwidth to select a slice."
+  },
+  {
+    "id": "ch5-038",
+    "chapter": 5,
+    "topic": "Slice-selection",
+    "type": "single_best",
+    "text": "What determines which spatial location is excited during slice selection?",
+    "options": [
+      "The RF center frequency relative to the applied slice-selection gradient",
+      "Only the patient's weight",
+      "Only the receiver bandwidth",
+      "Only the phase-encoding amplitude"
+    ],
+    "answer": "The RF center frequency relative to the applied slice-selection gradient",
+    "explanation": "The RF center frequency determines which position has the corresponding resonance frequency under the slice-selection gradient."
+  },
+  {
+    "id": "ch5-039",
+    "chapter": 5,
+    "topic": "Slice-selection",
+    "type": "single_best",
+    "text": "What generally happens to slice thickness if the RF bandwidth is increased while gradient strength remains constant?",
+    "options": [
+      "Slice thickness increases",
+      "Slice thickness decreases",
+      "Slice thickness becomes zero",
+      "Slice thickness is unaffected"
+    ],
+    "answer": "Slice thickness increases",
+    "explanation": "A broader RF bandwidth excites a broader range of frequencies and therefore a thicker slice for a fixed gradient."
+  },
+  {
+    "id": "ch5-040",
+    "chapter": 5,
+    "topic": "Slice-selection",
+    "type": "single_best",
+    "text": "What generally happens to slice thickness if the slice-selection gradient strength is increased while RF bandwidth remains constant?",
+    "options": [
+      "Slice thickness decreases",
+      "Slice thickness increases",
+      "Slice thickness becomes infinite",
+      "Slice thickness is unchanged"
+    ],
+    "answer": "Slice thickness decreases",
+    "explanation": "A stronger gradient creates a larger frequency change per unit distance, so the same RF bandwidth corresponds to a thinner slice."
+  },
+  {
+    "id": "ch5-041",
+    "chapter": 5,
+    "topic": "Slice-selection",
+    "type": "single_best",
+    "text": "What is the relationship between RF bandwidth and slice thickness when gradient strength is fixed?",
+    "options": [
+      "They are directly related",
+      "They are always inversely related",
+      "They have no relationship",
+      "One determines only T1"
+    ],
+    "answer": "They are directly related",
+    "explanation": "For a fixed slice-selection gradient, increasing RF bandwidth increases the range of positions excited."
+  },
+  {
+    "id": "ch5-042",
+    "chapter": 5,
+    "topic": "Slice-selection",
+    "type": "single_best",
+    "text": "What is the effect of changing the RF center frequency during slice selection while keeping the gradient unchanged?",
+    "options": [
+      "The selected slice position changes",
+      "The slice thickness must become zero",
+      "The gradient direction reverses automatically",
+      "The receiver stops detecting signal"
+    ],
+    "answer": "The selected slice position changes",
+    "explanation": "Changing the RF center frequency selects a different location along the slice-selection gradient."
+  },
+  {
+    "id": "ch5-043",
+    "chapter": 5,
+    "topic": "Slice-selection",
+    "type": "single_best",
+    "text": "What does the bandwidth of a slice-selective RF pulse determine?",
+    "options": [
+      "The range of resonance frequencies excited",
+      "The patient's position on the scanner table",
+      "The strength of the main magnetic field",
+      "The phase-encoding direction only"
+    ],
+    "answer": "The range of resonance frequencies excited",
+    "explanation": "RF bandwidth defines the range of frequencies that receive substantial excitation."
+  },
+  {
+    "id": "ch5-044",
+    "chapter": 5,
+    "topic": "Slice-selection",
+    "type": "single_best",
+    "text": "Why is a gradient required during slice-selective RF excitation?",
+    "options": [
+      "It makes resonance frequency vary with position",
+      "It produces the RF pulse",
+      "It detects the signal",
+      "It eliminates T2 relaxation"
+    ],
+    "answer": "It makes resonance frequency vary with position",
+    "explanation": "Without the gradient, the RF frequency would not selectively correspond to a particular spatial location."
+  },
+  {
+    "id": "ch5-045",
+    "chapter": 5,
+    "topic": "Slice-selection",
+    "type": "single_best",
+    "text": "Which gradient is switched on during the RF excitation in conventional slice selection?",
+    "options": [
+      "Slice-selection gradient",
+      "Phase-encoding gradient",
+      "Frequency-encoding gradient",
+      "No gradient"
+    ],
+    "answer": "Slice-selection gradient",
+    "explanation": "The slice-selection gradient is applied simultaneously with the selective RF pulse."
+  },
+  {
+    "id": "ch5-046",
+    "chapter": 5,
+    "topic": "Slice-selection",
+    "type": "single_best",
+    "text": "What is the purpose of the slice-selection rephasing gradient lobe that may follow RF excitation?",
+    "options": [
+      "To compensate for phase dispersion caused by the slice-selection gradient",
+      "To select a second slice",
+      "To eliminate the RF pulse",
+      "To encode frequency during readout"
+    ],
+    "answer": "To compensate for phase dispersion caused by the slice-selection gradient",
+    "explanation": "The rephasing lobe compensates for phase effects introduced by the slice-selection gradient during excitation."
+  },
+  {
+    "id": "ch5-047",
+    "chapter": 5,
+    "topic": "Slice-selection",
+    "type": "single_best",
+    "text": "What determines the thickness of a selected slice most directly?",
+    "options": [
+      "RF bandwidth and slice-selection gradient strength",
+      "Only TR",
+      "Only TE",
+      "Only the receiver coil"
+    ],
+    "answer": "RF bandwidth and slice-selection gradient strength",
+    "explanation": "Slice thickness depends on the frequency range excited and the frequency change per unit distance created by the gradient."
+  },
+  {
+    "id": "ch5-048",
+    "chapter": 5,
+    "topic": "Slice-selection",
+    "type": "single_best",
+    "text": "If the RF bandwidth is halved while gradient strength remains constant, what happens to slice thickness?",
+    "options": [
+      "It is approximately halved",
+      "It approximately doubles",
+      "It remains unchanged",
+      "It becomes four times thicker"
+    ],
+    "answer": "It is approximately halved",
+    "explanation": "With a fixed gradient, a narrower RF bandwidth corresponds to a narrower spatial range."
+  },
+  {
+    "id": "ch5-049",
+    "chapter": 5,
+    "topic": "Slice-selection",
+    "type": "single_best",
+    "text": "If the slice-selection gradient strength is doubled while RF bandwidth remains constant, what happens to slice thickness?",
+    "options": [
+      "It is approximately halved",
+      "It approximately doubles",
+      "It remains unchanged",
+      "It becomes four times thicker"
+    ],
+    "answer": "It is approximately halved",
+    "explanation": "Doubling the gradient doubles the frequency change per unit distance, reducing the distance covered by the same RF bandwidth."
+  },
+  {
+    "id": "ch5-050",
+    "chapter": 5,
+    "topic": "Slice-selection",
+    "type": "single_best",
+    "text": "What is the main limitation of selecting an extremely thin slice using gradients?",
+    "options": [
+      "It requires precise gradient and RF control",
+      "It eliminates all spatial encoding",
+      "It prevents any RF excitation",
+      "It always produces a thicker slice"
+    ],
+    "answer": "It requires precise gradient and RF control",
+    "explanation": "Very thin slices require accurate control of gradient strength, RF bandwidth, and frequency."
+  },
+  {
+    "id": "ch5-051",
+    "chapter": 5,
+    "topic": "Slice-selection",
+    "type": "single_best",
+    "text": "If the slice-selection gradient is made weaker while the RF bandwidth remains unchanged, what happens to slice thickness?",
+    "options": [
+      "It increases",
+      "It decreases",
+      "It becomes zero",
+      "It remains unchanged"
+    ],
+    "answer": "It increases",
+    "explanation": "A weaker gradient produces a smaller frequency change per unit distance, so the same RF bandwidth excites a thicker region."
+  },
+  {
+    "id": "ch5-052",
+    "chapter": 5,
+    "topic": "Slice-selection",
+    "type": "single_best",
+    "text": "What determines the position of a slice along the direction of the slice-selection gradient?",
+    "options": [
+      "The RF center frequency",
+      "The receiver bandwidth only",
+      "The phase-encoding amplitude only",
+      "The echo time only"
+    ],
+    "answer": "The RF center frequency",
+    "explanation": "The RF center frequency determines which position has the corresponding resonance frequency."
+  },
+  {
+    "id": "ch5-053",
+    "chapter": 5,
+    "topic": "Slice-selection",
+    "type": "single_best",
+    "text": "What happens when the RF center frequency is shifted during slice selection?",
+    "options": [
+      "A different slice location is excited",
+      "The slice thickness necessarily doubles",
+      "The gradient stops operating",
+      "The receiver bandwidth becomes zero"
+    ],
+    "answer": "A different slice location is excited",
+    "explanation": "Changing the RF frequency shifts the spatial location whose spins are resonant with the RF pulse."
+  },
+  {
+    "id": "ch5-054",
+    "chapter": 5,
+    "topic": "Slice-selection",
+    "type": "single_best",
+    "text": "What is the purpose of using a frequency-selective RF pulse during slice selection?",
+    "options": [
+      "To excite only spins within a selected frequency range",
+      "To excite every spin equally",
+      "To create the phase-encoding gradient",
+      "To detect the MR signal"
+    ],
+    "answer": "To excite only spins within a selected frequency range",
+    "explanation": "The RF bandwidth determines which frequencies, and therefore which spatial region, are excited."
+  },
+  {
+    "id": "ch5-055",
+    "chapter": 5,
+    "topic": "Slice-selection",
+    "type": "single_best",
+    "text": "Which factor can be changed to move the selected slice without changing its thickness?",
+    "options": [
+      "RF center frequency",
+      "RF bandwidth alone",
+      "Receiver gain",
+      "Echo time"
+    ],
+    "answer": "RF center frequency",
+    "explanation": "Changing the center frequency shifts slice position, whereas bandwidth primarily affects slice thickness."
+  },
+  {
+    "id": "ch5-056",
+    "chapter": 5,
+    "topic": "Slice-selection",
+    "type": "single_best",
+    "text": "What is the effect of increasing RF bandwidth while simultaneously increasing the slice-selection gradient proportionally?",
+    "options": [
+      "Slice thickness can remain approximately unchanged",
+      "Slice thickness must become zero",
+      "Slice thickness must double",
+      "No slice can be selected"
+    ],
+    "answer": "Slice thickness can remain approximately unchanged",
+    "explanation": "Slice thickness depends on the ratio of RF bandwidth to gradient strength, so proportional increases can preserve thickness."
+  },
+  {
+    "id": "ch5-057",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "What is the primary purpose of the frequency-encoding gradient?",
+    "options": [
+      "To make precessional frequency depend on spatial position",
+      "To select the slice during RF excitation",
+      "To create only phase differences",
+      "To eliminate all transverse magnetization"
+    ],
+    "answer": "To make precessional frequency depend on spatial position",
+    "explanation": "The frequency-encoding gradient creates position-dependent frequencies during signal acquisition."
+  },
+  {
+    "id": "ch5-058",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "When is the frequency-encoding gradient commonly applied?",
+    "options": [
+      "During signal readout",
+      "Only before RF excitation",
+      "Only after the scan has finished",
+      "Only during patient positioning"
+    ],
+    "answer": "During signal readout",
+    "explanation": "The frequency-encoding gradient is active while the MR signal is sampled."
+  },
+  {
+    "id": "ch5-059",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "What happens to spins at different positions along the frequency-encoding gradient?",
+    "options": [
+      "They precess at different frequencies",
+      "They all precess at exactly the same frequency",
+      "They stop precessing",
+      "They all become longitudinal"
+    ],
+    "answer": "They precess at different frequencies",
+    "explanation": "The gradient creates a position-dependent magnetic field and therefore a position-dependent Larmor frequency."
+  },
+  {
+    "id": "ch5-060",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "How is spatial information represented during frequency encoding?",
+    "options": [
+      "By differences in signal frequency",
+      "By differences in patient temperature",
+      "By differences in RF power only",
+      "By differences in slice thickness"
+    ],
+    "answer": "By differences in signal frequency",
+    "explanation": "Different spatial locations produce different frequencies when the readout gradient is applied."
+  },
+  {
+    "id": "ch5-061",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "What happens to the frequency separation between two positions if the frequency-encoding gradient strength increases?",
+    "options": [
+      "The frequency separation increases",
+      "The frequency separation decreases",
+      "The frequency separation becomes zero",
+      "The frequency separation is unaffected"
+    ],
+    "answer": "The frequency separation increases",
+    "explanation": "A stronger gradient creates a larger magnetic field difference between positions."
+  },
+  {
+    "id": "ch5-062",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "What is the readout gradient another name for?",
+    "options": [
+      "Frequency-encoding gradient",
+      "Slice-selection gradient",
+      "Phase-encoding gradient",
+      "RF gradient"
+    ],
+    "answer": "Frequency-encoding gradient",
+    "explanation": "The readout gradient is the gradient used to encode spatial position as frequency during acquisition."
+  },
+  {
+    "id": "ch5-063",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "Why can frequency encoding distinguish positions along one direction?",
+    "options": [
+      "Each position has a characteristic frequency under the gradient",
+      "Each position has a different T1 value by definition",
+      "Each position receives a different RF pulse",
+      "Each position has a different slice thickness"
+    ],
+    "answer": "Each position has a characteristic frequency under the gradient",
+    "explanation": "The gradient establishes a predictable relationship between position and frequency."
+  },
+  {
+    "id": "ch5-064",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "If the frequency-encoding gradient is reversed, what happens to the frequency-position relationship?",
+    "options": [
+      "It reverses",
+      "It disappears permanently",
+      "It becomes independent of position",
+      "It becomes a phase-only relationship"
+    ],
+    "answer": "It reverses",
+    "explanation": "Reversing gradient polarity reverses the direction in which frequency changes with position."
+  },
+  {
+    "id": "ch5-065",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "What is the main role of the receiver during frequency encoding?",
+    "options": [
+      "To detect and sample the frequency-containing MR signal",
+      "To create the static magnetic field",
+      "To select the slice",
+      "To generate the phase-encoding gradient"
+    ],
+    "answer": "To detect and sample the frequency-containing MR signal",
+    "explanation": "The receiver detects the MR signal while spatial frequency information is encoded during readout."
+  },
+  {
+    "id": "ch5-066",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "What does increasing the frequency-encoding gradient strength generally do to the range of frequencies across the field of view?",
+    "options": [
+      "It increases the frequency range",
+      "It decreases the frequency range to zero",
+      "It has no effect",
+      "It eliminates the MR signal"
+    ],
+    "answer": "It increases the frequency range",
+    "explanation": "A stronger gradient produces a larger frequency difference across the same spatial distance."
+  },
+  {
+    "id": "ch5-067",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "What is frequency encoding fundamentally based on?",
+    "options": [
+      "Position-dependent precessional frequency",
+      "Position-independent phase",
+      "T1 recovery alone",
+      "RF amplitude alone"
+    ],
+    "answer": "Position-dependent precessional frequency",
+    "explanation": "The frequency-encoding gradient makes precessional frequency vary with spatial position."
+  },
+  {
+    "id": "ch5-068",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "Which spatial direction is encoded continuously during signal acquisition?",
+    "options": [
+      "Frequency-encoding direction",
+      "Phase-encoding direction",
+      "Slice direction only",
+      "None"
+    ],
+    "answer": "Frequency-encoding direction",
+    "explanation": "The frequency-encoding gradient is applied during readout, continuously encoding that spatial direction."
+  },
+  {
+    "id": "ch5-069",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "Why is frequency encoding sometimes called readout encoding?",
+    "options": [
+      "The encoding gradient is applied while the signal is being read",
+      "It is applied only after the scan",
+      "It selects the RF transmitter",
+      "It determines the patient's position"
+    ],
+    "answer": "The encoding gradient is applied while the signal is being read",
+    "explanation": "Frequency encoding occurs during the acquisition or readout period."
+  },
+  {
+    "id": "ch5-070",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "What happens to the measured signal if no frequency-encoding gradient is applied during readout?",
+    "options": [
+      "Frequency-based spatial separation in that direction is lost",
+      "The slice-selection gradient becomes stronger automatically",
+      "Phase encoding becomes impossible",
+      "All spins stop precessing"
+    ],
+    "answer": "Frequency-based spatial separation in that direction is lost",
+    "explanation": "Without the readout gradient, position along that direction is not encoded by frequency."
+  },
+  {
+    "id": "ch5-071",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "What is the primary purpose of the phase-encoding gradient?",
+    "options": [
+      "To create position-dependent phase differences",
+      "To create position-dependent slice thickness",
+      "To select the RF carrier frequency",
+      "To eliminate longitudinal magnetization"
+    ],
+    "answer": "To create position-dependent phase differences",
+    "explanation": "The phase-encoding gradient changes the phase of spins according to their position."
+  },
+  {
+    "id": "ch5-072",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "How does phase encoding differ from frequency encoding?",
+    "options": [
+      "Phase encoding stores spatial information in phase rather than continuous frequency differences during readout",
+      "Phase encoding does not use gradients",
+      "Frequency encoding occurs before RF excitation only",
+      "Phase encoding selects the slice"
+    ],
+    "answer": "Phase encoding stores spatial information in phase rather than continuous frequency differences during readout",
+    "explanation": "The phase gradient creates position-dependent phase shifts that remain after the gradient is removed."
+  },
+  {
+    "id": "ch5-073",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "When is the phase-encoding gradient commonly applied?",
+    "options": [
+      "Briefly before signal readout",
+      "Continuously throughout the entire scan",
+      "Only after signal acquisition",
+      "Only during RF transmission"
+    ],
+    "answer": "Briefly before signal readout",
+    "explanation": "The phase-encoding gradient is commonly applied for a controlled duration before readout."
+  },
+  {
+    "id": "ch5-074",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "What remains after the phase-encoding gradient is switched off?",
+    "options": [
+      "A position-dependent phase difference",
+      "A permanent magnetic field gradient",
+      "A permanent change in T1",
+      "A new slice thickness"
+    ],
+    "answer": "A position-dependent phase difference",
+    "explanation": "The gradient changes phase during its application, and that accumulated phase remains after the gradient is removed."
+  },
+  {
+    "id": "ch5-075",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "What determines the amount of phase shift produced by a phase-encoding gradient?",
+    "options": [
+      "Gradient strength and duration",
+      "Only TE",
+      "Only TR",
+      "Only RF center frequency"
+    ],
+    "answer": "Gradient strength and duration",
+    "explanation": "The accumulated phase depends on the strength and duration of the applied gradient."
+  },
+  {
+    "id": "ch5-076",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "What happens to the phase shift if the duration of a phase-encoding gradient is increased while its strength remains constant?",
+    "options": [
+      "The phase shift increases",
+      "The phase shift decreases",
+      "The phase shift becomes zero",
+      "The phase shift is unchanged"
+    ],
+    "answer": "The phase shift increases",
+    "explanation": "A longer gradient application produces greater accumulated phase."
+  },
+  {
+    "id": "ch5-077",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "What happens if the polarity of the phase-encoding gradient is reversed?",
+    "options": [
+      "The direction of the phase shift is reversed",
+      "The phase shift disappears permanently",
+      "Frequency encoding stops",
+      "The slice thickness doubles"
+    ],
+    "answer": "The direction of the phase shift is reversed",
+    "explanation": "Reversing gradient polarity reverses the accumulated phase shift."
+  },
+  {
+    "id": "ch5-078",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "Why are different phase-encoding gradient amplitudes used repeatedly during an acquisition?",
+    "options": [
+      "To sample different amounts of spatial phase information",
+      "To change the patient's position",
+      "To change the main magnetic field strength",
+      "To eliminate slice selection"
+    ],
+    "answer": "To sample different amounts of spatial phase information",
+    "explanation": "Different phase-encoding amplitudes provide different spatial phase states needed for image reconstruction."
+  },
+  {
+    "id": "ch5-079",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "What is the phase-encoding direction used to determine?",
+    "options": [
+      "Spatial position in the direction encoded by phase",
+      "The patient's body temperature",
+      "The RF pulse duration",
+      "The static field strength"
+    ],
+    "answer": "Spatial position in the direction encoded by phase",
+    "explanation": "Phase encoding provides spatial localization along one in-plane direction."
+  },
+  {
+    "id": "ch5-080",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "Which statement about phase encoding is correct?",
+    "options": [
+      "The gradient is removed before readout, but its phase effect remains",
+      "The gradient must remain continuously active during readout",
+      "Phase encoding requires no gradient",
+      "Phase encoding selects the slice directly"
+    ],
+    "answer": "The gradient is removed before readout, but its phase effect remains",
+    "explanation": "The gradient creates a phase shift that persists after the gradient is turned off."
+  },
+  {
+    "id": "ch5-081",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "What happens when the phase-encoding gradient amplitude is increased?",
+    "options": [
+      "A greater phase difference is produced across the encoded direction",
+      "The phase difference becomes smaller",
+      "No phase difference is produced",
+      "The RF pulse automatically changes frequency"
+    ],
+    "answer": "A greater phase difference is produced across the encoded direction",
+    "explanation": "Increasing gradient amplitude increases the accumulated position-dependent phase shift."
+  },
+  {
+    "id": "ch5-082",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "Why must phase encoding be repeated with different gradient strengths?",
+    "options": [
+      "To acquire enough spatial information to reconstruct the image",
+      "To increase the static field strength",
+      "To select multiple RF frequencies simultaneously",
+      "To eliminate all T1 weighting"
+    ],
+    "answer": "To acquire enough spatial information to reconstruct the image",
+    "explanation": "Multiple phase-encoding steps provide the spatial sampling required for image reconstruction."
+  },
+  {
+    "id": "ch5-083",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "Which encoding direction generally requires multiple repetitions with different gradient amplitudes?",
+    "options": [
+      "Phase encoding",
+      "Frequency encoding",
+      "Slice selection",
+      "RF transmission"
+    ],
+    "answer": "Phase encoding",
+    "explanation": "Each phase-encoding step uses a particular gradient amplitude, and multiple steps are acquired."
+  },
+  {
+    "id": "ch5-084",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "What is the main consequence of using more phase-encoding steps?",
+    "options": [
+      "More spatial sampling is obtained but acquisition time generally increases",
+      "Acquisition time always decreases",
+      "Slice thickness automatically increases",
+      "Frequency encoding is eliminated"
+    ],
+    "answer": "More spatial sampling is obtained but acquisition time generally increases",
+    "explanation": "Additional phase-encoding steps require additional signal acquisitions and therefore generally increase scan time."
+  },
+  {
+    "id": "ch5-085",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "What happens to phase encoding if the gradient duration is doubled while its amplitude is unchanged?",
+    "options": [
+      "The accumulated phase shift increases",
+      "The accumulated phase shift decreases",
+      "There is no phase effect",
+      "The slice position changes"
+    ],
+    "answer": "The accumulated phase shift increases",
+    "explanation": "Phase accumulation depends on the time integral of the applied gradient."
+  },
+  {
+    "id": "ch5-086",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "What is the key distinction between frequency and phase encoding?",
+    "options": [
+      "Frequency encoding uses frequency differences during readout, while phase encoding uses accumulated phase differences",
+      "Frequency encoding does not use gradients",
+      "Phase encoding changes T1 directly",
+      "Frequency encoding selects the slice and phase encoding creates RF pulses"
+    ],
+    "answer": "Frequency encoding uses frequency differences during readout, while phase encoding uses accumulated phase differences",
+    "explanation": "The two methods encode different spatial directions using frequency and phase information respectively."
+  },
+  {
+    "id": "ch5-087",
+    "chapter": 5,
+    "topic": "Bringing it all together – pulse sequence timing",
+    "type": "single_best",
+    "text": "Which event normally occurs first in a conventional slice-selective pulse sequence?",
+    "options": [
+      "RF excitation with the slice-selection gradient",
+      "Frequency-encoded signal readout",
+      "Image reconstruction",
+      "Phase-encoding gradient removal"
+    ],
+    "answer": "RF excitation with the slice-selection gradient",
+    "explanation": "The sequence first excites the selected slice before applying the in-plane spatial encoding and readout."
+  },
+  {
+    "id": "ch5-088",
+    "chapter": 5,
+    "topic": "Bringing it all together – pulse sequence timing",
+    "type": "single_best",
+    "text": "After slice selection, which gradient is commonly applied to encode one in-plane spatial direction?",
+    "options": [
+      "Phase-encoding gradient",
+      "Slice-selection gradient only",
+      "RF gradient",
+      "Static field gradient"
+    ],
+    "answer": "Phase-encoding gradient",
+    "explanation": "The phase-encoding gradient establishes spatial phase differences in one in-plane direction."
+  },
+  {
+    "id": "ch5-089",
+    "chapter": 5,
+    "topic": "Bringing it all together – pulse sequence timing",
+    "type": "single_best",
+    "text": "Which gradient is active during signal acquisition to encode the other in-plane direction?",
+    "options": [
+      "Frequency-encoding gradient",
+      "Slice-selection gradient",
+      "Phase-reset gradient",
+      "RF gradient"
+    ],
+    "answer": "Frequency-encoding gradient",
+    "explanation": "The frequency-encoding gradient is applied during readout."
+  },
+  {
+    "id": "ch5-090",
+    "chapter": 5,
+    "topic": "Bringing it all together – pulse sequence timing",
+    "type": "single_best",
+    "text": "What is the correct basic sequence of spatial encoding events?",
+    "options": [
+      "Slice selection, phase encoding, frequency encoding",
+      "Frequency encoding, slice selection, phase encoding",
+      "Phase encoding, frequency encoding, slice selection",
+      "Slice selection, image reconstruction, phase encoding"
+    ],
+    "answer": "Slice selection, phase encoding, frequency encoding",
+    "explanation": "A conventional sequence selects the slice, applies phase encoding, and then performs frequency-encoded readout."
+  },
+  {
+    "id": "ch5-091",
+    "chapter": 5,
+    "topic": "Bringing it all together – pulse sequence timing",
+    "type": "single_best",
+    "text": "Why must spatial encoding gradients be carefully timed relative to RF pulses and signal acquisition?",
+    "options": [
+      "To ensure the desired spatial information is encoded at the correct time",
+      "To prevent all proton precession",
+      "To eliminate the main magnetic field",
+      "To make all spins have identical frequencies"
+    ],
+    "answer": "To ensure the desired spatial information is encoded at the correct time",
+    "explanation": "The timing of each gradient determines when frequency and phase information is introduced and measured."
+  },
+  {
+    "id": "ch5-092",
+    "chapter": 5,
+    "topic": "Bringing it all together – pulse sequence timing",
+    "type": "single_best",
+    "text": "What is the role of the phase-encoding gradient before readout?",
+    "options": [
+      "To establish a position-dependent phase pattern",
+      "To select the RF center frequency",
+      "To continuously encode frequency during acquisition",
+      "To create the static magnetic field"
+    ],
+    "answer": "To establish a position-dependent phase pattern",
+    "explanation": "The phase-encoding gradient creates spatially dependent phase before it is switched off."
+  },
+  {
+    "id": "ch5-093",
+    "chapter": 5,
+    "topic": "Bringing it all together – pulse sequence timing",
+    "type": "single_best",
+    "text": "During frequency-encoded readout, what information is being measured from the signal?",
+    "options": [
+      "Position-dependent frequency information",
+      "Only the RF pulse amplitude",
+      "Only slice thickness",
+      "Only the patient's position"
+    ],
+    "answer": "Position-dependent frequency information",
+    "explanation": "The readout gradient causes spatial locations to contribute different frequencies to the measured signal."
+  },
+  {
+    "id": "ch5-094",
+    "chapter": 5,
+    "topic": "Bringing it all together – pulse sequence timing",
+    "type": "single_best",
+    "text": "What happens to the phase-encoding information when the phase gradient is turned off?",
+    "options": [
+      "The accumulated phase differences remain",
+      "All phase differences immediately disappear",
+      "Frequency encoding stops permanently",
+      "The selected slice changes"
+    ],
+    "answer": "The accumulated phase differences remain",
+    "explanation": "The gradient creates phase accumulation that persists after the gradient is removed."
+  },
+  {
+    "id": "ch5-095",
+    "chapter": 5,
+    "topic": "Bringing it all together – pulse sequence timing",
+    "type": "single_best",
+    "text": "Why is the frequency-encoding gradient generally active during the acquisition window?",
+    "options": [
+      "It converts spatial position into measurable frequency differences",
+      "It selects the slice after acquisition",
+      "It creates the RF pulse",
+      "It changes the patient's position"
+    ],
+    "answer": "It converts spatial position into measurable frequency differences",
+    "explanation": "Continuous readout under the frequency gradient allows spatial information to be encoded in signal frequency."
+  },
+  {
+    "id": "ch5-096",
+    "chapter": 5,
+    "topic": "Bringing it all together – pulse sequence timing",
+    "type": "single_best",
+    "text": "What is the purpose of the entire gradient timing pattern in an imaging sequence?",
+    "options": [
+      "To encode spatial information in a controlled sequence",
+      "To eliminate all magnetic fields",
+      "To prevent signal detection",
+      "To keep all spins at one frequency"
+    ],
+    "answer": "To encode spatial information in a controlled sequence",
+    "explanation": "The gradient waveform is designed so that slice, phase, and frequency information are encoded at appropriate times."
+  },
+  {
+    "id": "ch5-097",
+    "chapter": 5,
+    "topic": "Bringing it all together – pulse sequence timing",
+    "type": "single_best",
+    "text": "Which component of spatial encoding determines the location of the excited slice?",
+    "options": [
+      "Slice selection",
+      "Frequency encoding",
+      "Phase encoding",
+      "Signal averaging"
+    ],
+    "answer": "Slice selection",
+    "explanation": "Slice selection determines which spatial region receives the excitation."
+  },
+  {
+    "id": "ch5-098",
+    "chapter": 5,
+    "topic": "Bringing it all together – pulse sequence timing",
+    "type": "single_best",
+    "text": "Which two processes provide in-plane spatial localization after a slice has been selected?",
+    "options": [
+      "Frequency encoding and phase encoding",
+      "T1 recovery and T2 decay",
+      "RF transmission and relaxation",
+      "Slice selection and RF spoiling"
+    ],
+    "answer": "Frequency encoding and phase encoding",
+    "explanation": "The two in-plane directions are localized using frequency and phase encoding."
+  },
+  {
+    "id": "ch5-099",
+    "chapter": 5,
+    "topic": "Bringing it all together – pulse sequence timing",
+    "type": "single_best",
+    "text": "What is the role of the slice-selection gradient in relation to the RF pulse?",
+    "options": [
+      "It makes the RF pulse spatially selective",
+      "It detects the RF pulse",
+      "It removes the RF pulse",
+      "It converts phase into frequency"
+    ],
+    "answer": "It makes the RF pulse spatially selective",
+    "explanation": "The gradient creates a position-dependent resonance frequency so the RF pulse excites a selected slice."
+  },
+  {
+    "id": "ch5-100",
+    "chapter": 5,
+    "topic": "Bringing it all together – pulse sequence timing",
+    "type": "single_best",
+    "text": "What would happen if all three spatial encoding gradients were absent?",
+    "options": [
+      "Spatial localization would not be performed",
+      "The image would automatically have higher resolution",
+      "The slice would become thinner",
+      "Phase encoding would become stronger"
+    ],
+    "answer": "Spatial localization would not be performed",
+    "explanation": "Without gradients, there is no controlled spatial variation for slice, frequency, or phase encoding."
+  },
+  {
+    "id": "ch5-101",
+    "chapter": 5,
+    "topic": "Gradient linearity",
+    "type": "single_best",
+    "text": "What does gradient linearity mean?",
+    "options": [
+      "The gradient produces a predictable linear change in magnetic field with position",
+      "The gradient always produces the same field strength everywhere",
+      "The gradient changes the RF pulse bandwidth",
+      "The gradient eliminates the main magnetic field"
+    ],
+    "answer": "The gradient produces a predictable linear change in magnetic field with position",
+    "explanation": "A linear gradient produces a field change that is proportional to position."
+  },
+  {
+    "id": "ch5-102",
+    "chapter": 5,
+    "topic": "Gradient field",
+    "type": "single_best",
+    "text": "A gradient superimposed on the main magnetic field primarily creates what?",
+    "options": [
+      "A position-dependent magnetic field",
+      "A uniform magnetic field",
+      "A reduction in proton density",
+      "A change in tissue relaxation"
+    ],
+    "answer": "A position-dependent magnetic field",
+    "explanation": "Gradients make the magnetic field vary predictably with position."
+  },
+  {
+    "id": "ch5-103",
+    "chapter": 5,
+    "topic": "Gradient amplitude",
+    "type": "single_best",
+    "text": "Increasing the amplitude of a linear gradient causes what to happen to the spatial change in magnetic field?",
+    "options": [
+      "It increases",
+      "It decreases",
+      "It becomes zero",
+      "It becomes independent of position"
+    ],
+    "answer": "It increases",
+    "explanation": "A stronger gradient produces a greater change in magnetic field per unit distance."
+  },
+  {
+    "id": "ch5-104",
+    "chapter": 5,
+    "topic": "Frequency offset",
+    "type": "single_best",
+    "text": "What happens to the Larmor frequency as position changes along an applied gradient?",
+    "options": [
+      "It changes predictably with position",
+      "It remains identical at every position",
+      "It becomes unrelated to magnetic field strength",
+      "It becomes zero"
+    ],
+    "answer": "It changes predictably with position",
+    "explanation": "The gradient changes the local magnetic field, causing a position-dependent Larmor frequency."
+  },
+  {
+    "id": "ch5-105",
+    "chapter": 5,
+    "topic": "Gradient polarity",
+    "type": "single_best",
+    "text": "What is the main effect of reversing gradient polarity?",
+    "options": [
+      "The direction of the magnetic field change is reversed",
+      "The gradient becomes permanently inactive",
+      "The RF pulse is eliminated",
+      "The main magnetic field is removed"
+    ],
+    "answer": "The direction of the magnetic field change is reversed",
+    "explanation": "Reversing polarity reverses whether the field increases or decreases with position."
+  },
+  {
+    "id": "ch5-106",
+    "chapter": 5,
+    "topic": "Gradient area",
+    "type": "single_best",
+    "text": "The area under a gradient-time waveform is determined by which two factors?",
+    "options": [
+      "Gradient amplitude and duration",
+      "TR and TE only",
+      "RF frequency and flip angle only",
+      "Slice thickness and FOV only"
+    ],
+    "answer": "Gradient amplitude and duration",
+    "explanation": "Gradient area depends on the strength of the gradient and how long it is applied."
+  },
+  {
+    "id": "ch5-107",
+    "chapter": 5,
+    "topic": "Gradient area",
+    "type": "single_best",
+    "text": "If a gradient is applied for twice as long while its amplitude remains constant, what happens to its gradient area?",
+    "options": [
+      "It doubles",
+      "It halves",
+      "It remains unchanged",
+      "It becomes zero"
+    ],
+    "answer": "It doubles",
+    "explanation": "With constant amplitude, doubling duration doubles the area under the gradient waveform."
+  },
+  {
+    "id": "ch5-108",
+    "chapter": 5,
+    "topic": "Gradient area",
+    "type": "single_best",
+    "text": "Why is gradient area important in spatial encoding?",
+    "options": [
+      "It determines the amount of position-dependent phase accumulation",
+      "It determines proton density directly",
+      "It eliminates T1 relaxation",
+      "It controls the patient's heart rate"
+    ],
+    "answer": "It determines the amount of position-dependent phase accumulation",
+    "explanation": "The accumulated phase depends on the strength and duration of the applied gradient."
+  },
+  {
+    "id": "ch5-109",
+    "chapter": 5,
+    "topic": "Gradient phase accumulation",
+    "type": "single_best",
+    "text": "During application of a gradient, spins at different positions can accumulate different amounts of what?",
+    "options": [
+      "Phase",
+      "Proton density",
+      "T1 relaxation",
+      "RF power"
+    ],
+    "answer": "Phase",
+    "explanation": "A gradient produces position-dependent frequency changes that result in different phase accumulation."
+  },
+  {
+    "id": "ch5-110",
+    "chapter": 5,
+    "topic": "Gradient polarity",
+    "type": "single_best",
+    "text": "For a phase-encoding gradient, reversing its polarity reverses what?",
+    "options": [
+      "The direction of phase accumulation",
+      "The proton density",
+      "The RF bandwidth",
+      "The slice thickness directly"
+    ],
+    "answer": "The direction of phase accumulation",
+    "explanation": "Gradient polarity determines the direction of the position-dependent phase shift."
+  },
+  {
+    "id": "ch5-111",
+    "chapter": 5,
+    "topic": "Slew rate",
+    "type": "single_best",
+    "text": "What does gradient slew rate describe?",
+    "options": [
+      "How rapidly gradient amplitude changes",
+      "How rapidly the main field changes",
+      "How quickly RF frequency changes during relaxation",
+      "How quickly the patient moves"
+    ],
+    "answer": "How rapidly gradient amplitude changes",
+    "explanation": "Slew rate describes the rate of change of gradient strength with time."
+  },
+  {
+    "id": "ch5-112",
+    "chapter": 5,
+    "topic": "Slew rate",
+    "type": "single_best",
+    "text": "Which unit is commonly used to express gradient slew rate?",
+    "options": [
+      "T/m/s",
+      "mT",
+      "Hz",
+      "ms"
+    ],
+    "answer": "T/m/s",
+    "explanation": "Slew rate is commonly expressed as tesla per metre per second."
+  },
+  {
+    "id": "ch5-113",
+    "chapter": 5,
+    "topic": "Gradient timing",
+    "type": "single_best",
+    "text": "Why is precise gradient timing important during spatial encoding?",
+    "options": [
+      "It ensures that frequency and phase encoding occur at the intended times",
+      "It determines the patient's body temperature",
+      "It removes the need for an RF pulse",
+      "It prevents all relaxation"
+    ],
+    "answer": "It ensures that frequency and phase encoding occur at the intended times",
+    "explanation": "The timing of gradients determines when spatial information is encoded."
+  },
+  {
+    "id": "ch5-114",
+    "chapter": 5,
+    "topic": "Gradient axes",
+    "type": "single_best",
+    "text": "Which three physical axes are commonly used to describe MRI gradients?",
+    "options": [
+      "X, Y, and Z",
+      "A, B, and C",
+      "R, L, and P",
+      "I, J, and K"
+    ],
+    "answer": "X, Y, and Z",
+    "explanation": "MRI systems conventionally describe gradient directions using the X, Y, and Z axes."
+  },
+  {
+    "id": "ch5-115",
+    "chapter": 5,
+    "topic": "Gradient axes",
+    "type": "single_best",
+    "text": "What is the relationship between the X, Y, and Z gradient axes?",
+    "options": [
+      "They are mutually perpendicular",
+      "They are all parallel",
+      "They always point in the same direction",
+      "They are unrelated to physical space"
+    ],
+    "answer": "They are mutually perpendicular",
+    "explanation": "The three gradient axes form an orthogonal coordinate system."
+  },
+  {
+    "id": "ch5-116",
+    "chapter": 5,
+    "topic": "Gradient axes",
+    "type": "single_best",
+    "text": "Can the same physical gradient axis serve different functional roles in different imaging planes?",
+    "options": [
+      "Yes",
+      "No",
+      "Only during spectroscopy",
+      "Only at 3T"
+    ],
+    "answer": "Yes",
+    "explanation": "The functional roles of the physical gradient axes depend on the selected imaging orientation."
+  },
+  {
+    "id": "ch5-117",
+    "chapter": 5,
+    "topic": "Gradient axes",
+    "type": "single_best",
+    "text": "Which statement best describes a functional gradient direction?",
+    "options": [
+      "It refers to the direction used for a specific encoding task",
+      "It always refers only to the physical Z-axis",
+      "It is unrelated to the imaging plane",
+      "It refers to RF pulse amplitude"
+    ],
+    "answer": "It refers to the direction used for a specific encoding task",
+    "explanation": "Slice, frequency, and phase directions describe the functional roles of gradients."
+  },
+  {
+    "id": "ch5-118",
+    "chapter": 5,
+    "topic": "Gradient axes",
+    "type": "single_best",
+    "text": "Why can an oblique imaging plane require combined physical gradient directions?",
+    "options": [
+      "Its functional encoding direction may not align with one physical axis",
+      "The main magnetic field disappears",
+      "RF pulses cannot be used",
+      "Only one gradient can operate"
+    ],
+    "answer": "Its functional encoding direction may not align with one physical axis",
+    "explanation": "Oblique orientations can require combinations of physical gradient axes to produce the desired spatial direction."
+  },
+  {
+    "id": "ch5-119",
+    "chapter": 5,
+    "topic": "Gradient axes",
+    "type": "single_best",
+    "text": "What is the main purpose of assigning gradient directions to functional roles?",
+    "options": [
+      "To specify how spatial information is encoded",
+      "To determine tissue composition",
+      "To control patient positioning",
+      "To replace the RF system"
+    ],
+    "answer": "To specify how spatial information is encoded",
+    "explanation": "Functional gradient assignments define the directions used for slice, frequency, and phase encoding."
+  },
+  {
+    "id": "ch5-120",
+    "chapter": 5,
+    "topic": "Slice selection",
+    "type": "single_best",
+    "text": "What two components work together to select an MRI slice?",
+    "options": [
+      "A slice-selection gradient and a frequency-selective RF pulse",
+      "A phase gradient and receiver coil",
+      "A frequency gradient and ADC only",
+      "Two RF pulses without gradients"
+    ],
+    "answer": "A slice-selection gradient and a frequency-selective RF pulse",
+    "explanation": "The gradient creates position-dependent frequencies, while the RF pulse excites the desired frequency range."
+  },
+  {
+    "id": "ch5-121",
+    "chapter": 5,
+    "topic": "Slice selection",
+    "type": "single_best",
+    "text": "During slice selection, why does the RF pulse excite only a particular region?",
+    "options": [
+      "Only spins whose frequencies fall within the RF bandwidth are excited",
+      "Only spins with high proton density are excited",
+      "The gradient eliminates all other spins",
+      "The receiver blocks all other spins"
+    ],
+    "answer": "Only spins whose frequencies fall within the RF bandwidth are excited",
+    "explanation": "The slice-selection gradient makes frequency position-dependent, allowing selective RF excitation."
+  },
+  {
+    "id": "ch5-122",
+    "chapter": 5,
+    "topic": "Slice selection",
+    "type": "single_best",
+    "text": "What determines the position of the selected slice during frequency-selective excitation?",
+    "options": [
+      "The center frequency of the RF pulse",
+      "The receiver gain alone",
+      "The phase-encoding duration",
+      "The echo amplitude"
+    ],
+    "answer": "The center frequency of the RF pulse",
+    "explanation": "Changing the RF center frequency selects a different position along the slice-selection gradient."
+  },
+  {
+    "id": "ch5-123",
+    "chapter": 5,
+    "topic": "Slice thickness",
+    "type": "single_best",
+    "text": "What generally happens to slice thickness when RF bandwidth is increased while the slice-selection gradient remains constant?",
+    "options": [
+      "Slice thickness increases",
+      "Slice thickness decreases",
+      "Slice thickness becomes zero",
+      "Slice thickness is unaffected"
+    ],
+    "answer": "Slice thickness increases",
+    "explanation": "A wider RF bandwidth excites a wider range of frequencies and therefore a thicker spatial region."
+  },
+  {
+    "id": "ch5-124",
+    "chapter": 5,
+    "topic": "Slice thickness",
+    "type": "single_best",
+    "text": "What generally happens to slice thickness when the slice-selection gradient is increased while RF bandwidth remains constant?",
+    "options": [
+      "Slice thickness decreases",
+      "Slice thickness increases",
+      "Slice thickness becomes unrelated to bandwidth",
+      "Slice thickness always doubles"
+    ],
+    "answer": "Slice thickness decreases",
+    "explanation": "A stronger gradient produces a larger frequency change per unit distance, so a fixed bandwidth corresponds to a thinner slice."
+  },
+  {
+    "id": "ch5-125",
+    "chapter": 5,
+    "topic": "Slice thickness",
+    "type": "single_best",
+    "text": "Which relationship best describes slice thickness conceptually?",
+    "options": [
+      "It is proportional to RF bandwidth and inversely proportional to gradient strength",
+      "It is proportional to gradient strength and independent of bandwidth",
+      "It is determined only by TR",
+      "It is determined only by TE"
+    ],
+    "answer": "It is proportional to RF bandwidth and inversely proportional to gradient strength",
+    "explanation": "For a given gyromagnetic ratio, slice thickness increases with RF bandwidth and decreases with gradient strength."
+  },
+  {
+    "id": "ch5-126",
+    "chapter": 5,
+    "topic": "Slice position",
+    "type": "single_best",
+    "text": "If the RF center frequency is shifted during slice selection, what changes?",
+    "options": [
+      "The location of the selected slice",
+      "The patient's proton density",
+      "The main magnetic field strength",
+      "The receiver coil sensitivity"
+    ],
+    "answer": "The location of the selected slice",
+    "explanation": "A different RF center frequency corresponds to a different spatial position along the slice-selection gradient."
+  },
+  {
+    "id": "ch5-127",
+    "chapter": 5,
+    "topic": "Slice-selection rephasing",
+    "type": "single_best",
+    "text": "Why is a slice-selection rephasing gradient commonly applied after the RF pulse?",
+    "options": [
+      "To compensate for phase dispersion produced during slice selection",
+      "To increase proton density",
+      "To change the patient's position",
+      "To eliminate the main magnetic field"
+    ],
+    "answer": "To compensate for phase dispersion produced during slice selection",
+    "explanation": "The rephasing lobe compensates for phase differences introduced by the slice-selection gradient."
+  },
+  {
+    "id": "ch5-128",
+    "chapter": 5,
+    "topic": "Slice selection",
+    "type": "single_best",
+    "text": "What would happen if the RF bandwidth were made very narrow while maintaining the same slice-selection gradient?",
+    "options": [
+      "A thinner slice would be selected",
+      "A thicker slice would be selected",
+      "The slice position would disappear",
+      "All spins would be excited"
+    ],
+    "answer": "A thinner slice would be selected",
+    "explanation": "A narrower frequency range corresponds to a smaller spatial range under the gradient."
+  },
+  {
+    "id": "ch5-129",
+    "chapter": 5,
+    "topic": "Slice selection",
+    "type": "single_best",
+    "text": "What would happen to slice thickness if both RF bandwidth and gradient strength were increased by the same proportional factor?",
+    "options": [
+      "Slice thickness could remain approximately unchanged",
+      "Slice thickness must become zero",
+      "Slice thickness must double",
+      "Slice thickness becomes independent of frequency"
+    ],
+    "answer": "Slice thickness could remain approximately unchanged",
+    "explanation": "Because thickness depends on the ratio of bandwidth to gradient strength, proportional increases can preserve the same thickness."
+  },
+  {
+    "id": "ch5-130",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "When is the frequency-encoding gradient typically applied?",
+    "options": [
+      "During signal readout",
+      "Only before the RF pulse",
+      "Only after the scan is complete",
+      "Only during patient positioning"
+    ],
+    "answer": "During signal readout",
+    "explanation": "The frequency-encoding or readout gradient is applied while the MR signal is being sampled."
+  },
+  {
+    "id": "ch5-131",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "What does the frequency-encoding gradient cause across the selected slice?",
+    "options": [
+      "A position-dependent range of precessional frequencies",
+      "A uniform phase at all positions",
+      "A change in proton density",
+      "A change in tissue relaxation times"
+    ],
+    "answer": "A position-dependent range of precessional frequencies",
+    "explanation": "The readout gradient makes resonance frequency vary according to spatial position."
+  },
+  {
+    "id": "ch5-132",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "What is another common name for the frequency-encoding gradient?",
+    "options": [
+      "Readout gradient",
+      "Slice gradient",
+      "Rephasing RF",
+      "Excitation gradient"
+    ],
+    "answer": "Readout gradient",
+    "explanation": "The frequency-encoding gradient is commonly called the readout gradient because it is applied during signal sampling."
+  },
+  {
+    "id": "ch5-133",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "If the strength of the frequency-encoding gradient is increased, what happens to the frequency difference between two fixed positions?",
+    "options": [
+      "It increases",
+      "It decreases",
+      "It becomes zero",
+      "It remains completely independent of gradient strength"
+    ],
+    "answer": "It increases",
+    "explanation": "A stronger gradient produces a greater change in magnetic field and therefore a larger frequency difference per unit distance."
+  },
+  {
+    "id": "ch5-134",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "What does the MRI receiver detect during frequency encoding?",
+    "options": [
+      "The composite MR signal containing position-dependent frequencies",
+      "Only the RF pulse frequency",
+      "Only the main magnetic field",
+      "The patient's physical movement"
+    ],
+    "answer": "The composite MR signal containing position-dependent frequencies",
+    "explanation": "The receiver samples the signal while the readout gradient makes frequency dependent on position."
+  },
+  {
+    "id": "ch5-135",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "Why can frequency information be used to determine spatial position?",
+    "options": [
+      "The gradient establishes a predictable relationship between frequency and position",
+      "Frequency is naturally unrelated to position",
+      "The RF pulse labels every spin individually",
+      "The receiver physically locates each proton"
+    ],
+    "answer": "The gradient establishes a predictable relationship between frequency and position",
+    "explanation": "The gradient makes resonance frequency vary systematically with position."
+  },
+  {
+    "id": "ch5-136",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "What happens to the frequency ordering of positions if the frequency-encoding gradient polarity is reversed?",
+    "options": [
+      "The frequency ordering reverses",
+      "All frequencies become identical",
+      "The signal disappears",
+      "The slice-selection gradient is reversed automatically"
+    ],
+    "answer": "The frequency ordering reverses",
+    "explanation": "Reversing gradient polarity reverses the direction in which frequency changes with position."
+  },
+  {
+    "id": "ch5-137",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "What is the main purpose of sampling the MR signal during the readout gradient?",
+    "options": [
+      "To capture the frequency-encoded spatial information",
+      "To select the slice",
+      "To change the RF center frequency",
+      "To alter proton density"
+    ],
+    "answer": "To capture the frequency-encoded spatial information",
+    "explanation": "Signal sampling during readout records the frequencies created by the frequency-encoding gradient."
+  },
+  {
+    "id": "ch5-138",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "If the frequency-encoding gradient is not applied during readout, what key spatial information is lost?",
+    "options": [
+      "Frequency-based localization along the readout direction",
+      "All slice-selection information",
+      "All RF excitation",
+      "The patient's anatomical position"
+    ],
+    "answer": "Frequency-based localization along the readout direction",
+    "explanation": "Without the readout gradient, frequency no longer provides the intended spatial encoding along that direction."
+  },
+  {
+    "id": "ch5-139",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "During frequency encoding, spins at different positions primarily differ in what measured property?",
+    "options": [
+      "Precessional frequency",
+      "Proton number",
+      "T1 relaxation time",
+      "RF pulse duration"
+    ],
+    "answer": "Precessional frequency",
+    "explanation": "The frequency-encoding gradient creates position-dependent precessional frequencies."
+  },
+  {
+    "id": "ch5-140",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "Which gradient is responsible for encoding one in-plane spatial direction through frequency?",
+    "options": [
+      "Frequency-encoding gradient",
+      "Slice-selection gradient",
+      "Phase-only RF pulse",
+      "Rephasing gradient only"
+    ],
+    "answer": "Frequency-encoding gradient",
+    "explanation": "The frequency-encoding gradient assigns different frequencies to different positions along one in-plane direction."
+  },
+  {
+    "id": "ch5-141",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "What does the phase-encoding gradient primarily create?",
+    "options": [
+      "Position-dependent phase differences",
+      "Position-dependent proton density",
+      "Uniform frequency throughout the image",
+      "A change in RF amplitude"
+    ],
+    "answer": "Position-dependent phase differences",
+    "explanation": "The phase-encoding gradient causes spins at different positions to accumulate different phases."
+  },
+  {
+    "id": "ch5-142",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "When is the phase-encoding gradient commonly applied relative to signal readout?",
+    "options": [
+      "Before or around the beginning of readout, with its effect retained as phase",
+      "Only after all signal has been recorded",
+      "Only during slice selection",
+      "Only before the main magnetic field is established"
+    ],
+    "answer": "Before or around the beginning of readout, with its effect retained as phase",
+    "explanation": "The phase-encoding gradient is applied for a controlled period so that spins acquire position-dependent phase."
+  },
+  {
+    "id": "ch5-143",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "If the amplitude of a phase-encoding gradient is increased while its duration remains constant, what generally happens to phase accumulation?",
+    "options": [
+      "It increases",
+      "It decreases",
+      "It becomes zero",
+      "It remains unchanged"
+    ],
+    "answer": "It increases",
+    "explanation": "Greater gradient amplitude produces greater phase accumulation for a given duration."
+  },
+  {
+    "id": "ch5-144",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "If the duration of a phase-encoding gradient is increased while its amplitude remains constant, what generally happens to phase accumulation?",
+    "options": [
+      "It increases",
+      "It decreases",
+      "It becomes independent of position",
+      "It becomes zero"
+    ],
+    "answer": "It increases",
+    "explanation": "Longer gradient application produces greater accumulated phase."
+  },
+  {
+    "id": "ch5-145",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "Why are different phase-encoding gradient amplitudes used during repeated acquisitions?",
+    "options": [
+      "To obtain different amounts of spatial phase information",
+      "To change the patient's position",
+      "To select a different RF coil",
+      "To change tissue relaxation times"
+    ],
+    "answer": "To obtain different amounts of spatial phase information",
+    "explanation": "Different phase-encoding strengths provide different phase-encoding steps needed to localize the second in-plane direction."
+  },
+  {
+    "id": "ch5-146",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "What is the effect of using a zero-amplitude phase-encoding gradient?",
+    "options": [
+      "No additional phase encoding is produced by that gradient",
+      "Maximum phase encoding is produced",
+      "All frequencies become zero",
+      "The slice-selection gradient doubles"
+    ],
+    "answer": "No additional phase encoding is produced by that gradient",
+    "explanation": "A zero phase-encoding gradient produces no additional position-dependent phase shift."
+  },
+  {
+    "id": "ch5-147",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "What happens when the polarity of the phase-encoding gradient is reversed?",
+    "options": [
+      "The direction of phase accumulation reverses",
+      "The phase gradient becomes frequency encoding",
+      "The slice thickness automatically doubles",
+      "The RF pulse is cancelled"
+    ],
+    "answer": "The direction of phase accumulation reverses",
+    "explanation": "Changing gradient polarity reverses the sign of the position-dependent phase shift."
+  },
+  {
+    "id": "ch5-148",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "How does phase encoding differ from frequency encoding?",
+    "options": [
+      "Phase encoding stores spatial information as phase differences, whereas frequency encoding uses frequency differences during readout",
+      "Phase encoding uses RF only, whereas frequency encoding uses no gradient",
+      "Phase encoding occurs only in the slice direction",
+      "Frequency encoding does not use a gradient"
+    ],
+    "answer": "Phase encoding stores spatial information as phase differences, whereas frequency encoding uses frequency differences during readout",
+    "explanation": "The two methods encode different in-plane directions using phase and frequency, respectively."
+  },
+  {
+    "id": "ch5-149",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "Why must phase encoding be repeated with different gradient strengths?",
+    "options": [
+      "To sample different spatial phase conditions",
+      "To repeatedly select the same slice",
+      "To increase the main magnetic field",
+      "To eliminate the need for readout"
+    ],
+    "answer": "To sample different spatial phase conditions",
+    "explanation": "Changing the phase-encoding gradient produces different phase shifts that encode different spatial information."
+  },
+  {
+    "id": "ch5-150",
+    "chapter": 5,
+    "topic": "Pulse sequence timing",
+    "type": "single_best",
+    "text": "Which sequence of events best represents basic spatial encoding?",
+    "options": [
+      "Slice selection, phase encoding, then frequency encoding during readout",
+      "Frequency encoding, slice selection, then RF excitation",
+      "Phase encoding only, followed by patient positioning",
+      "RF excitation followed immediately by image display without gradients"
+    ],
+    "answer": "Slice selection, phase encoding, then frequency encoding during readout",
+    "explanation": "Basic imaging uses slice selection to define the slice, phase encoding for one in-plane direction, and frequency encoding during readout for the other."
+  },
+  {
+    "id": "ch5-151",
+    "chapter": 5,
+    "topic": "Pulse sequence timing",
+    "type": "single_best",
+    "text": "What is the primary purpose of coordinating the timing of RF pulses and gradients?",
+    "options": [
+      "To ensure spatial encoding occurs at the intended stages of the sequence",
+      "To eliminate the main magnetic field",
+      "To change tissue composition",
+      "To prevent all proton precession"
+    ],
+    "answer": "To ensure spatial encoding occurs at the intended stages of the sequence",
+    "explanation": "Precise timing allows slice, phase, and frequency encoding to occur correctly."
+  },
+  {
+    "id": "ch5-152",
+    "chapter": 5,
+    "topic": "Pulse sequence timing",
+    "type": "single_best",
+    "text": "Which event typically occurs first when selecting a slice?",
+    "options": [
+      "Application of the slice-selection gradient with the RF pulse",
+      "Signal readout",
+      "Phase encoding after data acquisition",
+      "Image reconstruction"
+    ],
+    "answer": "Application of the slice-selection gradient with the RF pulse",
+    "explanation": "The slice-selection gradient is applied while the frequency-selective RF pulse excites the desired slice."
+  },
+  {
+    "id": "ch5-153",
+    "chapter": 5,
+    "topic": "Pulse sequence timing",
+    "type": "single_best",
+    "text": "What is the main purpose of applying the phase-encoding gradient before signal readout?",
+    "options": [
+      "To establish position-dependent phase differences before sampling",
+      "To select the RF center frequency",
+      "To determine proton density",
+      "To remove the slice-selection gradient"
+    ],
+    "answer": "To establish position-dependent phase differences before sampling",
+    "explanation": "The phase gradient creates spatial phase differences that persist into the readout."
+  },
+  {
+    "id": "ch5-154",
+    "chapter": 5,
+    "topic": "Pulse sequence timing",
+    "type": "single_best",
+    "text": "During which gradient is the MR signal normally sampled for frequency encoding?",
+    "options": [
+      "Readout gradient",
+      "Slice-selection gradient",
+      "Phase-only gradient",
+      "RF rephasing pulse"
+    ],
+    "answer": "Readout gradient",
+    "explanation": "Frequency encoding occurs while the readout gradient is active and the signal is sampled."
+  },
+  {
+    "id": "ch5-155",
+    "chapter": 5,
+    "topic": "Pulse sequence timing",
+    "type": "single_best",
+    "text": "What is the relationship between the readout window and frequency encoding?",
+    "options": [
+      "Frequency encoding occurs during the readout window",
+      "Frequency encoding occurs only after the readout window",
+      "Frequency encoding occurs before slice selection",
+      "Frequency encoding is unrelated to signal sampling"
+    ],
+    "answer": "Frequency encoding occurs during the readout window",
+    "explanation": "The frequency-encoding gradient is active while the receiver samples the MR signal."
+  },
+  {
+    "id": "ch5-156",
+    "chapter": 5,
+    "topic": "Pulse sequence timing",
+    "type": "single_best",
+    "text": "What is the purpose of a gradient rephasing lobe in a basic sequence?",
+    "options": [
+      "To compensate for phase effects produced by an earlier gradient",
+      "To create proton density",
+      "To select the patient orientation",
+      "To eliminate RF excitation"
+    ],
+    "answer": "To compensate for phase effects produced by an earlier gradient",
+    "explanation": "Rephasing gradients can compensate for phase dispersion introduced by preceding gradient activity."
+  },
+  {
+    "id": "ch5-157",
+    "chapter": 5,
+    "topic": "Pulse sequence timing",
+    "type": "single_best",
+    "text": "Why are gradient waveforms designed with specific amplitudes and durations?",
+    "options": [
+      "To produce the required spatial encoding effects",
+      "To change the patient's anatomy",
+      "To eliminate all magnetic fields",
+      "To control only the RF transmitter"
+    ],
+    "answer": "To produce the required spatial encoding effects",
+    "explanation": "Gradient amplitude and duration determine the frequency and phase changes used for localization."
+  },
+  {
+    "id": "ch5-158",
+    "chapter": 5,
+    "topic": "Pulse sequence timing",
+    "type": "single_best",
+    "text": "What would happen if the phase-encoding gradient were applied at an incorrect time in the sequence?",
+    "options": [
+      "The intended spatial phase encoding would not occur correctly",
+      "The main magnetic field would automatically increase",
+      "The RF frequency would become fixed",
+      "The patient would move automatically"
+    ],
+    "answer": "The intended spatial phase encoding would not occur correctly",
+    "explanation": "Gradient timing is essential because phase encoding must occur at the correct point relative to excitation and readout."
+  },
+  {
+    "id": "ch5-159",
+    "chapter": 5,
+    "topic": "Pulse sequence timing",
+    "type": "single_best",
+    "text": "What is the primary function of the RF pulse in slice selection?",
+    "options": [
+      "To excite spins within a selected frequency range",
+      "To encode phase directly",
+      "To sample the MR signal",
+      "To create the readout gradient"
+    ],
+    "answer": "To excite spins within a selected frequency range",
+    "explanation": "The RF pulse selectively excites spins whose frequencies fall within its bandwidth."
+  },
+  {
+    "id": "ch5-160",
+    "chapter": 5,
+    "topic": "Pulse sequence timing",
+    "type": "single_best",
+    "text": "Which component determines the spatial direction in which the slice is selected?",
+    "options": [
+      "The slice-selection gradient",
+      "The receiver bandwidth",
+      "The phase-encoding duration alone",
+      "The RF amplitude alone"
+    ],
+    "answer": "The slice-selection gradient",
+    "explanation": "The slice-selection gradient establishes the spatial direction along which frequency varies for slice selection."
+  },
+  {
+    "id": "ch5-161",
+    "chapter": 5,
+    "topic": "Spatial localization",
+    "type": "single_best",
+    "text": "Why are three gradient encoding functions needed for conventional 2D imaging?",
+    "options": [
+      "To define the slice and localize signal in two in-plane directions",
+      "To control three different RF transmitters",
+      "To eliminate all relaxation effects",
+      "To measure only proton density"
+    ],
+    "answer": "To define the slice and localize signal in two in-plane directions",
+    "explanation": "Slice selection defines the imaging plane, while phase and frequency encoding provide the two in-plane spatial coordinates."
+  },
+  {
+    "id": "ch5-162",
+    "chapter": 5,
+    "topic": "Spatial localization",
+    "type": "single_best",
+    "text": "Which combination provides complete basic spatial localization in a 2D MRI acquisition?",
+    "options": [
+      "Slice selection, phase encoding, and frequency encoding",
+      "RF amplitude, TR, and TE",
+      "T1, T2, and proton density",
+      "Receiver gain, patient weight, and coil temperature"
+    ],
+    "answer": "Slice selection, phase encoding, and frequency encoding",
+    "explanation": "These three encoding functions identify the slice and the two in-plane spatial dimensions."
+  },
+  {
+    "id": "ch5-163",
+    "chapter": 5,
+    "topic": "Spatial localization",
+    "type": "single_best",
+    "text": "What would happen if only slice selection were performed without in-plane encoding?",
+    "options": [
+      "A slice would be selected but its in-plane signal would not be spatially localized",
+      "A complete anatomical image would automatically be produced",
+      "Only the phase direction would be encoded",
+      "The readout direction would be fully encoded"
+    ],
+    "answer": "A slice would be selected but its in-plane signal would not be spatially localized",
+    "explanation": "Slice selection identifies the plane but does not by itself locate signal within that plane."
+  },
+  {
+    "id": "ch5-164",
+    "chapter": 5,
+    "topic": "Spatial localization",
+    "type": "single_best",
+    "text": "Which encoding method distinguishes positions by their precessional frequency during signal acquisition?",
+    "options": [
+      "Frequency encoding",
+      "Phase encoding",
+      "Slice selection",
+      "RF selection"
+    ],
+    "answer": "Frequency encoding",
+    "explanation": "The readout gradient creates position-dependent frequencies during signal acquisition."
+  },
+  {
+    "id": "ch5-165",
+    "chapter": 5,
+    "topic": "Spatial localization",
+    "type": "single_best",
+    "text": "Which encoding method distinguishes positions by their accumulated phase?",
+    "options": [
+      "Phase encoding",
+      "Frequency encoding",
+      "Slice selection",
+      "RF excitation"
+    ],
+    "answer": "Phase encoding",
+    "explanation": "The phase-encoding gradient creates position-dependent phase differences."
+  },
+  {
+    "id": "ch5-166",
+    "chapter": 5,
+    "topic": "Gradient strength",
+    "type": "single_best",
+    "text": "If two positions are separated by a fixed distance, what happens to their frequency difference when the frequency-encoding gradient strength increases?",
+    "options": [
+      "The frequency difference increases",
+      "The frequency difference decreases",
+      "The frequency difference becomes zero",
+      "The frequency difference is unaffected"
+    ],
+    "answer": "The frequency difference increases",
+    "explanation": "A stronger gradient creates a larger magnetic field difference between the two positions."
+  },
+  {
+    "id": "ch5-167",
+    "chapter": 5,
+    "topic": "Gradient strength",
+    "type": "single_best",
+    "text": "If the gradient strength is reduced while all other conditions remain constant, what happens to the frequency change per unit distance?",
+    "options": [
+      "It decreases",
+      "It increases",
+      "It becomes infinite",
+      "It remains unchanged"
+    ],
+    "answer": "It decreases",
+    "explanation": "Gradient strength determines how rapidly magnetic field and therefore frequency change with position."
+  },
+  {
+    "id": "ch5-168",
+    "chapter": 5,
+    "topic": "Gradient polarity",
+    "type": "single_best",
+    "text": "A positive gradient causes frequency to increase in one spatial direction. What happens when its polarity is reversed?",
+    "options": [
+      "Frequency decreases in that direction",
+      "Frequency becomes constant everywhere",
+      "Frequency encoding stops permanently",
+      "RF excitation is eliminated"
+    ],
+    "answer": "Frequency decreases in that direction",
+    "explanation": "Reversing gradient polarity reverses the direction of the frequency change."
+  },
+  {
+    "id": "ch5-169",
+    "chapter": 5,
+    "topic": "Gradient duration",
+    "type": "single_best",
+    "text": "For phase encoding, why does increasing gradient duration increase phase accumulation?",
+    "options": [
+      "Spins experience the position-dependent frequency shift for a longer time",
+      "The RF pulse becomes stronger automatically",
+      "The main magnetic field increases",
+      "The receiver bandwidth decreases"
+    ],
+    "answer": "Spins experience the position-dependent frequency shift for a longer time",
+    "explanation": "Phase accumulates over time, so longer gradient application produces a larger phase shift."
+  },
+  {
+    "id": "ch5-170",
+    "chapter": 5,
+    "topic": "Gradient area",
+    "type": "single_best",
+    "text": "Two phase-encoding gradients have different amplitudes but the same duration. Which has greater phase-encoding effect?",
+    "options": [
+      "The gradient with greater amplitude",
+      "The gradient with lower amplitude",
+      "Both always have zero effect",
+      "Neither can produce phase encoding"
+    ],
+    "answer": "The gradient with greater amplitude",
+    "explanation": "With equal duration, the stronger gradient has greater area and therefore produces greater phase accumulation."
+  },
+  {
+    "id": "ch5-171",
+    "chapter": 5,
+    "topic": "Gradient area",
+    "type": "single_best",
+    "text": "Two gradients have the same area but different combinations of amplitude and duration. What is generally true regarding their accumulated phase effect?",
+    "options": [
+      "They can produce the same net phase-encoding effect",
+      "They must always produce opposite effects",
+      "Only the gradient with greater amplitude can encode phase",
+      "Neither can affect phase"
+    ],
+    "answer": "They can produce the same net phase-encoding effect",
+    "explanation": "For a given direction and position, the net phase effect depends on the integrated gradient area."
+  },
+  {
+    "id": "ch5-172",
+    "chapter": 5,
+    "topic": "Gradient compensation",
+    "type": "single_best",
+    "text": "What is the purpose of using gradient lobes with opposite polarity?",
+    "options": [
+      "To compensate or control the net gradient effect",
+      "To increase proton density",
+      "To remove all RF excitation",
+      "To prevent spins from precessing"
+    ],
+    "answer": "To compensate or control the net gradient effect",
+    "explanation": "Opposite gradient lobes can partially or fully cancel accumulated phase effects."
+  },
+  {
+    "id": "ch5-173",
+    "chapter": 5,
+    "topic": "Gradient compensation",
+    "type": "single_best",
+    "text": "If two gradient lobes have equal area but opposite polarity, what is their net gradient area?",
+    "options": [
+      "Zero",
+      "Double the individual area",
+      "Half the individual area",
+      "Infinite"
+    ],
+    "answer": "Zero",
+    "explanation": "Equal positive and negative areas cancel each other."
+  },
+  {
+    "id": "ch5-174",
+    "chapter": 5,
+    "topic": "Gradient axes",
+    "type": "single_best",
+    "text": "Which physical gradient axis corresponds to the direction of the main magnetic field in a conventional scanner coordinate system?",
+    "options": [
+      "Z-axis",
+      "X-axis",
+      "Y-axis",
+      "No gradient axis can correspond to it"
+    ],
+    "answer": "Z-axis",
+    "explanation": "The conventional coordinate system commonly defines the main magnetic field along the Z-axis."
+  },
+  {
+    "id": "ch5-175",
+    "chapter": 5,
+    "topic": "Gradient axes",
+    "type": "single_best",
+    "text": "What is the main purpose of the X and Y gradients in conventional imaging?",
+    "options": [
+      "To provide spatial encoding directions perpendicular to the Z direction",
+      "To replace the main magnetic field",
+      "To generate RF pulses",
+      "To control patient breathing"
+    ],
+    "answer": "To provide spatial encoding directions perpendicular to the Z direction",
+    "explanation": "X and Y gradients provide additional spatial directions for localization."
+  },
+  {
+    "id": "ch5-176",
+    "chapter": 5,
+    "topic": "Gradient axes",
+    "type": "single_best",
+    "text": "When the imaging plane is changed, what may change about the physical gradients?",
+    "options": [
+      "Their combined contributions may be used differently to create the desired functional directions",
+      "The gradients disappear",
+      "The main magnetic field changes direction automatically",
+      "RF excitation becomes unnecessary"
+    ],
+    "answer": "Their combined contributions may be used differently to create the desired functional directions",
+    "explanation": "Different imaging orientations can require combinations of physical gradient axes."
+  },
+  {
+    "id": "ch5-177",
+    "chapter": 5,
+    "topic": "Slice-selection gradient",
+    "type": "single_best",
+    "text": "What happens to the frequency difference between adjacent positions when the slice-selection gradient becomes stronger?",
+    "options": [
+      "The frequency difference per unit distance increases",
+      "It decreases",
+      "It becomes zero",
+      "It becomes independent of position"
+    ],
+    "answer": "The frequency difference per unit distance increases",
+    "explanation": "A stronger slice-selection gradient creates a larger frequency change for a given spatial separation."
+  },
+  {
+    "id": "ch5-178",
+    "chapter": 5,
+    "topic": "Slice position",
+    "type": "single_best",
+    "text": "If the slice-selection gradient remains unchanged but the RF center frequency is increased, what happens to slice position?",
+    "options": [
+      "The selected slice shifts along the gradient direction",
+      "The slice thickness necessarily doubles",
+      "No spatial change occurs",
+      "The frequency-encoding direction disappears"
+    ],
+    "answer": "The selected slice shifts along the gradient direction",
+    "explanation": "A different RF center frequency corresponds to a different position along the slice-selection gradient."
+  },
+  {
+    "id": "ch5-179",
+    "chapter": 5,
+    "topic": "Slice thickness",
+    "type": "single_best",
+    "text": "Which change would produce a thinner slice without changing the RF bandwidth?",
+    "options": [
+      "Increase the slice-selection gradient strength",
+      "Decrease the slice-selection gradient strength",
+      "Increase the RF bandwidth",
+      "Remove the slice-selection gradient"
+    ],
+    "answer": "Increase the slice-selection gradient strength",
+    "explanation": "A stronger gradient creates a larger frequency change per unit distance, making a fixed bandwidth correspond to a thinner slice."
+  },
+  {
+    "id": "ch5-180",
+    "chapter": 5,
+    "topic": "Slice thickness",
+    "type": "single_best",
+    "text": "Which change would produce a thicker slice while maintaining the same gradient strength?",
+    "options": [
+      "Increase RF bandwidth",
+      "Decrease RF bandwidth",
+      "Increase gradient strength",
+      "Reverse gradient polarity"
+    ],
+    "answer": "Increase RF bandwidth",
+    "explanation": "A wider RF bandwidth excites a broader range of frequencies and therefore a thicker spatial region."
+  },
+  {
+    "id": "ch5-181",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "What is the main reason frequency encoding is performed while the signal is being acquired?",
+    "options": [
+      "The receiver can measure the position-dependent frequencies directly",
+      "Phase differences cannot exist before readout",
+      "The RF pulse requires the receiver to operate",
+      "The slice-selection gradient only works during readout"
+    ],
+    "answer": "The receiver can measure the position-dependent frequencies directly",
+    "explanation": "The readout gradient makes frequency spatially dependent while the receiver samples the resulting signal."
+  },
+  {
+    "id": "ch5-182",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "What does increasing the frequency-encoding gradient generally do to the range of frequencies across a fixed field of view?",
+    "options": [
+      "It increases the frequency range",
+      "It decreases the frequency range",
+      "It eliminates all frequencies",
+      "It makes all positions have identical frequencies"
+    ],
+    "answer": "It increases the frequency range",
+    "explanation": "A stronger gradient produces a larger frequency difference across a given distance."
+  },
+  {
+    "id": "ch5-183",
+    "chapter": 5,
+    "topic": "Frequency encoding",
+    "type": "single_best",
+    "text": "What is the effect of reversing the readout gradient during acquisition?",
+    "options": [
+      "The relationship between position and frequency is reversed",
+      "The RF pulse automatically changes bandwidth",
+      "The slice is removed",
+      "Phase encoding stops permanently"
+    ],
+    "answer": "The relationship between position and frequency is reversed",
+    "explanation": "Reversing readout gradient polarity reverses the frequency-position relationship."
+  },
+  {
+    "id": "ch5-184",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "What determines the magnitude of phase difference produced by a phase-encoding gradient?",
+    "options": [
+      "Gradient strength, duration, and position",
+      "TR alone",
+      "TE alone",
+      "RF amplitude alone"
+    ],
+    "answer": "Gradient strength, duration, and position",
+    "explanation": "Phase accumulation depends on the applied gradient area and the spin's position."
+  },
+  {
+    "id": "ch5-185",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "Why does a phase-encoding gradient not need to remain active during the entire signal readout?",
+    "options": [
+      "Its effect is stored as a phase difference after the gradient is turned off",
+      "Phase encoding occurs only through RF power",
+      "The receiver creates phase encoding automatically",
+      "The gradient is unnecessary for phase encoding"
+    ],
+    "answer": "Its effect is stored as a phase difference after the gradient is turned off",
+    "explanation": "The gradient establishes phase differences that persist after the gradient is removed."
+  },
+  {
+    "id": "ch5-186",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "What happens to the phase difference between two positions if the phase-encoding gradient area is increased?",
+    "options": [
+      "The phase difference increases",
+      "The phase difference decreases",
+      "It becomes zero",
+      "It becomes independent of position"
+    ],
+    "answer": "The phase difference increases",
+    "explanation": "A larger gradient area produces greater position-dependent phase accumulation."
+  },
+  {
+    "id": "ch5-187",
+    "chapter": 5,
+    "topic": "Phase encoding",
+    "type": "single_best",
+    "text": "Why are both positive and negative phase-encoding gradient amplitudes useful?",
+    "options": [
+      "They provide phase encoding in opposite directions",
+      "They select two different RF frequencies simultaneously",
+      "They eliminate the need for slice selection",
+      "They change the main magnetic field polarity"
+    ],
+    "answer": "They provide phase encoding in opposite directions",
+    "explanation": "Positive and negative gradients create phase shifts with opposite signs."
+  },
+  {
+    "id": "ch5-188",
+    "chapter": 5,
+    "topic": "Pulse sequence timing",
+    "type": "single_best",
+    "text": "What is the role of the echo center in relation to the readout gradient?",
+    "options": [
+      "It identifies the central point of the acquired echo signal",
+      "It determines the slice position directly",
+      "It determines the patient's orientation",
+      "It replaces phase encoding"
+    ],
+    "answer": "It identifies the central point of the acquired echo signal",
+    "explanation": "The echo center represents the point of maximum signal coherence within the readout period."
+  },
+  {
+    "id": "ch5-189",
+    "chapter": 5,
+    "topic": "Pulse sequence timing",
+    "type": "single_best",
+    "text": "Why must the timing between the RF pulse and readout be controlled?",
+    "options": [
+      "To ensure the signal is acquired at the intended stage of the sequence",
+      "To eliminate all gradients",
+      "To prevent spins from experiencing the main field",
+      "To determine patient weight"
+    ],
+    "answer": "To ensure the signal is acquired at the intended stage of the sequence",
+    "explanation": "Sequence timing controls when excitation, encoding, and signal acquisition occur."
+  },
+  {
+    "id": "ch5-190",
+    "chapter": 5,
+    "topic": "Pulse sequence timing",
+    "type": "single_best",
+    "text": "What does TR describe in the context of repeated pulse sequences?",
+    "options": [
+      "The time between successive excitations of the same type",
+      "The duration of the readout gradient only",
+      "The RF bandwidth",
+      "The gradient slew rate"
+    ],
+    "answer": "The time between successive excitations of the same type",
+    "explanation": "TR is the repetition time between successive excitation pulses in a repeated sequence."
+  },
+  {
+    "id": "ch5-191",
+    "chapter": 5,
+    "topic": "Pulse sequence timing",
+    "type": "single_best",
+    "text": "What does TE represent in a basic pulse sequence?",
+    "options": [
+      "The time from excitation to the center of the measured echo",
+      "The duration of the phase gradient only",
+      "The time required to select the patient",
+      "The RF bandwidth"
+    ],
+    "answer": "The time from excitation to the center of the measured echo",
+    "explanation": "TE is measured from the excitation pulse to the center of the echo signal."
+  },
+  {
+    "id": "ch5-192",
+    "chapter": 5,
+    "topic": "Pulse sequence timing",
+    "type": "single_best",
+    "text": "Why must the phase-encoding gradient be synchronized with the rest of the sequence?",
+    "options": [
+      "Its phase effect must occur at the intended point before readout",
+      "It determines the patient's heart rate",
+      "It replaces the RF excitation pulse",
+      "It prevents the receiver from operating"
+    ],
+    "answer": "Its phase effect must occur at the intended point before readout",
+    "explanation": "Correct synchronization ensures the intended phase relationship is present during signal acquisition."
+  },
+  {
+    "id": "ch5-193",
+    "chapter": 5,
+    "topic": "Pulse sequence timing",
+    "type": "single_best",
+    "text": "Which event is directly associated with collecting the frequency-encoded MR signal?",
+    "options": [
+      "Receiver sampling during the readout gradient",
+      "RF center-frequency adjustment",
+      "Slice-selection gradient alone",
+      "Patient positioning"
+    ],
+    "answer": "Receiver sampling during the readout gradient",
+    "explanation": "The receiver samples the signal while the frequency-encoding gradient is active."
+  },
+  {
+    "id": "ch5-194",
+    "chapter": 5,
+    "topic": "Spatial encoding",
+    "type": "single_best",
+    "text": "What is the fundamental principle behind MRI spatial localization using gradients?",
+    "options": [
+      "Gradients make frequency or phase depend predictably on position",
+      "Gradients directly detect individual protons",
+      "Gradients change tissue composition",
+      "Gradients eliminate the need for RF excitation"
+    ],
+    "answer": "Gradients make frequency or phase depend predictably on position",
+    "explanation": "Spatial encoding works by establishing a known relationship between position and signal frequency or phase."
+  },
+  {
+    "id": "ch5-195",
+    "chapter": 5,
+    "topic": "Spatial encoding",
+    "type": "single_best",
+    "text": "Which statement best explains why gradients allow spatial localization?",
+    "options": [
+      "They create controlled variations in magnetic field across space",
+      "They make all spins precess at exactly the same frequency",
+      "They remove the magnetic field from tissue",
+      "They eliminate the need for signal detection"
+    ],
+    "answer": "They create controlled variations in magnetic field across space",
+    "explanation": "Controlled field variations make the spin frequency or phase position-dependent."
+  },
+  {
+    "id": "ch5-196",
+    "chapter": 5,
+    "topic": "Spatial encoding",
+    "type": "single_best",
+    "text": "Which encoding process determines the imaging slice location?",
+    "options": [
+      "Slice selection",
+      "Frequency encoding",
+      "Phase encoding",
+      "Signal averaging"
+    ],
+    "answer": "Slice selection",
+    "explanation": "Slice selection determines which spatial region is excited for imaging."
+  },
+  {
+    "id": "ch5-197",
+    "chapter": 5,
+    "topic": "Spatial encoding",
+    "type": "single_best",
+    "text": "Which two encoding processes localize signal within the selected slice?",
+    "options": [
+      "Phase encoding and frequency encoding",
+      "RF excitation and slice selection",
+      "TR and TE",
+      "T1 and T2 relaxation"
+    ],
+    "answer": "Phase encoding and frequency encoding",
+    "explanation": "These two processes provide localization in the two in-plane spatial directions."
+  },
+  {
+    "id": "ch5-198",
+    "chapter": 5,
+    "topic": "Spatial encoding",
+    "type": "single_best",
+    "text": "If frequency encoding provides one in-plane direction, what provides the second in-plane direction?",
+    "options": [
+      "Phase encoding",
+      "RF bandwidth",
+      "Slice thickness",
+      "Receiver gain"
+    ],
+    "answer": "Phase encoding",
+    "explanation": "Phase encoding provides spatial information in the second in-plane direction."
+  },
+  {
+    "id": "ch5-199",
+    "chapter": 5,
+    "topic": "Bringing it all together",
+    "type": "single_best",
+    "text": "Which statement correctly describes the complete basic spatial encoding process?",
+    "options": [
+      "A slice is selected, phase information is encoded, and frequency information is acquired during readout",
+      "The RF pulse alone creates a complete spatial image",
+      "Only the frequency-encoding gradient is required",
+      "Only the phase-encoding gradient is required"
+    ],
+    "answer": "A slice is selected, phase information is encoded, and frequency information is acquired during readout",
+    "explanation": "Basic 2D MRI spatial localization combines slice selection, phase encoding, and frequency encoding."
+  },
+  {
+    "id": "ch5-200",
+    "chapter": 5,
+    "topic": "Bringing it all together",
+    "type": "single_best",
+    "text": "What is the ultimate purpose of slice selection, phase encoding, and frequency encoding working together?",
+    "options": [
+      "To determine where the measured MR signal originated in three spatial dimensions",
+      "To eliminate all relaxation effects",
+      "To increase the patient's magnetic field",
+      "To replace the MRI receiver"
+    ],
+    "answer": "To determine where the measured MR signal originated in three spatial dimensions",
+    "explanation": "Together, the encoding processes provide the spatial information required to form the MRI image."
+  },
+ {
+  "id": "ch5-201",
+  "chapter": 5,
+  "topic": "Slice selection",
+  "type": "single_best",
+  "text": "Which gradient is switched on during the RF excitation pulse to select a slice?",
+  "options": [
+   "Slice-select gradient",
+   "Phase-encoding gradient",
+   "Frequency-encoding gradient",
+   "None of them"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "The slice-select gradient makes resonant frequency vary along the slice axis so the RF bandwidth excites only one slice.",
+  "difficulty": "Easy",
+  "source_note": "Sample general MRI knowledge question. Review before publishing.",
+  "status": "published"
+ },
+ {
+  "id": "ch5-202",
+  "chapter": 5,
+  "topic": "Frequency encoding",
+  "type": "true_false",
+  "text": "The frequency-encoding gradient is applied while the echo is being read out.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "It varies frequency along one axis during readout so position can be recovered from the signal frequency.",
+  "difficulty": "Easy",
+  "source_note": "Sample general MRI knowledge question. Review before publishing.",
+  "status": "published"
+ }
+]

@@ -1,0 +1,47 @@
+[
+ {
+  "id": "ch2-064",
+  "chapter": 4,
+  "topic": "Magnetic susceptibility",
+  "type": "single_best",
+  "text": "Susceptibility artifacts are often particularly prominent in which type of sequence?",
+  "options": [
+   "Gradient-echo sequences",
+   "Spin-echo sequences only",
+   "Ultrasound sequences",
+   "CT sequences"
+  ],
+  "answer": "Gradient-echo sequences",
+  "explanation": "Gradient-echo sequences are generally more sensitive to susceptibility-related field variations because they lack a 180° refocusing pulse."
+ },
+ {
+  "id": "ch2-092",
+  "chapter": 4,
+  "topic": "Gradient echo",
+  "type": "single_best",
+  "text": "How does a gradient echo differ from a conventional spin echo?",
+  "options": [
+   "It uses gradient reversal rather than a 180° RF refocusing pulse",
+   "It does not use any magnetic field",
+   "It cannot produce transverse magnetization",
+   "It requires ultrasound energy"
+  ],
+  "answer": "It uses gradient reversal rather than a 180° RF refocusing pulse",
+  "explanation": "Gradient-echo sequences form echoes through controlled gradient dephasing and rephasing rather than a 180° RF pulse."
+ },
+ {
+  "id": "ch2-093",
+  "chapter": 4,
+  "topic": "Gradient echo",
+  "type": "single_best",
+  "text": "Gradient-echo sequences are generally more sensitive to:",
+  "options": [
+   "Magnetic susceptibility and field inhomogeneity",
+   "Patient height",
+   "Room lighting",
+   "Table padding"
+  ],
+  "answer": "Magnetic susceptibility and field inhomogeneity",
+  "explanation": "Because gradient echoes do not use a 180° refocusing pulse, static field variations contribute strongly to signal loss."
+ }
+]

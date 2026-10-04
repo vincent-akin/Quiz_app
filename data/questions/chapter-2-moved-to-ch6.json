@@ -1,0 +1,107 @@
+[
+ {
+  "id": "ch2-114",
+  "chapter": 6,
+  "topic": "K-space",
+  "type": "single_best",
+  "text": "What is k-space in MRI?",
+  "options": [
+   "A data space containing spatial-frequency information used to reconstruct the image",
+   "The physical space inside the magnet bore",
+   "The patient's anatomical space",
+   "The space occupied by the RF amplifier"
+  ],
+  "answer": "A data space containing spatial-frequency information used to reconstruct the image",
+  "explanation": "K-space stores raw MR data in spatial-frequency coordinates before mathematical reconstruction into an image."
+ },
+ {
+  "id": "ch2-115",
+  "chapter": 6,
+  "topic": "K-space",
+  "type": "single_best",
+  "text": "What mathematical process is commonly used to convert k-space data into an MRI image?",
+  "options": [
+   "Fourier transform",
+   "Newtonian integration",
+   "Doppler calculation",
+   "Simple averaging only"
+  ],
+  "answer": "Fourier transform",
+  "explanation": "Fourier transformation converts the spatial-frequency information in k-space into image-space information."
+ },
+ {
+  "id": "ch2-116",
+  "chapter": 6,
+  "topic": "K-space",
+  "type": "single_best",
+  "text": "Which region of k-space generally contributes most strongly to image contrast and overall signal?",
+  "options": [
+   "Central k-space",
+   "Only the extreme corners",
+   "Only one outer edge",
+   "No specific region"
+  ],
+  "answer": "Central k-space",
+  "explanation": "Central k-space contains low spatial frequencies and contributes strongly to overall signal and image contrast."
+ },
+ {
+  "id": "ch2-117",
+  "chapter": 6,
+  "topic": "K-space",
+  "type": "single_best",
+  "text": "Which region of k-space primarily contributes to fine spatial detail?",
+  "options": [
+   "Peripheral k-space",
+   "Only the center",
+   "The RF amplifier",
+   "The patient table"
+  ],
+  "answer": "Peripheral k-space",
+  "explanation": "Higher spatial frequencies are represented toward the edges of k-space and contribute to fine image detail."
+ },
+ {
+  "id": "ch2-118",
+  "chapter": 6,
+  "topic": "K-space",
+  "type": "single_best",
+  "text": "If peripheral k-space data are lost, what is the most likely effect?",
+  "options": [
+   "Loss of fine spatial detail",
+   "Complete loss of all contrast",
+   "Increase in spatial resolution",
+   "Elimination of all low-frequency signal"
+  ],
+  "answer": "Loss of fine spatial detail",
+  "explanation": "Peripheral k-space contains high spatial frequencies that represent edges and fine anatomical details."
+ },
+ {
+  "id": "ch2-119",
+  "chapter": 6,
+  "topic": "K-space",
+  "type": "single_best",
+  "text": "If central k-space data are severely reduced, what is most likely to be affected?",
+  "options": [
+   "Overall image signal and contrast",
+   "Only the patient's position",
+   "Only the scanner's magnetic field strength",
+   "RF frequency only"
+  ],
+  "answer": "Overall image signal and contrast",
+  "explanation": "Central k-space contains the low spatial frequencies that strongly influence overall signal and contrast."
+ },
+ {
+  "id": "ch2-120",
+  "chapter": 6,
+  "topic": "Spatial frequency",
+  "type": "single_best",
+  "text": "What does spatial frequency describe in MRI?",
+  "options": [
+   "How rapidly signal intensity changes across space",
+   "The patient's heart rate",
+   "The RF pulse duration only",
+   "The magnetic field strength only"
+  ],
+  "answer": "How rapidly signal intensity changes across space",
+  "explanation": "Spatial frequency represents the rate of variation of image intensity over distance."
+ }
+]

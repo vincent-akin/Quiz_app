@@ -1,0 +1,970 @@
+[
+ {
+  "id": "ch1-151",
+  "chapter": 1,
+  "topic": "Resonance and RF excitation",
+  "type": "single_best",
+  "text": "Resonance in MRI occurs when the applied RF has a frequency matched to the nucleus's:",
+  "options": [
+   "Zero frequency",
+   "Repetition time",
+   "Larmor frequency",
+   "Twice the Larmor frequency"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Energy is transferred efficiently only when the RF frequency matches the precessional frequency.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-152",
+  "chapter": 1,
+  "topic": "Resonance and RF excitation",
+  "type": "single_best",
+  "text": "The RF pulse used for excitation generates which magnetic field?",
+  "options": [
+   "B0",
+   "The Earth's field",
+   "B1",
+   "The gradient field"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "B1 is the oscillating RF magnetic field. B0 is the main static field.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-153",
+  "chapter": 1,
+  "topic": "Resonance and RF excitation",
+  "type": "single_best",
+  "text": "The B1 field is oriented:",
+  "options": [
+   "Perpendicular to B0",
+   "Parallel to B0",
+   "Randomly",
+   "Along the bore axis"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "B1 acts at right angles to B0 so that it can tip the net magnetization away from B0.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-154",
+  "chapter": 1,
+  "topic": "Resonance and RF excitation",
+  "type": "single_best",
+  "text": "Why must B1 be perpendicular to B0 to rotate the net magnetization effectively?",
+  "options": [
+   "The nuclei only absorb perpendicular photons by law",
+   "A perpendicular field cools the tissue",
+   "A field parallel to B0 would not exert a torque that tips the magnetization",
+   "A parallel field would raise the Larmor frequency"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Only a field component perpendicular to the magnetization can tip it. A parallel component just adds to B0.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-155",
+  "chapter": 1,
+  "topic": "Resonance and RF excitation",
+  "type": "single_best",
+  "text": "A 90 degree RF pulse moves the net magnetization:",
+  "options": [
+   "From the longitudinal axis into the transverse plane",
+   "To the -Z direction",
+   "From the transverse plane back to Z",
+   "Nowhere"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "A 90 degree flip rotates the net magnetization through a right angle.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-156",
+  "chapter": 1,
+  "topic": "Resonance and RF excitation",
+  "type": "single_best",
+  "text": "Immediately after an ideal 90 degree pulse from equilibrium, the longitudinal magnetization is:",
+  "options": [
+   "Maximal in the negative direction",
+   "Maximal",
+   "Approximately zero",
+   "Doubled"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "All the magnetization has been rotated into the transverse plane.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-157",
+  "chapter": 1,
+  "topic": "Resonance and RF excitation",
+  "type": "single_best",
+  "text": "After a 180 degree pulse applied to equilibrium magnetization, the net magnetization points:",
+  "options": [
+   "In the transverse plane",
+   "Along the X axis",
+   "Along -Z, opposite to B0",
+   "Along +Z"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "A 180 degree pulse inverts the longitudinal magnetization.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-158",
+  "chapter": 1,
+  "topic": "Resonance and RF excitation",
+  "type": "single_best",
+  "text": "Immediately after an ideal 180 degree pulse applied to equilibrium magnetization, how much transverse magnetization is there?",
+  "options": [
+   "Half of M0",
+   "Equal to M0 squared",
+   "None",
+   "Maximum"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "The magnetization has been inverted along Z and has no transverse component.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-159",
+  "chapter": 1,
+  "topic": "Resonance and RF excitation",
+  "type": "single_best",
+  "text": "With the RF amplitude held constant, which change turns a 90 degree pulse into a 180 degree pulse?",
+  "options": [
+   "Doubling the Larmor frequency",
+   "Roughly doubling the pulse duration",
+   "Doubling TR",
+   "Halving the pulse duration"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Flip angle depends on B1 amplitude multiplied by duration, so doubling the duration doubles the angle.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-160",
+  "chapter": 1,
+  "topic": "Resonance and RF excitation",
+  "type": "single_best",
+  "text": "With the pulse duration held constant, which change turns a 90 degree flip into a 180 degree flip?",
+  "options": [
+   "Doubling TE",
+   "Doubling the B1 amplitude",
+   "Halving the Larmor frequency",
+   "Halving the B1 amplitude"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Flip angle is proportional to B1 amplitude for a given duration.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-161",
+  "chapter": 1,
+  "topic": "Resonance and RF excitation",
+  "type": "true_false",
+  "text": "A larger flip angle always produces a larger transverse magnetization.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Transverse magnetization is largest at 90 degrees and falls to zero at 180 degrees.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-162",
+  "chapter": 1,
+  "topic": "Resonance and RF excitation",
+  "type": "single_best",
+  "text": "Immediately after an excitation with flip angle theta from equilibrium, the transverse magnetization is proportional to:",
+  "options": [
+   "Theta squared",
+   "cos theta",
+   "sin theta",
+   "TR"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "The transverse component is M0 sin(theta) and the longitudinal component is M0 cos(theta).",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-163",
+  "chapter": 1,
+  "topic": "Resonance and RF excitation",
+  "type": "calculation",
+  "text": "Immediately after a 30 degree pulse from equilibrium (sin 30 = 0.5, cos 30 = 0.87), what fraction of M0 is in the transverse plane?",
+  "options": [
+   "0.5",
+   "0.25",
+   "0.87",
+   "1.0"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Transverse magnetization = M0 sin 30 = 0.5 M0.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-164",
+  "chapter": 1,
+  "topic": "Resonance and RF excitation",
+  "type": "calculation",
+  "text": "Immediately after a 60 degree pulse from equilibrium (sin 60 = 0.87, cos 60 = 0.5), what is the longitudinal component?",
+  "options": [
+   "0.87 M0",
+   "0 M0",
+   "1.0 M0",
+   "0.5 M0"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Longitudinal magnetization = M0 cos 60 = 0.5 M0.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-165",
+  "chapter": 1,
+  "topic": "Resonance and RF excitation",
+  "type": "single_best",
+  "text": "During RF excitation, the net magnetization vector follows which path as seen from the stationary (laboratory) frame?",
+  "options": [
+   "A straight line",
+   "It stays along Z",
+   "A circle in the transverse plane only",
+   "A spiral from the longitudinal axis toward the transverse plane"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "The vector precesses at the Larmor frequency while it is tipped, so it spirals.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-166",
+  "chapter": 1,
+  "topic": "Resonance and RF excitation",
+  "type": "single_best",
+  "text": "The rotating frame of reference is useful because:",
+  "options": [
+   "It speeds up the scanner",
+   "It removes the need for RF",
+   "It removes the fast precession so only the effect of B1 is seen",
+   "It increases B1"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "By rotating with the nuclei at the Larmor frequency, the motion reduces to a simple tipping caused by B1.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-167",
+  "chapter": 1,
+  "topic": "Resonance and RF excitation",
+  "type": "single_best",
+  "text": "In the rotating frame, the net magnetization during a 90 degree pulse appears to:",
+  "options": [
+   "Stay static",
+   "Rotate directly from Z into the transverse plane",
+   "Spiral along Z",
+   "Precess at twice the speed"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Without the precession, the vector simply tips away from B0.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-168",
+  "chapter": 1,
+  "topic": "Resonance and RF excitation",
+  "type": "single_best",
+  "text": "What name is given to applying RF to move the net magnetization away from equilibrium?",
+  "options": [
+   "Recovery",
+   "Alignment",
+   "Relaxation",
+   "Excitation"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Excitation is the RF-induced transfer of energy to the nuclei.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-169",
+  "chapter": 1,
+  "topic": "Resonance and RF excitation",
+  "type": "single_best",
+  "text": "What happens to the RF energy absorbed during resonance?",
+  "options": [
+   "It is stored in the receive coil",
+   "It is converted into gradient fields",
+   "It raises some nuclei from the low- to the high-energy state",
+   "It increases B0"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Some low-energy nuclei absorb energy and move into the high-energy state.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-170",
+  "chapter": 1,
+  "topic": "Resonance and RF excitation",
+  "type": "single_best",
+  "text": "After a 90 degree pulse, the populations of the high- and low-energy states are:",
+  "options": [
+   "All in the high-energy state",
+   "All in the low-energy state",
+   "Zero in both",
+   "Approximately equal"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Equal populations mean there is no net longitudinal magnetization.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-171",
+  "chapter": 1,
+  "topic": "Resonance and RF excitation",
+  "type": "single_best",
+  "text": "Compared with equilibrium, after a 180 degree pulse the high-energy state population is:",
+  "options": [
+   "Greater than the low-energy state population",
+   "Less than the low-energy state population",
+   "Equal to the low-energy population",
+   "Zero"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "A 180 degree pulse inverts the populations, which inverts the longitudinal magnetization.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-172",
+  "chapter": 1,
+  "topic": "Resonance and RF excitation",
+  "type": "true_false",
+  "text": "Immediately after a 90 degree pulse, the transverse magnetization precesses at the Larmor frequency.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "The transverse magnetization rotates about B0 at the Larmor frequency.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-173",
+  "chapter": 1,
+  "topic": "Resonance and RF excitation",
+  "type": "true_false",
+  "text": "A weaker RF pulse at the correct frequency can achieve the same flip angle if it is applied for longer.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Flip angle depends on the product of B1 amplitude and duration.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-174",
+  "chapter": 1,
+  "topic": "Resonance and RF excitation",
+  "type": "single_best",
+  "text": "Which component transmits the RF pulse into the patient?",
+  "options": [
+   "The transmit coil",
+   "The cryostat",
+   "The shim coil",
+   "The gradient coil only"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "RF is transmitted by a transmit coil, often the body coil.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-175",
+  "chapter": 1,
+  "topic": "Resonance and RF excitation",
+  "type": "single_best",
+  "text": "Why must RF excitation be applied at the Larmor frequency rather than any frequency?",
+  "options": [
+   "Other frequencies change B0",
+   "The oscillating field must match the precession of the moments to transfer energy efficiently",
+   "RF at other frequencies is absorbed by the patient",
+   "Only that frequency can enter the bore"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Efficient energy transfer requires the RF to be in step with the precessing moments.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-176",
+  "chapter": 1,
+  "topic": "Resonance and RF excitation",
+  "type": "single_best",
+  "text": "How does the energy of the RF photons relate to the energy gap between the two spin states at resonance?",
+  "options": [
+   "RF photons carry much more energy",
+   "They match",
+   "They are unrelated",
+   "RF photons carry no energy"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Resonance occurs when the photon energy equals the energy gap.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-177",
+  "chapter": 1,
+  "topic": "Resonance and RF excitation",
+  "type": "single_best",
+  "text": "If the main field strength is increased, the RF transmitter must be tuned to:",
+  "options": [
+   "A higher frequency",
+   "Zero frequency",
+   "The same frequency",
+   "A lower frequency"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "The resonant frequency rises with B0.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-178",
+  "chapter": 1,
+  "topic": "MR signal",
+  "type": "single_best",
+  "text": "Which law explains how precessing transverse magnetization induces a voltage in a coil?",
+  "options": [
+   "Ohm's law",
+   "Snell's law",
+   "Faraday's law of induction",
+   "Boyle's law"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "A changing magnetic flux through a coil induces a voltage.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-179",
+  "chapter": 1,
+  "topic": "MR signal",
+  "type": "single_best",
+  "text": "The receive coil is positioned so that it is sensitive to changes in magnetization in the:",
+  "options": [
+   "Longitudinal direction only",
+   "Direction of B0",
+   "No particular plane",
+   "Transverse plane"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Rotating transverse magnetization produces the changing flux that induces the signal.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-180",
+  "chapter": 1,
+  "topic": "MR signal",
+  "type": "true_false",
+  "text": "The voltage induced in the receive coil oscillates at the Larmor frequency.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "The signal follows the precession of the transverse magnetization.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-181",
+  "chapter": 1,
+  "topic": "MR signal",
+  "type": "single_best",
+  "text": "The amplitude of the MR signal is proportional to:",
+  "options": [
+   "B1 only",
+   "The size of the transverse magnetization",
+   "Slice thickness",
+   "The gradient amplitude"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "A larger transverse magnetization induces a larger voltage.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-182",
+  "chapter": 1,
+  "topic": "MR signal",
+  "type": "single_best",
+  "text": "The free induction decay (FID) is:",
+  "options": [
+   "An RF pulse",
+   "The signal induced in the coil after excitation, which decays with time",
+   "A type of gradient",
+   "A scan time parameter"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "The FID is the decaying signal that follows an RF excitation.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-183",
+  "chapter": 1,
+  "topic": "MR signal",
+  "type": "single_best",
+  "text": "Why does the FID amplitude decrease with time?",
+  "options": [
+   "The coil moves away",
+   "RF is switched back on",
+   "The transverse magnetization decays as the moments lose phase coherence",
+   "B0 decreases"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Dephasing reduces the vector sum of the transverse magnetization.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-184",
+  "chapter": 1,
+  "topic": "MR signal",
+  "type": "single_best",
+  "text": "The FID decays faster than true T2 decay alone mainly because of:",
+  "options": [
+   "A longer TR",
+   "A lower receiver bandwidth",
+   "A larger flip angle",
+   "Magnetic field inhomogeneities"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Field inhomogeneities add extra dephasing, giving T2* decay.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-185",
+  "chapter": 1,
+  "topic": "MR signal",
+  "type": "single_best",
+  "text": "After excitation, which two processes return the magnetization toward equilibrium?",
+  "options": [
+   "Recovery of longitudinal magnetization and decay of transverse magnetization",
+   "Increase of B0 and decrease of B1",
+   "Phase wrapping and aliasing",
+   "Heating of the coil and cooling of the patient"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "T1 recovery restores Z magnetization and T2 decay removes transverse magnetization.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-186",
+  "chapter": 1,
+  "topic": "MR signal",
+  "type": "true_false",
+  "text": "The receive coil detects an MR signal only after the nuclei have been excited by an RF pulse.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Without excitation, there is no transverse magnetization to induce a signal.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-187",
+  "chapter": 1,
+  "topic": "MR signal",
+  "type": "single_best",
+  "text": "T1 recovery involves nuclei:",
+  "options": [
+   "Increasing their Larmor frequency",
+   "Only losing phase coherence",
+   "Giving up energy to their surroundings (the lattice)",
+   "Absorbing energy from the coil"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Longitudinal recovery occurs as the nuclei release energy to the lattice.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-188",
+  "chapter": 1,
+  "topic": "MR signal",
+  "type": "single_best",
+  "text": "T2 decay is mainly caused by:",
+  "options": [
+   "Interactions between neighbouring spins that cause dephasing",
+   "Energy lost to the lattice",
+   "An increase of B0",
+   "The RF coil"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Spin-spin interactions cause moments to precess at slightly different rates, so they dephase.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-189",
+  "chapter": 1,
+  "topic": "MR signal",
+  "type": "single_best",
+  "text": "What occurs at the same time as the decay of transverse magnetization?",
+  "options": [
+   "A reduction in the Larmor frequency",
+   "Loss of all the nuclei",
+   "An increase in B1",
+   "Recovery of longitudinal magnetization"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "T1 recovery and T2 decay take place together as independent processes.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-190",
+  "chapter": 1,
+  "topic": "MR signal",
+  "type": "true_false",
+  "text": "T1 recovery and T2 decay are the same process viewed in different planes.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "They have different mechanisms: T1 involves energy exchange with the lattice and T2 involves loss of phase coherence.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-191",
+  "chapter": 1,
+  "topic": "MR signal",
+  "type": "single_best",
+  "text": "Why does transverse magnetization generally decay faster than longitudinal magnetization recovers?",
+  "options": [
+   "T1 is shorter than T2",
+   "T2 is generally shorter than T1",
+   "B0 is switched off",
+   "Gradients are applied"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "In tissue, T2 times are shorter than T1 times.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-192",
+  "chapter": 1,
+  "topic": "MR signal",
+  "type": "single_best",
+  "text": "Quadrature detection uses two coils 90 degrees apart to:",
+  "options": [
+   "Improve the signal-to-noise ratio",
+   "Reduce the field strength",
+   "Eliminate RF excitation",
+   "Decrease the Larmor frequency"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Combining two channels increases signal relative to noise.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-193",
+  "chapter": 1,
+  "topic": "MR signal",
+  "type": "single_best",
+  "text": "The transverse magnetization immediately after a 90 degree pulse is determined mainly by the tissue's:",
+  "options": [
+   "Slice order",
+   "Receiver bandwidth",
+   "Equilibrium net magnetization, reflecting hydrogen density",
+   "Gradient strength"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "A 90 degree pulse converts the equilibrium magnetization into transverse magnetization.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-194",
+  "chapter": 1,
+  "topic": "MR signal",
+  "type": "single_best",
+  "text": "Which component detects the MR signal?",
+  "options": [
+   "The cryostat",
+   "The gradient coil",
+   "The patient table",
+   "The receive coil"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "The receive coil converts changing magnetic flux into a voltage.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-195",
+  "chapter": 1,
+  "topic": "MR signal",
+  "type": "single_best",
+  "text": "For a single excitation from equilibrium, which flip angle produces the greatest signal?",
+  "options": [
+   "Any angle equally",
+   "90 degrees",
+   "180 degrees",
+   "0 degrees"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Transverse magnetization is largest at 90 degrees.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-196",
+  "chapter": 1,
+  "topic": "MR signal",
+  "type": "scenario",
+  "text": "A technologist applies a 180 degree pulse to equilibrium magnetization and immediately listens for signal. What is expected?",
+  "options": [
+   "Half the maximum signal",
+   "Essentially no signal, because there is no transverse magnetization",
+   "Signal at twice the Larmor frequency",
+   "Maximum signal"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "A 180 degree pulse leaves the magnetization along -Z with no transverse component.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-197",
+  "chapter": 1,
+  "topic": "MR signal",
+  "type": "scenario",
+  "text": "Two tissues have identical hydrogen density and relaxation times, but one is imaged at 1.5 T and the other at 3 T. With other factors equal, which gives more initial signal?",
+  "options": [
+   "The tissue at 1.5 T",
+   "Both are identical because hydrogen density is the same",
+   "Neither, because relaxation times are identical",
+   "The tissue at 3 T, because of the greater net magnetization"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "A higher field gives a larger equilibrium net magnetization and therefore more signal.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-198",
+  "chapter": 1,
+  "topic": "MR signal",
+  "type": "scenario",
+  "text": "Metal in a patient distorts B0 locally so that nuclei in that region precess at different frequencies. What is the likely effect on the FID?",
+  "options": [
+   "It becomes longitudinal",
+   "It decays more slowly",
+   "It is unchanged",
+   "It decays faster"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Field inhomogeneity increases dephasing, which shortens the FID.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-199",
+  "chapter": 1,
+  "topic": "MR signal",
+  "type": "single_best",
+  "text": "In which units are decay times such as T2 usually expressed?",
+  "options": [
+   "Milliseconds",
+   "MHz",
+   "Degrees",
+   "Tesla"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Relaxation times are typically in milliseconds.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ }
+]

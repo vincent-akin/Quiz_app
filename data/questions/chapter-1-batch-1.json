@@ -1,0 +1,987 @@
+[
+ {
+  "id": "ch1-051",
+  "chapter": 1,
+  "topic": "Atomic structure",
+  "type": "single_best",
+  "text": "Which statement about the masses of the proton and the electron is correct?",
+  "options": [
+   "A proton is much more massive than an electron",
+   "They have exactly the same mass",
+   "An electron has the same mass as a neutron",
+   "An electron is much more massive than a proton"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "A proton has roughly 1,800 times the mass of an electron, so nearly all of an atom's mass is in the nucleus.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-052",
+  "chapter": 1,
+  "topic": "Atomic structure",
+  "type": "single_best",
+  "text": "In a neutral atom, the number of electrons equals the number of:",
+  "options": [
+   "Neutrons",
+   "Nucleons",
+   "Protons",
+   "Isotopes"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "The negative charge of the electrons balances the positive charge of the protons.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-053",
+  "chapter": 1,
+  "topic": "Atomic structure",
+  "type": "single_best",
+  "text": "The mass number of an atom is the total number of:",
+  "options": [
+   "Neutrons and electrons",
+   "Protons and neutrons",
+   "Protons only",
+   "Protons and electrons"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Mass number counts the particles in the nucleus: protons plus neutrons.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-054",
+  "chapter": 1,
+  "topic": "Atomic structure",
+  "type": "calculation",
+  "text": "An atom has 6 protons and 7 neutrons. What is its mass number?",
+  "options": [
+   "6",
+   "19",
+   "7",
+   "13"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Mass number = protons + neutrons = 6 + 7 = 13.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-055",
+  "chapter": 1,
+  "topic": "Atomic structure",
+  "type": "calculation",
+  "text": "An atom has a mass number of 31 and an atomic number of 15. How many neutrons are in its nucleus?",
+  "options": [
+   "16",
+   "31",
+   "15",
+   "46"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Neutrons = mass number minus atomic number = 31 - 15 = 16.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-056",
+  "chapter": 1,
+  "topic": "Atomic structure",
+  "type": "single_best",
+  "text": "Atoms of the same element that have different numbers of neutrons are called:",
+  "options": [
+   "Isomers",
+   "Molecules",
+   "Isotopes",
+   "Ions"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Isotopes share an atomic number but differ in neutron number, and therefore in mass number.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-057",
+  "chapter": 1,
+  "topic": "Atomic structure",
+  "type": "true_false",
+  "text": "The electrons of an atom are found inside the nucleus.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Electrons move around the nucleus. The nucleus contains protons and neutrons.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-058",
+  "chapter": 1,
+  "topic": "Atomic structure",
+  "type": "true_false",
+  "text": "Atoms with the same atomic number but different mass numbers are different elements.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "The atomic number defines the element. Different mass numbers with the same atomic number are isotopes of one element.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-059",
+  "chapter": 1,
+  "topic": "Atomic structure",
+  "type": "single_best",
+  "text": "Which force holds the protons and neutrons together in the nucleus despite the electrical repulsion between protons?",
+  "options": [
+   "Magnetic attraction of the electrons",
+   "Electrostatic attraction between protons",
+   "The strong nuclear force",
+   "Gravity"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "The strong nuclear force acts over very short distances and overcomes proton-proton repulsion.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-060",
+  "chapter": 1,
+  "topic": "Atomic structure",
+  "type": "single_best",
+  "text": "The term nucleons refers collectively to:",
+  "options": [
+   "Neutrons only",
+   "Electrons in the outer shell",
+   "Protons and neutrons",
+   "Particles that have no mass"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Nucleons are the particles found in the nucleus: protons and neutrons.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-061",
+  "chapter": 1,
+  "topic": "Atomic structure",
+  "type": "true_false",
+  "text": "An atom with equal numbers of protons and electrons is electrically neutral.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Equal positive and negative charges cancel, leaving no net charge.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-062",
+  "chapter": 1,
+  "topic": "Atomic structure",
+  "type": "single_best",
+  "text": "An atom gains an extra electron. It becomes:",
+  "options": [
+   "A different isotope",
+   "A positively charged ion",
+   "A negatively charged ion",
+   "A different element"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Gaining an electron gives more negative than positive charge. The nucleus is unchanged, so the element is the same.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-063",
+  "chapter": 1,
+  "topic": "Motion in the atom",
+  "type": "single_best",
+  "text": "Which set correctly lists the types of motion that occur in an atom?",
+  "options": [
+   "Electrons orbit the nucleus, electrons spin on their own axes, and the nucleus spins",
+   "Only electrons orbiting the nucleus",
+   "Protons orbit the electrons and neutrons orbit the protons",
+   "The nucleus orbits the electrons and the neutrons spin around the protons"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Atoms have three motions: electron orbits, electron spin and nuclear spin. Nuclear spin is the one that matters for MRI.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-064",
+  "chapter": 1,
+  "topic": "Motion in the atom",
+  "type": "single_best",
+  "text": "Movement of an electric charge produces which of the following?",
+  "options": [
+   "A change in atomic number",
+   "A loss of mass",
+   "A magnetic field",
+   "Nuclear fission"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Any moving charge generates a magnetic field.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-065",
+  "chapter": 1,
+  "topic": "Motion in the atom",
+  "type": "single_best",
+  "text": "Why does a spinning nucleus with a net positive charge have magnetic properties?",
+  "options": [
+   "Electrons shield the nucleus from outside fields",
+   "Neutrons attract electrons",
+   "The moving charge generates a magnetic field",
+   "The nucleus continuously emits radiofrequency energy"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "A charged body spinning about its axis is a moving charge, so it produces a magnetic field and has a magnetic moment.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-066",
+  "chapter": 1,
+  "topic": "Motion in the atom",
+  "type": "true_false",
+  "text": "Electrons spinning on their own axes produce magnetic effects.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Moving charge produces a magnetic field. In MRI, however, the nuclear magnetic effect is the one of interest.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-067",
+  "chapter": 1,
+  "topic": "Motion in the atom",
+  "type": "single_best",
+  "text": "In MRI, the magnetic effect that is exploited arises mainly from motion of the:",
+  "options": [
+   "Neutrons only",
+   "Outer electron shell",
+   "Photons",
+   "Nucleus"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "MRI relies on the magnetic properties of the spinning nucleus.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-068",
+  "chapter": 1,
+  "topic": "Motion in the atom",
+  "type": "single_best",
+  "text": "What term describes the rotation of a nucleus about its own axis?",
+  "options": [
+   "Precession",
+   "Resonance",
+   "Relaxation",
+   "Spin"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Spin is rotation about the nucleus's own axis. Precession is a different motion, a wobble around an external field.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-069",
+  "chapter": 1,
+  "topic": "Motion in the atom",
+  "type": "true_false",
+  "text": "Nuclear spin and precession are the same motion.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Spin is the intrinsic rotation of the nucleus. Precession is the wobble of the magnetic moment around the main field direction.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-070",
+  "chapter": 1,
+  "topic": "Motion in the atom",
+  "type": "single_best",
+  "text": "Which of the following is an intrinsic property of a nucleus that exists even without an external magnetic field?",
+  "options": [
+   "Precession",
+   "Spin",
+   "Resonance",
+   "Alignment with B0"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Precession, alignment and resonance all need an applied field. Spin is intrinsic.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-071",
+  "chapter": 1,
+  "topic": "MR active nuclei",
+  "type": "single_best",
+  "text": "Which nuclei are MR active?",
+  "options": [
+   "Nuclei with all protons paired and all neutrons paired",
+   "Any nucleus that is surrounded by electrons",
+   "Nuclei with equal numbers of protons and electrons",
+   "Nuclei with an unpaired proton or neutron"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Unpaired protons or neutrons give a nucleus a net spin and therefore a magnetic moment.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-072",
+  "chapter": 1,
+  "topic": "MR active nuclei",
+  "type": "single_best",
+  "text": "Which nucleus has no net spin and is therefore not MR active?",
+  "options": [
+   "Sodium-23",
+   "Carbon-12",
+   "Hydrogen-1",
+   "Phosphorus-31"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Carbon-12 has 6 protons and 6 neutrons, all paired, so the net spin is zero.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-073",
+  "chapter": 1,
+  "topic": "MR active nuclei",
+  "type": "single_best",
+  "text": "Oxygen-16 has 8 protons and 8 neutrons. Why is it not MR active?",
+  "options": [
+   "It is too heavy to spin",
+   "Its protons and neutrons are all paired, so there is no net spin",
+   "It has too many electrons",
+   "Its nucleus has no charge"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Paired particles cancel each other's spin, leaving no net spin or magnetic moment.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-074",
+  "chapter": 1,
+  "topic": "MR active nuclei",
+  "type": "single_best",
+  "text": "Which of the following nuclei is MR active?",
+  "options": [
+   "Carbon-12",
+   "Oxygen-16",
+   "Phosphorus-31",
+   "Helium-4"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Phosphorus-31 has 15 protons and 16 neutrons, so it has an unpaired proton and net spin.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-075",
+  "chapter": 1,
+  "topic": "MR active nuclei",
+  "type": "single_best",
+  "text": "Sodium-23 (11 protons, 12 neutrons) can be used in MR because it has:",
+  "options": [
+   "No electrons",
+   "A mass number divisible by two",
+   "An unpaired proton, so it has net spin",
+   "Equal numbers of protons and neutrons"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "The odd number of protons leaves an unpaired proton and gives the nucleus a net spin.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-076",
+  "chapter": 1,
+  "topic": "MR active nuclei",
+  "type": "single_best",
+  "text": "Carbon-13 is MR active but carbon-12 is not. What is the reason?",
+  "options": [
+   "Carbon-13 has fewer protons",
+   "Carbon-13 has a lower atomic number",
+   "Carbon-13 has more electrons",
+   "Carbon-13 has an unpaired neutron"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Carbon-13 has 6 protons and 7 neutrons. The seventh neutron is unpaired, so the nucleus has net spin.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-077",
+  "chapter": 1,
+  "topic": "MR active nuclei",
+  "type": "single_best",
+  "text": "Fluorine-19 (9 protons, 10 neutrons) is MR active because:",
+  "options": [
+   "Its protons and neutrons are all paired",
+   "It has no protons",
+   "It has an unpaired proton",
+   "Its mass number is even"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "The odd number of protons leaves one proton unpaired, giving the nucleus a net spin.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-078",
+  "chapter": 1,
+  "topic": "MR active nuclei",
+  "type": "true_false",
+  "text": "A nucleus with an even number of protons and an even number of neutrons has no net nuclear spin.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "All the particles are paired, so their spins cancel.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-079",
+  "chapter": 1,
+  "topic": "MR active nuclei",
+  "type": "true_false",
+  "text": "Hydrogen-1 is the only MR active nucleus.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Others, such as carbon-13, fluorine-19, sodium-23 and phosphorus-31, are also MR active. Hydrogen-1 is simply the most useful clinically.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-080",
+  "chapter": 1,
+  "topic": "MR active nuclei",
+  "type": "true_false",
+  "text": "A nucleus must have a net magnetic moment to be MR active.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "The net magnetic moment is what lets the nucleus interact with the applied magnetic field.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-081",
+  "chapter": 1,
+  "topic": "MR active nuclei",
+  "type": "single_best",
+  "text": "Which MR active nucleus other than hydrogen can be used to study energy metabolism through phosphorus compounds?",
+  "options": [
+   "Calcium-40",
+   "Oxygen-16",
+   "Phosphorus-31",
+   "Carbon-12"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Phosphorus-31 is MR active and is found in compounds involved in energy metabolism. The others have paired nucleons.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-082",
+  "chapter": 1,
+  "topic": "MR active nuclei",
+  "type": "single_best",
+  "text": "Why do nuclei with an unpaired nucleon have a net spin?",
+  "options": [
+   "Neutrons carry a large positive charge",
+   "All protons and neutrons spin in the same direction",
+   "Electrons transfer their spin to the nucleus",
+   "The spins of paired particles cancel, but an unpaired particle's spin does not"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Paired nucleons have opposite spins that cancel. An unpaired nucleon leaves a net spin.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-083",
+  "chapter": 1,
+  "topic": "MR active nuclei",
+  "type": "single_best",
+  "text": "Which pair contains one MR active nucleus and one MR inactive nucleus?",
+  "options": [
+   "Hydrogen-1 and phosphorus-31",
+   "Oxygen-16 and helium-4",
+   "Sodium-23 and carbon-12",
+   "Carbon-13 and fluorine-19"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Sodium-23 has an unpaired proton, but carbon-12 has all particles paired. The other pairs are both active or both inactive.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-084",
+  "chapter": 1,
+  "topic": "MR active nuclei",
+  "type": "single_best",
+  "text": "Why must a nucleus have a net magnetic moment to be useful in MRI?",
+  "options": [
+   "It must emit its own radiofrequency",
+   "It must be radioactive",
+   "It must be heavier than carbon",
+   "It needs to interact with the applied magnetic field"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "MR depends on the nucleus responding to the main field and to RF, which requires a magnetic moment.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-085",
+  "chapter": 1,
+  "topic": "MR active nuclei",
+  "type": "multiple_select",
+  "text": "Select all of the nuclei that are MR active.",
+  "options": [
+   "Carbon-12",
+   "Oxygen-16",
+   "Hydrogen-1",
+   "Phosphorus-31",
+   "Fluorine-19"
+  ],
+  "answer": [
+   2,
+   3,
+   4
+  ],
+  "explanation": "Hydrogen-1, fluorine-19 and phosphorus-31 each have an unpaired proton. Carbon-12 and oxygen-16 have all particles paired.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-086",
+  "chapter": 1,
+  "topic": "The hydrogen nucleus",
+  "type": "single_best",
+  "text": "Hydrogen-1 gives the strongest MR signal of the nuclei found in the body mainly because it has:",
+  "options": [
+   "A high gyromagnetic ratio and is very abundant",
+   "A large number of neutrons",
+   "An even mass number",
+   "A very low gyromagnetic ratio"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Hydrogen is abundant in water and fat, and it has a large gyromagnetic ratio.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-087",
+  "chapter": 1,
+  "topic": "The hydrogen nucleus",
+  "type": "single_best",
+  "text": "Which two tissue components supply most of the hydrogen used in clinical MRI?",
+  "options": [
+   "Mineral and gas",
+   "Calcium and iron",
+   "Bone and air",
+   "Water and fat"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Water and fat are rich in hydrogen, so hydrogen in these molecules produces most of the signal.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-088",
+  "chapter": 1,
+  "topic": "The hydrogen nucleus",
+  "type": "single_best",
+  "text": "What does a high hydrogen density in tissue mean for MRI?",
+  "options": [
+   "The main field is weaker",
+   "More hydrogen nuclei are available to contribute signal",
+   "The repetition time must be longer",
+   "Fewer nuclei are excited"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "A greater number of mobile hydrogen nuclei can contribute to the MR signal.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-089",
+  "chapter": 1,
+  "topic": "The hydrogen nucleus",
+  "type": "true_false",
+  "text": "Tissues with very few mobile hydrogen nuclei, such as cortical bone, tend to produce little MR signal.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Low hydrogen density, together with rapid signal decay in solids, gives little signal.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-090",
+  "chapter": 1,
+  "topic": "The hydrogen nucleus",
+  "type": "single_best",
+  "text": "Which statement about hydrogen in clinical MRI is correct?",
+  "options": [
+   "Only hydrogen in bone contributes to signal",
+   "Hydrogen only contributes above 3 T",
+   "Hydrogen nuclei in air are the main source of signal",
+   "Hydrogen nuclei in water and fat are the main source of signal"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Water and fat are abundant in tissue, so their hydrogen nuclei dominate clinical signal.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-091",
+  "chapter": 1,
+  "topic": "The hydrogen nucleus",
+  "type": "single_best",
+  "text": "At the same field strength, which nucleus precesses at the highest frequency?",
+  "options": [
+   "Sodium-23",
+   "Hydrogen-1",
+   "Carbon-13",
+   "Phosphorus-31"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Hydrogen-1 has the largest gyromagnetic ratio (42.58 MHz/T). The others have much smaller values.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-092",
+  "chapter": 1,
+  "topic": "Precession and precessional (Larmor) frequency",
+  "type": "calculation",
+  "text": "Given a gyromagnetic ratio of 42.58 MHz/T for hydrogen, what is its Larmor frequency at 0.5 T?",
+  "options": [
+   "10.65 MHz",
+   "85.16 MHz",
+   "21.29 MHz",
+   "42.58 MHz"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "f = 42.58 MHz/T x 0.5 T = 21.29 MHz.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-093",
+  "chapter": 1,
+  "topic": "Precession and precessional (Larmor) frequency",
+  "type": "calculation",
+  "text": "What is the approximate Larmor frequency of hydrogen at 1.5 T?",
+  "options": [
+   "127.74 MHz",
+   "85.16 MHz",
+   "63.87 MHz",
+   "42.58 MHz"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "f = 42.58 x 1.5 = 63.87 MHz.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-094",
+  "chapter": 1,
+  "topic": "Precession and precessional (Larmor) frequency",
+  "type": "calculation",
+  "text": "What is the approximate Larmor frequency of hydrogen at 7 T?",
+  "options": [
+   "170.32 MHz",
+   "425.80 MHz",
+   "127.74 MHz",
+   "298.06 MHz"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "f = 42.58 x 7 = 298.06 MHz.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-095",
+  "chapter": 1,
+  "topic": "Precession and precessional (Larmor) frequency",
+  "type": "calculation",
+  "text": "A hydrogen Larmor frequency of about 127.74 MHz corresponds to which field strength?",
+  "options": [
+   "3 T",
+   "7 T",
+   "1.5 T",
+   "2 T"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "B = f / gamma = 127.74 / 42.58 = 3 T.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-096",
+  "chapter": 1,
+  "topic": "Precession and precessional (Larmor) frequency",
+  "type": "calculation",
+  "text": "A system precesses hydrogen at 21.29 MHz. Approximately what is its field strength?",
+  "options": [
+   "0.5 T",
+   "1.5 T",
+   "1 T",
+   "0.25 T"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "B = 21.29 / 42.58 = 0.5 T.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-097",
+  "chapter": 1,
+  "topic": "Precession and precessional (Larmor) frequency",
+  "type": "calculation",
+  "text": "What is the approximate Larmor frequency of hydrogen at 4 T?",
+  "options": [
+   "127.74 MHz",
+   "85.16 MHz",
+   "255.48 MHz",
+   "170.32 MHz"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "f = 42.58 x 4 = 170.32 MHz.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-098",
+  "chapter": 1,
+  "topic": "Precession and precessional (Larmor) frequency",
+  "type": "single_best",
+  "text": "If the main magnetic field strength is doubled, the Larmor frequency of hydrogen:",
+  "options": [
+   "Halves",
+   "Quadruples",
+   "Stays the same",
+   "Doubles"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Larmor frequency is directly proportional to field strength.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-099",
+  "chapter": 1,
+  "topic": "Precession and precessional (Larmor) frequency",
+  "type": "single_best",
+  "text": "A 3 T system and a 1.5 T system both image hydrogen. Which statement is correct?",
+  "options": [
+   "The 3 T system needs RF at four times the frequency",
+   "Both systems use the same RF frequency",
+   "The 3 T system needs RF at half the frequency",
+   "The 3 T system needs RF at twice the frequency"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Hydrogen's Larmor frequency doubles when the field doubles, so the resonant RF frequency also doubles.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-100",
+  "chapter": 1,
+  "topic": "Precession and precessional (Larmor) frequency",
+  "type": "calculation",
+  "text": "The gyromagnetic ratio of phosphorus-31 is about 17.25 MHz/T. What is its approximate Larmor frequency at 3 T?",
+  "options": [
+   "34.50 MHz",
+   "51.75 MHz",
+   "127.74 MHz",
+   "17.25 MHz"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "f = 17.25 x 3 = 51.75 MHz.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ }
+]

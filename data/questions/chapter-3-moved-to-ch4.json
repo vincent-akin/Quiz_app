@@ -1,0 +1,227 @@
+[
+ {
+  "id": "ch3-021",
+  "chapter": 4,
+  "topic": "Gradient echo",
+  "type": "single_best",
+  "text": "Why can gradient-echo sequences use shorter repetition times than conventional spin-echo sequences?",
+  "options": [
+   "They do not require a 180-degree refocusing pulse",
+   "They use no magnetic field",
+   "They eliminate T1 effects",
+   "They do not acquire signal"
+  ],
+  "answer": "They do not require a 180-degree refocusing pulse",
+  "explanation": "The absence of the 180-degree refocusing pulse allows faster repetition and shorter TR values."
+ },
+ {
+  "id": "ch3-022",
+  "chapter": 4,
+  "topic": "Gradient echo",
+  "type": "single_best",
+  "text": "Gradient-echo sequences generally produce an echo by:",
+  "options": [
+   "Using a 180-degree RF pulse only",
+   "Reversing a magnetic field gradient",
+   "Removing the main magnetic field",
+   "Increasing patient motion"
+  ],
+  "answer": "Reversing a magnetic field gradient",
+  "explanation": "Gradient echoes are formed by dephasing and rephasing spins through controlled gradient reversal."
+ },
+ {
+  "id": "ch3-023",
+  "chapter": 4,
+  "topic": "T2 star",
+  "type": "single_best",
+  "text": "Which sequence is particularly sensitive to susceptibility-related signal loss?",
+  "options": [
+   "Spin echo",
+   "Gradient echo",
+   "STIR only",
+   "Fast spin echo only"
+  ],
+  "answer": "Gradient echo",
+  "explanation": "Gradient-echo sequences do not use a 180-degree refocusing pulse to correct static field inhomogeneities, making them more T2*-sensitive."
+ },
+ {
+  "id": "ch3-082",
+  "chapter": 4,
+  "topic": "Susceptibility",
+  "type": "single_best",
+  "text": "Which sequence is most sensitive to susceptibility effects caused by blood products or metal?",
+  "options": [
+   "Gradient echo",
+   "Spin echo",
+   "Conventional T1 spin echo only",
+   "STIR only"
+  ],
+  "answer": "Gradient echo",
+  "explanation": "Gradient-echo sequences are sensitive to local field variations because they lack a 180-degree refocusing pulse."
+ },
+ {
+  "id": "ch3-084",
+  "chapter": 4,
+  "topic": "Gradient echo",
+  "type": "single_best",
+  "text": "Compared with spin echo, gradient echo generally has greater sensitivity to:",
+  "options": [
+   "T2* effects",
+   "Patient height",
+   "Proton creation",
+   "Static longitudinal magnetization only"
+  ],
+  "answer": "T2* effects",
+  "explanation": "Gradient echo lacks the 180-degree refocusing pulse, so susceptibility and field inhomogeneity contribute more strongly to signal decay."
+ },
+ {
+  "id": "ch3-085",
+  "chapter": 4,
+  "topic": "Gradient echo",
+  "type": "single_best",
+  "text": "One major advantage of gradient-echo imaging is:",
+  "options": [
+   "Shorter scan times",
+   "Complete elimination of susceptibility",
+   "No need for gradients",
+   "No dependence on flip angle"
+  ],
+  "answer": "Shorter scan times",
+  "explanation": "Gradient-echo sequences can use short TR values and small flip angles, enabling rapid imaging."
+ },
+ {
+  "id": "ch3-086",
+  "chapter": 4,
+  "topic": "Gradient echo",
+  "type": "single_best",
+  "text": "Gradient-echo sequences commonly use:",
+  "options": [
+   "Small flip angles",
+   "Only 180-degree excitation pulses",
+   "No RF pulses",
+   "Only 360-degree pulses"
+  ],
+  "answer": "Small flip angles",
+  "explanation": "Small flip angles permit rapid repetition and help maintain longitudinal magnetization for fast imaging."
+ },
+ {
+  "id": "ch3-087",
+  "chapter": 4,
+  "topic": "Steady state",
+  "type": "single_best",
+  "text": "In a steady-state gradient-echo sequence, repeated RF excitations occur before:",
+  "options": [
+   "Complete longitudinal recovery",
+   "The magnetic field is turned off",
+   "The patient enters the scanner",
+   "The gradients stop permanently"
+  ],
+  "answer": "Complete longitudinal recovery",
+  "explanation": "Rapid repeated excitations establish a steady state in which longitudinal and transverse magnetization are repeatedly driven and recovered."
+ },
+ {
+  "id": "ch3-088",
+  "chapter": 4,
+  "topic": "Flip angle",
+  "type": "single_best",
+  "text": "Increasing the flip angle in a spoiled gradient-echo sequence generally increases:",
+  "options": [
+   "T1 saturation effects",
+   "T2 relaxation time",
+   "Patient proton density",
+   "Magnetic field strength"
+  ],
+  "answer": "T1 saturation effects",
+  "explanation": "Larger flip angles consume more longitudinal magnetization, increasing saturation when TR is short."
+ },
+ {
+  "id": "ch3-089",
+  "chapter": 4,
+  "topic": "Ernst angle",
+  "type": "single_best",
+  "text": "The Ernst angle is primarily used to determine:",
+  "options": [
+   "The flip angle that maximizes steady-state signal for a given TR and T1",
+   "The correct patient weight",
+   "The maximum FOV",
+   "The slice thickness"
+  ],
+  "answer": "The flip angle that maximizes steady-state signal for a given TR and T1",
+  "explanation": "The Ernst angle balances longitudinal recovery and RF excitation to maximize steady-state signal."
+ },
+ {
+  "id": "ch3-090",
+  "chapter": 4,
+  "topic": "Ernst angle",
+  "type": "single_best",
+  "text": "For a very short TR, the optimal Ernst angle is generally:",
+  "options": [
+   "Small",
+   "Exactly 90 degrees",
+   "Exactly 180 degrees",
+   "Always 360 degrees"
+  ],
+  "answer": "Small",
+  "explanation": "With very short TR, little longitudinal recovery occurs, so a smaller flip angle helps preserve longitudinal magnetization."
+ },
+ {
+  "id": "ch3-131",
+  "chapter": 4,
+  "topic": "Gradient echo",
+  "type": "single_best",
+  "text": "What primarily creates the echo in a gradient-echo sequence?",
+  "options": [
+   "Gradient reversal",
+   "A 180-degree RF pulse",
+   "A second patient",
+   "Complete T1 recovery"
+  ],
+  "answer": "Gradient reversal",
+  "explanation": "Gradient reversal rephases spins and produces the gradient echo."
+ },
+ {
+  "id": "ch3-149",
+  "chapter": 4,
+  "topic": "Susceptibility artifacts",
+  "type": "single_best",
+  "text": "Which sequence is generally more vulnerable to susceptibility artifacts?",
+  "options": [
+   "Gradient echo",
+   "Spin echo",
+   "Conventional STIR spin echo",
+   "Long-TR proton density spin echo"
+  ],
+  "answer": "Gradient echo",
+  "explanation": "Gradient echo does not use a 180-degree refocusing pulse and therefore retains more susceptibility-related dephasing."
+ },
+ {
+  "id": "ch3-185",
+  "chapter": 4,
+  "topic": "Gradient echo",
+  "type": "single_best",
+  "text": "Why does a gradient echo not fully correct for static field inhomogeneity?",
+  "options": [
+   "It does not use a 180-degree RF refocusing pulse",
+   "It uses too much T1 weighting",
+   "It has no gradients",
+   "It has no transverse magnetization"
+  ],
+  "answer": "It does not use a 180-degree RF refocusing pulse",
+  "explanation": "Gradient reversal rephases gradient-induced dephasing but does not fully refocus static field inhomogeneity."
+ },
+ {
+  "id": "ch3-186",
+  "chapter": 4,
+  "topic": "T2 star",
+  "type": "single_best",
+  "text": "Which type of imaging is particularly useful for detecting susceptibility-related blood products?",
+  "options": [
+   "T2*-sensitive gradient-echo imaging",
+   "T1-weighted imaging only",
+   "Proton-density imaging only",
+   "STIR only"
+  ],
+  "answer": "T2*-sensitive gradient-echo imaging",
+  "explanation": "Susceptibility effects from blood products can cause marked signal loss on T2*-sensitive gradient-echo sequences."
+ }
+]

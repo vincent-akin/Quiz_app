@@ -1,0 +1,1023 @@
+[
+ {
+  "id": "ch1-200",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "single_best",
+  "text": "TR is measured from:",
+  "options": [
+   "The start of the scan to the end of the scan",
+   "One excitation pulse to the next excitation of the same slice",
+   "The end of readout to the next RF pulse",
+   "The excitation pulse to the center of the echo"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "TR is the repetition time between successive excitations.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-201",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "single_best",
+  "text": "TE is measured from:",
+  "options": [
+   "The start to the end of the scan",
+   "One excitation pulse to the next",
+   "The excitation pulse to the center of the echo",
+   "The end of the echo to the next RF pulse"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "TE is the time from excitation to the middle of the echo or signal.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-202",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "single_best",
+  "text": "In which units are TR and TE normally expressed?",
+  "options": [
+   "Milliseconds",
+   "Tesla",
+   "Gauss",
+   "Hertz"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "TR and TE are times, typically in milliseconds.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-203",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "true_false",
+  "text": "TE is normally longer than TR.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "The echo occurs within each repetition period, so TE is shorter than TR.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-204",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "single_best",
+  "text": "A very short TR means that between excitations the longitudinal magnetization has:",
+  "options": [
+   "Little time to recover",
+   "Doubled in size",
+   "Time to recover fully",
+   "Reversed direction"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "A short TR limits T1 recovery.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-205",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "single_best",
+  "text": "A long TR allows the longitudinal magnetization to:",
+  "options": [
+   "Stop precessing",
+   "Recover more fully",
+   "Become transverse",
+   "Reverse sign"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "A longer interval gives more time for the magnetization to return toward equilibrium.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-206",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "single_best",
+  "text": "A short TE means that, when the signal is measured, the transverse magnetization:",
+  "options": [
+   "Has had little time to decay",
+   "Has changed frequency",
+   "Has grown larger",
+   "Has already disappeared"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "There is little time for T2 decay before measurement.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-207",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "single_best",
+  "text": "A long TE means that, when the signal is measured, the transverse magnetization has:",
+  "options": [
+   "Grown larger",
+   "Decayed more",
+   "Not decayed at all",
+   "Changed sign"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "More time passes for dephasing before the echo is sampled.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-208",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "calculation",
+  "text": "A sequence has TR = 400 ms. How long do five TR periods last?",
+  "options": [
+   "400 ms",
+   "1,600 ms",
+   "2,400 ms",
+   "2,000 ms"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "5 x 400 ms = 2,000 ms.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-209",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "calculation",
+  "text": "A scan uses TR = 2,000 ms. How many TR periods fit in one minute?",
+  "options": [
+   "120",
+   "30",
+   "20",
+   "60"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "60,000 ms / 2,000 ms = 30.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-210",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "calculation",
+  "text": "Convert a TR of 0.5 s into milliseconds.",
+  "options": [
+   "500 ms",
+   "0.05 ms",
+   "50 ms",
+   "5,000 ms"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "0.5 s x 1,000 = 500 ms.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-211",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "calculation",
+  "text": "Convert a TE of 20 ms into seconds.",
+  "options": [
+   "0.02 s",
+   "2 s",
+   "0.002 s",
+   "0.2 s"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "20 ms / 1,000 = 0.02 s.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-212",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "calculation",
+  "text": "A sequence repeats every 600 ms for 128 repetitions. What is the total time, ignoring other factors?",
+  "options": [
+   "76.8 s",
+   "7.68 s",
+   "128 s",
+   "600 s"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "128 x 600 ms = 76,800 ms = 76.8 s.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-213",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "true_false",
+  "text": "In a standard sequence, TR must be longer than TE.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "The echo is formed within each repetition period.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-214",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "true_false",
+  "text": "A shorter TR generally allows a shorter scan time, other factors being equal.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Each repetition takes less time, so the scan finishes sooner.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-215",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "single_best",
+  "text": "Increasing TR while keeping other factors equal will generally:",
+  "options": [
+   "Leave scan time unchanged",
+   "Increase scan time",
+   "Change B0",
+   "Decrease scan time"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Scan time is proportional to TR.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-216",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "single_best",
+  "text": "Which combination leaves the least longitudinal magnetization available for the next excitation?",
+  "options": [
+   "Any flip angle with a long TR",
+   "A small flip angle with a long TR",
+   "A zero flip angle with any TR",
+   "A large flip angle with a short TR"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "A large flip angle uses up much longitudinal magnetization, and a short TR allows little recovery.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-217",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "single_best",
+  "text": "Compared with a 90 degree pulse, a small flip angle leaves:",
+  "options": [
+   "Negative longitudinal magnetization",
+   "Less longitudinal magnetization",
+   "No longitudinal magnetization",
+   "More longitudinal magnetization after excitation"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "A smaller flip angle tips less magnetization, so more remains along Z.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-218",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "single_best",
+  "text": "Why can a small flip angle allow a short TR to be used?",
+  "options": [
+   "It removes T1 recovery",
+   "Less longitudinal magnetization is lost at each excitation, so less recovery is needed",
+   "It reduces TE to zero",
+   "It raises B0"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Less magnetization is tipped, so the longitudinal component recovers sufficiently within a short TR.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-219",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "single_best",
+  "text": "The angle through which RF rotates the net magnetization is the:",
+  "options": [
+   "Gradient angle",
+   "Flip angle",
+   "Phase angle",
+   "Echo angle"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "The flip angle describes how far the net magnetization is tipped.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-220",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "single_best",
+  "text": "Which pair of parameters basically determines how much recovery and decay occur before and during signal measurement?",
+  "options": [
+   "Slice number and FOV",
+   "TR and TE",
+   "Flip angle and receiver coil",
+   "B0 only"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "TR controls the recovery time and TE controls the decay time.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-221",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "scenario",
+  "text": "A scan uses a very short TR and a very short TE. Which is true when the signal is measured?",
+  "options": [
+   "Longitudinal magnetization recovered fully",
+   "No signal can exist",
+   "Longitudinal recovery was limited and little transverse decay occurred",
+   "Transverse magnetization has completely decayed"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "A short TR limits recovery and a short TE limits decay.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-222",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "scenario",
+  "text": "A technologist doubles TR from 500 ms to 1,000 ms, all else equal. What happens to scan time?",
+  "options": [
+   "It is unchanged",
+   "It quadruples",
+   "It doubles",
+   "It halves"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Scan time is proportional to TR.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-223",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "scenario",
+  "text": "A technologist halves TE and changes nothing else. What happens to the T2 decay that occurs before measurement?",
+  "options": [
+   "It is unchanged",
+   "Less T2 decay occurs",
+   "More T2 decay occurs",
+   "It reverses"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "A shorter TE leaves less time for dephasing.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-224",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "scenario",
+  "text": "TR is shortened substantially. What is the effect on the longitudinal magnetization at the next excitation?",
+  "options": [
+   "It is lower, because recovery is incomplete",
+   "It is unchanged",
+   "It reverses direction",
+   "It is higher"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "With less recovery time, less magnetization is available.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-225",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "single_best",
+  "text": "The time between excitations most directly affects which relaxation process?",
+  "options": [
+   "T2 decay",
+   "T1 recovery",
+   "Chemical shift",
+   "Aliasing"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "TR sets the time allowed for longitudinal recovery.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-226",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "single_best",
+  "text": "Echo time most directly affects which relaxation process?",
+  "options": [
+   "Quadrature detection",
+   "Resonance",
+   "T1 recovery",
+   "T2 decay"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "TE sets the time allowed for transverse decay before sampling.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-227",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "single_best",
+  "text": "Which statement about relaxation times in tissue is generally correct?",
+  "options": [
+   "They are always equal",
+   "T2 is longer than T1",
+   "Neither depends on the tissue",
+   "T1 is longer than T2"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "T1 values are generally several times longer than T2 values in tissue.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-228",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "single_best",
+  "text": "Which of the following is not a time interval?",
+  "options": [
+   "TE",
+   "The inversion time (TI)",
+   "The flip angle",
+   "TR"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Flip angle is an angle. The others are times.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-229",
+  "chapter": 1,
+  "topic": "Pulse timing parameters",
+  "type": "true_false",
+  "text": "The flip angle is measured in degrees.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "The flip angle is an angle of rotation.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-230",
+  "chapter": 1,
+  "topic": "Chapter 1 integration",
+  "type": "single_best",
+  "text": "Which is the correct order of events in a basic MR experiment?",
+  "options": [
+   "RF excitation, alignment in B0, relaxation, detection",
+   "Signal detection, excitation, alignment",
+   "Relaxation, alignment, excitation",
+   "Alignment in B0, RF excitation, then signal detection while relaxation occurs"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "The nuclei first align in B0. RF then excites them, and the signal is detected as the magnetization relaxes.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-231",
+  "chapter": 1,
+  "topic": "Chapter 1 integration",
+  "type": "multiple_select",
+  "text": "Select all factors that affect the equilibrium net magnetization.",
+  "options": [
+   "The number of hydrogen nuclei per unit volume",
+   "The main field strength",
+   "The position of the receive coil",
+   "The flip angle of the next pulse",
+   "TE"
+  ],
+  "answer": [
+   0,
+   1
+  ],
+  "explanation": "Net magnetization depends on the population excess (set by B0) and the number of nuclei.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-232",
+  "chapter": 1,
+  "topic": "Chapter 1 integration",
+  "type": "multiple_select",
+  "text": "Select all that occur during RF excitation at resonance.",
+  "options": [
+   "B0 is switched off",
+   "The magnetic moments are brought into phase",
+   "Nuclei absorb energy",
+   "The Larmor frequency changes permanently",
+   "The net magnetization is tipped away from B0"
+  ],
+  "answer": [
+   1,
+   2,
+   4
+  ],
+  "explanation": "Resonance transfers energy, brings moments into phase and tips the net magnetization.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-233",
+  "chapter": 1,
+  "topic": "Chapter 1 integration",
+  "type": "multiple_select",
+  "text": "Select all true statements about the signal in the receive coil.",
+  "options": [
+   "It is induced by a changing magnetic flux",
+   "It decays as the transverse magnetization decays",
+   "It is produced by longitudinal magnetization at equilibrium",
+   "It oscillates at the Larmor frequency",
+   "It is independent of the transverse magnetization"
+  ],
+  "answer": [
+   0,
+   1,
+   3
+  ],
+  "explanation": "The signal comes from rotating transverse magnetization and decays as that magnetization decays.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-234",
+  "chapter": 1,
+  "topic": "Chapter 1 integration",
+  "type": "multiple_select",
+  "text": "Select all true statements about MR active nuclei.",
+  "options": [
+   "They have no electrons",
+   "They have a net spin",
+   "They have a magnetic moment",
+   "They contain an unpaired proton or neutron",
+   "They must be radioactive"
+  ],
+  "answer": [
+   1,
+   2,
+   3
+  ],
+  "explanation": "MR active nuclei have unpaired nucleons, which give net spin and a magnetic moment.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-235",
+  "chapter": 1,
+  "topic": "Chapter 1 integration",
+  "type": "multiple_select",
+  "text": "Select all quantities that are measured in units of time.",
+  "options": [
+   "Main field strength",
+   "TE",
+   "Flip angle",
+   "Gyromagnetic ratio",
+   "TR"
+  ],
+  "answer": [
+   1,
+   4
+  ],
+  "explanation": "TR and TE are times. The others are an angle, a field strength and a frequency per tesla.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-236",
+  "chapter": 1,
+  "topic": "Chapter 1 integration",
+  "type": "single_best",
+  "text": "Which statement correctly links field strength, frequency and signal?",
+  "options": [
+   "A higher field raises the Larmor frequency and the net magnetization",
+   "A higher field raises frequency but lowers net magnetization",
+   "A higher field lowers both",
+   "Field strength affects neither"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Larmor frequency and population excess both rise with B0.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-237",
+  "chapter": 1,
+  "topic": "Chapter 1 integration",
+  "type": "scenario",
+  "text": "A scanner is upgraded from 1.5 T to 3 T. Which of the following must change for hydrogen imaging?",
+  "options": [
+   "The RF transmit frequency",
+   "The atomic number of hydrogen",
+   "The number of protons in hydrogen",
+   "The gyromagnetic ratio of hydrogen"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Hydrogen's properties are fixed, but its Larmor frequency doubles.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-238",
+  "chapter": 1,
+  "topic": "Chapter 1 integration",
+  "type": "scenario",
+  "text": "A phantom is in the scanner and no RF has been applied. What is the net magnetization?",
+  "options": [
+   "Longitudinal and static, so no signal is detected",
+   "Reversed",
+   "Transverse and rotating",
+   "Zero in all directions"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Without excitation, the net magnetization stays along B0 and induces no signal.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-239",
+  "chapter": 1,
+  "topic": "Chapter 1 integration",
+  "type": "scenario",
+  "text": "RF at the Larmor frequency of phosphorus-31 is accidentally applied while hydrogen is being imaged at 1.5 T. What is the effect on hydrogen?",
+  "options": [
+   "Hydrogen's gyromagnetic ratio changes",
+   "Hydrogen becomes MR inactive",
+   "Hydrogen is excited normally",
+   "Hydrogen is not effectively excited"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Phosphorus precesses at a much lower frequency than hydrogen, so the RF does not match hydrogen's resonance.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-240",
+  "chapter": 1,
+  "topic": "Precession and precessional (Larmor) frequency",
+  "type": "calculation",
+  "text": "At 1.5 T, what is the approximate Larmor frequency of phosphorus-31 (gyromagnetic ratio 17.25 MHz/T)?",
+  "options": [
+   "51.75 MHz",
+   "63.87 MHz",
+   "17.25 MHz",
+   "25.88 MHz"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "f = 17.25 x 1.5 = 25.875 MHz.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-241",
+  "chapter": 1,
+  "topic": "Precession and precessional (Larmor) frequency",
+  "type": "calculation",
+  "text": "Fluorine-19 has a gyromagnetic ratio of about 40.05 MHz/T. What is its approximate Larmor frequency at 3 T?",
+  "options": [
+   "120.15 MHz",
+   "80.10 MHz",
+   "127.74 MHz",
+   "40.05 MHz"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "f = 40.05 x 3 = 120.15 MHz.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-242",
+  "chapter": 1,
+  "topic": "Precession and precessional (Larmor) frequency",
+  "type": "calculation",
+  "text": "Sodium-23 has a gyromagnetic ratio of about 11.26 MHz/T. What is its approximate Larmor frequency at 3 T?",
+  "options": [
+   "127.74 MHz",
+   "22.52 MHz",
+   "11.26 MHz",
+   "33.78 MHz"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "f = 11.26 x 3 = 33.78 MHz.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-243",
+  "chapter": 1,
+  "topic": "Precession and precessional (Larmor) frequency",
+  "type": "true_false",
+  "text": "At a given field strength, hydrogen and phosphorus-31 nuclei precess at the same frequency.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Each nucleus has its own gyromagnetic ratio, so they precess at different frequencies.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-244",
+  "chapter": 1,
+  "topic": "Chapter 1 integration",
+  "type": "single_best",
+  "text": "Why is MR described as a resonance phenomenon?",
+  "options": [
+   "Nuclei emit sound waves",
+   "The scanner vibrates at the Larmor frequency",
+   "Nuclei absorb energy efficiently only from RF at their Larmor frequency",
+   "The gradient fields oscillate"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Resonance means efficient energy transfer at the matching frequency.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-245",
+  "chapter": 1,
+  "topic": "Chapter 1 integration",
+  "type": "single_best",
+  "text": "Which best defines relaxation in MR?",
+  "options": [
+   "The detection of the signal",
+   "The return of the magnetization to equilibrium after excitation",
+   "The application of the RF pulse",
+   "The alignment of nuclei in B0"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Relaxation involves T1 recovery and T2 decay after excitation.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-246",
+  "chapter": 1,
+  "topic": "Chapter 1 integration",
+  "type": "single_best",
+  "text": "When does the MR signal begin to be generated?",
+  "options": [
+   "When the table moves",
+   "When transverse magnetization is created by excitation",
+   "As soon as the patient enters the room",
+   "When B0 is ramped up"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Signal needs transverse magnetization, which only exists after RF excitation.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-247",
+  "chapter": 1,
+  "topic": "Chapter 1 integration",
+  "type": "single_best",
+  "text": "Which sequence best describes how an MR signal is created?",
+  "options": [
+   "Protons annihilate and release light",
+   "Nuclei emit gamma rays that are counted",
+   "RF is reflected from the nuclei",
+   "Net magnetization is tipped into the transverse plane, precesses, and induces a voltage in the coil"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "The signal comes from electromagnetic induction by precessing transverse magnetization.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-248",
+  "chapter": 1,
+  "topic": "Chapter 1 integration",
+  "type": "single_best",
+  "text": "What is the main difference between the roles of B0 and B1?",
+  "options": [
+   "Both rotate at the Larmor frequency",
+   "Both are static",
+   "B0 aligns the nuclei, while B1 is applied briefly to excite them",
+   "B0 excites the nuclei and B1 aligns them"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "B0 is the static main field and B1 is the RF field used in pulses.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-249",
+  "chapter": 1,
+  "topic": "Chapter 1 integration",
+  "type": "true_false",
+  "text": "B1 is a static magnetic field.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "B1 is an oscillating RF field. B0 is the static field.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-250",
+  "chapter": 1,
+  "topic": "Chapter 1 integration",
+  "type": "single_best",
+  "text": "Why does hydrogen MRI use RF in the tens to hundreds of MHz?",
+  "options": [
+   "T1 depends on it",
+   "Gradients need that frequency",
+   "RF below 1 MHz cannot enter the body",
+   "Larmor frequencies at clinical field strengths lie in that range"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "For hydrogen, 0.5 to 7 T corresponds to roughly 21 to 298 MHz.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ }
+]

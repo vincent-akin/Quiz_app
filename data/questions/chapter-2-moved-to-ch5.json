@@ -1,0 +1,227 @@
+[
+ {
+  "id": "ch2-099",
+  "chapter": 5,
+  "topic": "Gradient fields",
+  "type": "single_best",
+  "text": "What is the primary purpose of magnetic field gradients in MRI?",
+  "options": [
+   "Spatially encode the MR signal",
+   "Replace the main magnetic field",
+   "Produce the patient's heartbeat",
+   "Eliminate all relaxation"
+  ],
+  "answer": "Spatially encode the MR signal",
+  "explanation": "Gradient fields deliberately vary the magnetic field with position, allowing spatial encoding of the MR signal."
+ },
+ {
+  "id": "ch2-100",
+  "chapter": 5,
+  "topic": "Gradient fields",
+  "type": "single_best",
+  "text": "Which three gradient directions are conventionally used for spatial encoding?",
+  "options": [
+   "X, Y, and Z",
+   "A, B, and C",
+   "R, S, and T",
+   "P, Q, and R"
+  ],
+  "answer": "X, Y, and Z",
+  "explanation": "MRI gradient coils generate controlled magnetic field variations along the X, Y, and Z axes."
+ },
+ {
+  "id": "ch2-101",
+  "chapter": 5,
+  "topic": "Spatial encoding",
+  "type": "single_best",
+  "text": "Which gradient is primarily responsible for selecting the imaging slice?",
+  "options": [
+   "Slice-selection gradient",
+   "Phase-encoding gradient",
+   "Frequency-encoding gradient",
+   "Static gradient"
+  ],
+  "answer": "Slice-selection gradient",
+  "explanation": "The slice-selection gradient creates a position-dependent Larmor frequency so that a selected RF bandwidth excites a specific slice."
+ },
+ {
+  "id": "ch2-102",
+  "chapter": 5,
+  "topic": "Spatial encoding",
+  "type": "single_best",
+  "text": "Which gradient is used to spatially encode position along one in-plane direction by changing the phase of spins?",
+  "options": [
+   "Phase-encoding gradient",
+   "Slice-selection gradient",
+   "Frequency-only gradient",
+   "Static B0 gradient"
+  ],
+  "answer": "Phase-encoding gradient",
+  "explanation": "The phase-encoding gradient temporarily changes the precessional frequency, resulting in position-dependent phase differences."
+ },
+ {
+  "id": "ch2-103",
+  "chapter": 5,
+  "topic": "Spatial encoding",
+  "type": "single_best",
+  "text": "Which gradient is commonly used during signal readout to encode spatial position by frequency?",
+  "options": [
+   "Frequency-encoding gradient",
+   "Slice-selection gradient",
+   "Phase-only gradient",
+   "RF gradient"
+  ],
+  "answer": "Frequency-encoding gradient",
+  "explanation": "The frequency-encoding, or readout, gradient causes spins at different positions to precess at different frequencies during signal acquisition."
+ },
+ {
+  "id": "ch2-104",
+  "chapter": 5,
+  "topic": "Gradient nomenclature",
+  "type": "single_best",
+  "text": "The frequency-encoding gradient is also commonly called the:",
+  "options": [
+   "Readout gradient",
+   "Selection gradient",
+   "Recovery gradient",
+   "RF gradient"
+  ],
+  "answer": "Readout gradient",
+  "explanation": "The frequency-encoding gradient is applied during data acquisition and is therefore commonly called the readout gradient."
+ },
+ {
+  "id": "ch2-105",
+  "chapter": 5,
+  "topic": "Slice selection",
+  "type": "single_best",
+  "text": "What determines which slice is excited when using a slice-selection gradient?",
+  "options": [
+   "The combination of gradient strength, RF frequency, and RF bandwidth",
+   "Patient weight alone",
+   "TR alone",
+   "Receiver gain alone"
+  ],
+  "answer": "The combination of gradient strength, RF frequency, and RF bandwidth",
+  "explanation": "The slice-selection gradient creates a frequency-position relationship, while the RF frequency and bandwidth determine the location and thickness of the selected slice."
+ },
+ {
+  "id": "ch2-106",
+  "chapter": 5,
+  "topic": "Slice thickness",
+  "type": "single_best",
+  "text": "What generally happens to slice thickness when RF bandwidth is increased while other relevant factors remain constant?",
+  "options": [
+   "Slice thickness increases",
+   "Slice thickness decreases to zero",
+   "Slice thickness is unaffected under all conditions",
+   "The slice disappears"
+  ],
+  "answer": "Slice thickness increases",
+  "explanation": "For a given slice-selection gradient strength, a wider RF bandwidth excites a wider range of frequencies and therefore a thicker slice."
+ },
+ {
+  "id": "ch2-107",
+  "chapter": 5,
+  "topic": "Slice thickness",
+  "type": "single_best",
+  "text": "What generally happens to slice thickness when the slice-selection gradient strength is increased while RF bandwidth remains constant?",
+  "options": [
+   "Slice thickness decreases",
+   "Slice thickness increases indefinitely",
+   "Slice thickness becomes unrelated to the gradient",
+   "The main magnetic field becomes zero"
+  ],
+  "answer": "Slice thickness decreases",
+  "explanation": "A stronger slice-selection gradient produces a larger frequency change per unit distance, so the same RF bandwidth corresponds to a thinner slice."
+ },
+ {
+  "id": "ch2-108",
+  "chapter": 5,
+  "topic": "Gradient strength",
+  "type": "single_best",
+  "text": "The strength of a magnetic field gradient is commonly expressed in:",
+  "options": [
+   "mT/m",
+   "Hz only",
+   "Tesla per second only",
+   "Ohms"
+  ],
+  "answer": "mT/m",
+  "explanation": "Gradient amplitude is commonly specified in millitesla per meter (mT/m)."
+ },
+ {
+  "id": "ch2-109",
+  "chapter": 5,
+  "topic": "Gradient encoding",
+  "type": "single_best",
+  "text": "Why are gradients necessary for MRI image formation?",
+  "options": [
+   "They provide spatial information about the origin of the signal",
+   "They create all proton spins",
+   "They replace RF excitation",
+   "They eliminate the need for a main magnetic field"
+  ],
+  "answer": "They provide spatial information about the origin of the signal",
+  "explanation": "Without spatial encoding gradients, the scanner would not be able to determine where within the imaged volume the detected signal originated."
+ },
+ {
+  "id": "ch2-110",
+  "chapter": 5,
+  "topic": "Gradient switching",
+  "type": "single_best",
+  "text": "Rapid switching of gradient coils is responsible for much of the acoustic noise experienced during MRI?",
+  "options": [
+   "True",
+   "False",
+   "Only during CT",
+   "Only when no RF is used"
+  ],
+  "answer": "True",
+  "explanation": "Rapidly changing currents in gradient coils interact with the main magnetic field and produce mechanical vibration, resulting in loud acoustic noise."
+ },
+ {
+  "id": "ch2-111",
+  "chapter": 5,
+  "topic": "Gradient coils",
+  "type": "single_best",
+  "text": "What physical force contributes to vibration of gradient coils during rapid switching?",
+  "options": [
+   "Lorentz force",
+   "Gravitational force only",
+   "Buoyant force",
+   "Friction from the patient table"
+  ],
+  "answer": "Lorentz force",
+  "explanation": "Current-carrying conductors in the strong B0 field experience Lorentz forces, producing mechanical vibration."
+ },
+ {
+  "id": "ch2-112",
+  "chapter": 5,
+  "topic": "Gradient performance",
+  "type": "single_best",
+  "text": "Which gradient characteristic describes how quickly a gradient can change amplitude?",
+  "options": [
+   "Slew rate",
+   "Flip angle",
+   "Bandwidth",
+   "T1"
+  ],
+  "answer": "Slew rate",
+  "explanation": "Slew rate describes the rate at which a gradient can change, commonly expressed in T/m/s."
+ },
+ {
+  "id": "ch2-113",
+  "chapter": 5,
+  "topic": "Gradient performance",
+  "type": "single_best",
+  "text": "A higher gradient slew rate generally allows:",
+  "options": [
+   "Faster gradient switching",
+   "Lower Larmor frequency",
+   "Elimination of RF pulses",
+   "Permanent removal of susceptibility effects"
+  ],
+  "answer": "Faster gradient switching",
+  "explanation": "Higher slew rate allows gradients to ramp up and down more rapidly, supporting faster imaging techniques."
+ }
+]

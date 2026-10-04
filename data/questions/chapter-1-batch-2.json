@@ -1,0 +1,986 @@
+[
+ {
+  "id": "ch1-101",
+  "chapter": 1,
+  "topic": "Alignment",
+  "type": "single_best",
+  "text": "When hydrogen nuclei align with B0, which orientation has the lower energy?",
+  "options": [
+   "Perpendicular to B0",
+   "Parallel to B0",
+   "Both orientations have the same energy",
+   "Antiparallel to B0"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Moments parallel to the field are in the low-energy state. Antiparallel moments are in the high-energy state.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-102",
+  "chapter": 1,
+  "topic": "Alignment",
+  "type": "single_best",
+  "text": "Which orientation requires more energy for a hydrogen nucleus to occupy?",
+  "options": [
+   "Both need the same energy",
+   "Antiparallel to B0",
+   "Parallel to B0",
+   "Neither, because orientation is random in B0"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "The antiparallel orientation is the higher-energy state.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-103",
+  "chapter": 1,
+  "topic": "Alignment",
+  "type": "single_best",
+  "text": "Why do some hydrogen nuclei still occupy the higher-energy state at body temperature?",
+  "options": [
+   "Neutrons repel the protons",
+   "The main field is too strong",
+   "Thermal energy lets some nuclei reach the higher state",
+   "RF energy continuously flips them"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Thermal motion provides enough energy for a significant number of nuclei to occupy the higher-energy state, so the low-energy excess is small.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-104",
+  "chapter": 1,
+  "topic": "Alignment",
+  "type": "true_false",
+  "text": "At clinical field strengths, the number of nuclei in the low-energy state is only slightly greater than in the high-energy state.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "The excess is of the order of a few parts per million, yet it is enough to produce a measurable net magnetization.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-105",
+  "chapter": 1,
+  "topic": "Alignment",
+  "type": "single_best",
+  "text": "As the main field strength increases, the energy difference between the two states:",
+  "options": [
+   "Decreases",
+   "Increases",
+   "Becomes zero",
+   "Stays constant"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "The energy separation is proportional to B0.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-106",
+  "chapter": 1,
+  "topic": "Alignment",
+  "type": "single_best",
+  "text": "As field strength increases, the excess of nuclei in the low-energy state generally:",
+  "options": [
+   "Increases",
+   "Does not change",
+   "Reverses direction",
+   "Decreases"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "A larger energy gap makes the low-energy state more favoured relative to thermal energy, so the excess grows.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-107",
+  "chapter": 1,
+  "topic": "Alignment",
+  "type": "single_best",
+  "text": "Why does a higher main field generally give more MR signal?",
+  "options": [
+   "A larger net magnetization develops because the population excess is greater",
+   "RF energy is no longer needed",
+   "The nuclei become heavier",
+   "T1 becomes zero"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "A bigger population excess gives a larger net magnetization, and more magnetization gives more signal.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-108",
+  "chapter": 1,
+  "topic": "Alignment",
+  "type": "single_best",
+  "text": "The net magnetization in B0 arises from:",
+  "options": [
+   "An equal number of nuclei in both states",
+   "The electrons around each nucleus",
+   "All nuclei being in the high-energy state",
+   "The small excess of nuclei in the low-energy state"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Most low- and high-energy moments cancel each other, and the small excess gives a net vector.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-109",
+  "chapter": 1,
+  "topic": "Alignment",
+  "type": "true_false",
+  "text": "If equal numbers of nuclei occupied the parallel and antiparallel states, there would be no net magnetization along B0.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Equal and opposite contributions would cancel exactly.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-110",
+  "chapter": 1,
+  "topic": "Alignment",
+  "type": "single_best",
+  "text": "Magnetic moments that are antiparallel to B0 will:",
+  "options": [
+   "Produce the MR signal at equilibrium",
+   "Cancel the effect of an equal number of parallel moments",
+   "Always flip to parallel immediately",
+   "Add to the net magnetization"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "The antiparallel moments cancel an equal number of parallel moments. Only the excess contributes.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-111",
+  "chapter": 1,
+  "topic": "Alignment",
+  "type": "single_best",
+  "text": "Without an external magnetic field, the magnetic moments of hydrogen nuclei in tissue are:",
+  "options": [
+   "All parallel",
+   "All antiparallel",
+   "Randomly oriented",
+   "Aligned along the body's long axis"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "With no field to align them, the moments point in random directions and the tissue has no net magnetization.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-112",
+  "chapter": 1,
+  "topic": "Alignment",
+  "type": "single_best",
+  "text": "What happens to the magnetic moments of hydrogen nuclei when a patient enters the scanner bore?",
+  "options": [
+   "They tend to align with the main magnetic field",
+   "They all flip to antiparallel",
+   "They stop spinning",
+   "They are destroyed"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "The main field causes the magnetic moments to adopt the parallel or antiparallel orientations.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-113",
+  "chapter": 1,
+  "topic": "Alignment",
+  "type": "single_best",
+  "text": "In most superconducting scanners, the main magnetic field B0 is directed along:",
+  "options": [
+   "The long axis of the bore",
+   "Left to right across the bore",
+   "Front to back through the patient",
+   "The vertical axis through the patient"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "A solenoid-style magnet produces a field along the bore axis.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-114",
+  "chapter": 1,
+  "topic": "Alignment",
+  "type": "single_best",
+  "text": "By convention, the direction of B0 is labelled as the:",
+  "options": [
+   "Y axis",
+   "XY plane",
+   "X axis",
+   "Z axis"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Z is the longitudinal direction along B0.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-115",
+  "chapter": 1,
+  "topic": "Alignment",
+  "type": "true_false",
+  "text": "Placing a patient in B0 does not by itself generate an MR signal.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "At equilibrium the net magnetization is static and aligned with B0, so it induces no voltage in a receive coil.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-116",
+  "chapter": 1,
+  "topic": "Alignment",
+  "type": "single_best",
+  "text": "Besides field strength, which factor affects the population difference between the energy states?",
+  "options": [
+   "Receiver bandwidth",
+   "Temperature",
+   "Flip angle",
+   "Slice thickness"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "The population difference depends on the balance between the energy gap and thermal energy.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-117",
+  "chapter": 1,
+  "topic": "Alignment",
+  "type": "single_best",
+  "text": "Why does a higher sample temperature reduce the excess of nuclei in the low-energy state?",
+  "options": [
+   "It removes the spin of the nuclei",
+   "It changes the gyromagnetic ratio",
+   "Greater thermal energy makes the higher-energy state easier to occupy",
+   "It increases the Larmor frequency"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "More thermal energy lets more nuclei populate the higher state, which reduces the excess.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-118",
+  "chapter": 1,
+  "topic": "Alignment",
+  "type": "single_best",
+  "text": "The energy difference between the two spin states of hydrogen in B0 is:",
+  "options": [
+   "Proportional to TE",
+   "Proportional to B0",
+   "Inversely proportional to B0",
+   "Independent of B0"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Energy difference grows linearly with field strength.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-119",
+  "chapter": 1,
+  "topic": "Net magnetization",
+  "type": "single_best",
+  "text": "Which name is also given to the longitudinal axis?",
+  "options": [
+   "Z axis",
+   "Y axis",
+   "X axis",
+   "Transverse plane"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "The axis along B0 is Z and is called longitudinal.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-120",
+  "chapter": 1,
+  "topic": "Net magnetization",
+  "type": "single_best",
+  "text": "The transverse plane is the plane:",
+  "options": [
+   "Along the long axis of the magnet",
+   "Parallel to B0",
+   "Perpendicular to B0",
+   "Containing the Z axis"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "The transverse plane is the XY plane, at right angles to B0.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-121",
+  "chapter": 1,
+  "topic": "Net magnetization",
+  "type": "single_best",
+  "text": "At equilibrium, the transverse component of the net magnetization is approximately:",
+  "options": [
+   "Zero",
+   "Maximal",
+   "Equal to B0",
+   "Equal to the longitudinal component"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "The individual moments are out of phase in the transverse plane, so their transverse components cancel.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-122",
+  "chapter": 1,
+  "topic": "Net magnetization",
+  "type": "single_best",
+  "text": "Why is the net magnetization at equilibrium purely longitudinal?",
+  "options": [
+   "Electrons cancel the transverse part",
+   "Transverse components of the individual moments are out of phase and cancel",
+   "All nuclei are antiparallel",
+   "RF is always applied"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Only the small longitudinal excess remains, because the transverse components cancel through lack of phase coherence.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-123",
+  "chapter": 1,
+  "topic": "Net magnetization",
+  "type": "true_false",
+  "text": "The net magnetization of a tissue can be represented as a single vector.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "It is called the net magnetization vector (NMV).",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-124",
+  "chapter": 1,
+  "topic": "Net magnetization",
+  "type": "single_best",
+  "text": "Which factor increases the size of the net magnetization at equilibrium?",
+  "options": [
+   "A smaller flip angle",
+   "A longer TE",
+   "A higher main field strength",
+   "A smaller receive coil"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "A stronger field increases the population excess and therefore the net magnetization.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-125",
+  "chapter": 1,
+  "topic": "Net magnetization",
+  "type": "single_best",
+  "text": "At the same field strength, a tissue with more hydrogen nuclei per unit volume will have:",
+  "options": [
+   "A lower Larmor frequency",
+   "No net magnetization",
+   "A smaller net magnetization",
+   "A larger net magnetization"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "More contributing nuclei means a greater total magnetization.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-126",
+  "chapter": 1,
+  "topic": "Net magnetization",
+  "type": "single_best",
+  "text": "Why is longitudinal magnetization at equilibrium not detected directly by a receive coil?",
+  "options": [
+   "It is static and does not induce a voltage in the coil",
+   "It is too weak to exist",
+   "It precesses too quickly",
+   "It has no direction"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "A coil only responds to a changing magnetic flux, which comes from magnetization precessing in the transverse plane.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-127",
+  "chapter": 1,
+  "topic": "Net magnetization",
+  "type": "true_false",
+  "text": "Longitudinal magnetization is measured directly by the receive coil.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "The coil detects the changing flux from transverse magnetization. Longitudinal magnetization must be moved into the transverse plane first.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-128",
+  "chapter": 1,
+  "topic": "Net magnetization",
+  "type": "single_best",
+  "text": "Transverse magnetization precesses at which frequency?",
+  "options": [
+   "The TR frequency",
+   "Zero",
+   "Twice the Larmor frequency",
+   "The Larmor frequency"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "The transverse component precesses at the same Larmor frequency as the individual nuclei.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-129",
+  "chapter": 1,
+  "topic": "Net magnetization",
+  "type": "single_best",
+  "text": "The sum of all the magnetic moments in a tissue at equilibrium is called the:",
+  "options": [
+   "Gyromagnetic ratio",
+   "Net magnetization vector",
+   "Echo",
+   "Free induction decay"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "The vector sum of the individual moments is the net magnetization vector.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-130",
+  "chapter": 1,
+  "topic": "Precession",
+  "type": "single_best",
+  "text": "Precession of a nuclear magnetic moment is often compared to the motion of:",
+  "options": [
+   "A vibrating string",
+   "A pendulum swinging",
+   "A spinning top wobbling in gravity",
+   "A rolling ball"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "A top's axis wobbles around the vertical, much as a nuclear moment wobbles around B0.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-131",
+  "chapter": 1,
+  "topic": "Precession",
+  "type": "single_best",
+  "text": "Why do nuclei precess in B0?",
+  "options": [
+   "The field exerts a torque on the spinning magnetic moment",
+   "They are attracted to the walls of the bore",
+   "Gravity pulls on them",
+   "RF energy drives them"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "The interaction of the magnetic moment with B0 makes the spin axis wobble about the field direction.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-132",
+  "chapter": 1,
+  "topic": "Precession",
+  "type": "single_best",
+  "text": "The precessional path of a magnetic moment around B0 is:",
+  "options": [
+   "Random",
+   "Straight",
+   "Figure-of-eight",
+   "Circular"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "The moment traces a circle around the direction of the field.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-133",
+  "chapter": 1,
+  "topic": "Precession",
+  "type": "true_false",
+  "text": "A hydrogen nucleus precesses faster in a stronger magnetic field.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Precessional frequency is directly proportional to B0.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-134",
+  "chapter": 1,
+  "topic": "Precession",
+  "type": "single_best",
+  "text": "Precessional frequency in MRI is usually expressed in:",
+  "options": [
+   "MHz",
+   "Seconds",
+   "Tesla",
+   "mT/m"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "At clinical field strengths, Larmor frequencies are in the tens to hundreds of MHz.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-135",
+  "chapter": 1,
+  "topic": "Precession",
+  "type": "single_best",
+  "text": "Different nuclei in the same magnetic field precess at different frequencies because they have different:",
+  "options": [
+   "Slice thicknesses",
+   "Numbers of electrons",
+   "Gyromagnetic ratios",
+   "Repetition times"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "The Larmor frequency equals the gyromagnetic ratio times B0, and each nucleus has its own ratio.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-136",
+  "chapter": 1,
+  "topic": "Precession",
+  "type": "single_best",
+  "text": "The gyromagnetic ratio is:",
+  "options": [
+   "A property of the scanner",
+   "The same for all nuclei",
+   "A constant specific to each MR active nucleus",
+   "Dependent on TR"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Each nucleus has a characteristic gyromagnetic ratio. For hydrogen it is 42.58 MHz/T.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-137",
+  "chapter": 1,
+  "topic": "Precession",
+  "type": "single_best",
+  "text": "Why is a uniform main field important in MRI?",
+  "options": [
+   "All nuclei would precess at zero frequency",
+   "Hydrogen would become MR inactive",
+   "Nuclei would not precess",
+   "In a non-uniform field nuclei would precess at different frequencies depending on position"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Position-dependent frequency would cause unwanted dephasing and distortion. Spatial encoding deliberately uses controlled gradients.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-138",
+  "chapter": 1,
+  "topic": "Phase and coherence",
+  "type": "true_false",
+  "text": "At equilibrium, the transverse components of the magnetic moments are out of phase with each other.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "With no phase coherence, their transverse components cancel.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-139",
+  "chapter": 1,
+  "topic": "Phase and coherence",
+  "type": "single_best",
+  "text": "Which situation would give the largest transverse net magnetization?",
+  "options": [
+   "Moments spread evenly around the transverse plane",
+   "All the moments in phase in the transverse plane",
+   "All moments along Z",
+   "Half the moments in phase and half 180 degrees out of phase"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "In-phase moments add together. Evenly spread or opposed moments cancel.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-140",
+  "chapter": 1,
+  "topic": "Phase and coherence",
+  "type": "single_best",
+  "text": "If transverse magnetic moments were spread evenly around the XY plane, the transverse net magnetization would be:",
+  "options": [
+   "Equal to M0",
+   "Zero",
+   "Double M0",
+   "Maximal"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "A symmetric spread cancels completely.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-141",
+  "chapter": 1,
+  "topic": "Phase and coherence",
+  "type": "single_best",
+  "text": "What causes transverse magnetic moments to lose phase coherence after excitation?",
+  "options": [
+   "The receive coil absorbs them",
+   "B0 increases",
+   "They experience slightly different local fields and precess at slightly different rates",
+   "The RF pulse is too long"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Small differences in precessional frequency cause the moments to fan out, which is called dephasing.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-142",
+  "chapter": 1,
+  "topic": "Phase and coherence",
+  "type": "single_best",
+  "text": "Loss of phase coherence leads to:",
+  "options": [
+   "Growth of the longitudinal field",
+   "Decay of the transverse magnetization",
+   "A stronger FID",
+   "A higher Larmor frequency"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Dephasing reduces the vector sum in the transverse plane, so the signal decays.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-143",
+  "chapter": 1,
+  "topic": "Phase and coherence",
+  "type": "true_false",
+  "text": "An RF pulse at the Larmor frequency brings the magnetic moments into phase.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "One of the two effects of resonance is that the moments are brought into phase.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-144",
+  "chapter": 1,
+  "topic": "Phase and coherence",
+  "type": "single_best",
+  "text": "Which pair correctly describes what happens at resonance?",
+  "options": [
+   "Energy is emitted and the moments move out of phase",
+   "Energy is absorbed and the magnetic moments are brought into phase",
+   "B0 increases and nuclei become heavier",
+   "The nuclei become MR inactive and cool"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Resonance transfers energy to the nuclei, moving the net magnetization out of alignment with B0, and brings the moments into phase.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-145",
+  "chapter": 1,
+  "topic": "Units and field strength",
+  "type": "single_best",
+  "text": "The SI unit of magnetic flux density is the:",
+  "options": [
+   "Hertz",
+   "Joule",
+   "Volt",
+   "Tesla"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Magnetic field strength is expressed in tesla (T).",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-146",
+  "chapter": 1,
+  "topic": "Units and field strength",
+  "type": "calculation",
+  "text": "One tesla is equal to how many gauss?",
+  "options": [
+   "1,000",
+   "100",
+   "100,000",
+   "10,000"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "1 T = 10,000 G.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-147",
+  "chapter": 1,
+  "topic": "Units and field strength",
+  "type": "calculation",
+  "text": "A field of 0.5 T is equal to how many gauss?",
+  "options": [
+   "500",
+   "5,000",
+   "50,000",
+   "50"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "0.5 x 10,000 = 5,000 G.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-148",
+  "chapter": 1,
+  "topic": "Units and field strength",
+  "type": "calculation",
+  "text": "The Earth's magnetic field is about 0.5 gauss. Approximately how many times stronger is a 3 T field?",
+  "options": [
+   "30,000",
+   "60,000",
+   "600,000",
+   "6,000"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "3 T = 30,000 G, and 30,000 / 0.5 = 60,000.",
+  "difficulty": "Hard",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-149",
+  "chapter": 1,
+  "topic": "Units and field strength",
+  "type": "single_best",
+  "text": "Open scanners with permanent or resistive magnets commonly have a main field directed:",
+  "options": [
+   "Along the table",
+   "Vertically between the magnet poles",
+   "In a rotating direction",
+   "Along the patient's long axis"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Open systems have poles above and below the patient, so the field runs vertically between them.",
+  "difficulty": "Medium",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ },
+ {
+  "id": "ch1-150",
+  "chapter": 1,
+  "topic": "Units and field strength",
+  "type": "single_best",
+  "text": "The gyromagnetic ratio of hydrogen is expressed in which units?",
+  "options": [
+   "MHz/T",
+   "Milliseconds",
+   "T/MHz",
+   "Gauss"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "It gives the precessional frequency in MHz for each tesla of field, 42.58 MHz/T for hydrogen.",
+  "difficulty": "Easy",
+  "source_note": "Original study-bank question based on Chapter 1 MRI principles. Review before publishing.",
+  "status": "draft"
+ }
+]

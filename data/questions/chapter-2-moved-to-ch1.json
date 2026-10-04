@@ -1,0 +1,797 @@
+[
+ {
+  "id": "ch2-001",
+  "chapter": 1,
+  "topic": "Magnetic field strength",
+  "type": "single_best",
+  "text": "Which unit is used to express magnetic field strength in MRI?",
+  "options": [
+   "Tesla",
+   "Hertz",
+   "Ohm",
+   "Watt"
+  ],
+  "answer": "Tesla",
+  "explanation": "The strength of the main magnetic field in MRI is measured in Tesla (T)."
+ },
+ {
+  "id": "ch2-002",
+  "chapter": 1,
+  "topic": "Magnetic field strength",
+  "type": "single_best",
+  "text": "Which of the following represents a commonly used clinical MRI field strength?",
+  "options": [
+   "1.5 T",
+   "15 T",
+   "0.015 T",
+   "150 T"
+  ],
+  "answer": "1.5 T",
+  "explanation": "1.5 Tesla is one of the most commonly used clinical MRI field strengths."
+ },
+ {
+  "id": "ch2-003",
+  "chapter": 1,
+  "topic": "Magnetic field strength",
+  "type": "single_best",
+  "text": "Which commonly used clinical MRI field strength provides a stronger magnetic field than 1.5 T?",
+  "options": [
+   "0.5 T",
+   "1.0 T",
+   "3.0 T",
+   "0.1 T"
+  ],
+  "answer": "3.0 T",
+  "explanation": "A 3.0 T MRI system has twice the main magnetic field strength of a 1.5 T system."
+ },
+ {
+  "id": "ch2-004",
+  "chapter": 1,
+  "topic": "Main magnetic field",
+  "type": "single_best",
+  "text": "The main magnetic field of an MRI scanner is commonly represented by which symbol?",
+  "options": [
+   "B0",
+   "B1",
+   "G",
+   "RF"
+  ],
+  "answer": "B0",
+  "explanation": "B0 represents the static main magnetic field of the MRI scanner."
+ },
+ {
+  "id": "ch2-005",
+  "chapter": 1,
+  "topic": "RF magnetic field",
+  "type": "single_best",
+  "text": "Which symbol is commonly used to represent the RF magnetic field in MRI?",
+  "options": [
+   "B0",
+   "B1",
+   "G0",
+   "T1"
+  ],
+  "answer": "B1",
+  "explanation": "B1 represents the radiofrequency magnetic field used to excite the spins."
+ },
+ {
+  "id": "ch2-006",
+  "chapter": 1,
+  "topic": "Magnetic field direction",
+  "type": "single_best",
+  "text": "In a conventional MRI system, the B0 magnetic field is primarily oriented along which direction?",
+  "options": [
+   "Along the longitudinal axis of the scanner",
+   "Only vertically downward",
+   "Randomly in all directions",
+   "Only horizontally across the patient"
+  ],
+  "answer": "Along the longitudinal axis of the scanner",
+  "explanation": "The main B0 field is aligned along the longitudinal axis of the MRI scanner."
+ },
+ {
+  "id": "ch2-007",
+  "chapter": 1,
+  "topic": "Proton alignment",
+  "type": "single_best",
+  "text": "When a patient is placed in the main magnetic field, hydrogen nuclei tend to align with B0 in which way?",
+  "options": [
+   "Parallel or antiparallel",
+   "Only perpendicular",
+   "Only at 45 degrees",
+   "Without any preferred orientation"
+  ],
+  "answer": "Parallel or antiparallel",
+  "explanation": "Hydrogen nuclei can occupy parallel or antiparallel orientations relative to B0, with slightly more in the lower-energy parallel state."
+ },
+ {
+  "id": "ch2-008",
+  "chapter": 1,
+  "topic": "Energy states",
+  "type": "single_best",
+  "text": "Which orientation of a proton relative to B0 represents the lower-energy state?",
+  "options": [
+   "Parallel",
+   "Antiparallel",
+   "Perpendicular",
+   "Random"
+  ],
+  "answer": "Parallel",
+  "explanation": "The parallel orientation is the lower-energy state in the main magnetic field."
+ },
+ {
+  "id": "ch2-009",
+  "chapter": 1,
+  "topic": "Energy states",
+  "type": "single_best",
+  "text": "Which proton orientation relative to B0 represents the higher-energy state?",
+  "options": [
+   "Parallel",
+   "Antiparallel",
+   "Longitudinal",
+   "Transverse"
+  ],
+  "answer": "Antiparallel",
+  "explanation": "The antiparallel orientation has slightly higher energy than the parallel orientation."
+ },
+ {
+  "id": "ch2-010",
+  "chapter": 1,
+  "topic": "Net magnetization",
+  "type": "single_best",
+  "text": "Why does a net magnetization develop when hydrogen nuclei are placed in B0?",
+  "options": [
+   "There are slightly more nuclei in the lower-energy state",
+   "All nuclei become permanently magnetized",
+   "The nuclei stop moving",
+   "The RF pulse creates all longitudinal magnetization"
+  ],
+  "answer": "There are slightly more nuclei in the lower-energy state",
+  "explanation": "A small population excess exists in the lower-energy parallel state, producing net magnetization."
+ },
+ {
+  "id": "ch2-011",
+  "chapter": 1,
+  "topic": "Net magnetization",
+  "type": "single_best",
+  "text": "The net magnetization produced by the population difference is primarily oriented along which direction before RF excitation?",
+  "options": [
+   "Longitudinal",
+   "Transverse",
+   "Oblique",
+   "Random"
+  ],
+  "answer": "Longitudinal",
+  "explanation": "Before RF excitation, the net magnetization is aligned with the longitudinal B0 field."
+ },
+ {
+  "id": "ch2-012",
+  "chapter": 1,
+  "topic": "Longitudinal magnetization",
+  "type": "single_best",
+  "text": "Which axis is generally associated with longitudinal magnetization in MRI?",
+  "options": [
+   "Z-axis",
+   "X-axis",
+   "Y-axis",
+   "W-axis"
+  ],
+  "answer": "Z-axis",
+  "explanation": "The longitudinal direction is conventionally represented by the Z-axis, parallel to B0."
+ },
+ {
+  "id": "ch2-013",
+  "chapter": 1,
+  "topic": "Transverse magnetization",
+  "type": "single_best",
+  "text": "Which axis is generally associated with transverse magnetization?",
+  "options": [
+   "The XY plane",
+   "The Z-axis only",
+   "The W-axis",
+   "No defined plane"
+  ],
+  "answer": "The XY plane",
+  "explanation": "Transverse magnetization lies in the plane perpendicular to B0, conventionally the XY plane."
+ },
+ {
+  "id": "ch2-014",
+  "chapter": 1,
+  "topic": "RF excitation",
+  "type": "single_best",
+  "text": "What is the primary purpose of an RF pulse in MRI?",
+  "options": [
+   "To excite hydrogen nuclei",
+   "To increase the static field strength permanently",
+   "To eliminate the main magnetic field",
+   "To cool the magnet"
+  ],
+  "answer": "To excite hydrogen nuclei",
+  "explanation": "An RF pulse at the appropriate frequency transfers energy to the spins and changes their magnetization."
+ },
+ {
+  "id": "ch2-015",
+  "chapter": 1,
+  "topic": "RF frequency",
+  "type": "single_best",
+  "text": "For effective excitation, the RF pulse frequency must correspond closely to what frequency?",
+  "options": [
+   "Larmor frequency",
+   "Sampling frequency",
+   "Gradient frequency",
+   "Audio frequency"
+  ],
+  "answer": "Larmor frequency",
+  "explanation": "The RF pulse must be applied at or near the Larmor frequency of the nuclei being imaged."
+ },
+ {
+  "id": "ch2-016",
+  "chapter": 1,
+  "topic": "Flip angle",
+  "type": "single_best",
+  "text": "What does the term flip angle describe in MRI?",
+  "options": [
+   "The angle through which net magnetization is rotated by an RF pulse",
+   "The angle of the patient table",
+   "The angle of the gradient coil",
+   "The angle between two MRI scanners"
+  ],
+  "answer": "The angle through which net magnetization is rotated by an RF pulse",
+  "explanation": "Flip angle describes how far the net magnetization vector is tipped away from its original longitudinal direction."
+ },
+ {
+  "id": "ch2-017",
+  "chapter": 1,
+  "topic": "90-degree RF pulse",
+  "type": "single_best",
+  "text": "What happens during an ideal 90° RF pulse?",
+  "options": [
+   "Longitudinal magnetization is rotated into the transverse plane",
+   "All magnetization disappears",
+   "The B0 field becomes zero",
+   "The proton spins stop precessing"
+  ],
+  "answer": "Longitudinal magnetization is rotated into the transverse plane",
+  "explanation": "A 90° pulse tips the net magnetization from the longitudinal axis into the transverse plane."
+ },
+ {
+  "id": "ch2-018",
+  "chapter": 1,
+  "topic": "180-degree RF pulse",
+  "type": "single_best",
+  "text": "What is the effect of an ideal 180° RF pulse on longitudinal magnetization?",
+  "options": [
+   "It reverses the longitudinal magnetization",
+   "It eliminates all magnetization permanently",
+   "It creates a new B0 field",
+   "It has no effect"
+  ],
+  "answer": "It reverses the longitudinal magnetization",
+  "explanation": "A 180° pulse can invert the longitudinal magnetization, changing its direction from +Z to −Z."
+ },
+ {
+  "id": "ch2-019",
+  "chapter": 1,
+  "topic": "Transverse coherence",
+  "type": "single_best",
+  "text": "Why is transverse coherence important for MRI signal generation?",
+  "options": [
+   "Coherent transverse magnetization produces a measurable changing magnetic field",
+   "It permanently increases B0",
+   "It prevents all relaxation",
+   "It removes hydrogen from the body"
+  ],
+  "answer": "Coherent transverse magnetization produces a measurable changing magnetic field",
+  "explanation": "Coherent transverse magnetization precesses and induces a voltage in the receive coil, producing the MR signal."
+ },
+ {
+  "id": "ch2-020",
+  "chapter": 1,
+  "topic": "Free induction decay",
+  "type": "single_best",
+  "text": "What is the signal produced immediately after an excitation pulse and observed as it decays called?",
+  "options": [
+   "Free induction decay",
+   "Inversion recovery",
+   "Spin locking",
+   "Gradient echo"
+  ],
+  "answer": "Free induction decay",
+  "explanation": "The free induction decay (FID) is the rapidly decaying signal generated by transverse magnetization following excitation."
+ },
+ {
+  "id": "ch2-021",
+  "chapter": 1,
+  "topic": "Precession",
+  "type": "single_best",
+  "text": "What motion do hydrogen nuclei undergo when placed in the main magnetic field?",
+  "options": [
+   "Precession",
+   "Translation",
+   "Diffusion only",
+   "Vibration without rotation"
+  ],
+  "answer": "Precession",
+  "explanation": "Hydrogen nuclei precess around the direction of the main magnetic field."
+ },
+ {
+  "id": "ch2-022",
+  "chapter": 1,
+  "topic": "Precession",
+  "type": "single_best",
+  "text": "The precessional motion of a proton is often compared with the motion of which object?",
+  "options": [
+   "A spinning top",
+   "A stationary ball",
+   "A pendulum at rest",
+   "A straight ruler"
+  ],
+  "answer": "A spinning top",
+  "explanation": "The precession of nuclear spins is commonly compared with the wobbling motion of a spinning top."
+ },
+ {
+  "id": "ch2-023",
+  "chapter": 1,
+  "topic": "Larmor equation",
+  "type": "single_best",
+  "text": "Which equation describes the relationship between Larmor frequency and magnetic field strength?",
+  "options": [
+   "ω₀ = γB₀",
+   "ω₀ = B₀/γ",
+   "ω₀ = γ/B₀",
+   "ω₀ = B₀²γ"
+  ],
+  "answer": "ω₀ = γB₀",
+  "explanation": "The Larmor angular frequency is proportional to the gyromagnetic ratio and the main magnetic field strength."
+ },
+ {
+  "id": "ch2-024",
+  "chapter": 1,
+  "topic": "Gyromagnetic ratio",
+  "type": "single_best",
+  "text": "What does the gyromagnetic ratio describe?",
+  "options": [
+   "The relationship between a nucleus's magnetic properties and its angular momentum",
+   "The patient's body temperature",
+   "The strength of the gradient coil only",
+   "The amount of oxygen in blood"
+  ],
+  "answer": "The relationship between a nucleus's magnetic properties and its angular momentum",
+  "explanation": "The gyromagnetic ratio is a nuclear property that determines the relationship between magnetic moment and angular momentum."
+ },
+ {
+  "id": "ch2-025",
+  "chapter": 1,
+  "topic": "Larmor frequency",
+  "type": "single_best",
+  "text": "If the main magnetic field strength increases, what happens to the Larmor frequency?",
+  "options": [
+   "It increases",
+   "It decreases",
+   "It remains exactly zero",
+   "It becomes independent of the nucleus"
+  ],
+  "answer": "It increases",
+  "explanation": "Larmor frequency is directly proportional to the main magnetic field strength."
+ },
+ {
+  "id": "ch2-026",
+  "chapter": 1,
+  "topic": "Larmor frequency",
+  "type": "single_best",
+  "text": "For the same nucleus, how does the Larmor frequency at 3 T compare with that at 1.5 T?",
+  "options": [
+   "It is approximately twice as high",
+   "It is approximately half as high",
+   "It is unchanged",
+   "It is four times lower"
+  ],
+  "answer": "It is approximately twice as high",
+  "explanation": "Because Larmor frequency is directly proportional to B0, doubling the field from 1.5 T to 3 T doubles the frequency."
+ },
+ {
+  "id": "ch2-027",
+  "chapter": 1,
+  "topic": "Hydrogen nucleus",
+  "type": "single_best",
+  "text": "Why is hydrogen particularly important in clinical MRI?",
+  "options": [
+   "It is abundant in the human body and has a strong magnetic response",
+   "It is the heaviest element in the body",
+   "It does not interact with magnetic fields",
+   "It exists only in bones"
+  ],
+  "answer": "It is abundant in the human body and has a strong magnetic response",
+  "explanation": "Hydrogen is abundant because of water and fat and has a useful magnetic moment, making it the primary nucleus used in clinical MRI."
+ },
+ {
+  "id": "ch2-028",
+  "chapter": 1,
+  "topic": "Hydrogen proton",
+  "type": "single_best",
+  "text": "Which particle in the hydrogen nucleus gives it its nuclear spin?",
+  "options": [
+   "Proton",
+   "Electron",
+   "Photon",
+   "Neutron only"
+  ],
+  "answer": "Proton",
+  "explanation": "The common hydrogen nucleus consists of a single proton, which possesses intrinsic spin and magnetic properties."
+ },
+ {
+  "id": "ch2-029",
+  "chapter": 1,
+  "topic": "Magnetic moment",
+  "type": "single_best",
+  "text": "What property allows a hydrogen nucleus to behave like a tiny magnet?",
+  "options": [
+   "Its magnetic moment",
+   "Its electrical resistance",
+   "Its temperature",
+   "Its physical size alone"
+  ],
+  "answer": "Its magnetic moment",
+  "explanation": "The proton's intrinsic spin gives rise to a magnetic moment, allowing it to interact with magnetic fields."
+ },
+ {
+  "id": "ch2-030",
+  "chapter": 1,
+  "topic": "Spin",
+  "type": "single_best",
+  "text": "In MRI physics, the term spin refers primarily to what?",
+  "options": [
+   "An intrinsic quantum mechanical property of nuclei",
+   "The physical rotation of the patient",
+   "Rotation of the MRI table",
+   "Movement of the gradient coils"
+  ],
+  "answer": "An intrinsic quantum mechanical property of nuclei",
+  "explanation": "Nuclear spin is an intrinsic quantum mechanical property and should not be interpreted simply as a tiny classical object physically spinning."
+ },
+ {
+  "id": "ch2-031",
+  "chapter": 1,
+  "topic": "Spin angular momentum",
+  "type": "single_best",
+  "text": "What is associated with the spin of a proton?",
+  "options": [
+   "Angular momentum and magnetic moment",
+   "Only electrical resistance",
+   "Only thermal energy",
+   "Only gravitational force"
+  ],
+  "answer": "Angular momentum and magnetic moment",
+  "explanation": "Nuclear spin is associated with intrinsic angular momentum and a corresponding magnetic moment."
+ },
+ {
+  "id": "ch2-032",
+  "chapter": 1,
+  "topic": "Equilibrium state",
+  "type": "single_best",
+  "text": "What is the condition of the net magnetization before an RF pulse is applied?",
+  "options": [
+   "It is aligned primarily with B0",
+   "It is entirely in the transverse plane",
+   "It is absent",
+   "It is always perpendicular to B0"
+  ],
+  "answer": "It is aligned primarily with B0",
+  "explanation": "At equilibrium, the net magnetization is predominantly longitudinal and aligned with the main magnetic field."
+ },
+ {
+  "id": "ch2-033",
+  "chapter": 1,
+  "topic": "Thermal equilibrium",
+  "type": "single_best",
+  "text": "What is the term used for the condition in which the spin system has reached equilibrium within B0?",
+  "options": [
+   "Thermal equilibrium",
+   "Magnetic saturation",
+   "Signal nulling",
+   "Gradient equilibrium"
+  ],
+  "answer": "Thermal equilibrium",
+  "explanation": "At thermal equilibrium, the populations of the available energy states have reached their equilibrium distribution."
+ },
+ {
+  "id": "ch2-034",
+  "chapter": 1,
+  "topic": "Population difference",
+  "type": "single_best",
+  "text": "In a magnetic field, why are there slightly more protons in the lower-energy state?",
+  "options": [
+   "Thermal equilibrium favors the lower-energy state slightly",
+   "The higher-energy state does not exist",
+   "All protons are forced into the lower state",
+   "RF energy permanently traps them there"
+  ],
+  "answer": "Thermal equilibrium favors the lower-energy state slightly",
+  "explanation": "Thermal equilibrium produces a small population excess in the lower-energy state."
+ },
+ {
+  "id": "ch2-035",
+  "chapter": 1,
+  "topic": "Net magnetization",
+  "type": "single_best",
+  "text": "What primarily determines the magnitude of net longitudinal magnetization at equilibrium?",
+  "options": [
+   "The population difference between energy states",
+   "The patient's height only",
+   "The gradient direction only",
+   "The number of RF coils"
+  ],
+  "answer": "The population difference between energy states",
+  "explanation": "The small excess of spins in the lower-energy state produces the net longitudinal magnetization."
+ },
+ {
+  "id": "ch2-036",
+  "chapter": 1,
+  "topic": "RF resonance",
+  "type": "single_best",
+  "text": "What condition must be met for efficient RF excitation?",
+  "options": [
+   "The RF frequency must match the Larmor frequency",
+   "The RF frequency must be zero",
+   "The RF frequency must always be 1 Hz",
+   "The RF pulse must be unrelated to the nuclear frequency"
+  ],
+  "answer": "The RF frequency must match the Larmor frequency",
+  "explanation": "Resonance occurs when the applied RF frequency corresponds to the precessional frequency of the nuclei."
+ },
+ {
+  "id": "ch2-037",
+  "chapter": 1,
+  "topic": "Resonance",
+  "type": "single_best",
+  "text": "What is meant by resonance in MRI?",
+  "options": [
+   "Efficient transfer of RF energy to nuclei when the RF frequency matches their Larmor frequency",
+   "Complete removal of the magnetic field",
+   "A decrease in proton concentration",
+   "A mechanical vibration of the scanner table"
+  ],
+  "answer": "Efficient transfer of RF energy to nuclei when the RF frequency matches their Larmor frequency",
+  "explanation": "Resonance allows RF energy to be efficiently transferred to nuclei precessing at the corresponding frequency."
+ },
+ {
+  "id": "ch2-038",
+  "chapter": 1,
+  "topic": "RF pulse energy",
+  "type": "single_best",
+  "text": "During RF excitation, energy is transferred from the RF field to the:",
+  "options": [
+   "Nuclear spin system",
+   "Gradient amplifier only",
+   "Patient table",
+   "Cooling system"
+  ],
+  "answer": "Nuclear spin system",
+  "explanation": "The RF pulse transfers energy to the nuclear spin system and changes its magnetization."
+ },
+ {
+  "id": "ch2-039",
+  "chapter": 1,
+  "topic": "Flip angle",
+  "type": "single_best",
+  "text": "Which factor primarily determines the flip angle produced by an RF pulse?",
+  "options": [
+   "RF pulse amplitude and duration",
+   "Patient height alone",
+   "Room temperature alone",
+   "Gradient direction alone"
+  ],
+  "answer": "RF pulse amplitude and duration",
+  "explanation": "The flip angle depends on the strength and duration of the applied RF magnetic field, along with the gyromagnetic ratio."
+ },
+ {
+  "id": "ch2-040",
+  "chapter": 1,
+  "topic": "Flip angle",
+  "type": "single_best",
+  "text": "If the RF pulse amplitude is increased while other factors remain constant, what generally happens to the flip angle?",
+  "options": [
+   "It increases",
+   "It decreases to zero",
+   "It remains permanently unchanged",
+   "It becomes independent of RF power"
+  ],
+  "answer": "It increases",
+  "explanation": "Increasing RF field strength generally increases the flip angle when pulse duration and other factors remain constant."
+ },
+ {
+  "id": "ch2-041",
+  "chapter": 1,
+  "topic": "Transverse magnetization",
+  "type": "single_best",
+  "text": "What happens to transverse magnetization immediately after a 90° excitation pulse?",
+  "options": [
+   "It is maximized",
+   "It becomes zero",
+   "It is permanently destroyed",
+   "It changes into B0"
+  ],
+  "answer": "It is maximized",
+  "explanation": "An ideal 90° pulse tips the equilibrium magnetization into the transverse plane, producing maximum transverse magnetization."
+ },
+ {
+  "id": "ch2-042",
+  "chapter": 1,
+  "topic": "Longitudinal magnetization",
+  "type": "single_best",
+  "text": "Immediately after an ideal 90° RF pulse, what happens to the longitudinal magnetization?",
+  "options": [
+   "It becomes approximately zero",
+   "It doubles",
+   "It becomes four times larger",
+   "It remains completely unchanged"
+  ],
+  "answer": "It becomes approximately zero",
+  "explanation": "An ideal 90° pulse rotates the longitudinal magnetization into the transverse plane."
+ },
+ {
+  "id": "ch2-049",
+  "chapter": 1,
+  "topic": "MRI signal",
+  "type": "single_best",
+  "text": "What primarily induces the electrical signal detected by an MRI receiver coil?",
+  "options": [
+   "Changing transverse magnetization",
+   "Static B0 alone",
+   "The patient's body temperature",
+   "The scanner table movement"
+  ],
+  "answer": "Changing transverse magnetization",
+  "explanation": "Precessing transverse magnetization produces a changing magnetic field that induces voltage in the receiver coil."
+ },
+ {
+  "id": "ch2-050",
+  "chapter": 1,
+  "topic": "MRI signal",
+  "type": "single_best",
+  "text": "Why does the measurable MR signal decrease after excitation?",
+  "options": [
+   "Transverse coherence decreases and transverse magnetization decays",
+   "The patient leaves the scanner immediately",
+   "B0 automatically becomes zero",
+   "Hydrogen nuclei disappear"
+  ],
+  "answer": "Transverse coherence decreases and transverse magnetization decays",
+  "explanation": "Following excitation, transverse magnetization loses coherence through relaxation processes, causing the measurable MR signal to decay."
+ },
+ {
+  "id": "ch2-051",
+  "chapter": 1,
+  "topic": "Free induction decay",
+  "type": "single_best",
+  "text": "What causes the free induction decay signal to decrease rapidly after excitation?",
+  "options": [
+   "Loss of phase coherence among spins",
+   "Permanent loss of hydrogen nuclei",
+   "An increase in B0",
+   "Complete elimination of transverse magnetization by the RF coil"
+  ],
+  "answer": "Loss of phase coherence among spins",
+  "explanation": "The FID decreases as spins lose phase coherence and transverse magnetization decays."
+ },
+ {
+  "id": "ch2-055",
+  "chapter": 1,
+  "topic": "Spin coherence",
+  "type": "single_best",
+  "text": "Immediately after a properly applied 90° RF pulse, the transverse spins are:",
+  "options": [
+   "Relatively phase coherent",
+   "Completely randomly distributed",
+   "All stationary",
+   "Aligned only along the z-axis"
+  ],
+  "answer": "Relatively phase coherent",
+  "explanation": "The RF pulse establishes transverse phase coherence, allowing a strong measurable MR signal."
+ },
+ {
+  "id": "ch2-056",
+  "chapter": 1,
+  "topic": "Signal strength",
+  "type": "single_best",
+  "text": "Which factor directly contributes to the amount of transverse magnetization available to produce MR signal?",
+  "options": [
+   "Number of excited spins",
+   "Patient's shoe size",
+   "Room lighting",
+   "Scanner table height"
+  ],
+  "answer": "Number of excited spins",
+  "explanation": "A greater number of contributing spins generally produces greater net transverse magnetization and signal."
+ },
+ {
+  "id": "ch2-067",
+  "chapter": 1,
+  "topic": "Echo time",
+  "type": "single_best",
+  "text": "What does TE represent in MRI?",
+  "options": [
+   "Echo time",
+   "Excitation time",
+   "Energy transfer",
+   "Encoding time"
+  ],
+  "answer": "Echo time",
+  "explanation": "TE is the time from the center of the excitation pulse to the center of the resulting echo signal."
+ },
+ {
+  "id": "ch2-068",
+  "chapter": 1,
+  "topic": "Repetition time",
+  "type": "single_best",
+  "text": "What does TR represent in MRI?",
+  "options": [
+   "Repetition time",
+   "Relaxation temperature",
+   "Receiver time",
+   "Resonance transfer"
+  ],
+  "answer": "Repetition time",
+  "explanation": "TR is the time between successive excitation pulses applied to the same slice or volume."
+ },
+ {
+  "id": "ch2-095",
+  "chapter": 1,
+  "topic": "Signal generation",
+  "type": "single_best",
+  "text": "Which component of magnetization is primarily responsible for inducing the measurable MR signal?",
+  "options": [
+   "Transverse magnetization",
+   "Longitudinal magnetization only",
+   "Static B0 alone",
+   "Gradient field alone"
+  ],
+  "answer": "Transverse magnetization",
+  "explanation": "Precessing transverse magnetization generates the changing magnetic field detected by the receiver coil."
+ },
+ {
+  "id": "ch2-096",
+  "chapter": 1,
+  "topic": "Receiver coil",
+  "type": "single_best",
+  "text": "What is the primary function of an MRI receiver coil?",
+  "options": [
+   "Detect the MR signal",
+   "Create the main static magnetic field",
+   "Move the patient table",
+   "Generate X-rays"
+  ],
+  "answer": "Detect the MR signal",
+  "explanation": "Receiver coils detect the changing magnetic field generated by transverse magnetization and convert it into an electrical signal."
+ },
+ {
+  "id": "ch2-097",
+  "chapter": 1,
+  "topic": "Transmit coil",
+  "type": "single_best",
+  "text": "What is the primary role of an RF transmit coil?",
+  "options": [
+   "Generate the RF magnetic field used to excite the spins",
+   "Measure the patient's blood pressure",
+   "Produce the static B0 field in all scanners",
+   "Calculate the patient's weight"
+  ],
+  "answer": "Generate the RF magnetic field used to excite the spins",
+  "explanation": "The RF transmit system produces the B1 field required for nuclear excitation."
+ },
+ {
+  "id": "ch2-098",
+  "chapter": 1,
+  "topic": "B0 and B1 fields",
+  "type": "single_best",
+  "text": "Which statement correctly distinguishes B0 from B1?",
+  "options": [
+   "B0 is the main static field, while B1 is the RF excitation field",
+   "B0 is the receiver signal, while B1 is the patient table",
+   "B0 is always weaker than B1",
+   "B1 is the main static field and B0 is the gradient field"
+  ],
+  "answer": "B0 is the main static field, while B1 is the RF excitation field",
+  "explanation": "B0 is the strong static magnetic field, whereas B1 is the RF magnetic field used to manipulate the spins."
+ }
+]

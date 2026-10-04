@@ -1,0 +1,685 @@
+[
+ {
+  "id": "ch3-017",
+  "chapter": 3,
+  "topic": "Spin echo",
+  "type": "single_best",
+  "text": "What is the primary purpose of the 180-degree pulse in a conventional spin-echo sequence?",
+  "options": [
+   "Create the main magnetic field",
+   "Refocus transverse phase dispersion caused by static field inhomogeneity",
+   "Select the patient",
+   "Increase slice thickness"
+  ],
+  "answer": "Refocus transverse phase dispersion caused by static field inhomogeneity",
+  "explanation": "The 180-degree pulse reverses phase dispersion from static field differences and produces a spin echo."
+ },
+ {
+  "id": "ch3-018",
+  "chapter": 3,
+  "topic": "Spin echo",
+  "type": "single_best",
+  "text": "In a conventional spin-echo sequence, the echo occurs approximately how long after the 90-degree excitation pulse?",
+  "options": [
+   "TE/2",
+   "TE",
+   "2TE",
+   "TR"
+  ],
+  "answer": "TE",
+  "explanation": "TE is measured from the center of the excitation pulse to the center of the spin echo."
+ },
+ {
+  "id": "ch3-019",
+  "chapter": 3,
+  "topic": "Spin echo",
+  "type": "single_best",
+  "text": "In a spin-echo sequence, the 180-degree refocusing pulse is typically applied:",
+  "options": [
+   "At TE",
+   "At approximately TE/2",
+   "At TR",
+   "Immediately after readout"
+  ],
+  "answer": "At approximately TE/2",
+  "explanation": "The 180-degree pulse is applied halfway between the excitation pulse and the echo."
+ },
+ {
+  "id": "ch3-031",
+  "chapter": 3,
+  "topic": "Inversion recovery",
+  "type": "single_best",
+  "text": "What type of RF pulse initiates an inversion-recovery sequence?",
+  "options": [
+   "180-degree pulse",
+   "45-degree pulse",
+   "10-degree pulse",
+   "360-degree pulse"
+  ],
+  "answer": "180-degree pulse",
+  "explanation": "Inversion recovery begins by inverting longitudinal magnetization with a 180-degree RF pulse."
+ },
+ {
+  "id": "ch3-032",
+  "chapter": 3,
+  "topic": "Inversion time",
+  "type": "single_best",
+  "text": "What does inversion time (TI) represent?",
+  "options": [
+   "Time between inversion and excitation pulses",
+   "Time between two gradient echoes",
+   "Total scan time",
+   "Time between two patients"
+  ],
+  "answer": "Time between inversion and excitation pulses",
+  "explanation": "TI is the interval between the initial inversion pulse and the subsequent excitation pulse."
+ },
+ {
+  "id": "ch3-033",
+  "chapter": 3,
+  "topic": "Null point",
+  "type": "single_best",
+  "text": "In inversion recovery imaging, what happens when the excitation pulse is applied at the null point of a tissue?",
+  "options": [
+   "That tissue produces maximum signal",
+   "That tissue produces minimal or no signal",
+   "That tissue becomes brighter than fat",
+   "The tissue becomes physically displaced"
+  ],
+  "answer": "That tissue produces minimal or no signal",
+  "explanation": "If excitation occurs when a tissue's longitudinal magnetization crosses zero, little or no transverse magnetization is produced."
+ },
+ {
+  "id": "ch3-034",
+  "chapter": 3,
+  "topic": "STIR",
+  "type": "single_best",
+  "text": "What tissue is specifically suppressed by a STIR sequence?",
+  "options": [
+   "Fat",
+   "CSF",
+   "Cortical bone",
+   "Air"
+  ],
+  "answer": "Fat",
+  "explanation": "STIR uses an inversion time selected to null the signal from fat."
+ },
+ {
+  "id": "ch3-035",
+  "chapter": 3,
+  "topic": "STIR",
+  "type": "single_best",
+  "text": "Why is STIR generally avoided for post-gadolinium T1-weighted imaging?",
+  "options": [
+   "It cannot acquire images",
+   "It may suppress tissues whose T1 has been shortened by contrast",
+   "It always produces geometric distortion",
+   "It eliminates all T2 contrast"
+  ],
+  "answer": "It may suppress tissues whose T1 has been shortened by contrast",
+  "explanation": "STIR suppresses based on T1 behavior rather than specifically identifying fat, so gadolinium-enhanced tissues can also be affected."
+ },
+ {
+  "id": "ch3-036",
+  "chapter": 3,
+  "topic": "FLAIR",
+  "type": "single_best",
+  "text": "What is the primary purpose of FLAIR imaging?",
+  "options": [
+   "Suppress CSF signal",
+   "Suppress fat signal",
+   "Suppress bone signal",
+   "Suppress all fluid and fat"
+  ],
+  "answer": "Suppress CSF signal",
+  "explanation": "FLAIR uses a long inversion time to null the signal from CSF while preserving T2-based lesion contrast."
+ },
+ {
+  "id": "ch3-037",
+  "chapter": 3,
+  "topic": "FLAIR",
+  "type": "single_best",
+  "text": "Why is FLAIR useful for detecting many brain lesions near the ventricles?",
+  "options": [
+   "It increases CSF signal",
+   "It suppresses bright CSF, improving lesion conspicuity",
+   "It removes all brain tissue",
+   "It eliminates T2 weighting"
+  ],
+  "answer": "It suppresses bright CSF, improving lesion conspicuity",
+  "explanation": "Suppressing CSF reduces background brightness and can make periventricular and cortical lesions more conspicuous."
+ },
+ {
+  "id": "ch3-038",
+  "chapter": 3,
+  "topic": "Inversion recovery",
+  "type": "single_best",
+  "text": "Which parameter controls which tissue is nulled in an inversion-recovery sequence?",
+  "options": [
+   "TE",
+   "TR",
+   "TI",
+   "FOV"
+  ],
+  "answer": "TI",
+  "explanation": "The inversion time is selected according to the T1 recovery behavior of the tissue to be suppressed."
+ },
+ {
+  "id": "ch3-062",
+  "chapter": 3,
+  "topic": "Spin echo",
+  "type": "single_best",
+  "text": "What is the main advantage of a spin-echo sequence over a gradient-echo sequence regarding static field inhomogeneity?",
+  "options": [
+   "Spin echo can refocus much of the dephasing caused by static field variations",
+   "Spin echo eliminates all motion",
+   "Spin echo requires no gradients",
+   "Spin echo has no RF pulses"
+  ],
+  "answer": "Spin echo can refocus much of the dephasing caused by static field variations",
+  "explanation": "The 180-degree refocusing pulse reverses phase dispersion caused by static field inhomogeneities."
+ },
+ {
+  "id": "ch3-063",
+  "chapter": 3,
+  "topic": "Spin echo",
+  "type": "single_best",
+  "text": "What happens to spins that are ahead in phase after a 180-degree refocusing pulse?",
+  "options": [
+   "They remain ahead permanently",
+   "Their relative phase relationship is reversed so they can rephase",
+   "They stop precessing",
+   "They lose all longitudinal magnetization"
+  ],
+  "answer": "Their relative phase relationship is reversed so they can rephase",
+  "explanation": "The 180-degree pulse reverses the spatial phase relationship, allowing faster spins to fall behind and slower spins to catch up."
+ },
+ {
+  "id": "ch3-064",
+  "chapter": 3,
+  "topic": "Spin echo",
+  "type": "single_best",
+  "text": "The signal amplitude of a conventional spin echo is strongly influenced by:",
+  "options": [
+   "T2 relaxation",
+   "Patient height",
+   "Room temperature only",
+   "Gradient coil diameter only"
+  ],
+  "answer": "T2 relaxation",
+  "explanation": "Spin-echo signal depends on the amount of transverse magnetization remaining at the selected TE."
+ },
+ {
+  "id": "ch3-065",
+  "chapter": 3,
+  "topic": "Spin echo",
+  "type": "single_best",
+  "text": "A long TE in a spin-echo sequence allows:",
+  "options": [
+   "Less T2 decay before signal acquisition",
+   "More T2 decay before signal acquisition",
+   "No transverse relaxation",
+   "Complete T1 recovery"
+  ],
+  "answer": "More T2 decay before signal acquisition",
+  "explanation": "A longer TE provides more time for transverse magnetization to decay, increasing T2 weighting."
+ },
+ {
+  "id": "ch3-066",
+  "chapter": 3,
+  "topic": "Spin echo",
+  "type": "single_best",
+  "text": "A short TE is useful when the goal is to:",
+  "options": [
+   "Minimize T2 effects",
+   "Maximize T2 weighting",
+   "Suppress all fat",
+   "Null CSF"
+  ],
+  "answer": "Minimize T2 effects",
+  "explanation": "Short TE reduces the amount of transverse relaxation that occurs before signal acquisition."
+ },
+ {
+  "id": "ch3-091",
+  "chapter": 3,
+  "topic": "Inversion recovery",
+  "type": "single_best",
+  "text": "After a 180-degree inversion pulse, the longitudinal magnetization initially points:",
+  "options": [
+   "Along the positive longitudinal axis",
+   "Along the negative longitudinal axis",
+   "Only in the transverse plane",
+   "In a random direction"
+  ],
+  "answer": "Along the negative longitudinal axis",
+  "explanation": "The inversion pulse reverses the direction of longitudinal magnetization."
+ },
+ {
+  "id": "ch3-092",
+  "chapter": 3,
+  "topic": "Inversion recovery",
+  "type": "single_best",
+  "text": "During inversion recovery, longitudinal magnetization first:",
+  "options": [
+   "Recovers from a negative value toward zero",
+   "Immediately reaches maximum",
+   "Remains constant",
+   "Becomes transverse without RF excitation"
+  ],
+  "answer": "Recovers from a negative value toward zero",
+  "explanation": "After inversion, longitudinal magnetization recovers toward equilibrium, crossing zero before becoming positive."
+ },
+ {
+  "id": "ch3-093",
+  "chapter": 3,
+  "topic": "Null point",
+  "type": "single_best",
+  "text": "At the null point of a tissue during inversion recovery, its longitudinal magnetization is:",
+  "options": [
+   "Maximum positive",
+   "Approximately zero",
+   "Maximum negative",
+   "Twice equilibrium"
+  ],
+  "answer": "Approximately zero",
+  "explanation": "The null point occurs when the recovering longitudinal magnetization crosses zero."
+ },
+ {
+  "id": "ch3-094",
+  "chapter": 3,
+  "topic": "STIR",
+  "type": "single_best",
+  "text": "STIR is particularly useful for detecting pathology involving:",
+  "options": [
+   "Bone marrow and soft tissues",
+   "Air-filled sinuses only",
+   "Cortical bone only",
+   "RF coils"
+  ],
+  "answer": "Bone marrow and soft tissues",
+  "explanation": "Fat suppression in STIR makes edema and other fluid-rich abnormalities in marrow and soft tissues more conspicuous."
+ },
+ {
+  "id": "ch3-095",
+  "chapter": 3,
+  "topic": "STIR",
+  "type": "single_best",
+  "text": "The abbreviation STIR stands for:",
+  "options": [
+   "Short Tau Inversion Recovery",
+   "Spin Transfer Imaging Response",
+   "Short Time Intensity Recovery",
+   "Selective Tissue Inversion Resonance"
+  ],
+  "answer": "Short Tau Inversion Recovery",
+  "explanation": "STIR means Short Tau Inversion Recovery and uses a short inversion time to suppress fat."
+ },
+ {
+  "id": "ch3-096",
+  "chapter": 3,
+  "topic": "FLAIR",
+  "type": "single_best",
+  "text": "The abbreviation FLAIR stands for:",
+  "options": [
+   "Fluid Attenuated Inversion Recovery",
+   "Fast Longitudinal Acquisition Inversion Response",
+   "Fluid Level Acquisition Inversion Resonance",
+   "Fast Linear Attenuation Imaging Recovery"
+  ],
+  "answer": "Fluid Attenuated Inversion Recovery",
+  "explanation": "FLAIR is an inversion-recovery sequence designed to suppress fluid, particularly CSF."
+ },
+ {
+  "id": "ch3-097",
+  "chapter": 3,
+  "topic": "FLAIR",
+  "type": "single_best",
+  "text": "Compared with STIR, FLAIR uses an inversion time selected primarily to suppress:",
+  "options": [
+   "CSF",
+   "Fat",
+   "Bone",
+   "Air"
+  ],
+  "answer": "CSF",
+  "explanation": "FLAIR uses a long TI appropriate for nulling the signal from CSF."
+ },
+ {
+  "id": "ch3-098",
+  "chapter": 3,
+  "topic": "FLAIR",
+  "type": "single_best",
+  "text": "A typical FLAIR image is primarily:",
+  "options": [
+   "T2-weighted with CSF suppression",
+   "T1-weighted with fat suppression",
+   "Proton-density weighted with bone suppression",
+   "Diffusion-weighted with CSF enhancement"
+  ],
+  "answer": "T2-weighted with CSF suppression",
+  "explanation": "FLAIR preserves T2-based lesion contrast while suppressing the normally bright CSF signal."
+ },
+ {
+  "id": "ch3-099",
+  "chapter": 3,
+  "topic": "Fluid suppression",
+  "type": "single_best",
+  "text": "Which sequence is generally preferred when the goal is to suppress CSF while retaining T2 lesion contrast?",
+  "options": [
+   "FLAIR",
+   "STIR",
+   "T1 spin echo",
+   "Gradient echo only"
+  ],
+  "answer": "FLAIR",
+  "explanation": "FLAIR is specifically designed to suppress CSF while maintaining useful T2-weighted contrast."
+ },
+ {
+  "id": "ch3-114",
+  "chapter": 3,
+  "topic": "FLAIR",
+  "type": "single_best",
+  "text": "Which sequence changes the usual bright appearance of CSF on T2-weighted imaging by suppressing it?",
+  "options": [
+   "FLAIR",
+   "T1 spin echo",
+   "Gradient echo only",
+   "Proton-density imaging"
+  ],
+  "answer": "FLAIR",
+  "explanation": "FLAIR is a T2-based inversion-recovery sequence designed to null CSF signal."
+ },
+ {
+  "id": "ch3-115",
+  "chapter": 3,
+  "topic": "STIR",
+  "type": "single_best",
+  "text": "Which sequence suppresses fat using an inversion-recovery technique?",
+  "options": [
+   "STIR",
+   "FLAIR",
+   "T2 spin echo",
+   "TOF angiography"
+  ],
+  "answer": "STIR",
+  "explanation": "STIR selects a short inversion time that corresponds to the null point of fat."
+ },
+ {
+  "id": "ch3-116",
+  "chapter": 3,
+  "topic": "Inversion recovery",
+  "type": "single_best",
+  "text": "The tissue-suppression capability of inversion recovery primarily depends on selecting an appropriate:",
+  "options": [
+   "TI",
+   "FOV",
+   "Matrix",
+   "Bandwidth"
+  ],
+  "answer": "TI",
+  "explanation": "The inversion time determines when the tissue's longitudinal magnetization crosses zero."
+ },
+ {
+  "id": "ch3-117",
+  "chapter": 3,
+  "topic": "Inversion recovery",
+  "type": "single_best",
+  "text": "If TI is incorrectly selected for fat suppression, what is most likely to happen?",
+  "options": [
+   "Fat may not be completely nulled",
+   "The main magnetic field disappears",
+   "The patient is automatically removed from the scanner",
+   "All tissues become equally bright"
+  ],
+  "answer": "Fat may not be completely nulled",
+  "explanation": "Effective suppression requires TI to correspond closely to the null point of fat."
+ },
+ {
+  "id": "ch3-118",
+  "chapter": 3,
+  "topic": "FLAIR",
+  "type": "single_best",
+  "text": "If the TI in a FLAIR sequence is substantially incorrect, what is the likely consequence?",
+  "options": [
+   "Incomplete CSF suppression",
+   "Complete elimination of all brain signal",
+   "Automatic increase in spatial resolution",
+   "Elimination of T2 contrast"
+  ],
+  "answer": "Incomplete CSF suppression",
+  "explanation": "FLAIR depends on an appropriate long TI to null the longitudinal magnetization of CSF."
+ },
+ {
+  "id": "ch3-130",
+  "chapter": 3,
+  "topic": "Spin echo",
+  "type": "single_best",
+  "text": "What type of echo is produced using a 90-degree pulse followed by a 180-degree refocusing pulse?",
+  "options": [
+   "Spin echo",
+   "Gradient echo",
+   "Free induction decay",
+   "Inversion echo"
+  ],
+  "answer": "Spin echo",
+  "explanation": "A conventional spin-echo sequence uses a 90-degree excitation pulse and a 180-degree refocusing pulse."
+ },
+ {
+  "id": "ch3-135",
+  "chapter": 3,
+  "topic": "Spin echo refocusing",
+  "type": "single_best",
+  "text": "The 180-degree pulse in a spin-echo sequence corrects for which type of dephasing most effectively?",
+  "options": [
+   "Static field inhomogeneity",
+   "All molecular motion",
+   "All diffusion effects",
+   "All T1 relaxation"
+  ],
+  "answer": "Static field inhomogeneity",
+  "explanation": "The refocusing pulse reverses phase dispersion caused by relatively static magnetic field variations."
+ },
+ {
+  "id": "ch3-136",
+  "chapter": 3,
+  "topic": "Spin echo limitations",
+  "type": "single_best",
+  "text": "Which process is not completely refocused by a conventional 180-degree pulse?",
+  "options": [
+   "True T2 decay",
+   "Static field inhomogeneity",
+   "Reversible phase dispersion",
+   "Some reversible dephasing"
+  ],
+  "answer": "True T2 decay",
+  "explanation": "The 180-degree pulse refocuses reversible dephasing but cannot restore signal lost through true T2 relaxation."
+ },
+ {
+  "id": "ch3-156",
+  "chapter": 3,
+  "topic": "Inversion recovery",
+  "type": "single_best",
+  "text": "During inversion recovery, when does longitudinal magnetization produce no net longitudinal component?",
+  "options": [
+   "At the null point",
+   "At maximum recovery",
+   "At equilibrium only",
+   "At the end of TR only"
+  ],
+  "answer": "At the null point",
+  "explanation": "The null point occurs when recovering longitudinal magnetization crosses zero."
+ },
+ {
+  "id": "ch3-157",
+  "chapter": 3,
+  "topic": "Inversion recovery",
+  "type": "single_best",
+  "text": "Why does a tissue produce little signal when excited at its inversion-recovery null point?",
+  "options": [
+   "Its longitudinal magnetization is approximately zero",
+   "Its proton density becomes zero",
+   "Its T2 becomes infinite",
+   "The RF coil stops functioning"
+  ],
+  "answer": "Its longitudinal magnetization is approximately zero",
+  "explanation": "With little or no longitudinal magnetization available for excitation, minimal transverse magnetization and signal are produced."
+ },
+ {
+  "id": "ch3-158",
+  "chapter": 3,
+  "topic": "STIR",
+  "type": "single_best",
+  "text": "The main image-contrast advantage of STIR is:",
+  "options": [
+   "Fat suppression",
+   "CSF enhancement",
+   "Bone suppression",
+   "Air suppression"
+  ],
+  "answer": "Fat suppression",
+  "explanation": "STIR suppresses fat signal and makes fluid-rich abnormalities more conspicuous."
+ },
+ {
+  "id": "ch3-159",
+  "chapter": 3,
+  "topic": "FLAIR",
+  "type": "single_best",
+  "text": "The main image-contrast advantage of FLAIR is:",
+  "options": [
+   "CSF suppression",
+   "Fat enhancement",
+   "Bone enhancement",
+   "Air suppression"
+  ],
+  "answer": "CSF suppression",
+  "explanation": "FLAIR suppresses CSF while preserving T2-weighted contrast."
+ },
+ {
+  "id": "ch3-162",
+  "chapter": 3,
+  "topic": "FLAIR",
+  "type": "single_best",
+  "text": "Why can FLAIR improve visualization of lesions adjacent to CSF?",
+  "options": [
+   "It suppresses the normally bright CSF background",
+   "It makes CSF brighter",
+   "It eliminates all T2 contrast",
+   "It suppresses all brain tissue"
+  ],
+  "answer": "It suppresses the normally bright CSF background",
+  "explanation": "Suppressing CSF reduces background signal and improves contrast between CSF and nearby pathology."
+ },
+ {
+  "id": "ch3-163",
+  "chapter": 3,
+  "topic": "STIR",
+  "type": "single_best",
+  "text": "Why can STIR be useful for detecting bone marrow edema?",
+  "options": [
+   "It suppresses fat and highlights increased water signal",
+   "It suppresses water and highlights fat",
+   "It eliminates all marrow signal",
+   "It increases cortical bone signal"
+  ],
+  "answer": "It suppresses fat and highlights increased water signal",
+  "explanation": "Suppressing normally bright marrow fat makes water-rich edema appear more conspicuous."
+ },
+ {
+  "id": "ch3-168",
+  "chapter": 3,
+  "topic": "FLAIR anatomy",
+  "type": "single_best",
+  "text": "On FLAIR imaging, normal ventricular CSF should generally appear:",
+  "options": [
+   "Dark",
+   "Bright",
+   "The same as fat",
+   "Brighter than all lesions"
+  ],
+  "answer": "Dark",
+  "explanation": "FLAIR is specifically designed to suppress the signal from CSF."
+ },
+ {
+  "id": "ch3-169",
+  "chapter": 3,
+  "topic": "STIR anatomy",
+  "type": "single_best",
+  "text": "On a properly performed STIR image, normal subcutaneous fat should generally appear:",
+  "options": [
+   "Dark",
+   "Bright",
+   "Identical to fluid",
+   "Brighter than bone"
+  ],
+  "answer": "Dark",
+  "explanation": "STIR nulls the signal from fat, causing it to appear dark."
+ },
+ {
+  "id": "ch3-184",
+  "chapter": 3,
+  "topic": "Spin echo",
+  "type": "single_best",
+  "text": "Why does a spin echo generally recover signal lost from static field inhomogeneity?",
+  "options": [
+   "The 180-degree pulse reverses phase dispersion",
+   "The 90-degree pulse increases proton density",
+   "TR eliminates all T2 decay",
+   "TE increases longitudinal magnetization"
+  ],
+  "answer": "The 180-degree pulse reverses phase dispersion",
+  "explanation": "The refocusing pulse reverses the relative phase positions of spins, allowing them to rephase."
+ },
+ {
+  "id": "ch3-191",
+  "chapter": 3,
+  "topic": "Inversion recovery",
+  "type": "single_best",
+  "text": "Which sequence parameter is unique to inversion-recovery preparation?",
+  "options": [
+   "TI",
+   "FOV",
+   "Bandwidth",
+   "Pixel size"
+  ],
+  "answer": "TI",
+  "explanation": "TI defines the interval between the inversion pulse and the excitation pulse."
+ },
+ {
+  "id": "ch3-201",
+  "chapter": 3,
+  "topic": "Spin-echo basics",
+  "type": "single_best",
+  "text": "What pulse follows the 90 degree excitation in a spin-echo sequence?",
+  "options": [
+   "Another 90 degree pulse",
+   "A 180 degree rephasing pulse",
+   "A spoiler gradient only",
+   "A 30 degree pulse"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "The 180 degree pulse reverses dephasing from static field inhomogeneities, forming the echo at TE.",
+  "difficulty": "Medium",
+  "source_note": "Sample general MRI knowledge question. Review before publishing.",
+  "status": "published"
+ },
+ {
+  "id": "ch3-202",
+  "chapter": 3,
+  "topic": "Artifacts",
+  "type": "true_false",
+  "text": "Spin-echo sequences are less sensitive to magnetic susceptibility effects than gradient-echo sequences.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "The 180 degree pulse rephases dephasing from static inhomogeneities, which gradient reversal cannot.",
+  "difficulty": "Medium",
+  "source_note": "Sample general MRI knowledge question. Review before publishing.",
+  "status": "published"
+ }
+]

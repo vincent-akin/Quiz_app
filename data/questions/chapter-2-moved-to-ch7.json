@@ -1,0 +1,317 @@
+[
+ {
+  "id": "ch2-057",
+  "chapter": 7,
+  "topic": "Signal-to-noise ratio",
+  "type": "single_best",
+  "text": "What does SNR stand for in MRI?",
+  "options": [
+   "Signal-to-noise ratio",
+   "Spin-nuclear resonance",
+   "Scanner noise response",
+   "Signal normalization rate"
+  ],
+  "answer": "Signal-to-noise ratio",
+  "explanation": "SNR describes the strength of the useful MRI signal relative to background noise."
+ },
+ {
+  "id": "ch2-058",
+  "chapter": 7,
+  "topic": "Signal-to-noise ratio",
+  "type": "single_best",
+  "text": "An increase in SNR generally results in:",
+  "options": [
+   "Improved ability to distinguish signal from noise",
+   "More background noise relative to signal",
+   "Complete loss of image contrast",
+   "Elimination of spatial resolution"
+  ],
+  "answer": "Improved ability to distinguish signal from noise",
+  "explanation": "Higher SNR makes the measured signal more distinguishable from random noise."
+ },
+ {
+  "id": "ch2-059",
+  "chapter": 7,
+  "topic": "Magnetic field strength",
+  "type": "single_best",
+  "text": "Increasing the main magnetic field strength generally tends to increase which of the following?",
+  "options": [
+   "Signal-to-noise ratio",
+   "Patient height",
+   "Gradient coil diameter only",
+   "Room temperature"
+  ],
+  "answer": "Signal-to-noise ratio",
+  "explanation": "Higher field strengths generally provide increased signal and can improve SNR, although other factors also influence image quality."
+ },
+ {
+  "id": "ch2-060",
+  "chapter": 7,
+  "topic": "Magnetic field strength",
+  "type": "single_best",
+  "text": "Which is a potential advantage of moving from a 1.5 T scanner to a 3 T scanner?",
+  "options": [
+   "Higher intrinsic signal",
+   "Zero susceptibility effects",
+   "No RF energy deposition",
+   "Elimination of all artifacts"
+  ],
+  "answer": "Higher intrinsic signal",
+  "explanation": "Higher field strength generally provides increased signal, which can be used to improve SNR or spatial resolution."
+ },
+ {
+  "id": "ch2-061",
+  "chapter": 7,
+  "topic": "Magnetic field strength",
+  "type": "single_best",
+  "text": "Which is a potential disadvantage associated with higher MRI field strength?",
+  "options": [
+   "Greater susceptibility effects",
+   "Complete loss of signal",
+   "No magnetic interaction",
+   "Lower Larmor frequency"
+  ],
+  "answer": "Greater susceptibility effects",
+  "explanation": "Higher field strengths can increase susceptibility-related artifacts and other technical challenges."
+ },
+ {
+  "id": "ch2-121",
+  "chapter": 7,
+  "topic": "Image resolution",
+  "type": "single_best",
+  "text": "Which type of spatial frequency corresponds to sharp edges and fine structures?",
+  "options": [
+   "High spatial frequency",
+   "Low spatial frequency",
+   "Zero frequency",
+   "Thermal frequency"
+  ],
+  "answer": "High spatial frequency",
+  "explanation": "High spatial frequencies represent rapid changes in signal intensity, such as edges and fine anatomical structures."
+ },
+ {
+  "id": "ch2-122",
+  "chapter": 7,
+  "topic": "Matrix",
+  "type": "single_best",
+  "text": "What does the imaging matrix represent?",
+  "options": [
+   "The number of pixels or voxels arranged along the image dimensions",
+   "The strength of B0",
+   "The patient's body temperature",
+   "The RF frequency"
+  ],
+  "answer": "The number of pixels or voxels arranged along the image dimensions",
+  "explanation": "The matrix defines the number of sampling elements used to form the reconstructed image."
+ },
+ {
+  "id": "ch2-123",
+  "chapter": 7,
+  "topic": "Pixel size",
+  "type": "single_best",
+  "text": "For a fixed field of view, what generally happens to pixel size when the matrix size is increased?",
+  "options": [
+   "Pixel size decreases",
+   "Pixel size increases",
+   "Pixel size becomes infinite",
+   "Pixel size becomes independent of FOV"
+  ],
+  "answer": "Pixel size decreases",
+  "explanation": "Pixel dimensions are determined by field of view divided by the corresponding matrix dimension."
+ },
+ {
+  "id": "ch2-124",
+  "chapter": 7,
+  "topic": "Spatial resolution",
+  "type": "single_best",
+  "text": "Which change generally improves in-plane spatial resolution?",
+  "options": [
+   "Using a smaller pixel size",
+   "Using a larger pixel size",
+   "Reducing matrix size while keeping FOV fixed",
+   "Increasing slice thickness"
+  ],
+  "answer": "Using a smaller pixel size",
+  "explanation": "Smaller pixels allow smaller anatomical structures to be represented separately, improving in-plane spatial resolution."
+ },
+ {
+  "id": "ch2-125",
+  "chapter": 7,
+  "topic": "Field of view",
+  "type": "single_best",
+  "text": "What does field of view (FOV) describe?",
+  "options": [
+   "The physical extent of anatomy represented in the image",
+   "The strength of the RF pulse",
+   "The patient's total body mass",
+   "The duration of T1 recovery"
+  ],
+  "answer": "The physical extent of anatomy represented in the image",
+  "explanation": "FOV defines the dimensions of the anatomical region represented by the image."
+ },
+ {
+  "id": "ch2-126",
+  "chapter": 7,
+  "topic": "Field of view",
+  "type": "single_best",
+  "text": "For a fixed matrix, what generally happens to pixel size when FOV is increased?",
+  "options": [
+   "Pixel size increases",
+   "Pixel size decreases",
+   "Pixel size becomes zero",
+   "Pixel size is unaffected"
+  ],
+  "answer": "Pixel size increases",
+  "explanation": "With a fixed matrix, increasing FOV distributes the same number of pixels over a larger area."
+ },
+ {
+  "id": "ch2-127",
+  "chapter": 7,
+  "topic": "Voxel",
+  "type": "single_best",
+  "text": "What is a voxel?",
+  "options": [
+   "A three-dimensional volume element",
+   "A two-dimensional RF pulse",
+   "A type of gradient coil",
+   "A magnetic field unit"
+  ],
+  "answer": "A three-dimensional volume element",
+  "explanation": "A voxel is the three-dimensional counterpart of a pixel and represents a volume of tissue."
+ },
+ {
+  "id": "ch2-128",
+  "chapter": 7,
+  "topic": "Voxel size",
+  "type": "single_best",
+  "text": "Which factor directly contributes to voxel volume?",
+  "options": [
+   "Pixel dimensions and slice thickness",
+   "TR only",
+   "TE only",
+   "Larmor frequency only"
+  ],
+  "answer": "Pixel dimensions and slice thickness",
+  "explanation": "Voxel volume is the product of the in-plane pixel dimensions and the slice or partition thickness."
+ },
+ {
+  "id": "ch2-129",
+  "chapter": 7,
+  "topic": "Partial volume",
+  "type": "single_best",
+  "text": "What is the partial volume effect?",
+  "options": [
+   "Different tissues within one voxel contribute to a combined signal",
+   "A complete loss of all signal from a voxel",
+   "An increase in B0 caused by a voxel",
+   "The elimination of image noise"
+  ],
+  "answer": "Different tissues within one voxel contribute to a combined signal",
+  "explanation": "When multiple tissue types occupy the same voxel, their signals are averaged or combined, potentially reducing the visibility of small structures."
+ },
+ {
+  "id": "ch2-130",
+  "chapter": 7,
+  "topic": "Partial volume",
+  "type": "single_best",
+  "text": "Which change can reduce partial volume effects?",
+  "options": [
+   "Using thinner slices",
+   "Using thicker slices",
+   "Increasing voxel volume",
+   "Reducing spatial resolution"
+  ],
+  "answer": "Using thinner slices",
+  "explanation": "Thinner slices reduce voxel volume and decrease the likelihood that multiple tissue types occupy the same voxel."
+ },
+ {
+  "id": "ch2-131",
+  "chapter": 7,
+  "topic": "Signal averaging",
+  "type": "single_best",
+  "text": "What does NEX or NSA refer to in MRI?",
+  "options": [
+   "Number of excitations or signal averages",
+   "Nuclear energy exchange",
+   "Noise elimination index",
+   "Number of echo gradients"
+  ],
+  "answer": "Number of excitations or signal averages",
+  "explanation": "NEX, also called NSA, indicates how many times data are sampled and averaged."
+ },
+ {
+  "id": "ch2-132",
+  "chapter": 7,
+  "topic": "Signal averaging",
+  "type": "single_best",
+  "text": "Increasing NEX generally has what effect on SNR?",
+  "options": [
+   "It increases SNR approximately with the square root of NEX",
+   "It decreases SNR to zero",
+   "It has no effect on SNR",
+   "It doubles SNR for every single additional average"
+  ],
+  "answer": "It increases SNR approximately with the square root of NEX",
+  "explanation": "Signal averages add coherently while random noise averages less efficiently, producing an SNR improvement proportional to the square root of NEX."
+ },
+ {
+  "id": "ch2-133",
+  "chapter": 7,
+  "topic": "Signal averaging",
+  "type": "single_best",
+  "text": "What is a major disadvantage of increasing NEX?",
+  "options": [
+   "Longer scan time",
+   "Loss of all signal",
+   "Lower magnetic field strength",
+   "Elimination of spatial encoding"
+  ],
+  "answer": "Longer scan time",
+  "explanation": "Acquiring additional averages requires additional data collection and therefore generally increases scan time."
+ },
+ {
+  "id": "ch2-134",
+  "chapter": 7,
+  "topic": "Bandwidth",
+  "type": "single_best",
+  "text": "What does receiver bandwidth describe?",
+  "options": [
+   "The range of frequencies accepted during signal reception",
+   "The physical width of the MRI room",
+   "The patient's body width",
+   "The magnetic field strength"
+  ],
+  "answer": "The range of frequencies accepted during signal reception",
+  "explanation": "Receiver bandwidth specifies the frequency range sampled by the receiving system."
+ },
+ {
+  "id": "ch2-135",
+  "chapter": 7,
+  "topic": "Bandwidth",
+  "type": "single_best",
+  "text": "What is a common effect of increasing receiver bandwidth?",
+  "options": [
+   "Reduced chemical shift displacement and generally increased noise",
+   "Elimination of all noise",
+   "Automatic increase in T1 contrast",
+   "Complete elimination of susceptibility effects"
+  ],
+  "answer": "Reduced chemical shift displacement and generally increased noise",
+  "explanation": "Higher receiver bandwidth reduces frequency-to-position displacement from chemical shift but generally increases noise."
+ },
+ {
+  "id": "ch2-136",
+  "chapter": 7,
+  "topic": "Bandwidth",
+  "type": "single_best",
+  "text": "What generally happens to SNR when receiver bandwidth is increased?",
+  "options": [
+   "SNR generally decreases",
+   "SNR always doubles",
+   "SNR becomes infinite",
+   "SNR is completely unaffected"
+  ],
+  "answer": "SNR generally decreases",
+  "explanation": "Increasing receiver bandwidth generally increases the amount of sampled noise, reducing SNR."
+ }
+]

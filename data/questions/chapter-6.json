@@ -1,0 +1,3040 @@
+[
+  {
+    "id": "ch6-001",
+    "chapter": 6,
+    "topic": "Introduction to k-space",
+    "type": "single_best",
+    "text": "What is k-space in MRI?",
+    "options": [
+      "A matrix containing raw spatial frequency data before image reconstruction",
+      "The final anatomical image displayed on the scanner",
+      "A map of tissue relaxation times",
+      "A database of patient information"
+    ],
+    "answer": "A matrix containing raw spatial frequency data before image reconstruction",
+    "explanation": "k-Space stores the raw MR data used to reconstruct the final image."
+  },
+  {
+    "id": "ch6-002",
+    "chapter": 6,
+    "topic": "Introduction to k-space",
+    "type": "single_best",
+    "text": "Which statement best describes the relationship between k-space and the final MRI image?",
+    "options": [
+      "The image is mathematically reconstructed from k-space data",
+      "Each k-space point represents one image pixel directly",
+      "The final image is acquired without using k-space",
+      "k-Space is simply another name for the anatomical image"
+    ],
+    "answer": "The image is mathematically reconstructed from k-space data",
+    "explanation": "The acquired raw data in k-space is transformed mathematically to produce the image."
+  },
+  {
+    "id": "ch6-003",
+    "chapter": 6,
+    "topic": "What is k-space?",
+    "type": "single_best",
+    "text": "What are the two principal directions of a conventional 2D k-space matrix?",
+    "options": [
+      "Kx and Ky",
+      "Kz and Kt",
+      "Rx and Ry",
+      "Tx and Ty"
+    ],
+    "answer": "Kx and Ky",
+    "explanation": "Kx and Ky represent the two spatial-frequency directions in a conventional 2D k-space."
+  },
+  {
+    "id": "ch6-004",
+    "chapter": 6,
+    "topic": "What is k-space?",
+    "type": "single_best",
+    "text": "What does the Kx direction of k-space generally correspond to?",
+    "options": [
+      "The frequency-encoding direction",
+      "The slice-selection direction only",
+      "The patient's longitudinal axis only",
+      "The RF transmission direction"
+    ],
+    "answer": "The frequency-encoding direction",
+    "explanation": "Kx is conventionally associated with the frequency-encoding or readout direction."
+  },
+  {
+    "id": "ch6-005",
+    "chapter": 6,
+    "topic": "What is k-space?",
+    "type": "single_best",
+    "text": "What does the Ky direction of k-space generally correspond to?",
+    "options": [
+      "The phase-encoding direction",
+      "The RF frequency",
+      "The slice thickness",
+      "The receive coil direction"
+    ],
+    "answer": "The phase-encoding direction",
+    "explanation": "Ky is conventionally associated with the phase-encoding direction."
+  },
+  {
+    "id": "ch6-006",
+    "chapter": 6,
+    "topic": "What is k-space?",
+    "type": "single_best",
+    "text": "Are individual points in k-space equivalent to individual pixels in the final image?",
+    "options": [
+      "No, each k-space point contributes information to the entire image",
+      "Yes, each point corresponds directly to one pixel",
+      "Only the center point corresponds to a pixel",
+      "Only peripheral points correspond to pixels"
+    ],
+    "answer": "No, each k-space point contributes information to the entire image",
+    "explanation": "k-Space contains spatial frequency information rather than direct pixel-by-pixel anatomical information."
+  },
+  {
+    "id": "ch6-007",
+    "chapter": 6,
+    "topic": "What is k-space?",
+    "type": "single_best",
+    "text": "What type of information does k-space primarily contain?",
+    "options": [
+      "Spatial frequency information",
+      "Patient demographic information",
+      "Direct tissue photographs",
+      "Only T1 relaxation values"
+    ],
+    "answer": "Spatial frequency information",
+    "explanation": "k-Space represents the spatial frequency content of the MR signal."
+  },
+  {
+    "id": "ch6-008",
+    "chapter": 6,
+    "topic": "What is k-space?",
+    "type": "single_best",
+    "text": "Why can raw k-space data appear difficult to interpret visually?",
+    "options": [
+      "It is not a direct representation of anatomical pixels",
+      "It contains no signal",
+      "It contains only patient identification data",
+      "It is already a fully reconstructed image"
+    ],
+    "answer": "It is not a direct representation of anatomical pixels",
+    "explanation": "The raw data contains spatial frequency information that requires mathematical transformation to form an image."
+  },
+  {
+    "id": "ch6-009",
+    "chapter": 6,
+    "topic": "What is k-space?",
+    "type": "single_best",
+    "text": "What mathematical operation is used to convert k-space data into an image?",
+    "options": [
+      "Fourier transformation",
+      "Linear regression",
+      "Polynomial fitting",
+      "Boolean filtering"
+    ],
+    "answer": "Fourier transformation",
+    "explanation": "A Fourier transform, typically implemented efficiently as an FFT, converts k-space data into image-space information."
+  },
+  {
+    "id": "ch6-010",
+    "chapter": 6,
+    "topic": "What is k-space?",
+    "type": "single_best",
+    "text": "What does FFT stand for?",
+    "options": [
+      "Fast Fourier Transform",
+      "Frequency Field Translation",
+      "Fast Frequency Transfer",
+      "Fourier Field Technique"
+    ],
+    "answer": "Fast Fourier Transform",
+    "explanation": "FFT is an efficient computational method for calculating a Fourier transform."
+  },
+  {
+    "id": "ch6-011",
+    "chapter": 6,
+    "topic": "What is k-space?",
+    "type": "single_best",
+    "text": "What is the usual shape of a conventional 2D k-space matrix?",
+    "options": [
+      "Rectangular",
+      "Circular only",
+      "Triangular",
+      "Spherical"
+    ],
+    "answer": "Rectangular",
+    "explanation": "Conventional Cartesian k-space is organized as a rectangular matrix of sampled data."
+  },
+  {
+    "id": "ch6-012",
+    "chapter": 6,
+    "topic": "What is k-space?",
+    "type": "single_best",
+    "text": "What does a single k-space point contain?",
+    "options": [
+      "Complex information contributing to the entire reconstructed image",
+      "The complete information for one image pixel",
+      "Only the patient's position",
+      "Only the slice thickness"
+    ],
+    "answer": "Complex information contributing to the entire reconstructed image",
+    "explanation": "Each k-space sample contributes to the overall image rather than representing one localized pixel."
+  },
+  {
+    "id": "ch6-013",
+    "chapter": 6,
+    "topic": "What is k-space?",
+    "type": "single_best",
+    "text": "What does the term spatial frequency refer to in k-space?",
+    "options": [
+      "The rate at which signal intensity changes across space",
+      "The patient's heart rate",
+      "The RF carrier frequency only",
+      "The scanner's operating frequency alone"
+    ],
+    "answer": "The rate at which signal intensity changes across space",
+    "explanation": "Spatial frequency describes how rapidly signal intensity varies across spatial locations."
+  },
+  {
+    "id": "ch6-014",
+    "chapter": 6,
+    "topic": "What is k-space?",
+    "type": "single_best",
+    "text": "Which type of spatial frequency is mainly represented near the center of k-space?",
+    "options": [
+      "Low spatial frequencies",
+      "High spatial frequencies",
+      "Only zero frequencies",
+      "Only noise frequencies"
+    ],
+    "answer": "Low spatial frequencies",
+    "explanation": "The center of k-space contains predominantly low spatial frequency information."
+  },
+  {
+    "id": "ch6-015",
+    "chapter": 6,
+    "topic": "What is k-space?",
+    "type": "single_best",
+    "text": "Which type of spatial frequency is mainly represented in the outer regions of k-space?",
+    "options": [
+      "High spatial frequencies",
+      "Low spatial frequencies only",
+      "No spatial frequencies",
+      "Only RF frequencies"
+    ],
+    "answer": "High spatial frequencies",
+    "explanation": "The periphery of k-space contains high spatial frequency information associated with fine detail."
+  },
+  {
+    "id": "ch6-016",
+    "chapter": 6,
+    "topic": "Data acquisition",
+    "type": "single_best",
+    "text": "What happens to MR signal during data acquisition?",
+    "options": [
+      "It is sampled and digitized before being stored in k-space",
+      "It is immediately displayed as the final image",
+      "It is converted directly into anatomical labels",
+      "It is discarded after the RF pulse"
+    ],
+    "answer": "It is sampled and digitized before being stored in k-space",
+    "explanation": "The analog MR signal is sampled, digitized, and mapped into k-space."
+  },
+  {
+    "id": "ch6-017",
+    "chapter": 6,
+    "topic": "Data acquisition",
+    "type": "single_best",
+    "text": "What does digitization of the MR signal mean?",
+    "options": [
+      "Converting the continuously varying signal into numerical data",
+      "Converting the image into a photograph",
+      "Removing all frequencies from the signal",
+      "Changing the patient's anatomy"
+    ],
+    "answer": "Converting the continuously varying signal into numerical data",
+    "explanation": "The analog signal must be converted into digital values for computer processing."
+  },
+  {
+    "id": "ch6-018",
+    "chapter": 6,
+    "topic": "Nyquist theorem",
+    "type": "single_best",
+    "text": "Why is the Nyquist sampling theorem important in MRI?",
+    "options": [
+      "It helps determine the minimum sampling rate needed to avoid aliasing",
+      "It determines the patient's magnetic field strength",
+      "It controls the RF flip angle",
+      "It eliminates the need for gradients"
+    ],
+    "answer": "It helps determine the minimum sampling rate needed to avoid aliasing",
+    "explanation": "The Nyquist criterion requires adequate sampling of the signal bandwidth to prevent aliasing."
+  },
+  {
+    "id": "ch6-019",
+    "chapter": 6,
+    "topic": "Nyquist theorem",
+    "type": "single_best",
+    "text": "According to the Nyquist theorem, the sampling frequency should be at least what relative to the highest frequency being sampled?",
+    "options": [
+      "Twice the highest frequency",
+      "Half the highest frequency",
+      "Equal to one quarter of the highest frequency",
+      "Independent of the signal frequency"
+    ],
+    "answer": "Twice the highest frequency",
+    "explanation": "Sampling at least twice the highest frequency is required for ideal reconstruction without aliasing."
+  },
+  {
+    "id": "ch6-020",
+    "chapter": 6,
+    "topic": "Nyquist theorem",
+    "type": "single_best",
+    "text": "What is a major consequence of undersampling the MR signal?",
+    "options": [
+      "Aliasing",
+      "Increased spatial resolution",
+      "Elimination of noise",
+      "Automatic increase in SNR"
+    ],
+    "answer": "Aliasing",
+    "explanation": "Sampling below the required Nyquist rate can cause frequencies to be misrepresented as lower frequencies."
+  },
+  {
+    "id": "ch6-021",
+    "chapter": 6,
+    "topic": "Receive bandwidth",
+    "type": "single_best",
+    "text": "What does receive bandwidth describe in MRI?",
+    "options": [
+      "The range of frequencies sampled by the receiver",
+      "The range of patient body sizes",
+      "The number of RF coils",
+      "The thickness of the selected slice"
+    ],
+    "answer": "The range of frequencies sampled by the receiver",
+    "explanation": "Receive bandwidth defines the frequency range over which the MR signal is acquired."
+  },
+  {
+    "id": "ch6-022",
+    "chapter": 6,
+    "topic": "Receive bandwidth",
+    "type": "single_best",
+    "text": "What generally happens to the sampling rate when receive bandwidth is increased?",
+    "options": [
+      "The sampling rate increases",
+      "The sampling rate decreases",
+      "The sampling rate becomes zero",
+      "The sampling rate is unaffected"
+    ],
+    "answer": "The sampling rate increases",
+    "explanation": "A wider receiver bandwidth requires faster sampling to satisfy the Nyquist criterion."
+  },
+  {
+    "id": "ch6-023",
+    "chapter": 6,
+    "topic": "Receive bandwidth",
+    "type": "single_best",
+    "text": "What generally happens to the sampling interval when receive bandwidth is increased?",
+    "options": [
+      "It decreases",
+      "It increases",
+      "It becomes infinite",
+      "It remains necessarily unchanged"
+    ],
+    "answer": "It decreases",
+    "explanation": "Higher sampling rates correspond to shorter intervals between samples."
+  },
+  {
+    "id": "ch6-024",
+    "chapter": 6,
+    "topic": "Sampling interval",
+    "type": "single_best",
+    "text": "What is the sampling interval?",
+    "options": [
+      "The time between consecutive signal samples",
+      "The time between two patients",
+      "The duration of the RF pulse only",
+      "The time between two imaging slices only"
+    ],
+    "answer": "The time between consecutive signal samples",
+    "explanation": "Sampling interval is the time separating consecutive digitized measurements."
+  },
+  {
+    "id": "ch6-025",
+    "chapter": 6,
+    "topic": "Sampling window",
+    "type": "single_best",
+    "text": "What is the sampling window?",
+    "options": [
+      "The period during which the MR signal is sampled",
+      "The time required to position the patient",
+      "The entire duration of the MRI examination",
+      "The RF pulse bandwidth"
+    ],
+    "answer": "The period during which the MR signal is sampled",
+    "explanation": "The sampling window is the time interval during which the receiver collects signal data."
+  },
+  {
+    "id": "ch6-026",
+    "chapter": 6,
+    "topic": "Sampling window",
+    "type": "single_best",
+    "text": "What gradient is active during the sampling window for conventional frequency encoding?",
+    "options": [
+      "The frequency-encoding or readout gradient",
+      "Only the slice-selection gradient",
+      "Only the phase-encoding gradient",
+      "No gradient"
+    ],
+    "answer": "The frequency-encoding or readout gradient",
+    "explanation": "The readout gradient establishes frequency encoding while the signal is sampled."
+  },
+  {
+    "id": "ch6-027",
+    "chapter": 6,
+    "topic": "Data acquisition",
+    "type": "single_best",
+    "text": "How are acquired data points assigned to locations in k-space?",
+    "options": [
+      "According to the gradient fields applied during the sequence",
+      "According to patient age",
+      "According to tissue temperature",
+      "According to the RF coil color"
+    ],
+    "answer": "According to the gradient fields applied during the sequence",
+    "explanation": "The applied gradients determine the spatial frequency coordinates represented by the acquired data."
+  },
+  {
+    "id": "ch6-028",
+    "chapter": 6,
+    "topic": "Data acquisition",
+    "type": "single_best",
+    "text": "What determines movement through k-space during a gradient-based acquisition?",
+    "options": [
+      "The applied gradient fields",
+      "The patient's weight",
+      "The scanner room temperature",
+      "The display brightness"
+    ],
+    "answer": "The applied gradient fields",
+    "explanation": "Gradient strength and timing determine the trajectory through k-space."
+  },
+  {
+    "id": "ch6-029",
+    "chapter": 6,
+    "topic": "Image reconstruction",
+    "type": "single_best",
+    "text": "Which mathematical operation is commonly applied to two-dimensional k-space data to reconstruct an image?",
+    "options": [
+      "A two-dimensional inverse Fourier transform",
+      "A simple averaging operation",
+      "A linear regression",
+      "A histogram calculation"
+    ],
+    "answer": "A two-dimensional inverse Fourier transform",
+    "explanation": "The inverse Fourier transform converts spatial frequency data into spatial-domain image data."
+  },
+  {
+    "id": "ch6-030",
+    "chapter": 6,
+    "topic": "Image reconstruction",
+    "type": "single_best",
+    "text": "What does image reconstruction accomplish?",
+    "options": [
+      "It converts k-space spatial frequency information into an image",
+      "It creates the main magnetic field",
+      "It generates the RF pulse",
+      "It selects the patient's imaging plane"
+    ],
+    "answer": "It converts k-space spatial frequency information into an image",
+    "explanation": "Reconstruction mathematically transforms the acquired raw data into image-space information."
+  },
+  {
+    "id": "ch6-031",
+    "chapter": 6,
+    "topic": "Complex k-space data",
+    "type": "single_best",
+    "text": "What type of data is stored in conventional MRI k-space?",
+    "options": [
+      "Complex data",
+      "Only magnitude data",
+      "Only phase data",
+      "Only binary data"
+    ],
+    "answer": "Complex data",
+    "explanation": "MRI raw data contains both magnitude and phase information and is therefore complex."
+  },
+  {
+    "id": "ch6-032",
+    "chapter": 6,
+    "topic": "Complex k-space data",
+    "type": "single_best",
+    "text": "Which two components are associated with complex MRI signal data?",
+    "options": [
+      "Magnitude and phase",
+      "T1 and T2",
+      "TR and TE",
+      "Frequency and slice thickness"
+    ],
+    "answer": "Magnitude and phase",
+    "explanation": "Complex data can be represented using real and imaginary components or equivalently magnitude and phase."
+  },
+  {
+    "id": "ch6-033",
+    "chapter": 6,
+    "topic": "Center of k-space",
+    "type": "single_best",
+    "text": "What type of spatial frequency information is primarily found at the center of k-space?",
+    "options": [
+      "Low spatial frequency information",
+      "High spatial frequency information",
+      "Only noise",
+      "Only edge information"
+    ],
+    "answer": "Low spatial frequency information",
+    "explanation": "The center contains slowly varying spatial information."
+  },
+  {
+    "id": "ch6-034",
+    "chapter": 6,
+    "topic": "Center of k-space",
+    "type": "single_best",
+    "text": "What major image characteristic is strongly influenced by the center of k-space?",
+    "options": [
+      "Image contrast",
+      "Patient positioning",
+      "Slice-selection direction",
+      "RF pulse duration"
+    ],
+    "answer": "Image contrast",
+    "explanation": "The central region contains much of the low spatial frequency information responsible for overall image contrast."
+  },
+  {
+    "id": "ch6-035",
+    "chapter": 6,
+    "topic": "Center of k-space",
+    "type": "single_best",
+    "text": "What aspect of image quality is strongly influenced by the central portion of k-space?",
+    "options": [
+      "Signal-to-noise ratio",
+      "Patient height",
+      "Gradient coil diameter",
+      "Slice orientation"
+    ],
+    "answer": "Signal-to-noise ratio",
+    "explanation": "The center of k-space contains the strongest signal contributions and strongly influences image SNR."
+  },
+  {
+    "id": "ch6-036",
+    "chapter": 6,
+    "topic": "Center of k-space",
+    "type": "single_best",
+    "text": "Where is the highest signal amplitude generally found in k-space?",
+    "options": [
+      "Near the center",
+      "Only at the extreme edges",
+      "Outside the k-space matrix",
+      "At random locations only"
+    ],
+    "answer": "Near the center",
+    "explanation": "The central region generally contains the strongest signal amplitude."
+  },
+  {
+    "id": "ch6-037",
+    "chapter": 6,
+    "topic": "Periphery of k-space",
+    "type": "single_best",
+    "text": "What type of information is primarily contained in the periphery of k-space?",
+    "options": [
+      "High spatial frequency information",
+      "Low spatial frequency information only",
+      "Patient identification information",
+      "Only RF frequency information"
+    ],
+    "answer": "High spatial frequency information",
+    "explanation": "The outer regions contain high spatial frequencies associated with fine structural detail."
+  },
+  {
+    "id": "ch6-038",
+    "chapter": 6,
+    "topic": "Periphery of k-space",
+    "type": "single_best",
+    "text": "What image characteristic is most strongly influenced by high spatial frequency data?",
+    "options": [
+      "Spatial resolution",
+      "Overall patient position",
+      "RF flip angle",
+      "Slice-selection direction"
+    ],
+    "answer": "Spatial resolution",
+    "explanation": "High spatial frequencies provide fine detail and contribute strongly to spatial resolution."
+  },
+  {
+    "id": "ch6-039",
+    "chapter": 6,
+    "topic": "Periphery of k-space",
+    "type": "single_best",
+    "text": "What happens to fine image detail when high spatial frequency information is lost?",
+    "options": [
+      "The image becomes less sharp",
+      "The image contrast always increases",
+      "SNR becomes infinite",
+      "The slice thickness decreases automatically"
+    ],
+    "answer": "The image becomes less sharp",
+    "explanation": "High spatial frequencies contain information required for sharp edges and fine detail."
+  },
+  {
+    "id": "ch6-040",
+    "chapter": 6,
+    "topic": "Center versus periphery",
+    "type": "single_best",
+    "text": "Which statement correctly compares the center and periphery of k-space?",
+    "options": [
+      "The center mainly influences contrast, while the periphery contributes to fine detail",
+      "The center controls only spatial resolution, while the periphery controls only SNR",
+      "Both contain exactly the same type of information",
+      "The periphery contains no useful information"
+    ],
+    "answer": "The center mainly influences contrast, while the periphery contributes to fine detail",
+    "explanation": "Low spatial frequencies dominate the center, while high spatial frequencies dominate the periphery."
+  },
+  {
+    "id": "ch6-041",
+    "chapter": 6,
+    "topic": "k-Space symmetry",
+    "type": "single_best",
+    "text": "What is conjugate symmetry in k-space?",
+    "options": [
+      "A relationship in which one region contains the complex conjugate information of another region",
+      "A requirement that every k-space point be identical",
+      "A method for increasing RF bandwidth",
+      "A technique for changing slice thickness"
+    ],
+    "answer": "A relationship in which one region contains the complex conjugate information of another region",
+    "explanation": "For appropriate real-valued image conditions, opposite regions of k-space have a conjugate relationship."
+  },
+  {
+    "id": "ch6-042",
+    "chapter": 6,
+    "topic": "k-Space symmetry",
+    "type": "single_best",
+    "text": "Why is conjugate symmetry useful in MRI?",
+    "options": [
+      "It can allow missing portions of k-space to be estimated from acquired data",
+      "It eliminates the need for signal acquisition",
+      "It increases the main magnetic field",
+      "It removes all image contrast"
+    ],
+    "answer": "It can allow missing portions of k-space to be estimated from acquired data",
+    "explanation": "Conjugate symmetry provides information about unacquired regions, enabling partial Fourier methods."
+  },
+  {
+    "id": "ch6-043",
+    "chapter": 6,
+    "topic": "Partial Fourier",
+    "type": "single_best",
+    "text": "What is the main purpose of partial Fourier acquisition?",
+    "options": [
+      "To reduce scan time by acquiring only part of k-space",
+      "To increase slice thickness",
+      "To eliminate the receiver",
+      "To acquire only high spatial frequencies"
+    ],
+    "answer": "To reduce scan time by acquiring only part of k-space",
+    "explanation": "Partial Fourier exploits k-space symmetry to reconstruct missing information and reduce acquisition time."
+  },
+  {
+    "id": "ch6-044",
+    "chapter": 6,
+    "topic": "Undersampling",
+    "type": "single_best",
+    "text": "What is the likely effect of insufficient sampling of the outer regions of k-space?",
+    "options": [
+      "Loss of sharpness and fine detail",
+      "Automatic improvement in spatial resolution",
+      "Increased central signal",
+      "Complete elimination of contrast"
+    ],
+    "answer": "Loss of sharpness and fine detail",
+    "explanation": "The outer regions contain high spatial frequencies needed for sharp detail."
+  },
+  {
+    "id": "ch6-045",
+    "chapter": 6,
+    "topic": "Undersampling",
+    "type": "single_best",
+    "text": "What does undersampling mean in the context of k-space?",
+    "options": [
+      "Acquiring fewer samples than required to adequately represent the desired spatial information",
+      "Acquiring every point twice",
+      "Increasing the number of phase-encoding steps",
+      "Acquiring only the center with no reconstruction"
+    ],
+    "answer": "Acquiring fewer samples than required to adequately represent the desired spatial information",
+    "explanation": "Undersampling means the acquisition does not collect sufficient data for the intended representation."
+  },
+  {
+    "id": "ch6-046",
+    "chapter": 6,
+    "topic": "Undersampling",
+    "type": "single_best",
+    "text": "If high spatial frequency data are inadequately sampled, what image appearance is most likely?",
+    "options": [
+      "Blurred or less sharply defined structures",
+      "Perfectly sharp structures",
+      "Increased slice thickness",
+      "Higher RF frequency"
+    ],
+    "answer": "Blurred or less sharply defined structures",
+    "explanation": "Inadequate high-frequency information reduces the representation of fine detail."
+  },
+  {
+    "id": "ch6-047",
+    "chapter": 6,
+    "topic": "k-Space data",
+    "type": "single_best",
+    "text": "Which region of k-space generally has the greatest signal amplitude?",
+    "options": [
+      "The center",
+      "The extreme periphery",
+      "Only the corners",
+      "Outside the sampled region"
+    ],
+    "answer": "The center",
+    "explanation": "The central low-frequency region generally contains the strongest signal."
+  },
+  {
+    "id": "ch6-048",
+    "chapter": 6,
+    "topic": "k-Space data",
+    "type": "single_best",
+    "text": "Which region of k-space is most important for representing sharp boundaries?",
+    "options": [
+      "The peripheral high-frequency region",
+      "The exact center only",
+      "The RF pulse spectrum",
+      "The slice-selection gradient"
+    ],
+    "answer": "The peripheral high-frequency region",
+    "explanation": "Sharp boundaries require high spatial frequency information found toward the edges of k-space."
+  },
+  {
+    "id": "ch6-049",
+    "chapter": 6,
+    "topic": "k-Space data",
+    "type": "single_best",
+    "text": "If only the central region of k-space is acquired, what type of image information is best preserved?",
+    "options": [
+      "Overall contrast and gross image structure",
+      "The finest possible spatial detail",
+      "Only edge information",
+      "Only high-frequency noise"
+    ],
+    "answer": "Overall contrast and gross image structure",
+    "explanation": "The center contains low spatial frequency information that dominates overall image contrast and general structure."
+  },
+  {
+    "id": "ch6-050",
+    "chapter": 6,
+    "topic": "k-Space data",
+    "type": "single_best",
+    "text": "If the center of k-space is poorly acquired, which image characteristic is most likely to be affected?",
+    "options": [
+      "Overall image contrast and signal",
+      "Only the finest edge detail",
+      "Only slice position",
+      "Only RF pulse duration"
+    ],
+    "answer": "Overall image contrast and signal",
+    "explanation": "The central k-space region contains the strongest low-frequency information that strongly influences contrast and signal."
+  },
+  {
+    "id": "ch6-051",
+    "chapter": 6,
+    "topic": "Conventional Spin Echo k-space filling",
+    "type": "single_best",
+    "text": "In a conventional spin echo sequence, how many lines of k-space are typically acquired per TR?",
+    "options": [
+      "One line",
+      "Two lines",
+      "Four lines",
+      "All lines"
+    ],
+    "answer": "One line",
+    "explanation": "Conventional spin echo typically acquires one phase-encoding line of k-space per TR."
+  },
+  {
+    "id": "ch6-052",
+    "chapter": 6,
+    "topic": "Conventional Spin Echo k-space filling",
+    "type": "single_best",
+    "text": "How is k-space commonly filled during conventional spin echo imaging?",
+    "options": [
+      "Sequentially line by line",
+      "Randomly",
+      "Only from the center outward",
+      "In a spiral trajectory"
+    ],
+    "answer": "Sequentially line by line",
+    "explanation": "Conventional spin echo normally fills Cartesian k-space one line at a time in sequence."
+  },
+  {
+    "id": "ch6-053",
+    "chapter": 6,
+    "topic": "Conventional Spin Echo k-space filling",
+    "type": "single_best",
+    "text": "Which gradient determines the specific Ky line sampled in a conventional Cartesian acquisition?",
+    "options": [
+      "Phase-encoding gradient",
+      "Frequency-encoding gradient",
+      "Slice-select gradient",
+      "Spoiler gradient"
+    ],
+    "answer": "Phase-encoding gradient",
+    "explanation": "The phase-encoding gradient determines the Ky position of the acquired line."
+  },
+  {
+    "id": "ch6-054",
+    "chapter": 6,
+    "topic": "Conventional Spin Echo k-space filling",
+    "type": "single_best",
+    "text": "During a conventional Cartesian readout, the frequency-encoding gradient primarily determines movement along which k-space direction?",
+    "options": [
+      "Kx",
+      "Ky",
+      "Kz",
+      "None"
+    ],
+    "answer": "Kx",
+    "explanation": "Frequency encoding samples different positions along the Kx axis during readout."
+  },
+  {
+    "id": "ch6-055",
+    "chapter": 6,
+    "topic": "FSE/TSE k-space filling",
+    "type": "single_best",
+    "text": "What allows fast spin echo to acquire multiple k-space lines within one TR?",
+    "options": [
+      "An echo train",
+      "A longer sampling window only",
+      "Removing phase encoding",
+      "Using only one signal sample"
+    ],
+    "answer": "An echo train",
+    "explanation": "FSE/TSE uses multiple echoes generated by refocusing pulses to acquire multiple k-space lines per TR."
+  },
+  {
+    "id": "ch6-056",
+    "chapter": 6,
+    "topic": "FSE/TSE k-space filling",
+    "type": "single_best",
+    "text": "What is the main k-space acquisition advantage of fast spin echo compared with conventional spin echo?",
+    "options": [
+      "Multiple lines are acquired per TR",
+      "It eliminates phase encoding",
+      "It acquires no central k-space data",
+      "It uses only one echo per scan"
+    ],
+    "answer": "Multiple lines are acquired per TR",
+    "explanation": "FSE/TSE reduces acquisition time by collecting several k-space lines during each TR."
+  },
+  {
+    "id": "ch6-057",
+    "chapter": 6,
+    "topic": "FSE/TSE echo train",
+    "type": "single_best",
+    "text": "What is an echo train in fast spin echo imaging?",
+    "options": [
+      "A series of echoes produced after one excitation",
+      "A series of separate scans performed on different days",
+      "A single frequency-encoding sample",
+      "A group of unrelated images"
+    ],
+    "answer": "A series of echoes produced after one excitation",
+    "explanation": "An echo train consists of multiple echoes generated following an excitation and refocusing pulses."
+  },
+  {
+    "id": "ch6-058",
+    "chapter": 6,
+    "topic": "FSE/TSE k-space filling",
+    "type": "single_best",
+    "text": "Increasing the echo train length in FSE generally allows what?",
+    "options": [
+      "More k-space lines to be acquired per TR",
+      "Fewer k-space lines per TR",
+      "Removal of the frequency-encoding gradient",
+      "Elimination of k-space"
+    ],
+    "answer": "More k-space lines to be acquired per TR",
+    "explanation": "A longer echo train provides more echoes that can be used to fill more k-space lines in each TR."
+  },
+  {
+    "id": "ch6-059",
+    "chapter": 6,
+    "topic": "FSE/TSE scan time",
+    "type": "single_best",
+    "text": "Why can FSE/TSE have a shorter scan time than conventional spin echo?",
+    "options": [
+      "It fills multiple k-space lines per TR",
+      "It does not use k-space",
+      "It eliminates signal sampling",
+      "It acquires only one phase-encoding step"
+    ],
+    "answer": "It fills multiple k-space lines per TR",
+    "explanation": "Multiple lines acquired during each TR reduce the number of TR periods required to fill k-space."
+  },
+  {
+    "id": "ch6-060",
+    "chapter": 6,
+    "topic": "FSE/TSE central k-space",
+    "type": "single_best",
+    "text": "Why can the order in which FSE fills k-space influence image contrast?",
+    "options": [
+      "Different echoes can contribute to different k-space regions",
+      "K-space contains only anatomical labels",
+      "All echoes always have identical signal",
+      "The frequency matrix changes automatically"
+    ],
+    "answer": "Different echoes can contribute to different k-space regions",
+    "explanation": "Echo timing and k-space line placement influence which signal characteristics contribute to central and peripheral regions."
+  },
+  {
+    "id": "ch6-061",
+    "chapter": 6,
+    "topic": "FSE/TSE effective TE",
+    "type": "single_best",
+    "text": "In FSE imaging, which part of k-space is particularly important for determining the effective image contrast?",
+    "options": [
+      "The central region",
+      "Only the outermost line",
+      "Only the corners",
+      "No part of k-space"
+    ],
+    "answer": "The central region",
+    "explanation": "The central k-space region strongly influences image contrast, so the echo used to acquire it contributes importantly to effective contrast."
+  },
+  {
+    "id": "ch6-062",
+    "chapter": 6,
+    "topic": "FSE/TSE k-space ordering",
+    "type": "single_best",
+    "text": "What does a centric k-space ordering strategy prioritize?",
+    "options": [
+      "Acquisition of central k-space lines early",
+      "Acquisition of only peripheral lines",
+      "Random acquisition of every line",
+      "Acquisition of Kx only"
+    ],
+    "answer": "Acquisition of central k-space lines early",
+    "explanation": "Centric ordering places emphasis on acquiring the central, contrast-dominant portion of k-space at a selected point in the echo train."
+  },
+  {
+    "id": "ch6-063",
+    "chapter": 6,
+    "topic": "Gradient Echo k-space filling",
+    "type": "single_best",
+    "text": "How does a basic gradient echo sequence rephase transverse magnetization for signal formation?",
+    "options": [
+      "By reversing a gradient",
+      "By always using a 180° refocusing pulse",
+      "By removing all gradients",
+      "By changing the RF frequency only"
+    ],
+    "answer": "By reversing a gradient",
+    "explanation": "Gradient echo sequences use gradient reversal to rephase spins rather than the 180° refocusing pulse used in conventional spin echo."
+  },
+  {
+    "id": "ch6-064",
+    "chapter": 6,
+    "topic": "Gradient Echo",
+    "type": "single_best",
+    "text": "Which feature distinguishes a basic gradient echo sequence from conventional spin echo?",
+    "options": [
+      "It does not require a 180° refocusing pulse for the echo",
+      "It does not use gradients",
+      "It does not sample k-space",
+      "It cannot form an image"
+    ],
+    "answer": "It does not require a 180° refocusing pulse for the echo",
+    "explanation": "GRE forms an echo through gradient reversal rather than a 180° RF refocusing pulse."
+  },
+  {
+    "id": "ch6-065",
+    "chapter": 6,
+    "topic": "Gradient Echo k-space filling",
+    "type": "single_best",
+    "text": "What determines the Kx position sampled during the readout of a Cartesian gradient echo acquisition?",
+    "options": [
+      "The frequency-encoding gradient",
+      "The patient table position",
+      "The RF coil shape",
+      "The TR label"
+    ],
+    "answer": "The frequency-encoding gradient",
+    "explanation": "The frequency-encoding gradient controls traversal along the Kx direction during readout."
+  },
+  {
+    "id": "ch6-066",
+    "chapter": 6,
+    "topic": "Gradient Echo k-space filling",
+    "type": "single_best",
+    "text": "In a Cartesian GRE acquisition, changing the phase-encoding gradient primarily changes which k-space coordinate?",
+    "options": [
+      "Ky",
+      "Kx",
+      "Both equally",
+      "Neither"
+    ],
+    "answer": "Ky",
+    "explanation": "The phase-encoding gradient selects a different Ky position for the readout."
+  },
+  {
+    "id": "ch6-067",
+    "chapter": 6,
+    "topic": "EPI k-space filling",
+    "type": "single_best",
+    "text": "What is a major feature of single-shot EPI k-space acquisition?",
+    "options": [
+      "It can fill k-space after a single excitation",
+      "It requires one TR for every k-space point",
+      "It samples only the center",
+      "It cannot use gradients"
+    ],
+    "answer": "It can fill k-space after a single excitation",
+    "explanation": "Single-shot EPI can acquire the entire k-space dataset rapidly following one excitation."
+  },
+  {
+    "id": "ch6-068",
+    "chapter": 6,
+    "topic": "EPI trajectory",
+    "type": "single_best",
+    "text": "What is characteristic of the k-space trajectory used in conventional EPI?",
+    "options": [
+      "Zig-zag traversal",
+      "Straight radial spokes only",
+      "A circular trajectory only",
+      "Random point sampling"
+    ],
+    "answer": "Zig-zag traversal",
+    "explanation": "EPI alternates the readout gradient direction while phase-encoding blips move the trajectory between lines, producing a zig-zag path."
+  },
+  {
+    "id": "ch6-069",
+    "chapter": 6,
+    "topic": "EPI readout gradient",
+    "type": "single_best",
+    "text": "Why does the readout gradient alternate polarity during a typical EPI acquisition?",
+    "options": [
+      "To traverse successive k-space lines in opposite directions",
+      "To eliminate all phase encoding",
+      "To stop signal sampling",
+      "To acquire only central k-space"
+    ],
+    "answer": "To traverse successive k-space lines in opposite directions",
+    "explanation": "Alternating gradient polarity causes the readout trajectory to move back and forth across successive k-space lines."
+  },
+  {
+    "id": "ch6-070",
+    "chapter": 6,
+    "topic": "EPI phase encoding",
+    "type": "single_best",
+    "text": "What moves the EPI trajectory between successive readout lines?",
+    "options": [
+      "Phase-encoding blips",
+      "RF pulses alone",
+      "The sampling clock",
+      "The image matrix"
+    ],
+    "answer": "Phase-encoding blips",
+    "explanation": "Small phase-encoding gradient blips shift the trajectory from one Ky line to the next."
+  },
+  {
+    "id": "ch6-071",
+    "chapter": 6,
+    "topic": "EPI acquisition",
+    "type": "single_best",
+    "text": "Why is EPI capable of very rapid k-space filling?",
+    "options": [
+      "It rapidly traverses many k-space lines after an excitation",
+      "It avoids sampling the MR signal",
+      "It uses only one k-space point",
+      "It acquires only peripheral data"
+    ],
+    "answer": "It rapidly traverses many k-space lines after an excitation",
+    "explanation": "EPI uses rapid gradient switching and continuous readout to traverse a large portion or all of k-space quickly."
+  },
+  {
+    "id": "ch6-072",
+    "chapter": 6,
+    "topic": "Segmented EPI",
+    "type": "single_best",
+    "text": "How does segmented EPI differ from single-shot EPI?",
+    "options": [
+      "K-space is divided across multiple acquisitions",
+      "It does not use gradients",
+      "It acquires only one k-space point",
+      "It uses only radial sampling"
+    ],
+    "answer": "K-space is divided across multiple acquisitions",
+    "explanation": "Segmented EPI fills portions of k-space during separate acquisitions rather than completing all of it in one shot."
+  },
+  {
+    "id": "ch6-073",
+    "chapter": 6,
+    "topic": "Cartesian k-space filling",
+    "type": "single_best",
+    "text": "What is the typical appearance of Cartesian k-space sampling?",
+    "options": [
+      "Parallel horizontal or vertical lines",
+      "Radial spokes",
+      "A spiral path",
+      "Random isolated points"
+    ],
+    "answer": "Parallel horizontal or vertical lines",
+    "explanation": "Cartesian sampling fills k-space using a regular rectangular grid of lines."
+  },
+  {
+    "id": "ch6-074",
+    "chapter": 6,
+    "topic": "Cartesian k-space filling",
+    "type": "single_best",
+    "text": "Why is Cartesian k-space filling straightforward to implement?",
+    "options": [
+      "It follows a regular grid",
+      "It requires no gradients",
+      "It avoids phase encoding",
+      "It samples only the center"
+    ],
+    "answer": "It follows a regular grid",
+    "explanation": "Cartesian acquisition uses regularly spaced Kx and Ky positions, making the sampling pattern simple and predictable."
+  },
+  {
+    "id": "ch6-075",
+    "chapter": 6,
+    "topic": "Cartesian k-space filling",
+    "type": "single_best",
+    "text": "In Cartesian imaging, what primarily changes from one phase-encoding step to another?",
+    "options": [
+      "The Ky position",
+      "The Kx sampling interval",
+      "The patient position",
+      "The image orientation"
+    ],
+    "answer": "The Ky position",
+    "explanation": "Changing the phase-encoding gradient moves acquisition to a different Ky line."
+  },
+  {
+    "id": "ch6-076",
+    "chapter": 6,
+    "topic": "Cartesian acquisition",
+    "type": "single_best",
+    "text": "What is a major characteristic of standard Cartesian acquisition?",
+    "options": [
+      "It fills k-space line by line",
+      "It fills k-space only radially",
+      "It starts with a spiral trajectory",
+      "It never samples the center"
+    ],
+    "answer": "It fills k-space line by line",
+    "explanation": "Standard Cartesian acquisition collects regularly spaced k-space lines using phase and frequency encoding."
+  },
+  {
+    "id": "ch6-077",
+    "chapter": 6,
+    "topic": "Radial k-space filling",
+    "type": "single_best",
+    "text": "What is the defining feature of radial k-space sampling?",
+    "options": [
+      "Data are acquired along spokes passing through the center",
+      "Data are acquired only along horizontal lines",
+      "Data are acquired in a spiral only",
+      "Data are acquired from the corners inward"
+    ],
+    "answer": "Data are acquired along spokes passing through the center",
+    "explanation": "Radial trajectories consist of multiple spokes extending through the central region of k-space."
+  },
+  {
+    "id": "ch6-078",
+    "chapter": 6,
+    "topic": "Radial k-space filling",
+    "type": "single_best",
+    "text": "What important region is repeatedly sampled during radial acquisition?",
+    "options": [
+      "The center of k-space",
+      "Only the outer corners",
+      "Only one peripheral line",
+      "No region is repeated"
+    ],
+    "answer": "The center of k-space",
+    "explanation": "Each radial spoke passes through the center, resulting in repeated central sampling."
+  },
+  {
+    "id": "ch6-079",
+    "chapter": 6,
+    "topic": "Radial motion sensitivity",
+    "type": "single_best",
+    "text": "Why can radial sampling be less sensitive to certain motion effects than conventional Cartesian sampling?",
+    "options": [
+      "The center of k-space is sampled repeatedly across different spokes",
+      "It does not collect signal",
+      "It removes all motion",
+      "It uses no phase information"
+    ],
+    "answer": "The center of k-space is sampled repeatedly across different spokes",
+    "explanation": "Repeated sampling of the center can make radial acquisition more tolerant of some motion-related inconsistencies."
+  },
+  {
+    "id": "ch6-080",
+    "chapter": 6,
+    "topic": "Radial trajectory",
+    "type": "single_best",
+    "text": "How does a radial trajectory differ from a Cartesian trajectory?",
+    "options": [
+      "Radial sampling uses spokes rather than parallel lines",
+      "Radial sampling uses no k-space",
+      "Radial sampling uses only Kx",
+      "Radial sampling is always a spiral"
+    ],
+    "answer": "Radial sampling uses spokes rather than parallel lines",
+    "explanation": "Radial trajectories radiate through the center, unlike the parallel grid lines of Cartesian sampling."
+  },
+  {
+    "id": "ch6-081",
+    "chapter": 6,
+    "topic": "Spiral k-space filling",
+    "type": "single_best",
+    "text": "What is characteristic of spiral k-space sampling?",
+    "options": [
+      "The trajectory winds around k-space in a spiral",
+      "The trajectory consists only of straight parallel lines",
+      "Only the outer edge is sampled",
+      "Only one point is sampled"
+    ],
+    "answer": "The trajectory winds around k-space in a spiral",
+    "explanation": "Spiral acquisition follows a continuously winding trajectory through k-space."
+  },
+  {
+    "id": "ch6-082",
+    "chapter": 6,
+    "topic": "Spiral k-space trajectory",
+    "type": "single_best",
+    "text": "In a typical spiral trajectory described in this chapter, where does acquisition begin?",
+    "options": [
+      "Near the center of k-space",
+      "At the farthest corner only",
+      "Outside k-space",
+      "At a random point"
+    ],
+    "answer": "Near the center of k-space",
+    "explanation": "The described spiral trajectory starts near the center and winds outward."
+  },
+  {
+    "id": "ch6-083",
+    "chapter": 6,
+    "topic": "Spiral acquisition",
+    "type": "single_best",
+    "text": "Why can spiral sampling acquire central contrast information early?",
+    "options": [
+      "The trajectory passes through the central region early",
+      "The center is never sampled",
+      "Only peripheral frequencies are collected first",
+      "The phase-encoding gradient is removed"
+    ],
+    "answer": "The trajectory passes through the central region early",
+    "explanation": "Starting near the center allows important low-spatial-frequency information to be acquired early."
+  },
+  {
+    "id": "ch6-084",
+    "chapter": 6,
+    "topic": "Spiral acquisition speed",
+    "type": "single_best",
+    "text": "What is a major potential advantage of spiral k-space filling?",
+    "options": [
+      "Rapid acquisition",
+      "Elimination of all spatial frequencies",
+      "Removal of signal sampling",
+      "Acquisition of only one line"
+    ],
+    "answer": "Rapid acquisition",
+    "explanation": "Spiral trajectories can cover k-space efficiently and rapidly."
+  },
+  {
+    "id": "ch6-085",
+    "chapter": 6,
+    "topic": "Keyhole technique",
+    "type": "single_best",
+    "text": "What is the basic principle of the keyhole technique?",
+    "options": [
+      "Repeatedly acquire central k-space while reusing previously acquired peripheral data",
+      "Acquire only peripheral k-space repeatedly",
+      "Avoid acquiring the initial full k-space dataset",
+      "Use only radial spokes"
+    ],
+    "answer": "Repeatedly acquire central k-space while reusing previously acquired peripheral data",
+    "explanation": "Keyhole imaging obtains an initial full k-space dataset and subsequently updates mainly the central region."
+  },
+  {
+    "id": "ch6-086",
+    "chapter": 6,
+    "topic": "Keyhole acquisition",
+    "type": "single_best",
+    "text": "What is usually acquired during the initial keyhole scan?",
+    "options": [
+      "Full k-space",
+      "Only central k-space",
+      "Only peripheral k-space",
+      "No k-space"
+    ],
+    "answer": "Full k-space",
+    "explanation": "The initial acquisition provides the complete k-space dataset used as the baseline."
+  },
+  {
+    "id": "ch6-087",
+    "chapter": 6,
+    "topic": "Keyhole acquisition",
+    "type": "single_best",
+    "text": "After the initial full acquisition, which portion of k-space is repeatedly updated in keyhole imaging?",
+    "options": [
+      "The central region",
+      "Only the outer corners",
+      "Only Kx",
+      "Only Ky"
+    ],
+    "answer": "The central region",
+    "explanation": "Subsequent acquisitions focus on the central k-space region while peripheral information can be reused."
+  },
+  {
+    "id": "ch6-088",
+    "chapter": 6,
+    "topic": "Keyhole imaging",
+    "type": "single_best",
+    "text": "Why is the keyhole technique useful for dynamic imaging?",
+    "options": [
+      "It provides higher temporal resolution by reducing the amount of k-space reacquired",
+      "It eliminates the need for reconstruction",
+      "It acquires only high spatial frequencies",
+      "It prevents any signal changes"
+    ],
+    "answer": "It provides higher temporal resolution by reducing the amount of k-space reacquired",
+    "explanation": "Updating only the central region allows repeated acquisitions to be completed more quickly."
+  },
+  {
+    "id": "ch6-089",
+    "chapter": 6,
+    "topic": "Keyhole spatial information",
+    "type": "single_best",
+    "text": "In keyhole imaging, why can previously acquired peripheral k-space data be reused?",
+    "options": [
+      "Peripheral data mainly represents relatively stable high-spatial-frequency information",
+      "Peripheral data contains no image information",
+      "Peripheral data is always discarded",
+      "Peripheral data represents only signal noise"
+    ],
+    "answer": "Peripheral data mainly represents relatively stable high-spatial-frequency information",
+    "explanation": "The technique assumes that the peripheral information changes less rapidly than the central contrast-dominant information."
+  },
+  {
+    "id": "ch6-090",
+    "chapter": 6,
+    "topic": "Partial Fourier",
+    "type": "single_best",
+    "text": "What is the main purpose of partial Fourier acquisition?",
+    "options": [
+      "Reduce scan time by acquiring only slightly more than half of k-space",
+      "Increase the amount of acquired k-space to more than twice the matrix",
+      "Eliminate the center of k-space",
+      "Acquire only high spatial frequencies"
+    ],
+    "answer": "Reduce scan time by acquiring only slightly more than half of k-space",
+    "explanation": "Partial Fourier uses conjugate symmetry to reconstruct the missing portion from slightly more than half of k-space."
+  },
+  {
+    "id": "ch6-091",
+    "chapter": 6,
+    "topic": "Partial Fourier symmetry",
+    "type": "single_best",
+    "text": "Which property of k-space makes partial Fourier acquisition possible?",
+    "options": [
+      "Conjugate symmetry",
+      "Random sampling",
+      "Constant signal amplitude",
+      "Absence of phase information"
+    ],
+    "answer": "Conjugate symmetry",
+    "explanation": "For suitable data, one side of k-space contains conjugate-related information that can help estimate the missing side."
+  },
+  {
+    "id": "ch6-092",
+    "chapter": 6,
+    "topic": "Partial Fourier acquisition",
+    "type": "single_best",
+    "text": "Why is slightly more than half of k-space commonly acquired in partial Fourier imaging?",
+    "options": [
+      "To provide enough information for reconstruction using symmetry",
+      "To avoid sampling the center",
+      "To double the scan time",
+      "To remove all low spatial frequencies"
+    ],
+    "answer": "To provide enough information for reconstruction using symmetry",
+    "explanation": "Acquiring slightly more than half provides measured data that can be used with conjugate symmetry to estimate the missing region."
+  },
+  {
+    "id": "ch6-093",
+    "chapter": 6,
+    "topic": "Partial Fourier scan time",
+    "type": "single_best",
+    "text": "What is the principal acquisition benefit of partial Fourier?",
+    "options": [
+      "Shorter scan time",
+      "Longer scan time",
+      "Removal of image reconstruction",
+      "Elimination of phase encoding"
+    ],
+    "answer": "Shorter scan time",
+    "explanation": "Fewer k-space lines are physically acquired, reducing acquisition time."
+  },
+  {
+    "id": "ch6-094",
+    "chapter": 6,
+    "topic": "Partial Fourier and k-space",
+    "type": "single_best",
+    "text": "If the missing portion of k-space in partial Fourier is reconstructed using conjugate symmetry, what type of information is being estimated?",
+    "options": [
+      "The unacquired conjugate-related data",
+      "The patient's age",
+      "The scan duration",
+      "The RF coil dimensions"
+    ],
+    "answer": "The unacquired conjugate-related data",
+    "explanation": "The missing k-space region is estimated from the acquired conjugate-related data."
+  },
+  {
+    "id": "ch6-095",
+    "chapter": 6,
+    "topic": "K-space trajectory",
+    "type": "single_best",
+    "text": "What determines the path taken through k-space during an acquisition?",
+    "options": [
+      "The applied magnetic field gradients",
+      "The patient's height",
+      "The image display software alone",
+      "The scanner room temperature alone"
+    ],
+    "answer": "The applied magnetic field gradients",
+    "explanation": "Gradient waveforms control how the acquisition moves through Kx and Ky."
+  },
+  {
+    "id": "ch6-096",
+    "chapter": 6,
+    "topic": "K-space trajectory",
+    "type": "single_best",
+    "text": "A change in the gradient waveform can directly change what aspect of k-space acquisition?",
+    "options": [
+      "The trajectory through k-space",
+      "The patient's anatomy",
+      "The existence of the MR signal",
+      "The scanner bore size"
+    ],
+    "answer": "The trajectory through k-space",
+    "explanation": "Gradient changes alter the position and direction of sampling in k-space."
+  },
+  {
+    "id": "ch6-097",
+    "chapter": 6,
+    "topic": "K-space filling comparison",
+    "type": "single_best",
+    "text": "Which k-space filling method uses a regular grid of parallel lines?",
+    "options": [
+      "Cartesian",
+      "Radial",
+      "Spiral",
+      "Keyhole"
+    ],
+    "answer": "Cartesian",
+    "explanation": "Cartesian acquisition samples k-space on a regular rectangular grid."
+  },
+  {
+    "id": "ch6-098",
+    "chapter": 6,
+    "topic": "K-space filling comparison",
+    "type": "single_best",
+    "text": "Which k-space filling method uses spokes passing through the center?",
+    "options": [
+      "Radial",
+      "Cartesian",
+      "Keyhole",
+      "Linear phase encoding"
+    ],
+    "answer": "Radial",
+    "explanation": "Radial acquisition consists of spokes that pass through the center of k-space."
+  },
+  {
+    "id": "ch6-099",
+    "chapter": 6,
+    "topic": "K-space filling comparison",
+    "type": "single_best",
+    "text": "Which k-space filling method follows a winding trajectory?",
+    "options": [
+      "Spiral",
+      "Cartesian",
+      "Conventional line-by-line",
+      "Keyhole"
+    ],
+    "answer": "Spiral",
+    "explanation": "Spiral acquisition follows a continuously winding path through k-space."
+  },
+  {
+    "id": "ch6-100",
+    "chapter": 6,
+    "topic": "K-space filling comparison",
+    "type": "single_best",
+    "text": "Which technique repeatedly acquires central k-space while reusing previously acquired peripheral data?",
+    "options": [
+      "Keyhole",
+      "Radial",
+      "Conventional spin echo",
+      "Partial Fourier"
+    ],
+    "answer": "Keyhole",
+    "explanation": "Keyhole imaging repeatedly updates central k-space while retaining peripheral data from an initial full acquisition."
+  },
+  {
+    "id": "ch6-101",
+    "chapter": 6,
+    "topic": "Conventional Spin Echo k-space filling",
+    "type": "single_best",
+    "text": "In conventional spin echo imaging, what happens when the next phase-encoding step is applied?",
+    "options": [
+      "A different Ky line is acquired",
+      "The same Ky line is always acquired",
+      "K-space is completely reconstructed",
+      "The frequency matrix is removed"
+    ],
+    "answer": "A different Ky line is acquired",
+    "explanation": "Changing the phase-encoding gradient selects a different Ky position for the next acquisition."
+  },
+  {
+    "id": "ch6-102",
+    "chapter": 6,
+    "topic": "Conventional Spin Echo k-space filling",
+    "type": "single_best",
+    "text": "Why can conventional spin echo require many TR periods to fill k-space?",
+    "options": [
+      "Only one k-space line is typically acquired per TR",
+      "No signal is sampled during TR",
+      "Only Kx is sampled",
+      "All k-space lines are acquired simultaneously"
+    ],
+    "answer": "Only one k-space line is typically acquired per TR",
+    "explanation": "Each TR normally contributes one phase-encoding line, so many TR periods are needed for a full matrix."
+  },
+  {
+    "id": "ch6-103",
+    "chapter": 6,
+    "topic": "FSE/TSE k-space filling",
+    "type": "single_best",
+    "text": "What does each echo in an FSE echo train allow the sequence to do?",
+    "options": [
+      "Acquire another k-space line",
+      "Remove a k-space line",
+      "Stop signal sampling",
+      "Change the patient's position"
+    ],
+    "answer": "Acquire another k-space line",
+    "explanation": "Each usable echo can be associated with acquisition of a different phase-encoding line."
+  },
+  {
+    "id": "ch6-104",
+    "chapter": 6,
+    "topic": "FSE/TSE k-space filling",
+    "type": "single_best",
+    "text": "If an FSE sequence has a longer echo train, what generally happens to the number of k-space lines acquired during one TR?",
+    "options": [
+      "It increases",
+      "It decreases to zero",
+      "It remains limited to one",
+      "It becomes impossible to determine"
+    ],
+    "answer": "It increases",
+    "explanation": "A longer echo train provides more echoes that can be used to acquire more k-space lines per TR."
+  },
+  {
+    "id": "ch6-105",
+    "chapter": 6,
+    "topic": "FSE/TSE scan efficiency",
+    "type": "single_best",
+    "text": "What is the relationship between echo train length and acquisition efficiency in FSE?",
+    "options": [
+      "More echoes per train can increase k-space acquisition efficiency",
+      "More echoes always prevent k-space acquisition",
+      "Echo train length has no relationship to k-space filling",
+      "More echoes eliminate phase encoding"
+    ],
+    "answer": "More echoes per train can increase k-space acquisition efficiency",
+    "explanation": "Multiple echoes permit several phase-encoding lines to be acquired within one TR."
+  },
+  {
+    "id": "ch6-106",
+    "chapter": 6,
+    "topic": "FSE/TSE k-space ordering",
+    "type": "single_best",
+    "text": "Why is the order of k-space line acquisition important in FSE?",
+    "options": [
+      "Different echoes have different signal characteristics",
+      "All echoes are necessarily identical",
+      "K-space contains no contrast information",
+      "Only peripheral k-space affects the image"
+    ],
+    "answer": "Different echoes have different signal characteristics",
+    "explanation": "The signal changes across the echo train, so assigning different echoes to different k-space regions can affect image contrast."
+  },
+  {
+    "id": "ch6-107",
+    "chapter": 6,
+    "topic": "FSE/TSE central k-space",
+    "type": "single_best",
+    "text": "If the central k-space lines are acquired at a particular echo time in FSE, why is that echo especially important?",
+    "options": [
+      "Central k-space strongly influences image contrast",
+      "Central k-space contains no signal",
+      "Peripheral k-space determines all contrast",
+      "The central lines are never reconstructed"
+    ],
+    "answer": "Central k-space strongly influences image contrast",
+    "explanation": "Because the center contains low spatial frequencies and strong signal, its acquisition timing has an important influence on contrast."
+  },
+  {
+    "id": "ch6-108",
+    "chapter": 6,
+    "topic": "FSE/TSE effective TE",
+    "type": "single_best",
+    "text": "What does the effective TE in an FSE sequence relate most closely to?",
+    "options": [
+      "The echo used to acquire the central k-space region",
+      "The first RF pulse only",
+      "The last peripheral line only",
+      "The duration of the scan room"
+    ],
+    "answer": "The echo used to acquire the central k-space region",
+    "explanation": "Effective TE is associated with the timing of the echo that samples the central, contrast-dominant portion of k-space."
+  },
+  {
+    "id": "ch6-109",
+    "chapter": 6,
+    "topic": "Gradient Echo",
+    "type": "single_best",
+    "text": "What creates the echo in a basic gradient echo sequence?",
+    "options": [
+      "Gradient reversal",
+      "A mandatory 180° refocusing pulse",
+      "Removal of the magnetic field",
+      "Changing the patient position"
+    ],
+    "answer": "Gradient reversal",
+    "explanation": "GRE uses gradient reversal to rephase spins and generate the echo."
+  },
+  {
+    "id": "ch6-110",
+    "chapter": 6,
+    "topic": "Gradient Echo",
+    "type": "single_best",
+    "text": "Which statement about the 180° refocusing pulse in basic GRE is correct?",
+    "options": [
+      "It is not required to generate the gradient echo",
+      "It is required for every gradient echo",
+      "It replaces all gradients",
+      "It determines the k-space matrix size"
+    ],
+    "answer": "It is not required to generate the gradient echo",
+    "explanation": "Gradient echo formation relies on gradient reversal rather than a 180° RF refocusing pulse."
+  },
+  {
+    "id": "ch6-111",
+    "chapter": 6,
+    "topic": "Gradient Echo k-space",
+    "type": "single_best",
+    "text": "How does a Cartesian GRE sequence typically acquire different Ky lines?",
+    "options": [
+      "By changing the phase-encoding gradient",
+      "By changing the patient's position",
+      "By changing the receive coil",
+      "By changing only the sampling frequency"
+    ],
+    "answer": "By changing the phase-encoding gradient",
+    "explanation": "Different phase-encoding gradients select different Ky positions."
+  },
+  {
+    "id": "ch6-112",
+    "chapter": 6,
+    "topic": "EPI k-space trajectory",
+    "type": "single_best",
+    "text": "What happens to the EPI trajectory when the readout gradient reverses polarity?",
+    "options": [
+      "The trajectory reverses its direction along Kx",
+      "The trajectory stops permanently",
+      "The trajectory moves only through Kz",
+      "The trajectory leaves k-space"
+    ],
+    "answer": "The trajectory reverses its direction along Kx",
+    "explanation": "Alternating readout gradient polarity causes the trajectory to traverse successive lines in opposite directions."
+  },
+  {
+    "id": "ch6-113",
+    "chapter": 6,
+    "topic": "EPI k-space trajectory",
+    "type": "single_best",
+    "text": "What is the purpose of the phase-encoding blip between EPI readouts?",
+    "options": [
+      "To move the trajectory to the next Ky line",
+      "To reverse the Kx direction",
+      "To eliminate the MR signal",
+      "To reconstruct the image"
+    ],
+    "answer": "To move the trajectory to the next Ky line",
+    "explanation": "The phase-encoding blip shifts the trajectory in the Ky direction between readout traversals."
+  },
+  {
+    "id": "ch6-114",
+    "chapter": 6,
+    "topic": "EPI k-space filling",
+    "type": "single_best",
+    "text": "Which description best matches single-shot EPI?",
+    "options": [
+      "Most or all of k-space is filled following one excitation",
+      "One line is acquired during each separate scan",
+      "Only the center is acquired",
+      "Only the corners are acquired"
+    ],
+    "answer": "Most or all of k-space is filled following one excitation",
+    "explanation": "Single-shot EPI is designed to traverse the required k-space rapidly after one excitation."
+  },
+  {
+    "id": "ch6-115",
+    "chapter": 6,
+    "topic": "Segmented EPI",
+    "type": "single_best",
+    "text": "What is the main reason segmented EPI uses multiple acquisitions?",
+    "options": [
+      "Different portions of k-space are acquired separately",
+      "It avoids k-space completely",
+      "It acquires only one data point",
+      "It cannot use phase encoding"
+    ],
+    "answer": "Different portions of k-space are acquired separately",
+    "explanation": "Segmented EPI divides k-space into segments that are collected during separate acquisitions."
+  },
+  {
+    "id": "ch6-116",
+    "chapter": 6,
+    "topic": "EPI versus conventional Cartesian filling",
+    "type": "single_best",
+    "text": "Which feature most clearly distinguishes EPI from conventional line-by-line Cartesian acquisition?",
+    "options": [
+      "EPI rapidly traverses successive lines using alternating readout gradients",
+      "EPI does not use gradients",
+      "EPI never samples Kx",
+      "EPI acquires only one line per complete examination"
+    ],
+    "answer": "EPI rapidly traverses successive lines using alternating readout gradients",
+    "explanation": "EPI uses rapid back-and-forth readout traversals with phase-encoding blips."
+  },
+  {
+    "id": "ch6-117",
+    "chapter": 6,
+    "topic": "Cartesian versus radial",
+    "type": "single_best",
+    "text": "Which acquisition pattern produces a spoke-like appearance in k-space?",
+    "options": [
+      "Radial",
+      "Cartesian",
+      "Conventional spin echo",
+      "Linear"
+    ],
+    "answer": "Radial",
+    "explanation": "Radial sampling consists of spokes extending across the k-space center."
+  },
+  {
+    "id": "ch6-118",
+    "chapter": 6,
+    "topic": "Cartesian versus spiral",
+    "type": "single_best",
+    "text": "Which acquisition pattern winds continuously through k-space?",
+    "options": [
+      "Spiral",
+      "Cartesian",
+      "Linear",
+      "Conventional line-by-line"
+    ],
+    "answer": "Spiral",
+    "explanation": "Spiral sampling follows a winding trajectory through k-space."
+  },
+  {
+    "id": "ch6-119",
+    "chapter": 6,
+    "topic": "Radial sampling",
+    "type": "single_best",
+    "text": "What is repeatedly crossed by each radial spoke?",
+    "options": [
+      "The center of k-space",
+      "Only the upper-right corner",
+      "Only the lower-left corner",
+      "The edge of the image matrix"
+    ],
+    "answer": "The center of k-space",
+    "explanation": "Each radial spoke passes through the center of k-space."
+  },
+  {
+    "id": "ch6-120",
+    "chapter": 6,
+    "topic": "Radial sampling",
+    "type": "single_best",
+    "text": "What feature of radial sampling contributes to its relative motion robustness?",
+    "options": [
+      "Repeated sampling of central k-space",
+      "Complete avoidance of central k-space",
+      "Acquisition without gradients",
+      "Acquisition of only one spoke"
+    ],
+    "answer": "Repeated sampling of central k-space",
+    "explanation": "Because many spokes cross the center, central information is repeatedly sampled."
+  },
+  {
+    "id": "ch6-121",
+    "chapter": 6,
+    "topic": "Radial k-space filling",
+    "type": "single_best",
+    "text": "If additional radial spokes are acquired at different angles, what changes?",
+    "options": [
+      "The angular coverage of k-space increases",
+      "K-space becomes Cartesian",
+      "The center is no longer sampled",
+      "Only Kx is acquired"
+    ],
+    "answer": "The angular coverage of k-space increases",
+    "explanation": "Additional spokes at different angles provide broader angular sampling of k-space."
+  },
+  {
+    "id": "ch6-122",
+    "chapter": 6,
+    "topic": "Spiral k-space filling",
+    "type": "single_best",
+    "text": "What happens to the spiral trajectory as it moves outward from the center?",
+    "options": [
+      "It samples progressively higher spatial frequencies",
+      "It stops sampling spatial frequencies",
+      "It samples only the center repeatedly",
+      "It becomes a conventional spin echo"
+    ],
+    "answer": "It samples progressively higher spatial frequencies",
+    "explanation": "Moving outward in k-space corresponds to sampling higher spatial frequencies."
+  },
+  {
+    "id": "ch6-123",
+    "chapter": 6,
+    "topic": "Spiral k-space filling",
+    "type": "single_best",
+    "text": "What information is encountered early when a spiral trajectory begins near the center?",
+    "options": [
+      "Low spatial-frequency information",
+      "Only the highest spatial frequencies",
+      "No spatial information",
+      "Only image noise"
+    ],
+    "answer": "Low spatial-frequency information",
+    "explanation": "The center of k-space contains low spatial frequencies associated strongly with image contrast and signal."
+  },
+  {
+    "id": "ch6-124",
+    "chapter": 6,
+    "topic": "Spiral versus Cartesian",
+    "type": "single_best",
+    "text": "Which statement correctly compares spiral and Cartesian acquisition?",
+    "options": [
+      "Spiral follows a winding trajectory, whereas Cartesian follows a regular grid",
+      "Both always use identical trajectories",
+      "Cartesian uses only radial spokes",
+      "Spiral acquires no central information"
+    ],
+    "answer": "Spiral follows a winding trajectory, whereas Cartesian follows a regular grid",
+    "explanation": "The two approaches use fundamentally different k-space trajectories."
+  },
+  {
+    "id": "ch6-125",
+    "chapter": 6,
+    "topic": "Keyhole technique",
+    "type": "single_best",
+    "text": "What must generally be available before repeated keyhole central acquisitions can be used effectively?",
+    "options": [
+      "An initial full k-space dataset",
+      "Only one peripheral k-space point",
+      "No initial acquisition",
+      "Only a reconstructed image without raw data"
+    ],
+    "answer": "An initial full k-space dataset",
+    "explanation": "The initial full acquisition supplies the peripheral data that can later be reused."
+  },
+  {
+    "id": "ch6-126",
+    "chapter": 6,
+    "topic": "Keyhole technique",
+    "type": "single_best",
+    "text": "During subsequent keyhole acquisitions, why is less data collected than during the initial scan?",
+    "options": [
+      "Only the central portion needs to be updated",
+      "The MR signal disappears",
+      "The scanner stops sampling Kx",
+      "The image no longer requires reconstruction"
+    ],
+    "answer": "Only the central portion needs to be updated",
+    "explanation": "Keyhole reduces repeated acquisition by updating the central region while retaining peripheral information."
+  },
+  {
+    "id": "ch6-127",
+    "chapter": 6,
+    "topic": "Keyhole temporal resolution",
+    "type": "single_best",
+    "text": "What happens to temporal resolution when each dynamic keyhole update requires less k-space acquisition?",
+    "options": [
+      "It can improve",
+      "It must always decrease",
+      "It becomes zero",
+      "It has no possible relationship"
+    ],
+    "answer": "It can improve",
+    "explanation": "Acquiring fewer k-space lines for each update can shorten the time between dynamic images."
+  },
+  {
+    "id": "ch6-128",
+    "chapter": 6,
+    "topic": "Keyhole central k-space",
+    "type": "single_best",
+    "text": "Why is the central region selected for repeated keyhole updates?",
+    "options": [
+      "It strongly influences image contrast",
+      "It contains no useful signal",
+      "It contains only the highest spatial frequencies",
+      "It is never used during reconstruction"
+    ],
+    "answer": "It strongly influences image contrast",
+    "explanation": "Central k-space contains strong low-spatial-frequency information that strongly affects image appearance."
+  },
+  {
+    "id": "ch6-129",
+    "chapter": 6,
+    "topic": "Partial Fourier",
+    "type": "single_best",
+    "text": "What portion of k-space is physically omitted in partial Fourier acquisition?",
+    "options": [
+      "A portion that can be estimated using conjugate symmetry",
+      "All central k-space",
+      "All acquired data",
+      "Only the frequency-encoding samples"
+    ],
+    "answer": "A portion that can be estimated using conjugate symmetry",
+    "explanation": "Partial Fourier intentionally leaves part of k-space unacquired and uses symmetry to estimate it."
+  },
+  {
+    "id": "ch6-130",
+    "chapter": 6,
+    "topic": "Partial Fourier",
+    "type": "single_best",
+    "text": "Which statement best describes halfscan or partial Fourier acquisition?",
+    "options": [
+      "Slightly more than half of the required k-space data is acquired",
+      "Exactly zero k-space data is acquired",
+      "Only the outermost k-space points are acquired",
+      "All k-space is acquired twice"
+    ],
+    "answer": "Slightly more than half of the required k-space data is acquired",
+    "explanation": "Partial Fourier typically acquires slightly more than half and estimates the remaining data using conjugate symmetry."
+  },
+  {
+    "id": "ch6-131",
+    "chapter": 6,
+    "topic": "Partial Fourier scan time",
+    "type": "single_best",
+    "text": "If fewer phase-encoding lines are physically acquired using partial Fourier, what happens to acquisition time?",
+    "options": [
+      "It is reduced",
+      "It necessarily doubles",
+      "It becomes independent of the number of lines",
+      "It becomes infinite"
+    ],
+    "answer": "It is reduced",
+    "explanation": "Acquiring fewer k-space lines reduces the time required to collect the dataset."
+  },
+  {
+    "id": "ch6-132",
+    "chapter": 6,
+    "topic": "K-space center and contrast",
+    "type": "single_best",
+    "text": "If the central region of k-space is acquired differently, which image property is most likely to be affected strongly?",
+    "options": [
+      "Image contrast",
+      "Patient height",
+      "Slice position only",
+      "Scanner bore diameter"
+    ],
+    "answer": "Image contrast",
+    "explanation": "The central region contains low spatial frequencies that strongly influence contrast."
+  },
+  {
+    "id": "ch6-133",
+    "chapter": 6,
+    "topic": "K-space periphery and resolution",
+    "type": "single_best",
+    "text": "If high spatial-frequency data from the periphery of k-space are inadequately sampled, what is the likely consequence?",
+    "options": [
+      "Loss of fine detail and increased blurring",
+      "Only an increase in central signal",
+      "Complete elimination of contrast",
+      "Creation of additional k-space lines"
+    ],
+    "answer": "Loss of fine detail and increased blurring",
+    "explanation": "High spatial frequencies contribute to sharp edges and fine detail."
+  },
+  {
+    "id": "ch6-134",
+    "chapter": 6,
+    "topic": "K-space sampling",
+    "type": "single_best",
+    "text": "Which region of k-space contains the highest spatial-frequency information?",
+    "options": [
+      "The periphery",
+      "The exact center",
+      "Only the origin",
+      "No region"
+    ],
+    "answer": "The periphery",
+    "explanation": "Spatial frequency increases with distance from the center of k-space."
+  },
+  {
+    "id": "ch6-135",
+    "chapter": 6,
+    "topic": "K-space sampling",
+    "type": "single_best",
+    "text": "Which region of k-space contains predominantly low spatial-frequency information?",
+    "options": [
+      "The center",
+      "The outermost edge only",
+      "The corners only",
+      "The entire periphery"
+    ],
+    "answer": "The center",
+    "explanation": "The center of k-space represents low spatial frequencies."
+  },
+  {
+    "id": "ch6-136",
+    "chapter": 6,
+    "topic": "K-space and image contrast",
+    "type": "single_best",
+    "text": "Why is the center of k-space often described as contrast-dominant?",
+    "options": [
+      "It contains strong low-spatial-frequency information",
+      "It contains only high-frequency edge information",
+      "It contains no signal",
+      "It is never included in reconstruction"
+    ],
+    "answer": "It contains strong low-spatial-frequency information",
+    "explanation": "Low spatial frequencies strongly influence broad intensity variations and overall image contrast."
+  },
+  {
+    "id": "ch6-137",
+    "chapter": 6,
+    "topic": "K-space and image resolution",
+    "type": "single_best",
+    "text": "Why is the periphery of k-space important for spatial resolution?",
+    "options": [
+      "It contains high spatial frequencies that represent fine detail",
+      "It contains only low-frequency contrast",
+      "It contains no useful information",
+      "It determines only scan duration"
+    ],
+    "answer": "It contains high spatial frequencies that represent fine detail",
+    "explanation": "High spatial frequencies contribute to sharp boundaries and fine structures."
+  },
+  {
+    "id": "ch6-138",
+    "chapter": 6,
+    "topic": "K-space data contribution",
+    "type": "single_best",
+    "text": "What happens to the final image when a single acquired k-space point is changed?",
+    "options": [
+      "It can influence the entire reconstructed image",
+      "Only one image pixel changes",
+      "The image is always completely destroyed",
+      "Nothing changes"
+    ],
+    "answer": "It can influence the entire reconstructed image",
+    "explanation": "Each k-space data point contributes information across the reconstructed image rather than representing one individual pixel."
+  },
+  {
+    "id": "ch6-139",
+    "chapter": 6,
+    "topic": "K-space reconstruction",
+    "type": "single_best",
+    "text": "Why can a k-space dataset not be interpreted directly as an anatomical image?",
+    "options": [
+      "Its values represent spatial-frequency information rather than direct pixels",
+      "It contains only patient identifiers",
+      "It contains no signal",
+      "It is already a final image"
+    ],
+    "answer": "Its values represent spatial-frequency information rather than direct pixels",
+    "explanation": "K-space contains encoded frequency information that must be transformed into image space."
+  },
+  {
+    "id": "ch6-140",
+    "chapter": 6,
+    "topic": "Fourier reconstruction",
+    "type": "single_best",
+    "text": "What mathematical operation converts acquired k-space data into the image domain?",
+    "options": [
+      "Inverse Fourier transform",
+      "Addition only",
+      "Division only",
+      "Random sampling"
+    ],
+    "answer": "Inverse Fourier transform",
+    "explanation": "The inverse Fourier transform converts spatial-frequency data into the spatial image."
+  },
+  {
+    "id": "ch6-141",
+    "chapter": 6,
+    "topic": "FFT reconstruction",
+    "type": "single_best",
+    "text": "What is the purpose of using a Fast Fourier Transform in MRI reconstruction?",
+    "options": [
+      "To efficiently perform Fourier transformation",
+      "To generate the magnetic field",
+      "To create the RF pulse",
+      "To change the patient's anatomy"
+    ],
+    "answer": "To efficiently perform Fourier transformation",
+    "explanation": "FFT is an efficient computational method for performing Fourier transforms used in image reconstruction."
+  },
+  {
+    "id": "ch6-142",
+    "chapter": 6,
+    "topic": "Complex k-space data",
+    "type": "single_best",
+    "text": "What type of information can raw k-space data contain?",
+    "options": [
+      "Complex signal information",
+      "Only final pixel brightness",
+      "Only anatomical labels",
+      "Only scan time"
+    ],
+    "answer": "Complex signal information",
+    "explanation": "MRI k-space data commonly contains complex-valued information with magnitude and phase components."
+  },
+  {
+    "id": "ch6-143",
+    "chapter": 6,
+    "topic": "K-space acquisition",
+    "type": "single_best",
+    "text": "What happens to the MR signal before it is placed into digital k-space?",
+    "options": [
+      "It is sampled and digitized",
+      "It is converted directly into anatomy",
+      "It is discarded",
+      "It is printed immediately"
+    ],
+    "answer": "It is sampled and digitized",
+    "explanation": "The received MR signal is sampled, digitized, and mapped into k-space."
+  },
+  {
+    "id": "ch6-144",
+    "chapter": 6,
+    "topic": "Receive bandwidth",
+    "type": "single_best",
+    "text": "What does receive bandwidth describe in relation to k-space data acquisition?",
+    "options": [
+      "The frequency range over which the signal is sampled",
+      "The number of patients scanned",
+      "The physical width of the scanner",
+      "The number of RF coils"
+    ],
+    "answer": "The frequency range over which the signal is sampled",
+    "explanation": "Receive bandwidth defines the range of frequencies sampled during signal acquisition."
+  },
+  {
+    "id": "ch6-145",
+    "chapter": 6,
+    "topic": "Receive bandwidth and sampling",
+    "type": "single_best",
+    "text": "What generally happens to the sampling interval when receive bandwidth is increased?",
+    "options": [
+      "The sampling interval becomes shorter",
+      "The sampling interval becomes longer",
+      "Sampling stops",
+      "The sampling interval becomes infinite"
+    ],
+    "answer": "The sampling interval becomes shorter",
+    "explanation": "A higher receive bandwidth corresponds to faster sampling and therefore a shorter interval between samples."
+  },
+  {
+    "id": "ch6-146",
+    "chapter": 6,
+    "topic": "Receive bandwidth",
+    "type": "single_best",
+    "text": "What is the relationship between receive bandwidth and sampling rate?",
+    "options": [
+      "Higher receive bandwidth generally permits faster sampling",
+      "Higher receive bandwidth prevents sampling",
+      "They are always inversely unrelated",
+      "Receive bandwidth determines only image orientation"
+    ],
+    "answer": "Higher receive bandwidth generally permits faster sampling",
+    "explanation": "Increasing the receive bandwidth increases the frequency range and sampling rate used during readout."
+  },
+  {
+    "id": "ch6-147",
+    "chapter": 6,
+    "topic": "Sampling window",
+    "type": "single_best",
+    "text": "What is the sampling window in MRI data acquisition?",
+    "options": [
+      "The period during which the frequency-encoding readout gradient is active for signal sampling",
+      "The time spent positioning the patient",
+      "The time between examinations",
+      "The period during which no signal is collected"
+    ],
+    "answer": "The period during which the frequency-encoding readout gradient is active for signal sampling",
+    "explanation": "The sampling window is the interval during which readout sampling occurs."
+  },
+  {
+    "id": "ch6-148",
+    "chapter": 6,
+    "topic": "Sampling window duration",
+    "type": "single_best",
+    "text": "Which two factors are directly related to the duration of the sampling window?",
+    "options": [
+      "Frequency matrix and sampling interval",
+      "Patient age and weight",
+      "RF coil size and room temperature",
+      "Slice thickness and scanner bore length"
+    ],
+    "answer": "Frequency matrix and sampling interval",
+    "explanation": "The number of frequency samples and the interval between them determine the sampling window duration."
+  },
+  {
+    "id": "ch6-149",
+    "chapter": 6,
+    "topic": "Nyquist theorem",
+    "type": "single_best",
+    "text": "What is the purpose of satisfying the Nyquist sampling requirement during k-space acquisition?",
+    "options": [
+      "To prevent aliasing from inadequate sampling",
+      "To eliminate all spatial frequencies",
+      "To increase patient motion",
+      "To remove the need for reconstruction"
+    ],
+    "answer": "To prevent aliasing from inadequate sampling",
+    "explanation": "Adequate sampling according to the Nyquist requirement helps prevent aliasing."
+  },
+  {
+    "id": "ch6-150",
+    "chapter": 6,
+    "topic": "Nyquist sampling",
+    "type": "single_best",
+    "text": "According to the Nyquist principle, the sampling rate should be at least how many times the highest frequency being measured?",
+    "options": [
+      "Twice",
+      "Half",
+      "The same frequency",
+      "Ten times only"
+    ],
+    "answer": "Twice",
+    "explanation": "The Nyquist requirement states that the sampling rate should be at least twice the highest frequency present."
+  },
+  {
+    "id": "ch6-151",
+    "chapter": 6,
+    "topic": "Nyquist theorem",
+    "type": "single_best",
+    "text": "What can occur when an MR signal is sampled below the Nyquist requirement?",
+    "options": [
+      "Aliasing",
+      "Improved spatial resolution",
+      "Automatic k-space completion",
+      "Increased sampling accuracy"
+    ],
+    "answer": "Aliasing",
+    "explanation": "Undersampling below the Nyquist requirement can cause aliasing."
+  },
+  {
+    "id": "ch6-152",
+    "chapter": 6,
+    "topic": "K-space undersampling",
+    "type": "single_best",
+    "text": "What does undersampling mean in k-space acquisition?",
+    "options": [
+      "Acquiring insufficient samples to represent the required spatial-frequency information",
+      "Acquiring every point twice",
+      "Acquiring only central k-space after a full scan",
+      "Using a higher sampling rate than necessary"
+    ],
+    "answer": "Acquiring insufficient samples to represent the required spatial-frequency information",
+    "explanation": "Undersampling occurs when the acquired data are insufficient for the required representation."
+  },
+  {
+    "id": "ch6-153",
+    "chapter": 6,
+    "topic": "K-space undersampling",
+    "type": "single_best",
+    "text": "What is a likely consequence of inadequate sampling of high spatial frequencies?",
+    "options": [
+      "Loss of fine detail",
+      "Improved edge sharpness",
+      "Higher spatial resolution",
+      "Complete elimination of contrast"
+    ],
+    "answer": "Loss of fine detail",
+    "explanation": "High spatial frequencies contribute to fine detail and sharp boundaries, so inadequate sampling can reduce sharpness."
+  },
+  {
+    "id": "ch6-154",
+    "chapter": 6,
+    "topic": "K-space periphery",
+    "type": "single_best",
+    "text": "If the outer portions of k-space are progressively omitted, what image characteristic is most likely to decrease?",
+    "options": [
+      "Spatial sharpness",
+      "Overall patient size",
+      "Slice location",
+      "RF frequency"
+    ],
+    "answer": "Spatial sharpness",
+    "explanation": "The outer portions contain high spatial frequencies that contribute to sharpness and fine detail."
+  },
+  {
+    "id": "ch6-155",
+    "chapter": 6,
+    "topic": "K-space center",
+    "type": "single_best",
+    "text": "If the center of k-space is poorly sampled, which image characteristic is most strongly affected?",
+    "options": [
+      "Overall contrast and signal",
+      "Only the finest edge detail",
+      "Only the image matrix dimensions",
+      "Only the scan orientation"
+    ],
+    "answer": "Overall contrast and signal",
+    "explanation": "The center contains strong low-spatial-frequency information that strongly influences overall signal and contrast."
+  },
+  {
+    "id": "ch6-156",
+    "chapter": 6,
+    "topic": "K-space spatial frequencies",
+    "type": "single_best",
+    "text": "What generally happens to spatial frequency as distance from the center of k-space increases?",
+    "options": [
+      "It increases",
+      "It decreases",
+      "It becomes zero",
+      "It remains unrelated to position"
+    ],
+    "answer": "It increases",
+    "explanation": "Moving toward the periphery corresponds to progressively higher spatial frequencies."
+  },
+  {
+    "id": "ch6-157",
+    "chapter": 6,
+    "topic": "K-space spatial frequencies",
+    "type": "single_best",
+    "text": "Which type of image information is primarily associated with the center of k-space?",
+    "options": [
+      "Broad image intensity and contrast information",
+      "Only fine edge information",
+      "Only noise",
+      "Only spatial resolution"
+    ],
+    "answer": "Broad image intensity and contrast information",
+    "explanation": "Low spatial frequencies represent broad variations in signal and strongly influence image contrast."
+  },
+  {
+    "id": "ch6-158",
+    "chapter": 6,
+    "topic": "K-space spatial frequencies",
+    "type": "single_best",
+    "text": "Which type of image information is primarily associated with the outer k-space regions?",
+    "options": [
+      "Fine detail and sharp boundaries",
+      "Only broad signal variations",
+      "Only overall image brightness",
+      "No anatomical information"
+    ],
+    "answer": "Fine detail and sharp boundaries",
+    "explanation": "High spatial frequencies in the periphery contribute to fine structures and edge definition."
+  },
+  {
+    "id": "ch6-159",
+    "chapter": 6,
+    "topic": "K-space reconstruction",
+    "type": "single_best",
+    "text": "What would happen if only low spatial frequencies were available for image reconstruction?",
+    "options": [
+      "The image would retain broad contrast but lose fine detail",
+      "The image would contain only sharp edges",
+      "The image would have no signal",
+      "The image would become a raw k-space dataset"
+    ],
+    "answer": "The image would retain broad contrast but lose fine detail",
+    "explanation": "Low frequencies provide broad image information, while high frequencies contribute fine detail."
+  },
+  {
+    "id": "ch6-160",
+    "chapter": 6,
+    "topic": "K-space reconstruction",
+    "type": "single_best",
+    "text": "What would happen if high spatial frequencies were preserved but the central k-space region were poorly represented?",
+    "options": [
+      "Overall contrast and signal representation would be affected",
+      "Only fine details would improve",
+      "The image would become perfectly reconstructed",
+      "There would be no effect"
+    ],
+    "answer": "Overall contrast and signal representation would be affected",
+    "explanation": "The central region strongly contributes to overall signal and contrast."
+  },
+  {
+    "id": "ch6-161",
+    "chapter": 6,
+    "topic": "Conjugate symmetry",
+    "type": "single_best",
+    "text": "What does conjugate symmetry mean in suitable MRI k-space data?",
+    "options": [
+      "One region contains information related to the complex conjugate of another region",
+      "Every point has exactly the same value",
+      "Only the center contains signal",
+      "All peripheral points are zero"
+    ],
+    "answer": "One region contains information related to the complex conjugate of another region",
+    "explanation": "For suitable data, corresponding regions of k-space have a complex-conjugate relationship."
+  },
+  {
+    "id": "ch6-162",
+    "chapter": 6,
+    "topic": "Conjugate symmetry",
+    "type": "single_best",
+    "text": "Why is conjugate symmetry useful when filling k-space?",
+    "options": [
+      "It can allow part of k-space to be estimated from acquired data",
+      "It eliminates the need to acquire any data",
+      "It removes the center of k-space",
+      "It converts k-space directly into pixels"
+    ],
+    "answer": "It can allow part of k-space to be estimated from acquired data",
+    "explanation": "Symmetry can be exploited to reconstruct an unacquired region from the acquired portion."
+  },
+  {
+    "id": "ch6-163",
+    "chapter": 6,
+    "topic": "Partial Fourier reconstruction",
+    "type": "single_best",
+    "text": "Which k-space property is directly exploited by partial Fourier techniques?",
+    "options": [
+      "Conjugate symmetry",
+      "Random distribution",
+      "Constant peripheral signal",
+      "Absence of phase"
+    ],
+    "answer": "Conjugate symmetry",
+    "explanation": "Partial Fourier relies on the conjugate relationship between portions of k-space."
+  },
+  {
+    "id": "ch6-164",
+    "chapter": 6,
+    "topic": "Partial Fourier",
+    "type": "single_best",
+    "text": "What is physically reduced when partial Fourier is used?",
+    "options": [
+      "The number of k-space lines acquired",
+      "The number of patients",
+      "The scanner magnetic field",
+      "The number of image pixels after reconstruction"
+    ],
+    "answer": "The number of k-space lines acquired",
+    "explanation": "Partial Fourier shortens acquisition by intentionally acquiring fewer k-space lines."
+  },
+  {
+    "id": "ch6-165",
+    "chapter": 6,
+    "topic": "Partial Fourier",
+    "type": "single_best",
+    "text": "Why does partial Fourier not normally acquire exactly one-half of k-space?",
+    "options": [
+      "Slightly more than half is acquired to provide sufficient information for reconstruction",
+      "The center cannot be sampled",
+      "Only peripheral data can be acquired",
+      "The Fourier transform requires exactly one-third"
+    ],
+    "answer": "Slightly more than half is acquired to provide sufficient information for reconstruction",
+    "explanation": "Acquiring slightly more than half provides additional measured information needed for reliable reconstruction."
+  },
+  {
+    "id": "ch6-166",
+    "chapter": 6,
+    "topic": "Cartesian acquisition",
+    "type": "single_best",
+    "text": "Which direction is sampled during the frequency-encoding readout in a Cartesian acquisition?",
+    "options": [
+      "Kx",
+      "Ky",
+      "Kz",
+      "None"
+    ],
+    "answer": "Kx",
+    "explanation": "Frequency encoding moves the acquisition along the Kx direction."
+  },
+  {
+    "id": "ch6-167",
+    "chapter": 6,
+    "topic": "Cartesian acquisition",
+    "type": "single_best",
+    "text": "Which direction is changed between Cartesian phase-encoding steps?",
+    "options": [
+      "Ky",
+      "Kx",
+      "Only Kz",
+      "None"
+    ],
+    "answer": "Ky",
+    "explanation": "Changing the phase-encoding gradient selects different Ky positions."
+  },
+  {
+    "id": "ch6-168",
+    "chapter": 6,
+    "topic": "Cartesian acquisition",
+    "type": "single_best",
+    "text": "What does a single Cartesian k-space line contain?",
+    "options": [
+      "Samples across Kx at one selected Ky position",
+      "Only one k-space point",
+      "Every Ky position simultaneously",
+      "Only the center of k-space"
+    ],
+    "answer": "Samples across Kx at one selected Ky position",
+    "explanation": "During a Cartesian readout, frequency encoding samples multiple Kx positions along a selected Ky line."
+  },
+  {
+    "id": "ch6-169",
+    "chapter": 6,
+    "topic": "Cartesian acquisition",
+    "type": "single_best",
+    "text": "What does changing the phase-encoding gradient accomplish in a Cartesian acquisition?",
+    "options": [
+      "Moves the sampled line to another Ky position",
+      "Changes Kx sampling into radial sampling",
+      "Removes the frequency-encoding gradient",
+      "Reconstructs the image immediately"
+    ],
+    "answer": "Moves the sampled line to another Ky position",
+    "explanation": "The phase-encoding gradient determines which Ky line is sampled during the readout."
+  },
+  {
+    "id": "ch6-170",
+    "chapter": 6,
+    "topic": "K-space filling strategies",
+    "type": "single_best",
+    "text": "Which filling strategy is generally the most straightforward for conventional image reconstruction?",
+    "options": [
+      "Cartesian",
+      "Spiral",
+      "Radial",
+      "Keyhole"
+    ],
+    "answer": "Cartesian",
+    "explanation": "Cartesian sampling follows a regular grid and is straightforward to implement and reconstruct."
+  },
+  {
+    "id": "ch6-171",
+    "chapter": 6,
+    "topic": "K-space filling strategies",
+    "type": "single_best",
+    "text": "Which filling strategy is especially associated with repeated central k-space sampling along different angles?",
+    "options": [
+      "Radial",
+      "Cartesian",
+      "Keyhole",
+      "Conventional spin echo"
+    ],
+    "answer": "Radial",
+    "explanation": "Radial acquisition uses spokes at different angles, with each spoke passing through the center."
+  },
+  {
+    "id": "ch6-172",
+    "chapter": 6,
+    "topic": "K-space filling strategies",
+    "type": "single_best",
+    "text": "Which technique uses previously acquired peripheral data while repeatedly updating central k-space?",
+    "options": [
+      "Keyhole",
+      "Spiral",
+      "Radial",
+      "EPI"
+    ],
+    "answer": "Keyhole",
+    "explanation": "Keyhole imaging reuses peripheral information from an initial full acquisition and updates the center."
+  },
+  {
+    "id": "ch6-173",
+    "chapter": 6,
+    "topic": "K-space filling strategies",
+    "type": "single_best",
+    "text": "Which technique reduces the amount of physically acquired k-space by exploiting conjugate symmetry?",
+    "options": [
+      "Partial Fourier",
+      "Keyhole",
+      "Radial",
+      "Spiral"
+    ],
+    "answer": "Partial Fourier",
+    "explanation": "Partial Fourier acquires slightly more than half of k-space and estimates the missing portion using conjugate symmetry."
+  },
+  {
+    "id": "ch6-174",
+    "chapter": 6,
+    "topic": "K-space filling strategies",
+    "type": "single_best",
+    "text": "Which sequence can fill multiple k-space lines during one TR using an echo train?",
+    "options": [
+      "FSE/TSE",
+      "Conventional spin echo",
+      "Basic single-line acquisition",
+      "Partial Fourier"
+    ],
+    "answer": "FSE/TSE",
+    "explanation": "FSE/TSE uses multiple echoes within an echo train to acquire multiple k-space lines per TR."
+  },
+  {
+    "id": "ch6-175",
+    "chapter": 6,
+    "topic": "K-space filling strategies",
+    "type": "single_best",
+    "text": "Which sequence can rapidly traverse many k-space lines after one excitation using a zig-zag trajectory?",
+    "options": [
+      "EPI",
+      "Conventional spin echo",
+      "Keyhole",
+      "Partial Fourier"
+    ],
+    "answer": "EPI",
+    "explanation": "EPI uses rapid alternating readout gradients and phase-encoding blips to traverse successive k-space lines."
+  },
+  {
+    "id": "ch6-176",
+    "chapter": 6,
+    "topic": "K-space filling strategies",
+    "type": "single_best",
+    "text": "Which sequence typically acquires one k-space line per TR?",
+    "options": [
+      "Conventional spin echo",
+      "FSE",
+      "Single-shot EPI",
+      "Keyhole"
+    ],
+    "answer": "Conventional spin echo",
+    "explanation": "Conventional spin echo generally acquires one phase-encoding line during each TR."
+  },
+  {
+    "id": "ch6-177",
+    "chapter": 6,
+    "topic": "GRE versus spin echo",
+    "type": "single_best",
+    "text": "What feature allows GRE sequences to form echoes without the conventional 180° refocusing pulse?",
+    "options": [
+      "Gradient reversal",
+      "Partial Fourier",
+      "Radial sampling",
+      "Keyhole acquisition"
+    ],
+    "answer": "Gradient reversal",
+    "explanation": "GRE uses gradient rephasing to generate the echo."
+  },
+  {
+    "id": "ch6-178",
+    "chapter": 6,
+    "topic": "Sequence comparison",
+    "type": "single_best",
+    "text": "Which sequence uses multiple refocusing pulses to generate an echo train for k-space filling?",
+    "options": [
+      "FSE/TSE",
+      "GRE",
+      "Single-shot EPI",
+      "Radial acquisition"
+    ],
+    "answer": "FSE/TSE",
+    "explanation": "FSE/TSE generates multiple echoes using repeated refocusing pulses."
+  },
+  {
+    "id": "ch6-179",
+    "chapter": 6,
+    "topic": "Sequence comparison",
+    "type": "single_best",
+    "text": "Which sequence is characterized by alternating readout gradient polarity and phase-encoding blips?",
+    "options": [
+      "EPI",
+      "Conventional spin echo",
+      "Keyhole",
+      "Partial Fourier"
+    ],
+    "answer": "EPI",
+    "explanation": "This combination creates the rapid zig-zag EPI trajectory."
+  },
+  {
+    "id": "ch6-180",
+    "chapter": 6,
+    "topic": "Sequence comparison",
+    "type": "single_best",
+    "text": "Which sequence is most directly associated with line-by-line k-space acquisition over multiple TR periods?",
+    "options": [
+      "Conventional spin echo",
+      "Single-shot EPI",
+      "Spiral",
+      "Radial"
+    ],
+    "answer": "Conventional spin echo",
+    "explanation": "Conventional spin echo normally fills Cartesian k-space one line at a time over successive TR periods."
+  },
+  {
+    "id": "ch6-181",
+    "chapter": 6,
+    "topic": "K-space trajectory and gradients",
+    "type": "single_best",
+    "text": "What is the main role of gradients in determining k-space trajectory?",
+    "options": [
+      "They control how the sampled position changes in k-space",
+      "They directly display the final image",
+      "They determine patient identification",
+      "They replace Fourier reconstruction"
+    ],
+    "answer": "They control how the sampled position changes in k-space",
+    "explanation": "Gradient waveforms determine the trajectory through spatial-frequency space."
+  },
+  {
+    "id": "ch6-182",
+    "chapter": 6,
+    "topic": "K-space trajectory",
+    "type": "single_best",
+    "text": "A straight Cartesian readout primarily changes which k-space coordinate during signal sampling?",
+    "options": [
+      "Kx",
+      "Ky only",
+      "Kz only",
+      "None"
+    ],
+    "answer": "Kx",
+    "explanation": "The frequency-encoding gradient drives sampling along Kx during readout."
+  },
+  {
+    "id": "ch6-183",
+    "chapter": 6,
+    "topic": "K-space trajectory",
+    "type": "single_best",
+    "text": "What primarily determines the vertical position of a Cartesian k-space line?",
+    "options": [
+      "The phase-encoding gradient",
+      "The sampling clock alone",
+      "The receive bandwidth alone",
+      "The RF coil housing"
+    ],
+    "answer": "The phase-encoding gradient",
+    "explanation": "The phase-encoding gradient selects the Ky coordinate."
+  },
+  {
+    "id": "ch6-184",
+    "chapter": 6,
+    "topic": "K-space acquisition timing",
+    "type": "single_best",
+    "text": "Why does changing the acquisition order of k-space lines potentially change image appearance?",
+    "options": [
+      "Different parts of k-space have different effects on image contrast and detail",
+      "All k-space regions have identical roles",
+      "K-space order changes the patient's anatomy",
+      "Fourier transformation stops working"
+    ],
+    "answer": "Different parts of k-space have different effects on image contrast and detail",
+    "explanation": "Central and peripheral regions contribute differently to contrast and spatial detail, so acquisition order can matter."
+  },
+  {
+    "id": "ch6-185",
+    "chapter": 6,
+    "topic": "Central k-space acquisition",
+    "type": "single_best",
+    "text": "Why might a sequence prioritize acquisition of central k-space at a particular time point?",
+    "options": [
+      "The center strongly influences image contrast",
+      "The center contains only high-frequency information",
+      "The center contains no signal",
+      "The center is never reconstructed"
+    ],
+    "answer": "The center strongly influences image contrast",
+    "explanation": "The central region contains strong low-spatial-frequency information and strongly affects image contrast."
+  },
+  {
+    "id": "ch6-186",
+    "chapter": 6,
+    "topic": "Peripheral k-space acquisition",
+    "type": "single_best",
+    "text": "Why is peripheral k-space important even though it generally contains less signal amplitude than the center?",
+    "options": [
+      "It contains high spatial frequencies needed for fine detail",
+      "It determines only scan duration",
+      "It contains no useful information",
+      "It replaces the central region"
+    ],
+    "answer": "It contains high spatial frequencies needed for fine detail",
+    "explanation": "The peripheral region contributes high spatial-frequency information that defines edges and fine structures."
+  },
+  {
+    "id": "ch6-187",
+    "chapter": 6,
+    "topic": "K-space filling efficiency",
+    "type": "single_best",
+    "text": "Which approach reduces repeated acquisition of peripheral k-space during dynamic imaging?",
+    "options": [
+      "Keyhole",
+      "Conventional spin echo",
+      "Standard Cartesian acquisition",
+      "Single-line acquisition"
+    ],
+    "answer": "Keyhole",
+    "explanation": "Keyhole reuses previously acquired peripheral information and repeatedly acquires only the central region."
+  },
+  {
+    "id": "ch6-188",
+    "chapter": 6,
+    "topic": "K-space filling efficiency",
+    "type": "single_best",
+    "text": "Which approach reduces acquisition time by not physically acquiring the complete symmetric k-space dataset?",
+    "options": [
+      "Partial Fourier",
+      "Keyhole",
+      "Radial",
+      "Spiral"
+    ],
+    "answer": "Partial Fourier",
+    "explanation": "Partial Fourier acquires only slightly more than half of k-space and reconstructs the remainder using symmetry."
+  },
+  {
+    "id": "ch6-189",
+    "chapter": 6,
+    "topic": "K-space filling efficiency",
+    "type": "single_best",
+    "text": "Which sequence improves acquisition efficiency by collecting several k-space lines within one TR?",
+    "options": [
+      "FSE/TSE",
+      "Conventional spin echo",
+      "Partial Fourier",
+      "Keyhole"
+    ],
+    "answer": "FSE/TSE",
+    "explanation": "FSE/TSE uses an echo train to acquire multiple lines per TR."
+  },
+  {
+    "id": "ch6-190",
+    "chapter": 6,
+    "topic": "K-space filling efficiency",
+    "type": "single_best",
+    "text": "Which acquisition can cover a large portion of k-space very rapidly after a single excitation?",
+    "options": [
+      "Single-shot EPI",
+      "Conventional spin echo",
+      "Standard line-by-line acquisition",
+      "Partial Fourier only"
+    ],
+    "answer": "Single-shot EPI",
+    "explanation": "Single-shot EPI rapidly traverses most or all required k-space following one excitation."
+  },
+  {
+    "id": "ch6-191",
+    "chapter": 6,
+    "topic": "K-space filling comparison",
+    "type": "single_best",
+    "text": "Which pairing is correct?",
+    "options": [
+      "Radial — spokes through the center",
+      "Cartesian — winding spiral",
+      "Keyhole — only peripheral acquisition",
+      "Partial Fourier — no use of symmetry"
+    ],
+    "answer": "Radial — spokes through the center",
+    "explanation": "Radial sampling consists of spokes passing through the central region of k-space."
+  },
+  {
+    "id": "ch6-192",
+    "chapter": 6,
+    "topic": "K-space filling comparison",
+    "type": "single_best",
+    "text": "Which pairing is correct?",
+    "options": [
+      "Spiral — winding trajectory through k-space",
+      "Radial — parallel Cartesian lines",
+      "Keyhole — full k-space reacquired every time",
+      "Partial Fourier — acquisition of twice the k-space"
+    ],
+    "answer": "Spiral — winding trajectory through k-space",
+    "explanation": "Spiral acquisition follows a winding trajectory through k-space."
+  },
+  {
+    "id": "ch6-193",
+    "chapter": 6,
+    "topic": "K-space filling comparison",
+    "type": "single_best",
+    "text": "Which pairing is correct?",
+    "options": [
+      "Keyhole — repeated central k-space updates",
+      "EPI — only one k-space point",
+      "FSE — no echo train",
+      "GRE — mandatory 180° refocusing pulse"
+    ],
+    "answer": "Keyhole — repeated central k-space updates",
+    "explanation": "Keyhole repeatedly updates central k-space while reusing previously acquired peripheral data."
+  },
+  {
+    "id": "ch6-194",
+    "chapter": 6,
+    "topic": "K-space filling comparison",
+    "type": "single_best",
+    "text": "Which pairing is correct?",
+    "options": [
+      "Partial Fourier — conjugate symmetry",
+      "Cartesian — no phase encoding",
+      "FSE — one echo only",
+      "EPI — no gradients"
+    ],
+    "answer": "Partial Fourier — conjugate symmetry",
+    "explanation": "Partial Fourier exploits conjugate symmetry to estimate an unacquired portion of k-space."
+  },
+  {
+    "id": "ch6-195",
+    "chapter": 6,
+    "topic": "K-space filling comparison",
+    "type": "single_best",
+    "text": "Which pairing is correct?",
+    "options": [
+      "EPI — zig-zag k-space trajectory",
+      "GRE — radial spokes only",
+      "FSE — spiral-only acquisition",
+      "CSE — multiple echoes per TR"
+    ],
+    "answer": "EPI — zig-zag k-space trajectory",
+    "explanation": "EPI uses alternating readout gradients and phase-encoding blips to produce a zig-zag trajectory."
+  },
+  {
+    "id": "ch6-196",
+    "chapter": 6,
+    "topic": "K-space filling comparison",
+    "type": "single_best",
+    "text": "Which pairing is correct?",
+    "options": [
+      "FSE/TSE — multiple k-space lines per TR",
+      "CSE — all k-space after one excitation",
+      "GRE — mandatory 180° pulse",
+      "EPI — one line per TR only"
+    ],
+    "answer": "FSE/TSE — multiple k-space lines per TR",
+    "explanation": "FSE/TSE uses an echo train to acquire multiple lines within one TR."
+  },
+  {
+    "id": "ch6-197",
+    "chapter": 6,
+    "topic": "K-space filling comparison",
+    "type": "single_best",
+    "text": "Which acquisition method is most directly associated with a regular rectangular sampling grid?",
+    "options": [
+      "Cartesian",
+      "Radial",
+      "Spiral",
+      "Keyhole"
+    ],
+    "answer": "Cartesian",
+    "explanation": "Cartesian acquisition samples k-space on a regular rectangular grid."
+  },
+  {
+    "id": "ch6-198",
+    "chapter": 6,
+    "topic": "K-space filling comparison",
+    "type": "single_best",
+    "text": "Which method is most directly designed to improve temporal resolution in repeated dynamic acquisitions by updating only part of k-space?",
+    "options": [
+      "Keyhole",
+      "Conventional spin echo",
+      "Standard Cartesian acquisition",
+      "Full k-space reacquisition"
+    ],
+    "answer": "Keyhole",
+    "explanation": "Keyhole reduces the amount of k-space collected for each update, allowing faster temporal sampling."
+  },
+  {
+    "id": "ch6-199",
+    "chapter": 6,
+    "topic": "K-space filling comparison",
+    "type": "single_best",
+    "text": "Which technique reduces scan time by acquiring only part of k-space and estimating the remainder?",
+    "options": [
+      "Partial Fourier",
+      "Keyhole",
+      "Radial",
+      "Spiral"
+    ],
+    "answer": "Partial Fourier",
+    "explanation": "Partial Fourier acquires slightly more than half of k-space and estimates the missing portion using conjugate symmetry."
+  },
+  {
+    "id": "ch6-200",
+    "chapter": 6,
+    "topic": "K-space overview",
+    "type": "single_best",
+    "text": "Which statement best summarizes the role of k-space in MRI?",
+    "options": [
+      "It stores acquired spatial-frequency data that are transformed into the final image",
+      "It is a direct map of individual image pixels",
+      "It contains only anatomical labels",
+      "It is the final reconstructed image"
+    ],
+    "answer": "It stores acquired spatial-frequency data that are transformed into the final image",
+    "explanation": "K-space is the raw spatial-frequency dataset from which the image is reconstructed using Fourier transformation."
+  },
+ {
+  "id": "ch6-201",
+  "chapter": 6,
+  "topic": "k-space layout",
+  "type": "single_best",
+  "text": "Which part of k-space mainly determines image signal and contrast?",
+  "options": [
+   "The periphery",
+   "The corners",
+   "The center",
+   "Only the top row"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Central lines hold low spatial frequencies, carrying most signal and contrast.",
+  "difficulty": "Medium",
+  "source_note": "Sample general MRI knowledge question. Review before publishing.",
+  "status": "published"
+ },
+ {
+  "id": "ch6-202",
+  "chapter": 6,
+  "topic": "k-space layout",
+  "type": "true_false",
+  "text": "Peripheral k-space mainly contains spatial detail (resolution) information.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "High spatial frequencies at the edges define edges and fine detail.",
+  "difficulty": "Medium",
+  "source_note": "Sample general MRI knowledge question. Review before publishing.",
+  "status": "published"
+ }
+]

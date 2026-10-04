@@ -1,0 +1,212 @@
+[
+ {
+  "id": "ch3-013",
+  "chapter": 1,
+  "topic": "Longitudinal magnetization",
+  "type": "single_best",
+  "text": "Immediately after a perfect 90-degree RF pulse, the longitudinal magnetization is:",
+  "options": [
+   "Maximum",
+   "Approximately zero",
+   "Twice its equilibrium value",
+   "Unchanged"
+  ],
+  "answer": "Approximately zero",
+  "explanation": "A perfect 90-degree pulse tips the net magnetization into the transverse plane."
+ },
+ {
+  "id": "ch3-014",
+  "chapter": 1,
+  "topic": "Transverse magnetization",
+  "type": "single_best",
+  "text": "Immediately after a perfect 90-degree RF pulse, transverse magnetization is:",
+  "options": [
+   "Approximately zero",
+   "At or near its maximum",
+   "Negative",
+   "Independent of the RF pulse"
+  ],
+  "answer": "At or near its maximum",
+  "explanation": "The 90-degree pulse transfers the equilibrium longitudinal magnetization into the transverse plane."
+ },
+ {
+  "id": "ch3-015",
+  "chapter": 1,
+  "topic": "RF excitation",
+  "type": "single_best",
+  "text": "What determines the amount of longitudinal magnetization tipped into the transverse plane?",
+  "options": [
+   "Flip angle",
+   "Slice thickness only",
+   "FOV only",
+   "Matrix size only"
+  ],
+  "answer": "Flip angle",
+  "explanation": "The flip angle determines how far the net magnetization vector is rotated away from the longitudinal axis."
+ },
+ {
+  "id": "ch3-016",
+  "chapter": 1,
+  "topic": "Flip angle",
+  "type": "single_best",
+  "text": "A 180-degree RF pulse ideally causes the net magnetization to:",
+  "options": [
+   "Remain along +z",
+   "Rotate completely into the transverse plane",
+   "Invert along the -z direction",
+   "Disappear permanently"
+  ],
+  "answer": "Invert along the -z direction",
+  "explanation": "A 180-degree pulse reverses the longitudinal magnetization direction."
+ },
+ {
+  "id": "ch3-057",
+  "chapter": 1,
+  "topic": "Longitudinal magnetization",
+  "type": "single_best",
+  "text": "As T1 relaxation progresses, longitudinal magnetization:",
+  "options": [
+   "Returns toward equilibrium",
+   "Continues moving farther from equilibrium",
+   "Becomes permanently zero",
+   "Changes the Larmor frequency"
+  ],
+  "answer": "Returns toward equilibrium",
+  "explanation": "T1 relaxation restores longitudinal magnetization toward its equilibrium value."
+ },
+ {
+  "id": "ch3-058",
+  "chapter": 1,
+  "topic": "Transverse magnetization",
+  "type": "single_best",
+  "text": "As T2 relaxation progresses, transverse magnetization:",
+  "options": [
+   "Increases indefinitely",
+   "Decays toward zero",
+   "Becomes longitudinal immediately",
+   "Doubles"
+  ],
+  "answer": "Decays toward zero",
+  "explanation": "Loss of phase coherence causes transverse magnetization to decrease toward zero."
+ },
+ {
+  "id": "ch3-059",
+  "chapter": 1,
+  "topic": "RF excitation",
+  "type": "single_best",
+  "text": "A 30-degree RF pulse produces what approximate relationship between longitudinal and transverse magnetization immediately after excitation?",
+  "options": [
+   "Most magnetization remains longitudinal",
+   "All magnetization becomes transverse",
+   "All magnetization becomes negative longitudinal",
+   "No magnetization remains"
+  ],
+  "answer": "Most magnetization remains longitudinal",
+  "explanation": "A small flip angle tips only part of the longitudinal magnetization into the transverse plane."
+ },
+ {
+  "id": "ch3-060",
+  "chapter": 1,
+  "topic": "Flip angle",
+  "type": "single_best",
+  "text": "Which flip angle completely transfers ideal equilibrium longitudinal magnetization into the transverse plane?",
+  "options": [
+   "30 degrees",
+   "45 degrees",
+   "90 degrees",
+   "180 degrees"
+  ],
+  "answer": "90 degrees",
+  "explanation": "A 90-degree pulse rotates the longitudinal magnetization into the transverse plane."
+ },
+ {
+  "id": "ch3-061",
+  "chapter": 1,
+  "topic": "Flip angle",
+  "type": "single_best",
+  "text": "Which flip angle reverses longitudinal magnetization without leaving a longitudinal component in the ideal case?",
+  "options": [
+   "45 degrees",
+   "90 degrees",
+   "135 degrees",
+   "180 degrees"
+  ],
+  "answer": "180 degrees",
+  "explanation": "A 180-degree pulse rotates the longitudinal magnetization completely to the opposite longitudinal direction."
+ },
+ {
+  "id": "ch3-132",
+  "chapter": 1,
+  "topic": "Free induction decay",
+  "type": "single_best",
+  "text": "Immediately after a 90-degree RF pulse, the initial signal produced by coherent transverse magnetization is called:",
+  "options": [
+   "Free induction decay",
+   "Spin-lattice recovery",
+   "FLAIR signal",
+   "Null point"
+  ],
+  "answer": "Free induction decay",
+  "explanation": "The coherent transverse magnetization immediately after excitation generates a free induction decay signal."
+ },
+ {
+  "id": "ch3-133",
+  "chapter": 1,
+  "topic": "Free induction decay",
+  "type": "single_best",
+  "text": "Why does free induction decay decrease after RF excitation?",
+  "options": [
+   "Spins progressively lose phase coherence",
+   "The main magnetic field disappears",
+   "The number of protons decreases",
+   "The scanner stops transmitting RF"
+  ],
+  "answer": "Spins progressively lose phase coherence",
+  "explanation": "Transverse signal decreases as spins dephase due to microscopic interactions and magnetic field variations."
+ },
+ {
+  "id": "ch3-134",
+  "chapter": 1,
+  "topic": "T2 star",
+  "type": "single_best",
+  "text": "Which component contributes to the decay observed in a free induction decay signal?",
+  "options": [
+   "T2* effects",
+   "T1 recovery only",
+   "Proton density only",
+   "Slice thickness"
+  ],
+  "answer": "T2* effects",
+  "explanation": "Free induction decay is affected by both intrinsic T2 decay and additional dephasing from field inhomogeneity, collectively reflected by T2*."
+ },
+ {
+  "id": "ch3-189",
+  "chapter": 1,
+  "topic": "Image contrast",
+  "type": "single_best",
+  "text": "Which sequence parameter primarily determines the timing between successive excitation pulses?",
+  "options": [
+   "TR",
+   "TE",
+   "TI",
+   "Flip angle"
+  ],
+  "answer": "TR",
+  "explanation": "TR is the time between successive excitation pulses applied to the same slice or volume."
+ },
+ {
+  "id": "ch3-190",
+  "chapter": 1,
+  "topic": "Image contrast",
+  "type": "single_best",
+  "text": "Which sequence parameter primarily determines the time from excitation to signal echo?",
+  "options": [
+   "TE",
+   "TR",
+   "TI",
+   "Flip angle"
+  ],
+  "answer": "TE",
+  "explanation": "TE is the time between the excitation pulse and the peak of the measured echo."
+ }
+]

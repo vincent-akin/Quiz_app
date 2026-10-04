@@ -1,0 +1,9 @@
+[
+{"id":1,"chapter_number":1,"title":"Basic Principles","description":"Magnetism, resonance and the MR signal."},
+{"id":2,"chapter_number":2,"title":"Image Weighting and Contrast","description":"T1, T2 and proton density contrast."},
+{"id":3,"chapter_number":3,"title":"Spin-Echo Pulse Sequences","description":"SE, FSE and inversion recovery."},
+{"id":4,"chapter_number":4,"title":"Gradient-Echo Pulse Sequences","description":"Flip angles, steady state and spoiling."},
+{"id":5,"chapter_number":5,"title":"Spatial Encoding","description":"Slice, phase and frequency encoding."},
+{"id":6,"chapter_number":6,"title":"k-Space","description":"Filling, traversing and reading k-space."},
+{"id":7,"chapter_number":7,"title":"Protocol Optimization","description":"SNR, spatial resolution and scan time."}
+]
