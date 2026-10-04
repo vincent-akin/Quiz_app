@@ -22,3 +22,4 @@ Push to GitHub, import the repo in Vercel, add the four environment variables, d
 - Check DeepSeek pricing and model names in the official docs before launch (`DEEPSEEK_MODEL`).
 - Account deletion requests land in the `deletion_requests` table for the administrator to process.
 - Tutor usage limit is 20 messages per user per hour (`LIMIT_PER_HOUR` in `src/app/api/tutor/route.ts`).
+- Bookmark
