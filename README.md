@@ -1,6 +1,6 @@
 # MRI Mastery
 
-MRI quiz and study platform: Next.js (App Router), TypeScript, Tailwind, Supabase (Auth, Postgres, RLS) and a server-side DeepSeek tutor.
+MRI quiz and study platform: Next.js (App Router), TypeScript, JS, Tailwind, Supabase (Auth, Postgres, RLS) and a server-side DeepSeek tutor. 
 
 ## Setup
 1. `npm install`
